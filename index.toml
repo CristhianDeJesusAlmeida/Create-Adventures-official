@@ -54,3 +54,8 @@ metafile = true
 file = "mods/coroutil.pw.toml"
 hash = "0bbae13b361fdd2f30919f8f1bdd72f526b12ecf212f81d56fc372c533d64e17"
 metafile = true
+
+[[files]]
+file = "mods/craft-config.pw.toml"
+hash = "9849c97a0d287156f7ac78ef8b8cfdac1e8eb4638a0b391be205418b49b0aed2"
+metafile = true
