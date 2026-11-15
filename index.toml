@@ -64,3 +64,8 @@ metafile = true
 file = "mods/cupboard.pw.toml"
 hash = "55f8f5c6152e6c0ceb79d38ca741910665754d1ce0755234b09318923e586e43"
 metafile = true
+
+[[files]]
+file = "mods/epherolib.pw.toml"
+hash = "5ea335f4b3802e15c8e898e3ffc4b6e2f648ce8455e432a37130696a0a3ce3e2"
+metafile = true
