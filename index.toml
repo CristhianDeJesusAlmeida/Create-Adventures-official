@@ -29,3 +29,8 @@ metafile = true
 file = "mods/citadel-(1.21.1-port).pw.toml"
 hash = "bbda4d14b4e412b6c74bdb42e9bebdc2955427a32a1609043067422e46fc9684"
 metafile = true
+
+[[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "75181b55e0407d1fca1e2f346c6501f919f5109545990ddfb66db9cd1b771f8a"
+metafile = true
