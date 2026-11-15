@@ -99,3 +99,8 @@ metafile = true
 file = "mods/iceberg.pw.toml"
 hash = "a2fbecad69fcbff54919864ea8b95e54d140a1a2c637d73307fb366e76066fe6"
 metafile = true
+
+[[files]]
+file = "mods/irons-lib.pw.toml"
+hash = "8d36b922cc93e73f0e61e65e8e6931b3c98de42c5c2448c489db01b0f4918526"
+metafile = true
