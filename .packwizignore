@@ -1,0 +1,23 @@
+# Arquivos do repositório que NÃO devem ir para a instância do jogador
+.git/
+.github/
+.vscode/
+docs/
+README.md
+CHANGELOG.md
+LICENSE
+.gitignore
+.gitattributes
+.packwizignore
+
+# Exportações e ferramentas
+*.mrpack
+*.zip
+*.jar
+
+# Arquivos gerados pelo jogo
+logs/
+crash-reports/
+screenshots/
+kubejs/exported/
+kubejs/probe/
