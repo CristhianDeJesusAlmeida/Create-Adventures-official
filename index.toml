@@ -104,3 +104,8 @@ metafile = true
 file = "mods/irons-lib.pw.toml"
 hash = "8d36b922cc93e73f0e61e65e8e6931b3c98de42c5c2448c489db01b0f4918526"
 metafile = true
+
+[[files]]
+file = "mods/kotlin-for-forge.pw.toml"
+hash = "a947afda264a2eaaef57dc74999741da0433968a0e639730b063c3f3b676c41b"
+metafile = true
