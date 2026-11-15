@@ -34,3 +34,8 @@ metafile = true
 file = "mods/cloth-config.pw.toml"
 hash = "75181b55e0407d1fca1e2f346c6501f919f5109545990ddfb66db9cd1b771f8a"
 metafile = true
+
+[[files]]
+file = "mods/codechicken-lib.pw.toml"
+hash = "fa47870eeac0d79687967795c7028a9c36f3c8028acfcaaaf01ef7c5def42392"
+metafile = true
