@@ -4,3 +4,8 @@ hash-format = "sha256"
 file = "mods/architectury-api.pw.toml"
 hash = "9412ae80a3b8633c4b8507402610c4d8ad3e27809a27a9a76263d16fa7347b2e"
 metafile = true
+
+[[files]]
+file = "mods/attributes.pw.toml"
+hash = "11ab8a365c5bed4941664f25b31f51ee4db08885c49a0fce64cba5aa5555e2cc"
+metafile = true
