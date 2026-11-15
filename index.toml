@@ -124,3 +124,8 @@ metafile = true
 file = "mods/manascore.pw.toml"
 hash = "83c1f313d6894b086df3f6a91f4988d8eeb60a0f8126c64e0df24f703f293a80"
 metafile = true
+
+[[files]]
+file = "mods/mezzconfig.pw.toml"
+hash = "f1fecbcbee6806a14efb3bd38ccf10166b48004967fbe72b6c31224e5e9fc5ea"
+metafile = true
