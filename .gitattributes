@@ -1,0 +1,6 @@
+*.js text eol=lf
+*.json text eol=lf
+*.snbt text eol=lf
+*.txt text eol=lf
+*.toml text eol=lf
+.packwizignore text eol=lf

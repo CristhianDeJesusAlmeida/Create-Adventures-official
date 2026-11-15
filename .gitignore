@@ -1,0 +1,12 @@
+/world/
+/logs/
+/screenshots/
+/crash-reports/
+*.jar
+!packwiz-installer-bootstrap.jar
+!/config/
+!/config/**
+!/kubejs/
+!/kubejs/**
+kubejs/exported/**
+kubejs/probe/**
