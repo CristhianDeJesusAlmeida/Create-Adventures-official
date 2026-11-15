@@ -49,3 +49,8 @@ metafile = true
 file = "mods/corgilib.pw.toml"
 hash = "9ae835550d113663b527b6ba934dd7d758d8e0a93c68bb44d84eb1ef1be69159"
 metafile = true
+
+[[files]]
+file = "mods/coroutil.pw.toml"
+hash = "0bbae13b361fdd2f30919f8f1bdd72f526b12ecf212f81d56fc372c533d64e17"
+metafile = true
