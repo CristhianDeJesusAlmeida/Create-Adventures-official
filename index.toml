@@ -9,3 +9,8 @@ metafile = true
 file = "mods/attributes.pw.toml"
 hash = "11ab8a365c5bed4941664f25b31f51ee4db08885c49a0fce64cba5aa5555e2cc"
 metafile = true
+
+[[files]]
+file = "mods/azurelib.pw.toml"
+hash = "04a1239e44c76a0c6a3b670513480c402105450af02357b22e6b0027781a6ed0"
+metafile = true
