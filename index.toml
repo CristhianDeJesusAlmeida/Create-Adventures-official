@@ -156,6 +156,11 @@ hash = "afeff218ff2279635376096eeae0c8963345804d145514d15fa8644d60352616"
 metafile = true
 
 [[files]]
+file = "mods/create-jetpack.pw.toml"
+hash = "2894b136e3df87bdb3f0b0387706f108a18c3708fce3bbbf778890784ebe0e71"
+metafile = true
+
+[[files]]
 file = "mods/create.pw.toml"
 hash = "dcaf5f2e28db0b9a127d0167456832341045ddc9aec058c3d9fcf53f618d2404"
 metafile = true
