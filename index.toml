@@ -316,6 +316,11 @@ hash = "5ea335f4b3802e15c8e898e3ffc4b6e2f648ce8455e432a37130696a0a3ce3e2"
 metafile = true
 
 [[files]]
+file = "mods/extended-ae.pw.toml"
+hash = "03494a76b42b1b79e4d36a93317b8e884cafdb7e08f6103ce47ecd4e4df57645"
+metafile = true
+
+[[files]]
 file = "mods/fast-assets.pw.toml"
 hash = "d6ac09b1582c8513838e63768b2d6c0b8dcab0f1b23f49a80cba417bc71b53d7"
 metafile = true
