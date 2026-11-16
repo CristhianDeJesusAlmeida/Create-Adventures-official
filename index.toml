@@ -336,6 +336,11 @@ hash = "afeff218ff2279635376096eeae0c8963345804d145514d15fa8644d60352616"
 metafile = true
 
 [[files]]
+file = "mods/create-confectionery.pw.toml"
+hash = "7425c6d598648f25f1fa6b2fde4d72bfe9527ee4f160d1486898a2b79b0ac8b2"
+metafile = true
+
+[[files]]
 file = "mods/create-curios-jetpack.pw.toml"
 hash = "d62ca43f1814cba36047ed9d18e86b014a7ceff9c110832aa51bc86d701eb7e0"
 metafile = true
