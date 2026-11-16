@@ -156,6 +156,11 @@ hash = "04a1239e44c76a0c6a3b670513480c402105450af02357b22e6b0027781a6ed0"
 metafile = true
 
 [[files]]
+file = "mods/backpacked.pw.toml"
+hash = "e0a479fef621fd91d0a022358046eb6af947fd5d4191b1286504f6b958605686"
+metafile = true
+
+[[files]]
 file = "mods/badoptimizations.pw.toml"
 hash = "b6715ae49d5b55c745390e53d3fc25ddcae48fc6457e691f3dbfc349602ca2e9"
 metafile = true
