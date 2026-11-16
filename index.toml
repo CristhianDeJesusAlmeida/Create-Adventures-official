@@ -181,6 +181,11 @@ hash = "753589097e8d9d8274c52d57603c05817bb9238f6e9f6bcb5218787774179617"
 metafile = true
 
 [[files]]
+file = "mods/better-lock-on.pw.toml"
+hash = "7aba1ec953f4c80c96e45487ab78e6d981a56e18087075228709af73d172dd63"
+metafile = true
+
+[[files]]
 file = "mods/blueprint.pw.toml"
 hash = "84bca5fde873c17a18c526e38578e031bb86a4f4af6151c3aec98dba2c8163a8"
 metafile = true
