@@ -741,6 +741,11 @@ hash = "45a27246d9198e94f40f0b6c2bd36c1f0fd65d4ce8172ef51a72c856b035affb"
 metafile = true
 
 [[files]]
+file = "mods/oh-the-trees-youll-grow.pw.toml"
+hash = "7c189fd86f510fc5697335a4a5f4b4bf8b1b7c301924477035795a5d139b64a0"
+metafile = true
+
+[[files]]
 file = "mods/oritech-black-hole-dislocator.pw.toml"
 hash = "613fdcdbed5678b462ca60fcf8bbde3bbb9664a38780d37dbe9a268f37f37b7c"
 metafile = true
