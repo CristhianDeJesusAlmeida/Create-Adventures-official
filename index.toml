@@ -171,6 +171,11 @@ hash = "456f66abd180b3f5765473cda5e8acb1a6ea8b15b7ee34442be9a7af414cfc63"
 metafile = true
 
 [[files]]
+file = "mods/create-enchantment-industry.pw.toml"
+hash = "5f76bdf0fe120e62cc3ae298e911727fa45c70dd191fd9c2b213029c7601576c"
+metafile = true
+
+[[files]]
 file = "mods/create-jetpack.pw.toml"
 hash = "2894b136e3df87bdb3f0b0387706f108a18c3708fce3bbbf778890784ebe0e71"
 metafile = true
