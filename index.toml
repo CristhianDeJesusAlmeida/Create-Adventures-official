@@ -156,6 +156,11 @@ hash = "afeff218ff2279635376096eeae0c8963345804d145514d15fa8644d60352616"
 metafile = true
 
 [[files]]
+file = "mods/create-curios-jetpack.pw.toml"
+hash = "d62ca43f1814cba36047ed9d18e86b014a7ceff9c110832aa51bc86d701eb7e0"
+metafile = true
+
+[[files]]
 file = "mods/create-jetpack.pw.toml"
 hash = "2894b136e3df87bdb3f0b0387706f108a18c3708fce3bbbf778890784ebe0e71"
 metafile = true
