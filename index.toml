@@ -511,6 +511,11 @@ hash = "ef756e81d0186b5fe3087cc431b4d90e23a6f8e0ff764f7d41a4393334546e3d"
 metafile = true
 
 [[files]]
+file = "mods/explorers-compass.pw.toml"
+hash = "ced904bbdd11832f60d6f6080f500008adab40b1014aef5c41a1537c5469b4ec"
+metafile = true
+
+[[files]]
 file = "mods/extended-ae.pw.toml"
 hash = "03494a76b42b1b79e4d36a93317b8e884cafdb7e08f6103ce47ecd4e4df57645"
 metafile = true
