@@ -51,6 +51,11 @@ hash = "97c1ad521ac48aaf6c07a54339dc94ba400df670ec5d98f3d81d14bd728586e4"
 metafile = true
 
 [[files]]
+file = "mods/c2me-ocl.pw.toml"
+hash = "02e4d48068c3675005e303f545603d6e0a861aa6119cd8c4786a677eac951dda"
+metafile = true
+
+[[files]]
 file = "mods/citadel-(1.21.1-port).pw.toml"
 hash = "bbda4d14b4e412b6c74bdb42e9bebdc2955427a32a1609043067422e46fc9684"
 metafile = true
