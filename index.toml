@@ -36,6 +36,11 @@ hash = "78f4fbf2a654bb34a7b87e58596c55e7f64e27bb3cd2cd83ea18f55552e7628c"
 metafile = true
 
 [[files]]
+file = "mods/better-fps-render-distance.pw.toml"
+hash = "753589097e8d9d8274c52d57603c05817bb9238f6e9f6bcb5218787774179617"
+metafile = true
+
+[[files]]
 file = "mods/blueprint.pw.toml"
 hash = "84bca5fde873c17a18c526e38578e031bb86a4f4af6151c3aec98dba2c8163a8"
 metafile = true
