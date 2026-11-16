@@ -51,6 +51,11 @@ hash = "b84c5e0524eb02ac9a3216c48086529999389ae0aa1aa4570d9e02189f2e735a"
 metafile = true
 
 [[files]]
+file = "mods/alexs-mobs(1.21.1).pw.toml"
+hash = "365451dbbb23e41ef6e0846eba1725e1e121602a862eb826b9d4fdd59cbeb95f"
+metafile = true
+
+[[files]]
 file = "mods/apotheosis.pw.toml"
 hash = "e154d7fb16dc7eb6ace7b88b3896955bb66f58c2daafe93c7ae3327ee418a509"
 metafile = true
