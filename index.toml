@@ -586,6 +586,11 @@ hash = "4e264c4458ca5fae86158d104ebc3cfe11b5d060b3babaf127cb34fcf4dc5cf3"
 metafile = true
 
 [[files]]
+file = "mods/occultism.pw.toml"
+hash = "8fe81a20b0b75c13f8be5f3473edc12966695ab07c4575368ac7ec0fb2254215"
+metafile = true
+
+[[files]]
 file = "mods/oritech-black-hole-dislocator.pw.toml"
 hash = "613fdcdbed5678b462ca60fcf8bbde3bbb9664a38780d37dbe9a268f37f37b7c"
 metafile = true
