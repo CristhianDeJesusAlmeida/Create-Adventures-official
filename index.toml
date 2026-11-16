@@ -196,6 +196,11 @@ hash = "92fe3b729cfe20f24fc0870c71bbdf694f5a9ac8187bfba3a5692bae235f3e00"
 metafile = true
 
 [[files]]
+file = "mods/create-perfect-processing.pw.toml"
+hash = "d848c399d99ec36c6910b608b2a07b22c13ad3cd8f02f54d44a88ff5b7895b06"
+metafile = true
+
+[[files]]
 file = "mods/create.pw.toml"
 hash = "dcaf5f2e28db0b9a127d0167456832341045ddc9aec058c3d9fcf53f618d2404"
 metafile = true
