@@ -516,6 +516,11 @@ hash = "613fdcdbed5678b462ca60fcf8bbde3bbb9664a38780d37dbe9a268f37f37b7c"
 metafile = true
 
 [[files]]
+file = "mods/oritech-sable-compat.pw.toml"
+hash = "6022fe7aec6f34c3375856952b14a7cc1708d4ab19f36be2bab007ad23530805"
+metafile = true
+
+[[files]]
 file = "mods/oritech.pw.toml"
 hash = "dbb2a2fc538df2577ac83d9eb0d7d4a67b15b3e2f1570ac380dacd79f8ddc0a4"
 metafile = true
