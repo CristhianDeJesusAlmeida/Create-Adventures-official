@@ -466,6 +466,11 @@ hash = "5ea335f4b3802e15c8e898e3ffc4b6e2f648ce8455e432a37130696a0a3ce3e2"
 metafile = true
 
 [[files]]
+file = "mods/epic-fight.pw.toml"
+hash = "8f25f6d5023d533e0d70b0375c36c176445251f431a9c8ebd63cf7f63e4c31da"
+metafile = true
+
+[[files]]
 file = "mods/extended-ae.pw.toml"
 hash = "03494a76b42b1b79e4d36a93317b8e884cafdb7e08f6103ce47ecd4e4df57645"
 metafile = true
