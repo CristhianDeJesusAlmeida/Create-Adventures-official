@@ -331,6 +331,11 @@ hash = "2453863dd789ca832b6c13cfb72d06a78acf90aafc72a76868054a76f5bcaca4"
 metafile = true
 
 [[files]]
+file = "mods/ender-storage.pw.toml"
+hash = "45998b35b09c9d2e414a309d6cbe22f5b3c208d0e480b7ea7192be031b96fa44"
+metafile = true
+
+[[files]]
 file = "mods/epherolib.pw.toml"
 hash = "5ea335f4b3802e15c8e898e3ffc4b6e2f648ce8455e432a37130696a0a3ce3e2"
 metafile = true
