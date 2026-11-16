@@ -386,6 +386,11 @@ hash = "96762cd1dfbe4bf1c93cfd88c756f532eaeeb489ea4940463fac16e7c3f6d3fd"
 metafile = true
 
 [[files]]
+file = "mods/ssrd.pw.toml"
+hash = "902b9f7cae33327dfb12e7a2dd454b20625644ce3c760d21b985e75e18a57e7c"
+metafile = true
+
+[[files]]
 file = "mods/supermartijn642s-config-lib.pw.toml"
 hash = "663305191dad72d9fb9bee97e36bcdc4ab41b2f98dedb8b628464f5d1cee3db0"
 metafile = true
