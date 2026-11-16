@@ -949,3 +949,8 @@ metafile = true
 file = "mods/yungs-api.pw.toml"
 hash = "dde31f05114c72cb2f58e522417487730b872e456f77fdd02c032c9235791f6c"
 metafile = true
+
+[[files]]
+file = "mods/yungs-better-end-island.pw.toml"
+hash = "66babda9e1a8ace83418143f2630b2f642dc6fd6d650faf948d4b06d233ceea8"
+metafile = true
