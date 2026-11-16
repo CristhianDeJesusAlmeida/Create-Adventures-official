@@ -209,3 +209,8 @@ metafile = true
 file = "mods/terrablender.pw.toml"
 hash = "15962183bec2468058c70e87aa32e902a08489b0f86741088cdc9aa958ba4931"
 metafile = true
+
+[[files]]
+file = "mods/titanium.pw.toml"
+hash = "d98bc00b46a8d30f6787b06bbbdd5385e3f8b0f2ee6bcf9207fca1d1cfcd3099"
+metafile = true
