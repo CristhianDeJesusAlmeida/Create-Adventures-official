@@ -506,6 +506,11 @@ hash = "168e6a3169258d6d04c8929dcaf47b6a45b9a3f94a24991d12ae3f01759f525b"
 metafile = true
 
 [[files]]
+file = "mods/nuclear-science.pw.toml"
+hash = "4e264c4458ca5fae86158d104ebc3cfe11b5d060b3babaf127cb34fcf4dc5cf3"
+metafile = true
+
+[[files]]
 file = "mods/oritech.pw.toml"
 hash = "dbb2a2fc538df2577ac83d9eb0d7d4a67b15b3e2f1570ac380dacd79f8ddc0a4"
 metafile = true
