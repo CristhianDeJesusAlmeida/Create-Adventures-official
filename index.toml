@@ -481,6 +481,11 @@ hash = "e1a2e4f77e837f13c8cfd2ec830199c3878d9990f0275acbfbe2b76442064c22"
 metafile = true
 
 [[files]]
+file = "mods/epic-fight-weapons-compat.pw.toml"
+hash = "6ad8374b56cd34fdbfec84a5b6db54fe492bbf0799d65d8566fb28c1bae367bc"
+metafile = true
+
+[[files]]
 file = "mods/epic-fight-x-irons-spells-enhanced-animation.pw.toml"
 hash = "c6d9a1bb1bbb87942e7f1015c9cb0a7cb05617e876b1ded8f01ccc1f443defa5"
 metafile = true
