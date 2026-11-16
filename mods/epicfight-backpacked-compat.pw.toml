@@ -1,0 +1,13 @@
+name = "Epic Fight + Backpacked Compat"
+filename = "epicfightbackpackedcompat-1.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/MFjTcMde/versions/cOH12zuH/epicfightbackpackedcompat-1.0.jar"
+hash-format = "sha512"
+hash = "8e1710bf4780d01cd594c12e325817cacdd431066bd4ca10c992ab2366ee4e6a487cd8cb6d8a819dccd91ba57977daa4bb846bde44c55fa3d1f88dd9091b41e1"
+
+[update]
+[update.modrinth]
+mod-id = "MFjTcMde"
+version = "cOH12zuH"
