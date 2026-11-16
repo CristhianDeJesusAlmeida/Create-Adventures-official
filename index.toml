@@ -214,3 +214,8 @@ metafile = true
 file = "mods/titanium.pw.toml"
 hash = "d98bc00b46a8d30f6787b06bbbdd5385e3f8b0f2ee6bcf9207fca1d1cfcd3099"
 metafile = true
+
+[[files]]
+file = "mods/txnilib.pw.toml"
+hash = "4b43714366871c3b822e8b708c9887edf0e0bf390d7a1ae3650a6936c2e3746b"
+metafile = true
