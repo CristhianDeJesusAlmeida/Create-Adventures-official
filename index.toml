@@ -521,6 +521,11 @@ hash = "6022fe7aec6f34c3375856952b14a7cc1708d4ab19f36be2bab007ad23530805"
 metafile = true
 
 [[files]]
+file = "mods/oritech-things.pw.toml"
+hash = "d910e2041a7a91814119f4e516b735a5d278d2bded3a06727bf054da233fcf46"
+metafile = true
+
+[[files]]
 file = "mods/oritech.pw.toml"
 hash = "dbb2a2fc538df2577ac83d9eb0d7d4a67b15b3e2f1570ac380dacd79f8ddc0a4"
 metafile = true
