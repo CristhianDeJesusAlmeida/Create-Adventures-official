@@ -131,6 +131,11 @@ hash = "5ea335f4b3802e15c8e898e3ffc4b6e2f648ce8455e432a37130696a0a3ce3e2"
 metafile = true
 
 [[files]]
+file = "mods/fast-assets.pw.toml"
+hash = "d6ac09b1582c8513838e63768b2d6c0b8dcab0f1b23f49a80cba417bc71b53d7"
+metafile = true
+
+[[files]]
 file = "mods/framework.pw.toml"
 hash = "dd0153bc05a3ffc8592dfaf35b4e8014127e6e1b352d7c18462d49a1ed7a5035"
 metafile = true
