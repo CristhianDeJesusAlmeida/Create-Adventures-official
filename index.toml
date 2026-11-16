@@ -841,6 +841,11 @@ hash = "919deaa10fc414f61ffe85af18100cbd169e1535b6a822eddb18ed19b5cbacf2"
 metafile = true
 
 [[files]]
+file = "mods/simply-swords.pw.toml"
+hash = "f11837c4f049aeb3b7ceb086f4c7b1347bfad1826f47722cbdc8b2b38df0067e"
+metafile = true
+
+[[files]]
 file = "mods/sl-library.pw.toml"
 hash = "201ebeeb60f9fbe268de50f146fd6f9c9a8843d5b604cb8cb2649c4fb5ef81d1"
 metafile = true
