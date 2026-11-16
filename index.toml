@@ -211,6 +211,11 @@ hash = "80332cead695f1e3c27e99133a48709767d1106f836792bb2fc4d594b88f1a68"
 metafile = true
 
 [[files]]
+file = "mods/create-stock-bridge.pw.toml"
+hash = "edca869b99ceffc5c63c9a6af70ad798adc912b25a683c509445ca1522184fef"
+metafile = true
+
+[[files]]
 file = "mods/create.pw.toml"
 hash = "dcaf5f2e28db0b9a127d0167456832341045ddc9aec058c3d9fcf53f618d2404"
 metafile = true
