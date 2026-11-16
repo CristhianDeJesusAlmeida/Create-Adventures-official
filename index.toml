@@ -221,6 +221,11 @@ hash = "97c93c129cbaa18348989adad78d3a08a2e7df36f005c4276b7a53bfb22111dd"
 metafile = true
 
 [[files]]
+file = "mods/create-stuff-and-addition-tank-fix.pw.toml"
+hash = "5f0bf7922c1dbde2edff9ae4b200b0320bc32bd03bc59bdcb304ff5efe3e6471"
+metafile = true
+
+[[files]]
 file = "mods/create.pw.toml"
 hash = "dcaf5f2e28db0b9a127d0167456832341045ddc9aec058c3d9fcf53f618d2404"
 metafile = true
