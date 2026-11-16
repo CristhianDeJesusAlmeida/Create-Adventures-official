@@ -511,6 +511,11 @@ hash = "4e264c4458ca5fae86158d104ebc3cfe11b5d060b3babaf127cb34fcf4dc5cf3"
 metafile = true
 
 [[files]]
+file = "mods/oritech-black-hole-dislocator.pw.toml"
+hash = "613fdcdbed5678b462ca60fcf8bbde3bbb9664a38780d37dbe9a268f37f37b7c"
+metafile = true
+
+[[files]]
 file = "mods/oritech.pw.toml"
 hash = "dbb2a2fc538df2577ac83d9eb0d7d4a67b15b3e2f1570ac380dacd79f8ddc0a4"
 metafile = true
