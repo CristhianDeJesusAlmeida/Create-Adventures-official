@@ -386,6 +386,11 @@ hash = "edca869b99ceffc5c63c9a6af70ad798adc912b25a683c509445ca1522184fef"
 metafile = true
 
 [[files]]
+file = "mods/create-structures-arise.pw.toml"
+hash = "af3a3332e4f7c75dcb0047ca22ff2150bb759c3e76b95b58daf78c0116e228f4"
+metafile = true
+
+[[files]]
 file = "mods/create-stuff-additions.pw.toml"
 hash = "97c93c129cbaa18348989adad78d3a08a2e7df36f005c4276b7a53bfb22111dd"
 metafile = true
