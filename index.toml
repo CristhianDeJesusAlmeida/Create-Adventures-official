@@ -101,6 +101,11 @@ hash = "13dc68f3429beff58fd9d02b2d48318087fc7e1281163587f07df40fd1e6a44a"
 metafile = true
 
 [[files]]
+file = "mods/ars-ocultas.pw.toml"
+hash = "8f26fb64848cd06f1da4842762f7271af6337e9fda2d53f3ef10e9c27dd31c1a"
+metafile = true
+
+[[files]]
 file = "mods/asyncparticles.pw.toml"
 hash = "bd51fee38e89b9f22f556bab69377da7ca7ef90f7417276755be8747fef217f7"
 metafile = true
