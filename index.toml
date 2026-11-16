@@ -81,6 +81,11 @@ hash = "e735b472ad5c38359636d5abb84ed1baeb461f72aa19c324c349543823a16188"
 metafile = true
 
 [[files]]
+file = "mods/ars-elemancy.pw.toml"
+hash = "12caf58c8583c17a41aebe2a836d0b48b4996334137e97b76c62e6b5b62791b5"
+metafile = true
+
+[[files]]
 file = "mods/ars-nouveau.pw.toml"
 hash = "13dc68f3429beff58fd9d02b2d48318087fc7e1281163587f07df40fd1e6a44a"
 metafile = true
