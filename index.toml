@@ -636,6 +636,11 @@ hash = "dfeca78ef8f2d2de9b227e684f2314b5ae869841c040e2903d1a7429299acbf7"
 metafile = true
 
 [[files]]
+file = "mods/kaleidoscopecookery-automation.pw.toml"
+hash = "e5ecd7b66b29f775eac89dcc96d7ca3e27e9cdde958b49da4e12be4f613e5655"
+metafile = true
+
+[[files]]
 file = "mods/kotlin-for-forge.pw.toml"
 hash = "a947afda264a2eaaef57dc74999741da0433968a0e639730b063c3f3b676c41b"
 metafile = true
