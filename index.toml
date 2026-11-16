@@ -216,6 +216,11 @@ hash = "83c1f313d6894b086df3f6a91f4988d8eeb60a0f8126c64e0df24f703f293a80"
 metafile = true
 
 [[files]]
+file = "mods/memory-settings.pw.toml"
+hash = "a1126de124c5d5c6f76be7b698962904e2efa5a5b6881095c5a073360fa70ab2"
+metafile = true
+
+[[files]]
 file = "mods/mezzconfig.pw.toml"
 hash = "f1fecbcbee6806a14efb3bd38ccf10166b48004967fbe72b6c31224e5e9fc5ea"
 metafile = true
