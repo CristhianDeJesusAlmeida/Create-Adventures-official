@@ -136,6 +136,11 @@ hash = "c0cdd482e2a57617f89c296eeb0a6dfe260534439041929609fd2d62cf6e95fb"
 metafile = true
 
 [[files]]
+file = "mods/artifacts.pw.toml"
+hash = "416b7f130791397fb2ceb9e89ce3fd0e870f207c8e40b759c069cb58b7544314"
+metafile = true
+
+[[files]]
 file = "mods/asyncparticles.pw.toml"
 hash = "bd51fee38e89b9f22f556bab69377da7ca7ef90f7417276755be8747fef217f7"
 metafile = true
