@@ -446,6 +446,11 @@ hash = "83c1f313d6894b086df3f6a91f4988d8eeb60a0f8126c64e0df24f703f293a80"
 metafile = true
 
 [[files]]
+file = "mods/mekanism.pw.toml"
+hash = "42061fd570a0b7a8063c0860056c6391593190caa0f12d3b49105e52a56817fe"
+metafile = true
+
+[[files]]
 file = "mods/memory-settings.pw.toml"
 hash = "a1126de124c5d5c6f76be7b698962904e2efa5a5b6881095c5a073360fa70ab2"
 metafile = true
