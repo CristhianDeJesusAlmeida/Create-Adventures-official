@@ -91,6 +91,11 @@ hash = "8e9f867e9c0ff53e08e779ae54fd1bbead92f1d7323b75369e64ade719d5d7c1"
 metafile = true
 
 [[files]]
+file = "mods/ars-energistique.pw.toml"
+hash = "ed65dd1f7fdf9dc6b75739c078e324b5cc70495fd20530f31cf06ae4e0bd65f4"
+metafile = true
+
+[[files]]
 file = "mods/ars-nouveau.pw.toml"
 hash = "13dc68f3429beff58fd9d02b2d48318087fc7e1281163587f07df40fd1e6a44a"
 metafile = true
