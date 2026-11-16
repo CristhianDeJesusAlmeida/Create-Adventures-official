@@ -486,6 +486,11 @@ hash = "8d36b922cc93e73f0e61e65e8e6931b3c98de42c5c2448c489db01b0f4918526"
 metafile = true
 
 [[files]]
+file = "mods/irons-spells-n-spellbooks.pw.toml"
+hash = "4f7ef8bd9e05ab690a81d0f698d38a25bbaf0729953fd015bca3a852aadf7689"
+metafile = true
+
+[[files]]
 file = "mods/jei.pw.toml"
 hash = "b0c37ca9826781a6bf1373ae02a141b4202037515eb071ec2327410771de6ea5"
 metafile = true
