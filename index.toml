@@ -201,6 +201,11 @@ hash = "1e03fcbd256bcadd61355bee6db7b43f2bd4de1da3e7ff7701ebc37b53a4ed47"
 metafile = true
 
 [[files]]
+file = "mods/brutal-bosses-dungeon.pw.toml"
+hash = "230b8a59d4c1ccbf2560a6ed1e980ddab4e1dc7e4eeb1f93badb3573ab972bc3"
+metafile = true
+
+[[files]]
 file = "mods/c2me-neoforge.pw.toml"
 hash = "97c1ad521ac48aaf6c07a54339dc94ba400df670ec5d98f3d81d14bd728586e4"
 metafile = true
