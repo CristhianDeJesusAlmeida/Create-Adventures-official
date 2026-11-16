@@ -46,6 +46,11 @@ hash = "d642979078e6069bc623e043bef8d76bc295ecb40c152da560f68985952b9b9c"
 metafile = true
 
 [[files]]
+file = "mods/alexs-caves-(unofficial-port).pw.toml"
+hash = "b84c5e0524eb02ac9a3216c48086529999389ae0aa1aa4570d9e02189f2e735a"
+metafile = true
+
+[[files]]
 file = "mods/apotheosis.pw.toml"
 hash = "e154d7fb16dc7eb6ace7b88b3896955bb66f58c2daafe93c7ae3327ee418a509"
 metafile = true
