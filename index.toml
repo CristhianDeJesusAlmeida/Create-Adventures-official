@@ -199,3 +199,8 @@ metafile = true
 file = "mods/supermartijn642s-config-lib.pw.toml"
 hash = "663305191dad72d9fb9bee97e36bcdc4ab41b2f98dedb8b628464f5d1cee3db0"
 metafile = true
+
+[[files]]
+file = "mods/supermartijn642s-core-lib.pw.toml"
+hash = "33eab1ec1f2b6a02756c74817832b56960b689f112690ecf37f8ce7f8077589f"
+metafile = true
