@@ -236,6 +236,11 @@ hash = "cba6d7d04b6068e326445672253580520a87873fc1065f7682984a9b9d91deb5"
 metafile = true
 
 [[files]]
+file = "mods/create-oritech-compat.pw.toml"
+hash = "5a7ddfa185f32139c04995ea366941975c7dad3fb8bbd0ab7992b139983093fa"
+metafile = true
+
+[[files]]
 file = "mods/create-pattern-schematics.pw.toml"
 hash = "92fe3b729cfe20f24fc0870c71bbdf694f5a9ac8187bfba3a5692bae235f3e00"
 metafile = true
