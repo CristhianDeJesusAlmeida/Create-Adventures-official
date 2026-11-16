@@ -566,6 +566,11 @@ hash = "8b30d03470cc27030f42b6719cdb8975f163ed336fc8592f0277a4291bb08aec"
 metafile = true
 
 [[files]]
+file = "mods/gtbcs-cataclysmic-boss-ui.pw.toml"
+hash = "ecfb0a6592cf7eb815393a9433ad5453cfac841e12d8ad7a5e8563b517f4b0af"
+metafile = true
+
+[[files]]
 file = "mods/guideme.pw.toml"
 hash = "afbf995d300c4337cc36704087731f5c9a3d7bc49f9110bcfe72b9c345f24bd7"
 metafile = true
