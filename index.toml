@@ -46,6 +46,11 @@ hash = "84bca5fde873c17a18c526e38578e031bb86a4f4af6151c3aec98dba2c8163a8"
 metafile = true
 
 [[files]]
+file = "mods/c2me-neoforge.pw.toml"
+hash = "97c1ad521ac48aaf6c07a54339dc94ba400df670ec5d98f3d81d14bd728586e4"
+metafile = true
+
+[[files]]
 file = "mods/citadel-(1.21.1-port).pw.toml"
 hash = "bbda4d14b4e412b6c74bdb42e9bebdc2955427a32a1609043067422e46fc9684"
 metafile = true
