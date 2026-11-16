@@ -181,6 +181,11 @@ hash = "2894b136e3df87bdb3f0b0387706f108a18c3708fce3bbbf778890784ebe0e71"
 metafile = true
 
 [[files]]
+file = "mods/create-new-age.pw.toml"
+hash = "f942460a37f7eea3825182f0504e894ae7f9f0afd77872b9086d0ad2745829b7"
+metafile = true
+
+[[files]]
 file = "mods/create.pw.toml"
 hash = "dcaf5f2e28db0b9a127d0167456832341045ddc9aec058c3d9fcf53f618d2404"
 metafile = true
