@@ -671,6 +671,11 @@ hash = "4b43714366871c3b822e8b708c9887edf0e0bf390d7a1ae3650a6936c2e3746b"
 metafile = true
 
 [[files]]
+file = "mods/voltaic.pw.toml"
+hash = "c53530f7b5d08bc99c2399898456bd254e92aa6f4f7cbedc8f287ebd821beb77"
+metafile = true
+
+[[files]]
 file = "mods/yacl.pw.toml"
 hash = "832ee01bb7981b4b3eb298e9a6b0ab1433bd55f958db84d0beb62d318d33968c"
 metafile = true
