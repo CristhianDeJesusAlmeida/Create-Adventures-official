@@ -186,6 +186,11 @@ hash = "7aba1ec953f4c80c96e45487ab78e6d981a56e18087075228709af73d172dd63"
 metafile = true
 
 [[files]]
+file = "mods/biolith.pw.toml"
+hash = "f0cab70bd1ceda65e4a5a838092cae96100bd77ee01e175c1b29cdb8b09aad04"
+metafile = true
+
+[[files]]
 file = "mods/blueprint.pw.toml"
 hash = "84bca5fde873c17a18c526e38578e031bb86a4f4af6151c3aec98dba2c8163a8"
 metafile = true
