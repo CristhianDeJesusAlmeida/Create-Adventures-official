@@ -756,6 +756,11 @@ hash = "127b7f0c67bdc5fabbdf1a0bcf9283ede41a08f63c71188896166e23a2182a96"
 metafile = true
 
 [[files]]
+file = "mods/neo-origins.pw.toml"
+hash = "bba0810fbaaa909b0e785dd7e2f3a013f196f79a2407a36424929719cee691ae"
+metafile = true
+
+[[files]]
 file = "mods/notick.pw.toml"
 hash = "168e6a3169258d6d04c8929dcaf47b6a45b9a3f94a24991d12ae3f01759f525b"
 metafile = true
