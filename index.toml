@@ -761,6 +761,11 @@ hash = "d98bc00b46a8d30f6787b06bbbdd5385e3f8b0f2ee6bcf9207fca1d1cfcd3099"
 metafile = true
 
 [[files]]
+file = "mods/tunes-n-tomes-a-bards-journey.pw.toml"
+hash = "5fb24121f1b63d4628bb39154290eb69b0ff459487c829361eb14572c653accf"
+metafile = true
+
+[[files]]
 file = "mods/txnilib.pw.toml"
 hash = "4b43714366871c3b822e8b708c9887edf0e0bf390d7a1ae3650a6936c2e3746b"
 metafile = true
