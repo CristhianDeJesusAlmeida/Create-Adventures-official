@@ -646,6 +646,11 @@ hash = "c27c2b642deba3609c6e5741ee6360cb8d760e5bf5b2595fd4fa01c01dc5f074"
 metafile = true
 
 [[files]]
+file = "mods/lootr.pw.toml"
+hash = "bd0857176a71a3d3489789552c7c0885975a6571f844b0ba1e1c742a6f1053b0"
+metafile = true
+
+[[files]]
 file = "mods/mafglib.pw.toml"
 hash = "a81884d95d03d5dec64dc1d8e2de1b3d610ab0717b28304fa4d36e706ef0cfd3"
 metafile = true
