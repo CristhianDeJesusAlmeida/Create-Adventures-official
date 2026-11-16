@@ -786,6 +786,11 @@ hash = "7c189fd86f510fc5697335a4a5f4b4bf8b1b7c301924477035795a5d139b64a0"
 metafile = true
 
 [[files]]
+file = "mods/origins-backgrounds-for-neoorigins.pw.toml"
+hash = "cd1ec8ae752652a39efe21e52e326609eb861f778af3cc3b8eb3d0e0c30ed27c"
+metafile = true
+
+[[files]]
 file = "mods/oritech-black-hole-dislocator.pw.toml"
 hash = "613fdcdbed5678b462ca60fcf8bbde3bbb9664a38780d37dbe9a268f37f37b7c"
 metafile = true
