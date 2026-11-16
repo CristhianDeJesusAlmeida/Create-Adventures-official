@@ -111,6 +111,11 @@ hash = "78b1dc697886c13a6c277550d91791ec79fb4a375d99eeb259c571633f50a8c5"
 metafile = true
 
 [[files]]
+file = "mods/ars-unification.pw.toml"
+hash = "c0cdd482e2a57617f89c296eeb0a6dfe260534439041929609fd2d62cf6e95fb"
+metafile = true
+
+[[files]]
 file = "mods/asyncparticles.pw.toml"
 hash = "bd51fee38e89b9f22f556bab69377da7ca7ef90f7417276755be8747fef217f7"
 metafile = true
