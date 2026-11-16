@@ -936,6 +936,11 @@ hash = "c53530f7b5d08bc99c2399898456bd254e92aa6f4f7cbedc8f287ebd821beb77"
 metafile = true
 
 [[files]]
+file = "mods/weapons-of-miracles.pw.toml"
+hash = "495590cc80aa0e87f82da883e32b0166e6bbb5ffa8a3c5e71cdf72a87a0b6434"
+metafile = true
+
+[[files]]
 file = "mods/yacl.pw.toml"
 hash = "832ee01bb7981b4b3eb298e9a6b0ab1433bd55f958db84d0beb62d318d33968c"
 metafile = true
