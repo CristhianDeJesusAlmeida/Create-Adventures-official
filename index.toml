@@ -41,6 +41,11 @@ hash = "2a46cd68d765cd40d560f9d5934c313cd394a317d6c68eee4476ab10b5a75851"
 metafile = true
 
 [[files]]
+file = "mods/ai-improvements.pw.toml"
+hash = "d642979078e6069bc623e043bef8d76bc295ecb40c152da560f68985952b9b9c"
+metafile = true
+
+[[files]]
 file = "mods/apotheosis.pw.toml"
 hash = "e154d7fb16dc7eb6ace7b88b3896955bb66f58c2daafe93c7ae3327ee418a509"
 metafile = true
