@@ -521,6 +521,11 @@ hash = "03494a76b42b1b79e4d36a93317b8e884cafdb7e08f6103ce47ecd4e4df57645"
 metafile = true
 
 [[files]]
+file = "mods/farmers-delight.pw.toml"
+hash = "97347efd9e808841d72fe3599da8a11add8422e97f89ae1c85cdfc0acfa18f96"
+metafile = true
+
+[[files]]
 file = "mods/fast-assets.pw.toml"
 hash = "d6ac09b1582c8513838e63768b2d6c0b8dcab0f1b23f49a80cba417bc71b53d7"
 metafile = true
