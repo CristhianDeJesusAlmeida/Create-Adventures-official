@@ -816,6 +816,11 @@ hash = "16d803334fe03cc89aa35b904c8aee7d59d746800be9b1185c61c4fdf2a56545"
 metafile = true
 
 [[files]]
+file = "mods/ponder-for-kaleidoscope-cookery.pw.toml"
+hash = "5365a3127f20e19d632c925fe3c752f2a21d515736e3b899404f7f6f6dc8519a"
+metafile = true
+
+[[files]]
 file = "mods/powah.pw.toml"
 hash = "dc9fec9f7c8410ed73c1d9dec65df90b83af5a62a86e6a33b55dec5641f49f17"
 metafile = true
