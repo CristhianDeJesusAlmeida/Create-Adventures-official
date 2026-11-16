@@ -426,6 +426,11 @@ hash = "b0c37ca9826781a6bf1373ae02a141b4202037515eb071ec2327410771de6ea5"
 metafile = true
 
 [[files]]
+file = "mods/just-enough-mekanism-multiblocks.pw.toml"
+hash = "f1ea6ce3347c52e404cb9cc542cf94c93999f441b6215970db1b6ef98605402f"
+metafile = true
+
+[[files]]
 file = "mods/kotlin-for-forge.pw.toml"
 hash = "a947afda264a2eaaef57dc74999741da0433968a0e639730b063c3f3b676c41b"
 metafile = true
