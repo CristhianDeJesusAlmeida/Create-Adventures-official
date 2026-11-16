@@ -726,6 +726,11 @@ hash = "902b9f7cae33327dfb12e7a2dd454b20625644ce3c760d21b985e75e18a57e7c"
 metafile = true
 
 [[files]]
+file = "mods/starbunclemania.pw.toml"
+hash = "ab2c89f6522d1d30ccec20d200e9a19418979edd8b19efa24b31f0464959e47b"
+metafile = true
+
+[[files]]
 file = "mods/storage-drawers-create-compat.pw.toml"
 hash = "4514e495c19d9631ad325bc94d0b6ed86085dcda4b3ce46f533a86dce3240143"
 metafile = true
