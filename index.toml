@@ -561,6 +561,11 @@ hash = "2e2af1cc71b69b26ae87bcb78d75fb0186d690ee1b85d8d4586eec112aa51b66"
 metafile = true
 
 [[files]]
+file = "mods/polymorphic-energistics.pw.toml"
+hash = "f59db5b05e97e9c8443167bb53893c36ef7282bfd379c8ba407f77d9b0909bca"
+metafile = true
+
+[[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "d465abcc806c0d4fdeefb6a5e774cca4fff0ffd27d7c75954ab4688f4c9eaf05"
 metafile = true
