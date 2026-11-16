@@ -21,6 +21,11 @@ hash = "bea632f8c78ab9786ceab0573d7a9401044ea96dac11ef40c27ad0cf82f42ccd"
 metafile = true
 
 [[files]]
+file = "mods/ae2-qol-client.pw.toml"
+hash = "8ee6c896b21944b86dbaa9a825c023e66102626f633179ba783e33343aca6f7b"
+metafile = true
+
+[[files]]
 file = "mods/ae2.pw.toml"
 hash = "2a46cd68d765cd40d560f9d5934c313cd394a317d6c68eee4476ab10b5a75851"
 metafile = true
