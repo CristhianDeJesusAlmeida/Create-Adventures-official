@@ -591,6 +591,11 @@ hash = "91875c996a9958aeea794843fb449915218625f52aaf0234ccd1faffa887e277"
 metafile = true
 
 [[files]]
+file = "mods/incendium.pw.toml"
+hash = "391f5b0b0fcae3ce77be6ab211435228faec79cb92c50d69471c52ba36b139d6"
+metafile = true
+
+[[files]]
 file = "mods/iris.pw.toml"
 hash = "01e76397dcdfc1977583465a0d1f9a7264068243aa2546fbf85eabb2d6d52afd"
 metafile = true
