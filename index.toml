@@ -36,6 +36,11 @@ hash = "2a46cd68d765cd40d560f9d5934c313cd394a317d6c68eee4476ab10b5a75851"
 metafile = true
 
 [[files]]
+file = "mods/appflux.pw.toml"
+hash = "c6aaee790b0cf08c2e71859e267c698fa454137d6afae3bd653f4744e955f40c"
+metafile = true
+
+[[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "9412ae80a3b8633c4b8507402610c4d8ad3e27809a27a9a76263d16fa7347b2e"
 metafile = true
