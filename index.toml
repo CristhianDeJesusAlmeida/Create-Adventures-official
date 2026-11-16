@@ -496,6 +496,11 @@ hash = "8f25f6d5023d533e0d70b0375c36c176445251f431a9c8ebd63cf7f63e4c31da"
 metafile = true
 
 [[files]]
+file = "mods/epic-knights-shields-armor-and-weapons.pw.toml"
+hash = "26732361a7ce5141aa8d6ebdb3c9b35bdc4693fc37e73c8281c402df7ccd0f2a"
+metafile = true
+
+[[files]]
 file = "mods/extended-ae.pw.toml"
 hash = "03494a76b42b1b79e4d36a93317b8e884cafdb7e08f6103ce47ecd4e4df57645"
 metafile = true
