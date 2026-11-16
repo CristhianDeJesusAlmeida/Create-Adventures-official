@@ -221,6 +221,11 @@ hash = "15dc421980aa939789a1b85d89264691a4672fa45c234a305f95c66b5fe20172"
 metafile = true
 
 [[files]]
+file = "mods/cataclysm_create.pw.toml"
+hash = "7780bdd786d16e74c107ac4ccd640ba2f3816e127ffa29b935e3e504eb4d3077"
+metafile = true
+
+[[files]]
 file = "mods/chunk-sending-forge-fabric.pw.toml"
 hash = "5324a274e4cfa6328e38b786f74fba9608640d7543c5f221d35fa75939af3aa2"
 metafile = true
