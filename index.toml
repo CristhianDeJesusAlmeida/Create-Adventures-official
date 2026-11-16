@@ -471,6 +471,11 @@ hash = "5ea335f4b3802e15c8e898e3ffc4b6e2f648ce8455e432a37130696a0a3ce3e2"
 metafile = true
 
 [[files]]
+file = "mods/epic-fight-carry-on-compat.pw.toml"
+hash = "a92d7cb5ebcc96a23c282490a93a05432a290f53577540ce21a1d7fe0474e39d"
+metafile = true
+
+[[files]]
 file = "mods/epic-fight.pw.toml"
 hash = "8f25f6d5023d533e0d70b0375c36c176445251f431a9c8ebd63cf7f63e4c31da"
 metafile = true

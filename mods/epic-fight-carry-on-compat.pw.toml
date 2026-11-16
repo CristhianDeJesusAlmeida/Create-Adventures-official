@@ -1,0 +1,13 @@
+name = "Epic Fight Carry On Compat"
+filename = "efm_carryon_compat-neoforge-1.0.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/fkAQNhDX/versions/fxkVdGY0/efm_carryon_compat-neoforge-1.0.0.jar"
+hash-format = "sha512"
+hash = "5e876856feda2d4e04d9a093db1a1db0134ac112eb0610ce819440f716dcd8d434fbd81b17c546cdc8ab96aadc11637b1cf32991a424afe6f0e4a45e5d85115e"
+
+[update]
+[update.modrinth]
+mod-id = "fkAQNhDX"
+version = "fxkVdGY0"
