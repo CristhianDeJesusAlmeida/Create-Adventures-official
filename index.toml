@@ -196,6 +196,11 @@ hash = "84bca5fde873c17a18c526e38578e031bb86a4f4af6151c3aec98dba2c8163a8"
 metafile = true
 
 [[files]]
+file = "mods/bossesrise.pw.toml"
+hash = "1e03fcbd256bcadd61355bee6db7b43f2bd4de1da3e7ff7701ebc37b53a4ed47"
+metafile = true
+
+[[files]]
 file = "mods/c2me-neoforge.pw.toml"
 hash = "97c1ad521ac48aaf6c07a54339dc94ba400df670ec5d98f3d81d14bd728586e4"
 metafile = true
