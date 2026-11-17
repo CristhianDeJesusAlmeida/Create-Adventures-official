@@ -1,0 +1,228 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "introducao"
+	title: "Introdução"
+	group: ""
+	id: "5DD9FFEEA4B643EC"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			title: "Bem-vindo ao Create-Adventures"
+			icon: {
+				id: "ftbquests:book"
+			}
+			id: "1000000000000001"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000000102"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000000103"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			size: 1.5
+			x: 0.0d
+			y: 0.0d
+			description: [
+				"Este mundo mistura §6indústria§r, §dmagia§r e §caventura§r. Máquinas gigantes, feitiços, dungeons e chefes lendários convivem aqui."
+				""
+				"Este capítulo é só informação: ele explica como o pack funciona. As primeiras tarefas de jogo estão no capítulo §aO Começo§r."
+			]
+			tasks: [
+				{
+					id: "2000000000000101"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			title: "Como Usar o Livro de Quests"
+			dependencies: [
+				"1000000000000001"
+			]
+			icon: {
+				id: "minecraft:writable_book"
+			}
+			id: "1000000000007801"
+			rewards: [
+				{
+					id: "2000000000020016"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+			description: [
+				"Cada capítulo cobre um mod ou um tema, e as linhas ligam cada quest às que dependem dela. Algumas quests aparecem em mais de um capítulo por meio de links; completar uma conta nos dois lugares."
+				""
+				"Use o §aJEI§r para ver receitas: aperte R sobre um item para ver como fazê-lo e U para ver onde ele é usado."
+			]
+			tasks: [
+				{
+					id: "2000000000020017"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			title: "Quem é Você?"
+			dependencies: [
+				"1000000000007801"
+			]
+			icon: {
+				id: "minecraft:player_head"
+			}
+			id: "1000000000007802"
+			rewards: [
+				{
+					id: "2000000000020018"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+			description: [
+				"O pack usa o sistema de §bOrigens§r (Neo Origins), com classes e backgrounds extras: cada origem concede habilidades únicas e também fraquezas."
+				""
+				"Leia com atenção o que a sua origem faz bem e o que faz mal. Isso muda o jeito de jogar e o que você deve priorizar no começo."
+			]
+			tasks: [
+				{
+					id: "2000000000020019"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			title: "Sede, Frio e Calor"
+			dependencies: [
+				"1000000000007802"
+			]
+			icon: {
+				id: "minecraft:water_bucket"
+			}
+			id: "1000000000007803"
+			rewards: [
+				{
+					id: "2000000000020020"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+			description: [
+				"O pack inclui o §3Legendary Survival Overhaul§r, que adiciona §bsede§r e §etemperatura§r ao jogo. Beber água e se agasalhar passam a fazer parte da rotina."
+				""
+				"Cuidado com desertos, neves e cavernas: leve água, use roupas adequadas e fique de olho nos indicadores da tela."
+			]
+			tasks: [
+				{
+					id: "2000000000020021"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			title: "Território Seguro"
+			dependencies: [
+				"1000000000007803"
+			]
+			icon: {
+				id: "minecraft:filled_map"
+			}
+			id: "1000000000007804"
+			rewards: [
+				{
+					id: "2000000000020022"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+			description: [
+				"O pack tem o §aFTB Chunks§r para reivindicar chunks e proteger a sua base, e o §aJourneyMap§r para mapear o mundo e marcar locais importantes."
+				""
+				"Reivindique os chunks da base logo cedo, antes de construir máquinas grandes. Os atalhos de cada mod ficam em Opções > Controles."
+			]
+			tasks: [
+				{
+					id: "2000000000020023"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			title: "Organização e Transporte"
+			dependencies: [
+				"1000000000007804"
+			]
+			icon: {
+				id: "minecraft:barrel"
+			}
+			id: "1000000000007805"
+			rewards: [
+				{
+					id: "2000000000020024"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+			description: [
+				"O §6Storage Drawers§r e o §6Functional Storage§r guardam muito mais itens em menos espaço. As mochilas do §6Backpacked§r e o §6Carry On§r ajudam a carregar coisas pelo caminho."
+			]
+			tasks: [
+				{
+					id: "2000000000020025"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			title: "Para Onde Ir"
+			dependencies: [
+				"1000000000007805"
+			]
+			icon: {
+				id: "minecraft:compass"
+			}
+			id: "1000000000007806"
+			rewards: [
+				{
+					id: "2000000000020026"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+			description: [
+				"Depois d'§aO Começo§r, escolha um caminho. Engenharia e indústria: §2Create§r, §eMekanism§r, §6Oritech§r, §bApplied Energistics 2§r e §3Electrodynamics§r. Céus: §2Aeronáutica§r. Equipamento mágico: §6Apotheosis§r e §6Apothic Enchanting§r."
+				""
+				"Cada um tem o seu próprio capítulo no livro de quests."
+			]
+			tasks: [
+				{
+					id: "2000000000020027"
+					type: "checkmark"
+				}
+			]
+		}
+	]
+}
