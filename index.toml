@@ -336,6 +336,11 @@ hash = "df10d987e1eaab3709e8de22d4228fac747c282213811db0948598e4facb8e59"
 metafile = true
 
 [[files]]
+file = "mods/controlling.pw.toml"
+hash = "c2a2f47ca44ea2a835e4864e03ea25fd3f78b6c85f3c2608bbf6cf0fe3bcf8e5"
+metafile = true
+
+[[files]]
 file = "mods/cooking-for-blockheads.pw.toml"
 hash = "43e394e100190d49d216c0b646868ac134d3ae82f2361c3bd807ff1b1449c3e0"
 metafile = true
