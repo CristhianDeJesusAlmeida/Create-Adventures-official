@@ -1,0 +1,3567 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "oritech"
+	group: "0000000000000002"
+	icon: {
+		id: "oritech:assembler_block"
+	}
+	id: "1000000000007200"
+	order_index: 3
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			title: "Níquel"
+			icon: {
+				id: "oritech:nickel_ingot"
+			}
+			id: "1000000000007201"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000008001"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008002"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			description: [
+				"§eO Metal-Chave do Começo§r"
+				""
+				"O §aNíquel§r aparece em várias receitas de máquinas e ligas do início do jogo. Procure em cavernas e em pedregulhos de minério na superfície."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008003"
+					item: {
+						count: 1
+						id: "oritech:nickel_ingot"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			title: "Bobina Magnética"
+			dependencies: [
+				"1000000000007201"
+			]
+			icon: {
+				id: "oritech:magnetic_coil"
+			}
+			id: "1000000000007202"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000008004"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008005"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			description: [
+				"A §aBobina Magnética§r é um componente básico de geradores e máquinas do Oritech."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008006"
+					item: {
+						count: 1
+						id: "oritech:magnetic_coil"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			title: "Gerador Básico"
+			dependencies: [
+				"1000000000007202"
+			]
+			icon: {
+				id: "oritech:basic_generator_block"
+			}
+			id: "1000000000007203"
+			rewards: [
+				{
+					count: 16
+					id: "2000000000008007"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008008"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"§eSua Primeira Energia§r"
+				""
+				"O §aGerador Básico§r queima combustíveis comuns de fornalha e gera 32 RF/t, o suficiente para as primeiras máquinas."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008009"
+					item: {
+						count: 1
+						id: "oritech:basic_generator_block"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			title: "Fornalha Elétrica"
+			dependencies: [
+				"1000000000007203"
+			]
+			icon: {
+				id: "oritech:powered_furnace_block"
+			}
+			id: "1000000000007204"
+			rewards: [
+				{
+					count: 16
+					id: "2000000000008010"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008011"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"A §aFornalha Elétrica§r funde itens usando energia. É um ótimo primeiro upgrade de conveniência."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008012"
+					item: {
+						count: 1
+						id: "oritech:powered_furnace_block"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			title: "Aço"
+			dependencies: [
+				"1000000000007203"
+			]
+			icon: {
+				id: "oritech:steel_ingot"
+			}
+			id: "1000000000007205"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000008013"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008014"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"O §aAço§r pode ser feito à mão com ferro e carvão, mas sai caro. Assim que puder, passe para o Pulverizador e a Fundição."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008015"
+					item: {
+						count: 1
+						id: "oritech:steel_ingot"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			title: "Pulverizador"
+			dependencies: [
+				"1000000000007204"
+			]
+			icon: {
+				id: "oritech:pulverizer_block"
+			}
+			id: "1000000000007206"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000008016"
+					item: {
+						count: 1
+						id: "oritech:steel_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008017"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"O §aPulverizador§r tritura itens e minérios em pó. Ele é a base do processamento de metais."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008018"
+					item: {
+						count: 1
+						id: "oritech:pulverizer_block"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			title: "Fundição"
+			dependencies: [
+				"1000000000007206"
+				"1000000000007205"
+			]
+			icon: {
+				id: "oritech:foundry_block"
+			}
+			id: "1000000000007207"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000008019"
+					item: {
+						count: 1
+						id: "oritech:electrum_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008020"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"A §aFundição§r produz ligas a partir de pós e lingotes, e é bem mais eficiente que fabricar à mão."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008021"
+					item: {
+						count: 1
+						id: "oritech:foundry_block"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			title: "Montador"
+			dependencies: [
+				"1000000000007207"
+			]
+			icon: {
+				id: "oritech:assembler_block"
+			}
+			id: "1000000000007208"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000008022"
+					item: {
+						count: 1
+						id: "oritech:magnetic_coil"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008023"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"§eO Próximo Grande Passo§r"
+				""
+				"O §aMontador§r fabrica componentes automaticamente em uma grade 2x2 e é necessário para várias peças que não podem ser feitas à mão."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008024"
+					item: {
+						count: 1
+						id: "oritech:assembler_block"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			title: "Centrífuga"
+			dependencies: [
+				"1000000000007208"
+			]
+			icon: {
+				id: "oritech:centrifuge_block"
+			}
+			id: "1000000000007209"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000008025"
+					item: {
+						count: 1
+						id: "oritech:silicon"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008026"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"A §aCentrífuga§r faz conversões de recursos, como aglomerados de minério e fibra de carbono. Mais tarde, com o addon certo, ela processa fluidos."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008027"
+					item: {
+						count: 1
+						id: "oritech:centrifuge_block"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			title: "Forja de Fragmentos"
+			dependencies: [
+				"1000000000007209"
+			]
+			icon: {
+				id: "oritech:fragment_forge_block"
+			}
+			id: "1000000000007210"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000008028"
+					item: {
+						count: 1
+						id: "oritech:fluxite"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008029"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"A §aForja de Fragmentos§r quebra minérios em aglomerados e aglomerados pequenos. Nove pequenos formam um grande, que a Centrífuga transforma em pó."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008030"
+					item: {
+						count: 1
+						id: "oritech:fragment_forge_block"
+					}
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			title: "Armazenamento de Energia Portátil"
+			dependencies: [
+				"1000000000007212"
+			]
+			icon: {
+				id: "oritech:small_storage_block"
+			}
+			id: "1000000000007211"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000008031"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008032"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			description: [
+				"O §aArmazenamento de Energia Portátil§r guarda energia para a sua base e pode ser ligado a cabos."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008033"
+					item: {
+						count: 1
+						id: "oritech:small_storage_block"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			title: "Bateria Básica"
+			dependencies: [
+				"1000000000007202"
+			]
+			icon: {
+				id: "oritech:basic_battery"
+			}
+			id: "1000000000007212"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000008034"
+					item: {
+						count: 1
+						id: "oritech:nickel_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008035"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			description: [
+				"A §aBateria Básica§r armazena energia e aparece em várias receitas."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008036"
+					item: {
+						count: 1
+						id: "oritech:basic_battery"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			title: "Cabos de Energia"
+			dependencies: [
+				"1000000000007203"
+			]
+			icon: {
+				id: "oritech:energy_pipe"
+			}
+			id: "1000000000007213"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000008037"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008038"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			description: [
+				"Os §aCabos de Energia§r levam energia entre geradores e máquinas."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008039"
+					item: {
+						count: 1
+						id: "oritech:energy_pipe"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			title: "Painel Solar"
+			dependencies: [
+				"1000000000007213"
+			]
+			icon: {
+				id: "oritech:big_solar_panel_block"
+			}
+			id: "1000000000007214"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000008040"
+					item: {
+						count: 1
+						id: "oritech:magnetic_coil"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008041"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"O §aPainel Solar§r gera energia durante o dia, sem precisar de combustível."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008042"
+					item: {
+						count: 1
+						id: "oritech:big_solar_panel_block"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			title: "Gerador de Biomassa"
+			dependencies: [
+				"1000000000007203"
+			]
+			icon: {
+				id: "oritech:bio_generator_block"
+			}
+			id: "1000000000007215"
+			rewards: [
+				{
+					count: 16
+					id: "2000000000008043"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008044"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"O §aGerador de Biomassa§r produz energia com biocombustível, a base de fazendas sustentáveis."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008045"
+					item: {
+						count: 1
+						id: "oritech:bio_generator_block"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			title: "Gerador de Combustível"
+			dependencies: [
+				"1000000000007215"
+			]
+			icon: {
+				id: "oritech:fuel_generator_block"
+			}
+			id: "1000000000007216"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000008046"
+					item: {
+						count: 1
+						id: "oritech:plastic_sheet"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008047"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"O §aGerador de Combustível§r queima combustíveis fósseis para gerar energia."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008048"
+					item: {
+						count: 1
+						id: "oritech:fuel_generator_block"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			title: "Gerador de Lava"
+			dependencies: [
+				"1000000000007216"
+			]
+			icon: {
+				id: "oritech:lava_generator_block"
+			}
+			id: "1000000000007217"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000008049"
+					item: {
+						count: 1
+						id: "minecraft:quartz"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008050"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"O §aGerador de Lava§r gera energia a partir de lava."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008051"
+					item: {
+						count: 1
+						id: "oritech:lava_generator_block"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			title: "Motor a Vapor"
+			dependencies: [
+				"1000000000007217"
+			]
+			icon: {
+				id: "oritech:steam_engine_block"
+			}
+			id: "1000000000007218"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000008052"
+					item: {
+						count: 1
+						id: "oritech:steel_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008053"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O §aMotor a Vapor§r gera energia a partir de vapor."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008054"
+					item: {
+						count: 1
+						id: "oritech:steam_engine_block"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			title: "Bateria Avançada"
+			dependencies: [
+				"1000000000007208"
+			]
+			icon: {
+				id: "oritech:advanced_battery"
+			}
+			id: "1000000000007219"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000008055"
+					item: {
+						count: 1
+						id: "oritech:electrum_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008056"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"A §aBateria Avançada§r guarda muito mais energia que a básica e aparece em receitas de nível superior."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008057"
+					item: {
+						count: 1
+						id: "oritech:advanced_battery"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: -2.0d
+		}
+		{
+			title: "Plástico"
+			dependencies: [
+				"1000000000007207"
+			]
+			icon: {
+				id: "oritech:plastic_sheet"
+			}
+			id: "1000000000007220"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000008058"
+					item: {
+						count: 1
+						id: "oritech:magnetic_coil"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008059"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"O §aPlástico§r pode ser produzido com itens de fazenda ou por meio do processamento de petróleo."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008060"
+					item: {
+						count: 1
+						id: "oritech:plastic_sheet"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			title: "Silício"
+			dependencies: [
+				"1000000000007206"
+			]
+			icon: {
+				id: "oritech:silicon"
+			}
+			id: "1000000000007221"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000008061"
+					item: {
+						count: 1
+						id: "oritech:plastic_sheet"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008062"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"O §aSilício§r é a base dos chips e dos componentes eletrônicos do Oritech."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008063"
+					item: {
+						count: 1
+						id: "oritech:silicon"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			title: "Wafer de Silício"
+			dependencies: [
+				"1000000000007221"
+			]
+			icon: {
+				id: "oritech:silicon_wafer"
+			}
+			id: "1000000000007222"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000008064"
+					item: {
+						count: 1
+						id: "oritech:plastic_sheet"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008065"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"O §aWafer de Silício§r é usado para fabricar processadores."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008066"
+					item: {
+						count: 1
+						id: "oritech:silicon_wafer"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			title: "Unidade de Processamento"
+			dependencies: [
+				"1000000000007222"
+				"1000000000007208"
+			]
+			icon: {
+				id: "oritech:processing_unit"
+			}
+			id: "1000000000007223"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000008067"
+					item: {
+						count: 1
+						id: "minecraft:quartz"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008068"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"A §aUnidade de Processamento§r é um componente eletrônico central das máquinas avançadas."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008069"
+					item: {
+						count: 1
+						id: "oritech:processing_unit"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			title: "Motor"
+			dependencies: [
+				"1000000000007208"
+			]
+			icon: {
+				id: "oritech:motor"
+			}
+			id: "1000000000007224"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000008070"
+					item: {
+						count: 1
+						id: "oritech:steel_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008071"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"O §aMotor§r é um componente mecânico usado em máquinas e equipamentos."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008072"
+					item: {
+						count: 1
+						id: "oritech:motor"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 2.0d
+		}
+		{
+			title: "Fibra de Carbono"
+			dependencies: [
+				"1000000000007209"
+			]
+			icon: {
+				id: "oritech:carbon_fibre_strands"
+			}
+			id: "1000000000007225"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000008073"
+					item: {
+						count: 1
+						id: "oritech:energite_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008074"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"A §aFibra de Carbono§r é produzida na Centrífuga e usada em componentes leves e resistentes."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008075"
+					item: {
+						count: 1
+						id: "oritech:carbon_fibre_strands"
+					}
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 2.0d
+		}
+		{
+			title: "Folha de Carbono Reforçada"
+			dependencies: [
+				"1000000000007225"
+			]
+			icon: {
+				id: "oritech:reinforced_carbon_sheet"
+			}
+			id: "1000000000007226"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000008076"
+					item: {
+						count: 1
+						id: "oritech:energite_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008077"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"A §aFolha de Carbono Reforçada§r é um material resistente usado em receitas avançadas."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008078"
+					item: {
+						count: 1
+						id: "oritech:reinforced_carbon_sheet"
+					}
+					type: "item"
+				}
+			]
+			x: 20.0d
+			y: 2.0d
+		}
+		{
+			title: "Electrum"
+			dependencies: [
+				"1000000000007205"
+			]
+			icon: {
+				id: "oritech:electrum_ingot"
+			}
+			id: "1000000000007227"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000008079"
+					item: {
+						count: 1
+						id: "oritech:silicon"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008080"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"O §aElectrum§r é uma liga inicial. Dá para fazer à mão, mas rende mais na Fundição."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008081"
+					item: {
+						count: 1
+						id: "oritech:electrum_ingot"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			title: "Adamantita"
+			dependencies: [
+				"1000000000007227"
+			]
+			icon: {
+				id: "oritech:adamant_ingot"
+			}
+			id: "1000000000007228"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000008082"
+					item: {
+						count: 1
+						id: "oritech:plastic_sheet"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008083"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"A §aAdamantita§r é outra liga inicial que também pode ser feita à mão, mas rende mais na Fundição."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008084"
+					item: {
+						count: 1
+						id: "oritech:adamant_ingot"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			title: "Bioaço"
+			dependencies: [
+				"1000000000007228"
+			]
+			icon: {
+				id: "oritech:biosteel_ingot"
+			}
+			id: "1000000000007229"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000008085"
+					item: {
+						count: 1
+						id: "minecraft:quartz"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008086"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O §aBioaço§r é uma liga avançada do Oritech. Veja a receita no JEI."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008087"
+					item: {
+						count: 1
+						id: "oritech:biosteel_ingot"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			title: "Platina"
+			dependencies: [
+				"1000000000007210"
+			]
+			icon: {
+				id: "oritech:platinum_ingot"
+			}
+			id: "1000000000007230"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000008088"
+					item: {
+						count: 1
+						id: "oritech:processing_unit"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008089"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"A §aPlatina§r vem como subproduto do processamento de níquel e é uma das principais fontes no início."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008090"
+					item: {
+						count: 1
+						id: "oritech:platinum_ingot"
+					}
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 4.0d
+		}
+		{
+			title: "Laser Enderiano"
+			dependencies: [
+				"1000000000007208"
+			]
+			icon: {
+				id: "oritech:laser_arm_block"
+			}
+			id: "1000000000007231"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000008091"
+					item: {
+						count: 1
+						id: "oritech:electrum_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008092"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"§eMáquinas que Viram Sistemas§r"
+				""
+				"O §aLaser Enderiano§r é a base de várias cadeias avançadas, como a produção de fluxita. Ele também alimenta a Forja Atômica."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008093"
+					item: {
+						count: 1
+						id: "oritech:laser_arm_block"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			title: "Designador de Alvo"
+			dependencies: [
+				"1000000000007231"
+			]
+			icon: {
+				id: "oritech:target_designator"
+			}
+			id: "1000000000007232"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000008094"
+					item: {
+						count: 1
+						id: "oritech:energite_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008095"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O §aDesignador de Alvo§r define onde o laser deve atirar."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008096"
+					item: {
+						count: 1
+						id: "oritech:target_designator"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			title: "Fluxita"
+			dependencies: [
+				"1000000000007232"
+			]
+			icon: {
+				id: "oritech:fluxite"
+			}
+			id: "1000000000007233"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000008097"
+					item: {
+						count: 1
+						id: "oritech:adamant_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008098"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"A §aFluxita§r é obtida usando o Laser Enderiano com o Designador de Alvo em aglomerados de ametista. Muitas máquinas fortes exigem fluxita."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008099"
+					item: {
+						count: 1
+						id: "oritech:fluxite"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			title: "Forja Atômica"
+			dependencies: [
+				"1000000000007233"
+			]
+			icon: {
+				id: "oritech:atomic_forge_block"
+			}
+			id: "1000000000007234"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000008100"
+					item: {
+						count: 1
+						id: "oritech:fluxite"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008101"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"A §aForja Atômica§r é uma máquina de processamento avançada alimentada por lasers."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008102"
+					item: {
+						count: 1
+						id: "oritech:atomic_forge_block"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 6.0d
+		}
+		{
+			title: "Energita"
+			dependencies: [
+				"1000000000007233"
+			]
+			icon: {
+				id: "oritech:energite_ingot"
+			}
+			id: "1000000000007235"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000008103"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008104"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"A §aEnergita§r é uma liga avançada, usada em receitas de energia e de máquinas de alto nível."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008105"
+					item: {
+						count: 1
+						id: "oritech:energite_ingot"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 6.0d
+		}
+		{
+			title: "Duratium"
+			dependencies: [
+				"1000000000007235"
+			]
+			icon: {
+				id: "oritech:duratium_ingot"
+			}
+			id: "1000000000007236"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000008106"
+					item: {
+						count: 1
+						id: "oritech:processing_unit"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008107"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"O §aDuratium§r é uma liga avançada e resistente."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008108"
+					item: {
+						count: 1
+						id: "oritech:duratium_ingot"
+					}
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 6.0d
+		}
+		{
+			title: "Prometeu"
+			dependencies: [
+				"1000000000007236"
+			]
+			icon: {
+				id: "oritech:prometheum_ingot"
+			}
+			id: "1000000000007237"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000008109"
+					item: {
+						count: 1
+						id: "oritech:carbon_fibre_strands"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008110"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"O §aPrometeu§r é um dos metais mais avançados e é usado nas ferramentas de topo, como a picareta e o machado."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008111"
+					item: {
+						count: 1
+						id: "oritech:prometheum_ingot"
+					}
+					type: "item"
+				}
+			]
+			x: 20.0d
+			y: 6.0d
+		}
+		{
+			title: "Chave de Cano"
+			dependencies: [
+				"1000000000007203"
+			]
+			icon: {
+				id: "oritech:wrench"
+			}
+			id: "1000000000007238"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000008112"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008113"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			description: [
+				"A §aChave de Cano§r configura as conexões entre canos e máquinas."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008114"
+					item: {
+						count: 1
+						id: "oritech:wrench"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			title: "Cano de Itens"
+			dependencies: [
+				"1000000000007238"
+			]
+			icon: {
+				id: "oritech:item_pipe"
+			}
+			id: "1000000000007239"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000008115"
+					item: {
+						count: 1
+						id: "oritech:silicon"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008116"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			description: [
+				"O §aCano de Itens§r move itens entre máquinas e inventários."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008117"
+					item: {
+						count: 1
+						id: "oritech:item_pipe"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			title: "Cano de Fluidos"
+			dependencies: [
+				"1000000000007239"
+			]
+			icon: {
+				id: "oritech:fluid_pipe"
+			}
+			id: "1000000000007240"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000008118"
+					item: {
+						count: 1
+						id: "oritech:plastic_sheet"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008119"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			description: [
+				"O §aCano de Fluidos§r transporta fluidos, como água e petróleo."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008120"
+					item: {
+						count: 1
+						id: "oritech:fluid_pipe"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			title: "Filtro de Itens"
+			dependencies: [
+				"1000000000007239"
+			]
+			icon: {
+				id: "oritech:item_filter_block"
+			}
+			id: "1000000000007241"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000008121"
+					item: {
+						count: 1
+						id: "minecraft:quartz"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008122"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"O §aFiltro de Itens§r escolhe quais itens podem passar por uma linha de canos."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008123"
+					item: {
+						count: 1
+						id: "oritech:item_filter_block"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			title: "Bomba"
+			dependencies: [
+				"1000000000007240"
+			]
+			icon: {
+				id: "oritech:pump_block"
+			}
+			id: "1000000000007242"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000008124"
+					item: {
+						count: 1
+						id: "oritech:steel_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008125"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"A §aBomba§r extrai fluidos do mundo, como água e petróleo bruto."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008126"
+					item: {
+						count: 1
+						id: "oritech:pump_block"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			title: "Tanque de Fluidos Portátil"
+			dependencies: [
+				"1000000000007240"
+			]
+			icon: {
+				id: "oritech:small_tank_block"
+			}
+			id: "1000000000007243"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000008127"
+					item: {
+						count: 1
+						id: "oritech:electrum_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008128"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"O §aTanque de Fluidos Portátil§r armazena fluidos e pode ser carregado com o conteúdo."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008129"
+					item: {
+						count: 1
+						id: "oritech:small_tank_block"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 8.0d
+		}
+		{
+			title: "Poste de Energia"
+			dependencies: [
+				"1000000000007213"
+			]
+			icon: {
+				id: "oritech:power_pole_block"
+			}
+			id: "1000000000007244"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000008130"
+					item: {
+						count: 1
+						id: "oritech:magnetic_coil"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008131"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"O §aPoste de Energia§r ajuda a levar energia por distâncias maiores."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008132"
+					item: {
+						count: 1
+						id: "oritech:power_pole_block"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 8.0d
+		}
+		{
+			title: "Addon de Velocidade"
+			dependencies: [
+				"1000000000007208"
+			]
+			icon: {
+				id: "oritech:machine_speed_addon"
+			}
+			id: "1000000000007245"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000008133"
+					item: {
+						count: 1
+						id: "oritech:silicon"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008134"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"§eMelhorando Máquinas§r"
+				""
+				"O §aAddon de Velocidade§r faz a máquina trabalhar mais rápido, ao custo de mais energia. As máquinas do Oritech são melhoradas com addons colocados ao lado delas."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008135"
+					item: {
+						count: 1
+						id: "oritech:machine_speed_addon"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			title: "Addon de Eficiência"
+			dependencies: [
+				"1000000000007245"
+			]
+			icon: {
+				id: "oritech:machine_efficiency_addon"
+			}
+			id: "1000000000007246"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000008136"
+					item: {
+						count: 1
+						id: "oritech:fluxite"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008137"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O §aAddon de Eficiência§r reduz o consumo de energia da máquina."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008138"
+					item: {
+						count: 1
+						id: "oritech:machine_efficiency_addon"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			title: "Addon de Capacitor"
+			dependencies: [
+				"1000000000007245"
+			]
+			icon: {
+				id: "oritech:machine_capacitor_addon"
+			}
+			id: "1000000000007247"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000008139"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008140"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O §aAddon de Capacitor§r aumenta a energia que a máquina consegue armazenar."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008141"
+					item: {
+						count: 1
+						id: "oritech:machine_capacitor_addon"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 10.0d
+		}
+		{
+			title: "Addon de Aceitador"
+			dependencies: [
+				"1000000000007247"
+			]
+			icon: {
+				id: "oritech:machine_acceptor_addon"
+			}
+			id: "1000000000007248"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000008142"
+					item: {
+						count: 1
+						id: "oritech:processing_unit"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008143"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O §aAddon de Aceitador§r melhora a entrada de energia da máquina."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008144"
+					item: {
+						count: 1
+						id: "oritech:machine_acceptor_addon"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 10.0d
+		}
+		{
+			title: "Câmara de Processamento Auxiliar"
+			dependencies: [
+				"1000000000007209"
+				"1000000000007245"
+			]
+			icon: {
+				id: "oritech:machine_processing_addon"
+			}
+			id: "1000000000007249"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000008145"
+					item: {
+						count: 1
+						id: "oritech:carbon_fibre_strands"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008146"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O §aAddon de Câmara de Processamento Auxiliar§r permite que a Centrífuga processe receitas normais e de fluidos."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008147"
+					item: {
+						count: 1
+						id: "oritech:machine_processing_addon"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 10.0d
+		}
+		{
+			title: "Addon de Fluidos"
+			dependencies: [
+				"1000000000007245"
+			]
+			icon: {
+				id: "oritech:machine_fluid_addon"
+			}
+			id: "1000000000007250"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000008148"
+					item: {
+						count: 1
+						id: "oritech:energite_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008149"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O §aAddon de Fluidos§r dá à máquina entrada e saída de fluidos."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008150"
+					item: {
+						count: 1
+						id: "oritech:machine_fluid_addon"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 10.0d
+		}
+		{
+			title: "Addon de Controle"
+			dependencies: [
+				"1000000000007245"
+			]
+			icon: {
+				id: "oritech:machine_redstone_addon"
+			}
+			id: "1000000000007251"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000008151"
+					item: {
+						count: 1
+						id: "oritech:adamant_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008152"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O §aAddon de Unidade de Controle§r permite controlar a máquina com sinais de redstone."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008153"
+					item: {
+						count: 1
+						id: "oritech:machine_redstone_addon"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 10.0d
+		}
+		{
+			title: "Coração da Máquina"
+			dependencies: [
+				"1000000000007234"
+			]
+			icon: {
+				id: "oritech:machine_combi_addon"
+			}
+			id: "1000000000007252"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000008154"
+					item: {
+						count: 1
+						id: "oritech:fluxite"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008155"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"O §aCoração da Máquina§r reúne efeitos de addons em um só item, para as máquinas mais avançadas."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008156"
+					item: {
+						count: 1
+						id: "oritech:machine_combi_addon"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 10.0d
+		}
+		{
+			title: "Extrator de Bedrock"
+			dependencies: [
+				"1000000000007233"
+			]
+			icon: {
+				id: "oritech:deep_drill_block"
+			}
+			id: "1000000000007253"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000008157"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008158"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"§eMetais Renováveis§r"
+				""
+				"O §aExtrator de Bedrock§r extrai metais de nós de recurso encontrados no mundo, de forma renovável."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008159"
+					item: {
+						count: 1
+						id: "oritech:deep_drill_block"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			title: "Cortador de Árvores"
+			dependencies: [
+				"1000000000007224"
+			]
+			icon: {
+				id: "oritech:treefeller_block"
+			}
+			id: "1000000000007254"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000008160"
+					item: {
+						count: 1
+						id: "oritech:processing_unit"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008161"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O §aCortador de Árvores§r derruba árvores automaticamente."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008162"
+					item: {
+						count: 1
+						id: "oritech:treefeller_block"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 12.0d
+		}
+		{
+			title: "Bloco Destruidor"
+			dependencies: [
+				"1000000000007224"
+			]
+			icon: {
+				id: "oritech:destroyer_block"
+			}
+			id: "1000000000007255"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000008163"
+					item: {
+						count: 1
+						id: "oritech:carbon_fibre_strands"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008164"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O §aBloco Destruidor§r quebra blocos automaticamente."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008165"
+					item: {
+						count: 1
+						id: "oritech:destroyer_block"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 12.0d
+		}
+		{
+			title: "Bloco Colocador"
+			dependencies: [
+				"1000000000007255"
+			]
+			icon: {
+				id: "oritech:placer_block"
+			}
+			id: "1000000000007256"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000008166"
+					item: {
+						count: 1
+						id: "oritech:energite_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008167"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O §aBloco Colocador§r coloca blocos automaticamente."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008168"
+					item: {
+						count: 1
+						id: "oritech:placer_block"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 12.0d
+		}
+		{
+			title: "Bloco Fertilizante"
+			dependencies: [
+				"1000000000007256"
+			]
+			icon: {
+				id: "oritech:fertilizer_block"
+			}
+			id: "1000000000007257"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000008169"
+					item: {
+						count: 1
+						id: "oritech:adamant_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008170"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O §aBloco Fertilizante§r aplica fertilizante em plantações automaticamente."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008171"
+					item: {
+						count: 1
+						id: "oritech:fertilizer_block"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 12.0d
+		}
+		{
+			title: "Porto de Drones"
+			dependencies: [
+				"1000000000007223"
+			]
+			icon: {
+				id: "oritech:drone_port_block"
+			}
+			id: "1000000000007258"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000008172"
+					item: {
+						count: 1
+						id: "oritech:fluxite"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008173"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"O §aPorto de Drones§r usa drones para transportar itens por longas distâncias."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008174"
+					item: {
+						count: 1
+						id: "oritech:drone_port_block"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 12.0d
+		}
+		{
+			title: "Carregador de Equipamento"
+			dependencies: [
+				"1000000000007219"
+			]
+			icon: {
+				id: "oritech:charger_block"
+			}
+			id: "1000000000007259"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000008175"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008176"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O §aCarregador de Equipamento§r recarrega as ferramentas e armaduras elétricas."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008177"
+					item: {
+						count: 1
+						id: "oritech:charger_block"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 14.0d
+		}
+		{
+			title: "Furadeira de Mão"
+			dependencies: [
+				"1000000000007259"
+			]
+			icon: {
+				id: "oritech:hand_drill"
+			}
+			id: "1000000000007260"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000008178"
+					item: {
+						count: 1
+						id: "oritech:processing_unit"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008179"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"A §aFuradeira de Mão§r é uma ferramenta elétrica de mineração."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008180"
+					item: {
+						count: 1
+						id: "oritech:hand_drill"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 14.0d
+		}
+		{
+			title: "Motosserra"
+			dependencies: [
+				"1000000000007259"
+			]
+			icon: {
+				id: "oritech:chainsaw"
+			}
+			id: "1000000000007261"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000008181"
+					item: {
+						count: 1
+						id: "oritech:carbon_fibre_strands"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008182"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"A §aMotosserra§r é uma ferramenta elétrica para cortar madeira."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008183"
+					item: {
+						count: 1
+						id: "oritech:chainsaw"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 14.0d
+		}
+		{
+			title: "Laser Portátil"
+			dependencies: [
+				"1000000000007259"
+				"1000000000007231"
+			]
+			icon: {
+				id: "oritech:portable_laser"
+			}
+			id: "1000000000007262"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000008184"
+					item: {
+						count: 1
+						id: "oritech:energite_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008185"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"O §aLaser Portátil§r é uma versão de mão do laser."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008186"
+					item: {
+						count: 1
+						id: "oritech:portable_laser"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 14.0d
+		}
+		{
+			title: "Maça Elétrica"
+			dependencies: [
+				"1000000000007259"
+			]
+			icon: {
+				id: "oritech:electric_mace"
+			}
+			id: "1000000000007263"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000008187"
+					item: {
+						count: 1
+						id: "oritech:adamant_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008188"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"A §aMaça Elétrica§r é uma arma corpo a corpo elétrica."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008189"
+					item: {
+						count: 1
+						id: "oritech:electric_mace"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 14.0d
+		}
+		{
+			title: "Exotraje"
+			dependencies: [
+				"1000000000007259"
+				"1000000000007226"
+			]
+			icon: {
+				id: "oritech:exo_chestplate"
+			}
+			id: "1000000000007264"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000008190"
+					item: {
+						count: 1
+						id: "oritech:fluxite"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008191"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"O §aExotraje§r é a armadura elétrica do Oritech."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008192"
+					item: {
+						count: 1
+						id: "oritech:exo_chestplate"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 14.0d
+		}
+		{
+			title: "Jetpack"
+			dependencies: [
+				"1000000000007264"
+			]
+			icon: {
+				id: "oritech:jetpack"
+			}
+			id: "1000000000007265"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000008193"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008194"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"O §aJetpack§r permite voar."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008195"
+					item: {
+						count: 1
+						id: "oritech:jetpack"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 14.0d
+		}
+		{
+			title: "Picareta de Prometeu"
+			dependencies: [
+				"1000000000007237"
+				"1000000000007259"
+			]
+			icon: {
+				id: "oritech:promethium_pickaxe"
+			}
+			id: "1000000000007266"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000008196"
+					item: {
+						count: 1
+						id: "oritech:processing_unit"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008197"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"A §aPicareta de Prometeu§r é uma das ferramentas mais avançadas do Oritech."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008198"
+					item: {
+						count: 1
+						id: "oritech:promethium_pickaxe"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 14.0d
+		}
+		{
+			title: "Estação de Pesquisa Básica"
+			dependencies: [
+				"1000000000007223"
+			]
+			icon: {
+				id: "oritech:simple_augment_station"
+			}
+			id: "1000000000007267"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000008199"
+					item: {
+						count: 1
+						id: "oritech:carbon_fibre_strands"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008200"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"§eAprimoramentos Cibernéticos§r"
+				""
+				"A §aEstação de Pesquisa Básica§r desbloqueia as primeiras melhorias cibernéticas para o jogador."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008201"
+					item: {
+						count: 1
+						id: "oritech:simple_augment_station"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 16.0d
+		}
+		{
+			title: "Estação de Pesquisa Quântica"
+			dependencies: [
+				"1000000000007267"
+			]
+			icon: {
+				id: "oritech:advanced_augment_station"
+			}
+			id: "1000000000007268"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000008202"
+					item: {
+						count: 1
+						id: "oritech:energite_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008203"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"A §aEstação de Pesquisa Quântica§r desbloqueia melhorias mais avançadas."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008204"
+					item: {
+						count: 1
+						id: "oritech:advanced_augment_station"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 16.0d
+		}
+		{
+			title: "Estação de Pesquisa Arcana"
+			dependencies: [
+				"1000000000007268"
+			]
+			icon: {
+				id: "oritech:arcane_augment_station"
+			}
+			id: "1000000000007269"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000008205"
+					item: {
+						count: 1
+						id: "oritech:adamant_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008206"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"A §aEstação de Pesquisa Arcana§r desbloqueia melhorias arcanas."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008207"
+					item: {
+						count: 1
+						id: "oritech:arcane_augment_station"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 16.0d
+		}
+		{
+			title: "Centro de Aumento Cibernético"
+			dependencies: [
+				"1000000000007267"
+			]
+			icon: {
+				id: "oritech:augment_application_block"
+			}
+			id: "1000000000007270"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000008208"
+					item: {
+						count: 1
+						id: "oritech:fluxite"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008209"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"O §aCentro de Aumento Cibernético§r aplica as melhorias cibernéticas no jogador."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008210"
+					item: {
+						count: 1
+						id: "oritech:augment_application_block"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 16.0d
+		}
+		{
+			title: "Encantador Estabilizado"
+			dependencies: [
+				"1000000000007269"
+			]
+			icon: {
+				id: "oritech:enchanter_block"
+			}
+			id: "1000000000007271"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000008211"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008212"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"O §aEncantador Estabilizado§r é o encantador do Oritech, um parente avançado da mesa de encantamento."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008213"
+					item: {
+						count: 1
+						id: "oritech:enchanter_block"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 16.0d
+		}
+		{
+			title: "Pellet de Urânio"
+			dependencies: [
+				"1000000000007209"
+			]
+			icon: {
+				id: "oritech:uranium_pellet"
+			}
+			id: "1000000000007272"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000008214"
+					item: {
+						count: 1
+						id: "oritech:processing_unit"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008215"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"§eEnergia Nuclear§r"
+				""
+				"O §aPellet de Urânio§r é o combustível do reator, feito do processamento do urânio."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008216"
+					item: {
+						count: 1
+						id: "oritech:uranium_pellet"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 18.0d
+		}
+		{
+			title: "Controlador do Reator"
+			dependencies: [
+				"1000000000007272"
+				"1000000000007223"
+			]
+			icon: {
+				id: "oritech:reactor_controller"
+			}
+			id: "1000000000007273"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000008217"
+					item: {
+						count: 1
+						id: "oritech:carbon_fibre_strands"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008218"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"O §aControlador do Reator Nuclear§r é o centro de um reator de tamanho variável. Estude o projeto antes de ligar."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008219"
+					item: {
+						count: 1
+						id: "oritech:reactor_controller"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 18.0d
+		}
+		{
+			title: "Parede do Reator"
+			dependencies: [
+				"1000000000007273"
+			]
+			icon: {
+				id: "oritech:reactor_wall"
+			}
+			id: "1000000000007274"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000008220"
+					item: {
+						count: 1
+						id: "oritech:energite_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008221"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"A §aParede do Reator§r forma a estrutura externa do reator."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008222"
+					item: {
+						count: 1
+						id: "oritech:reactor_wall"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 18.0d
+		}
+		{
+			title: "Haste de Combustível"
+			dependencies: [
+				"1000000000007273"
+			]
+			icon: {
+				id: "oritech:reactor_rod"
+			}
+			id: "1000000000007275"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000008223"
+					item: {
+						count: 1
+						id: "oritech:adamant_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008224"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"A §aHaste de Combustível§r abriga o combustível do reator."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008225"
+					item: {
+						count: 1
+						id: "oritech:reactor_rod"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 18.0d
+		}
+		{
+			title: "Porta de Combustível"
+			dependencies: [
+				"1000000000007275"
+			]
+			icon: {
+				id: "oritech:reactor_fuel_port"
+			}
+			id: "1000000000007276"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000008226"
+					item: {
+						count: 1
+						id: "oritech:fluxite"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008227"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"A §aPorta de Combustível§r é por onde o combustível entra no reator."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008228"
+					item: {
+						count: 1
+						id: "oritech:reactor_fuel_port"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 18.0d
+		}
+		{
+			title: "Porta de Energia"
+			dependencies: [
+				"1000000000007274"
+			]
+			icon: {
+				id: "oritech:reactor_energy_port"
+			}
+			id: "1000000000007277"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000008229"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008230"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"A §aPorta de Energia§r é por onde a energia sai do reator."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008231"
+					item: {
+						count: 1
+						id: "oritech:reactor_energy_port"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 18.0d
+		}
+		{
+			title: "Cano de Calor"
+			dependencies: [
+				"1000000000007274"
+			]
+			icon: {
+				id: "oritech:reactor_heat_pipe"
+			}
+			id: "1000000000007278"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000008232"
+					item: {
+						count: 1
+						id: "oritech:processing_unit"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008233"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O §aCano de Calor§r move calor dentro do reator."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008234"
+					item: {
+						count: 1
+						id: "oritech:reactor_heat_pipe"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 18.0d
+		}
+		{
+			title: "Refletor de Nêutrons"
+			dependencies: [
+				"1000000000007275"
+			]
+			icon: {
+				id: "oritech:reactor_reflector"
+			}
+			id: "1000000000007279"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000008235"
+					item: {
+						count: 1
+						id: "oritech:carbon_fibre_strands"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008236"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O §aRefletor de Nêutrons§r ajuda a aumentar o rendimento do reator."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008237"
+					item: {
+						count: 1
+						id: "oritech:reactor_reflector"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 18.0d
+		}
+		{
+			title: "Controlador do Acelerador"
+			dependencies: [
+				"1000000000007234"
+				"1000000000007224"
+			]
+			icon: {
+				id: "oritech:accelerator_controller"
+			}
+			id: "1000000000007280"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000008238"
+					item: {
+						count: 1
+						id: "oritech:energite_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008239"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"§eFísica de Partículas§r"
+				""
+				"O §aControlador do Acelerador§r é o centro do acelerador de partículas, um multibloco do Oritech."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008240"
+					item: {
+						count: 1
+						id: "oritech:accelerator_controller"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 20.0d
+		}
+		{
+			title: "Motor do Acelerador"
+			dependencies: [
+				"1000000000007280"
+			]
+			icon: {
+				id: "oritech:accelerator_motor"
+			}
+			id: "1000000000007281"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000008241"
+					item: {
+						count: 1
+						id: "oritech:adamant_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008242"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"O §aMotor do Acelerador§r acelera as partículas dentro do anel."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008243"
+					item: {
+						count: 1
+						id: "oritech:accelerator_motor"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 20.0d
+		}
+		{
+			title: "Anel Guia do Acelerador"
+			dependencies: [
+				"1000000000007280"
+			]
+			icon: {
+				id: "oritech:accelerator_ring"
+			}
+			id: "1000000000007282"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000008244"
+					item: {
+						count: 1
+						id: "oritech:fluxite"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008245"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"O §aAnel Guia§r forma o caminho circular das partículas."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008246"
+					item: {
+						count: 1
+						id: "oritech:accelerator_ring"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 20.0d
+		}
+		{
+			title: "Sensor de Velocidade do Acelerador"
+			dependencies: [
+				"1000000000007282"
+			]
+			icon: {
+				id: "oritech:accelerator_sensor"
+			}
+			id: "1000000000007283"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000008247"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008248"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"O §aSensor de Velocidade§r mede a velocidade das partículas no acelerador."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008249"
+					item: {
+						count: 1
+						id: "oritech:accelerator_sensor"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 20.0d
+		}
+		{
+			title: "Coletor de Táquions"
+			dependencies: [
+				"1000000000007283"
+			]
+			icon: {
+				id: "oritech:particle_collector_block"
+			}
+			id: "1000000000007284"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000008250"
+					item: {
+						count: 1
+						id: "oritech:processing_unit"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000008251"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"O §aColetor de Táquions§r faz parte do acelerador de partículas."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000008252"
+					item: {
+						count: 1
+						id: "oritech:particle_collector_block"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 20.0d
+		}
+	]
+	title: "Oritech"
+}

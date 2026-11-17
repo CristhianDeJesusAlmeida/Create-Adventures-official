@@ -21,6 +21,10 @@ file = "config/ftbquests/quests/chapters/o_comeco.snbt"
 hash = "15cbbb4533d65045712be3983ee9e05cf0a5272681c5246ab53a730a2ee81b3e"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/oritech.snbt"
+hash = "cf641a8a2bb8a12d701b0b4238a6678a5163cf1fc31a341129200b6e027a5e9b"
+
+[[files]]
 file = "config/ftbquests/quests/data.snbt"
 hash = "3241d431a95975463e3af7b3f4045ede2508e9ee7e2f4c4d758421613c5e83d8"
 
