@@ -1,6 +1,11 @@
 hash-format = "sha256"
 
 [[files]]
+file = "mods/accessories.pw.toml"
+hash = "2017362c793d95887d38b3353abb7c77f212175e82ed848296575ea0e466b7d7"
+metafile = true
+
+[[files]]
 file = "mods/aces-spell-utils.pw.toml"
 hash = "e576823631e7a0fe6b8891ce4a5f0aa8a6f365ec56f0227bd5cca457f38d4a21"
 metafile = true
