@@ -13,6 +13,10 @@ file = "kubejs/config/defaultoptions.txt"
 hash = "6d13cdcdce54f242d6ee04798a9301467a26233aad1960af725bae80b474e175"
 
 [[files]]
+file = "kubejs/config/packicon.png"
+hash = "61e4c8ff95de22dfb4078c1970f8662811af615a68a0a3a7159d2e13c1eb8127"
+
+[[files]]
 file = "mods/accessories-compat-layer.pw.toml"
 hash = "b77da93300cfb9a239aa33ad731f9672ae3c74d3218aa149df89449962cb8594"
 metafile = true
