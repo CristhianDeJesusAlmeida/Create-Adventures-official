@@ -231,6 +231,11 @@ hash = "c9aca350959a8936b054c7164fb55d789ab1e0d38cff2af48b78f70af2bc0c6d"
 metafile = true
 
 [[files]]
+file = "mods/bettertabinfo.pw.toml"
+hash = "23e957d1bba4cd90779a0f492f232bd9a65d401981cc797b31c9de7ec9cb1b92"
+metafile = true
+
+[[files]]
 file = "mods/biolith.pw.toml"
 hash = "f0cab70bd1ceda65e4a5a838092cae96100bd77ee01e175c1b29cdb8b09aad04"
 metafile = true
