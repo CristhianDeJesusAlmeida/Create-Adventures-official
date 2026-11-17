@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "kubejs/client_scripts/main.js"
+hash = "3df46f0add819bf2602642215b5c62f0581ffdaaf97e77c80a8c4d966e05adcf"
+
+[[files]]
 file = "kubejs/config/client.json"
 hash = "ae48ec118e097962f09f541dd233f1baf3dbb469f89b8220dd0d93d4df19d7f9"
 
