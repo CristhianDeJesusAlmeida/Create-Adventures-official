@@ -1,0 +1,4099 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "ae2"
+	group: "0000000000000002"
+	icon: {
+		id: "ae2:controller"
+	}
+	id: "1000000000007400"
+	order_index: 4
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			title: "Pedra do Céu"
+			icon: {
+				id: "ae2:sky_stone_block"
+			}
+			id: "1000000000007401"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000009001"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009002"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			description: [
+				"§eO Início de Tudo§r"
+				""
+				"A §aPedra do Céu§r vem dos meteoritos espalhados pelo Overworld. No centro de um meteorito há um cubo misterioso com as Prensas de Inscrição, indispensáveis para o AE2."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009003"
+					item: {
+						count: 1
+						id: "ae2:sky_stone_block"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			title: "Bússola do Céu"
+			dependencies: [
+				"1000000000007401"
+			]
+			icon: {
+				id: "ae2:meteorite_compass"
+			}
+			id: "1000000000007402"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000009004"
+					item: {
+						count: 1
+						id: "ae2:certus_quartz_dust"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009005"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			description: [
+				"A §aBússola do Céu§r aponta para o meteorito mais próximo."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009006"
+					item: {
+						count: 1
+						id: "ae2:meteorite_compass"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			title: "Quartzo Certus"
+			dependencies: [
+				"1000000000007401"
+			]
+			icon: {
+				id: "ae2:certus_quartz_crystal"
+			}
+			id: "1000000000007403"
+			rewards: [
+				{
+					count: 16
+					id: "2000000000009007"
+					item: {
+						count: 1
+						id: "minecraft:sand"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009008"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			description: [
+				"O §aQuartzo Certus§r é o cristal base do AE2. Ele aparece em minérios e nos meteoritos."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009009"
+					item: {
+						count: 1
+						id: "ae2:certus_quartz_crystal"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			title: "Carregador"
+			dependencies: [
+				"1000000000007403"
+			]
+			icon: {
+				id: "ae2:charger"
+			}
+			id: "1000000000007404"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000009010"
+					item: {
+						count: 1
+						id: "ae2:certus_quartz_crystal"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009011"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"O §aCarregador§r carrega o Quartzo Certus usando energia, vinda de outros mods ou de uma Câmara de Vibração."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009012"
+					item: {
+						count: 1
+						id: "ae2:charger"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			title: "Quartzo Certus Carregado"
+			dependencies: [
+				"1000000000007404"
+			]
+			icon: {
+				id: "ae2:charged_certus_quartz_crystal"
+			}
+			id: "1000000000007405"
+			rewards: [
+				{
+					count: 16
+					id: "2000000000009013"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009014"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"O §aQuartzo Certus Carregado§r é ingrediente do Cristal de Fluix."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009015"
+					item: {
+						count: 1
+						id: "ae2:charged_certus_quartz_crystal"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			title: "Cristal de Fluix"
+			dependencies: [
+				"1000000000007405"
+			]
+			icon: {
+				id: "ae2:fluix_crystal"
+			}
+			id: "1000000000007406"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000009016"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009017"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"O §aCristal de Fluix§r nasce quando Quartzo Certus Carregado, redstone e quartzo do Nether são jogados em água. Ele é a base dos cabos do AE2."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009018"
+					item: {
+						count: 1
+						id: "ae2:fluix_crystal"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			title: "Prensas de Inscrição"
+			dependencies: [
+				"1000000000007401"
+			]
+			icon: {
+				id: "ae2:silicon_press"
+			}
+			id: "1000000000007407"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000009019"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009020"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"§eQuatro Moldes§r"
+				""
+				"As quatro prensas (Silício, Lógica, Cálculo e Engenharia) vêm dos meteoritos. Você precisa de uma de cada."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009021"
+					item: {
+						count: 1
+						id: "ae2:silicon_press"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "2000000000009022"
+					item: {
+						count: 1
+						id: "ae2:logic_processor_press"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "2000000000009023"
+					item: {
+						count: 1
+						id: "ae2:calculation_processor_press"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "2000000000009024"
+					item: {
+						count: 1
+						id: "ae2:engineering_processor_press"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			title: "Inscritor"
+			dependencies: [
+				"1000000000007407"
+			]
+			icon: {
+				id: "ae2:inscriber"
+			}
+			id: "1000000000007408"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000009025"
+					item: {
+						count: 1
+						id: "ae2:certus_quartz_dust"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009026"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O §aInscritor§r usa as prensas para criar circuitos impressos e processadores. É a máquina mais importante do começo."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009027"
+					item: {
+						count: 1
+						id: "ae2:inscriber"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			title: "Silício"
+			dependencies: [
+				"1000000000007408"
+			]
+			icon: {
+				id: "ae2:silicon"
+			}
+			id: "1000000000007409"
+			rewards: [
+				{
+					count: 16
+					id: "2000000000009028"
+					item: {
+						count: 1
+						id: "minecraft:sand"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009029"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"O §aSilício§r é a base dos circuitos impressos. Veja a receita no JEI."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009030"
+					item: {
+						count: 1
+						id: "ae2:silicon"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			title: "Silício Impresso"
+			dependencies: [
+				"1000000000007409"
+			]
+			icon: {
+				id: "ae2:printed_silicon"
+			}
+			id: "1000000000007410"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000009031"
+					item: {
+						count: 1
+						id: "ae2:fluix_crystal"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009032"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"No Inscritor, o silício com a prensa de silício vira §aSilício Impresso§r, o circuito de base de todo processador."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009033"
+					item: {
+						count: 1
+						id: "ae2:printed_silicon"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			title: "Processador de Lógica"
+			dependencies: [
+				"1000000000007410"
+			]
+			icon: {
+				id: "ae2:logic_processor"
+			}
+			id: "1000000000007411"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000009034"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009035"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O §aProcessador de Lógica§r usa o circuito de lógica impresso (feito com ouro), o silício impresso e redstone."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009036"
+					item: {
+						count: 1
+						id: "ae2:logic_processor"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			title: "Processador de Cálculo"
+			dependencies: [
+				"1000000000007411"
+			]
+			icon: {
+				id: "ae2:calculation_processor"
+			}
+			id: "1000000000007412"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000009037"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009038"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O §aProcessador de Cálculo§r usa o circuito de cálculo impresso (feito com Quartzo Certus), o silício impresso e redstone."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009039"
+					item: {
+						count: 1
+						id: "ae2:calculation_processor"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			title: "Processador de Engenharia"
+			dependencies: [
+				"1000000000007412"
+			]
+			icon: {
+				id: "ae2:engineering_processor"
+			}
+			id: "1000000000007413"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000009040"
+					item: {
+						count: 1
+						id: "ae2:ender_dust"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009041"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"O §aProcessador de Engenharia§r usa o circuito de engenharia impresso (feito com diamante), o silício impresso e redstone."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009042"
+					item: {
+						count: 1
+						id: "ae2:engineering_processor"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			title: "Manivela"
+			dependencies: [
+				"1000000000007403"
+			]
+			icon: {
+				id: "ae2:crank"
+			}
+			id: "1000000000007414"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000009043"
+					item: {
+						count: 1
+						id: "ae2:certus_quartz_dust"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009044"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			description: [
+				"A §aManivela§r gera um pouco de energia manualmente, boa para dar partida em um Carregador."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009045"
+					item: {
+						count: 1
+						id: "ae2:crank"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			title: "Câmara de Vibração"
+			dependencies: [
+				"1000000000007403"
+			]
+			icon: {
+				id: "ae2:vibration_chamber"
+			}
+			id: "1000000000007415"
+			rewards: [
+				{
+					count: 16
+					id: "2000000000009046"
+					item: {
+						count: 1
+						id: "minecraft:sand"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009047"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"A §aCâmara de Vibração§r queima combustível para gerar energia do AE2."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009048"
+					item: {
+						count: 1
+						id: "ae2:vibration_chamber"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			title: "Aceitador de Energia"
+			dependencies: [
+				"1000000000007415"
+			]
+			icon: {
+				id: "ae2:energy_acceptor"
+			}
+			id: "1000000000007416"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000009049"
+					item: {
+						count: 1
+						id: "ae2:certus_quartz_crystal"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009050"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"O §aAceitador de Energia§r conecta fontes de energia externas, como FE, à sua rede ME."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009051"
+					item: {
+						count: 1
+						id: "ae2:energy_acceptor"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			title: "Célula de Energia"
+			dependencies: [
+				"1000000000007416"
+			]
+			icon: {
+				id: "ae2:energy_cell"
+			}
+			id: "1000000000007417"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000009052"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009053"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"A §aCélula de Energia§r guarda energia para a rede, evitando quedas de energia."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009054"
+					item: {
+						count: 1
+						id: "ae2:energy_cell"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			title: "Célula de Energia Densa"
+			dependencies: [
+				"1000000000007417"
+			]
+			icon: {
+				id: "ae2:dense_energy_cell"
+			}
+			id: "1000000000007418"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000009055"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009056"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"A §aCélula de Energia Densa§r guarda muito mais energia que a comum."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009057"
+					item: {
+						count: 1
+						id: "ae2:dense_energy_cell"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			title: "Gerador de Ressonância Cristalina"
+			dependencies: [
+				"1000000000007418"
+			]
+			icon: {
+				id: "ae2:crystal_resonance_generator"
+			}
+			id: "1000000000007419"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000009058"
+					item: {
+						count: 1
+						id: "ae2:ender_dust"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009059"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O §aGerador de Ressonância Cristalina§r é um gerador de energia do AE2. Veja o funcionamento no JEI."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009060"
+					item: {
+						count: 1
+						id: "ae2:crystal_resonance_generator"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			title: "Cabo de Vidro de Fluix"
+			dependencies: [
+				"1000000000007406"
+			]
+			icon: {
+				id: "ae2:fluix_glass_cable"
+			}
+			id: "1000000000007420"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000009061"
+					item: {
+						count: 1
+						id: "ae2:silicon"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009062"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			description: [
+				"§eConectando Tudo§r"
+				""
+				"Os §aCabos§r conectam os dispositivos da rede ME. O de vidro é o mais simples."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009063"
+					item: {
+						count: 1
+						id: "ae2:fluix_glass_cable"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			title: "Cabo Coberto"
+			dependencies: [
+				"1000000000007420"
+			]
+			icon: {
+				id: "ae2:fluix_covered_cable"
+			}
+			id: "1000000000007421"
+			rewards: [
+				{
+					count: 16
+					id: "2000000000009064"
+					item: {
+						count: 1
+						id: "minecraft:glowstone_dust"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009065"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			description: [
+				"O §aCabo Coberto§r tem mais proteção, para ser encostado em outros blocos sem confusão."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009066"
+					item: {
+						count: 1
+						id: "ae2:fluix_covered_cable"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			title: "Cabo Inteligente"
+			dependencies: [
+				"1000000000007421"
+			]
+			icon: {
+				id: "ae2:fluix_smart_cable"
+			}
+			id: "1000000000007422"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000009067"
+					item: {
+						count: 1
+						id: "ae2:fluix_crystal"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009068"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"O §aCabo Inteligente§r mostra os canais em uso e carrega mais canais que o cabo comum."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009069"
+					item: {
+						count: 1
+						id: "ae2:fluix_smart_cable"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			title: "Cabo Denso Coberto"
+			dependencies: [
+				"1000000000007422"
+			]
+			icon: {
+				id: "ae2:fluix_covered_dense_cable"
+			}
+			id: "1000000000007423"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000009070"
+					item: {
+						count: 1
+						id: "ae2:engineering_processor"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009071"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"Os §aCabos Densos§r carregam muito mais canais que os comuns."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009072"
+					item: {
+						count: 1
+						id: "ae2:fluix_covered_dense_cable"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			title: "Cabo Denso Inteligente"
+			dependencies: [
+				"1000000000007423"
+			]
+			icon: {
+				id: "ae2:fluix_smart_dense_cable"
+			}
+			id: "1000000000007424"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000009073"
+					item: {
+						count: 1
+						id: "ae2:logic_processor"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009074"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O §aCabo Denso Inteligente§r combina muitos canais com a leitura de uso."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009075"
+					item: {
+						count: 1
+						id: "ae2:fluix_smart_dense_cable"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			title: "Controlador ME"
+			dependencies: [
+				"1000000000007413"
+				"1000000000007422"
+			]
+			icon: {
+				id: "ae2:controller"
+			}
+			id: "1000000000007425"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000009076"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009077"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"O §aControlador ME§r é o coração de uma rede grande: sem ele, a rede fica limitada a 8 canais. Os controladores precisam encostar uns nos outros."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009078"
+					item: {
+						count: 1
+						id: "ae2:controller"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			title: "Além do AE2: Complementos"
+			dependencies: [
+				"1000000000007425"
+			]
+			icon: {
+				id: "ae2:certus_quartz_crystal"
+			}
+			id: "1000000000007426"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000009079"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009080"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"§eO Ecossistema ME§r"
+				""
+				"O pack traz complementos do AE2: §6Applied Flux§r (células de energia FE), §6AE2 Things§r, o analisador de rede e melhorias de qualidade de vida."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009081"
+					item: {
+						count: 1
+						id: "ae2:certus_quartz_crystal"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 4.0d
+		}
+		{
+			title: "Baú ME"
+			dependencies: [
+				"1000000000007411"
+			]
+			icon: {
+				id: "ae2:chest"
+			}
+			id: "1000000000007427"
+			rewards: [
+				{
+					count: 16
+					id: "2000000000009082"
+					item: {
+						count: 1
+						id: "minecraft:glowstone_dust"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009083"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"O §aBaú ME§r é uma versão compacta: guarda uma célula e já tem terminal."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009084"
+					item: {
+						count: 1
+						id: "ae2:chest"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			title: "Drive ME"
+			dependencies: [
+				"1000000000007422"
+			]
+			icon: {
+				id: "ae2:drive"
+			}
+			id: "1000000000007428"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000009085"
+					item: {
+						count: 1
+						id: "ae2:calculation_processor"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009086"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O §aDrive ME§r guarda as células de armazenamento da rede."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009087"
+					item: {
+						count: 1
+						id: "ae2:drive"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			title: "Componente de Armazenamento 1k"
+			dependencies: [
+				"1000000000007411"
+			]
+			icon: {
+				id: "ae2:cell_component_1k"
+			}
+			id: "1000000000007429"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000009088"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009089"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"O §aComponente de Armazenamento 1k§r é a base das células. Combine com uma carcaça de célula."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009090"
+					item: {
+						count: 1
+						id: "ae2:cell_component_1k"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			title: "Carcaça de Célula de Itens"
+			dependencies: [
+				"1000000000007429"
+			]
+			icon: {
+				id: "ae2:item_cell_housing"
+			}
+			id: "1000000000007430"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000009091"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009092"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"A §aCarcaça de Célula de Itens§r recebe um componente e vira uma célula de armazenamento."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009093"
+					item: {
+						count: 1
+						id: "ae2:item_cell_housing"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			title: "Célula de Itens 1k"
+			dependencies: [
+				"1000000000007430"
+			]
+			icon: {
+				id: "ae2:item_storage_cell_1k"
+			}
+			id: "1000000000007431"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000009094"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009095"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"A §aCélula de Itens 1k§r é a sua primeira célula de armazenamento. Coloque no Drive."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009096"
+					item: {
+						count: 1
+						id: "ae2:item_storage_cell_1k"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			title: "Componente 4k"
+			dependencies: [
+				"1000000000007412"
+				"1000000000007429"
+			]
+			icon: {
+				id: "ae2:cell_component_4k"
+			}
+			id: "1000000000007432"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000009097"
+					item: {
+						count: 1
+						id: "ae2:silicon"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009098"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O §aComponente 4k§r exige processadores melhores e guarda mais itens."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009099"
+					item: {
+						count: 1
+						id: "ae2:cell_component_4k"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			title: "Componente 16k"
+			dependencies: [
+				"1000000000007432"
+			]
+			icon: {
+				id: "ae2:cell_component_16k"
+			}
+			id: "1000000000007433"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000009100"
+					item: {
+						count: 1
+						id: "minecraft:amethyst_shard"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009101"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O §aComponente 16k§r aumenta de novo a capacidade das células."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009102"
+					item: {
+						count: 1
+						id: "ae2:cell_component_16k"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			title: "Componente 64k"
+			dependencies: [
+				"1000000000007433"
+			]
+			icon: {
+				id: "ae2:cell_component_64k"
+			}
+			id: "1000000000007434"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000009103"
+					item: {
+						count: 1
+						id: "ae2:calculation_processor"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009104"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"O §aComponente 64k§r é o passo seguinte da capacidade de armazenamento."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009105"
+					item: {
+						count: 1
+						id: "ae2:cell_component_64k"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 6.0d
+		}
+		{
+			title: "Componente 256k"
+			dependencies: [
+				"1000000000007434"
+			]
+			icon: {
+				id: "ae2:cell_component_256k"
+			}
+			id: "1000000000007435"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000009106"
+					item: {
+						count: 1
+						id: "ae2:engineering_processor"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009107"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"O §aComponente 256k§r é o maior componente de armazenamento comum do AE2."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009108"
+					item: {
+						count: 1
+						id: "ae2:cell_component_256k"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 6.0d
+		}
+		{
+			title: "Célula de Fluidos 1k"
+			dependencies: [
+				"1000000000007431"
+			]
+			icon: {
+				id: "ae2:fluid_storage_cell_1k"
+			}
+			id: "1000000000007436"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000009109"
+					item: {
+						count: 1
+						id: "ae2:logic_processor"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009110"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"A §aCélula de Fluidos 1k§r armazena fluidos na rede ME."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009111"
+					item: {
+						count: 1
+						id: "ae2:fluid_storage_cell_1k"
+					}
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 6.0d
+		}
+		{
+			title: "Terminal ME"
+			dependencies: [
+				"1000000000007422"
+			]
+			icon: {
+				id: "ae2:terminal"
+			}
+			id: "1000000000007437"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000009112"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009113"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"§eAcesso à Rede§r"
+				""
+				"O §aTerminal ME§r mostra tudo o que está guardado na rede e tem busca rápida."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009114"
+					item: {
+						count: 1
+						id: "ae2:terminal"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			title: "Terminal de Fabricação"
+			dependencies: [
+				"1000000000007437"
+			]
+			icon: {
+				id: "ae2:crafting_terminal"
+			}
+			id: "1000000000007438"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000009115"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009116"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O §aTerminal de Fabricação§r junta o terminal a uma grade de fabricação, com os itens vindos da rede."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009117"
+					item: {
+						count: 1
+						id: "ae2:crafting_terminal"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			title: "Terminal de Codificação de Padrões"
+			dependencies: [
+				"1000000000007438"
+			]
+			icon: {
+				id: "ae2:pattern_encoding_terminal"
+			}
+			id: "1000000000007439"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000009118"
+					item: {
+						count: 1
+						id: "minecraft:amethyst_shard"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009119"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O §aTerminal de Codificação de Padrões§r cria os padrões usados no autocrafting."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009120"
+					item: {
+						count: 1
+						id: "ae2:pattern_encoding_terminal"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			title: "Terminal de Acesso a Padrões"
+			dependencies: [
+				"1000000000007439"
+			]
+			icon: {
+				id: "ae2:pattern_access_terminal"
+			}
+			id: "1000000000007440"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000009121"
+					item: {
+						count: 1
+						id: "ae2:calculation_processor"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009122"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O §aTerminal de Acesso a Padrões§r gerencia os padrões guardados em provedores da rede."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009123"
+					item: {
+						count: 1
+						id: "ae2:pattern_access_terminal"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			title: "Barramento de Armazenamento"
+			dependencies: [
+				"1000000000007437"
+			]
+			icon: {
+				id: "ae2:storage_bus"
+			}
+			id: "1000000000007441"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000009124"
+					item: {
+						count: 1
+						id: "ae2:engineering_processor"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009125"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"O §aBarramento de Armazenamento§r conecta a rede a um inventário externo, como um baú ou uma máquina."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009126"
+					item: {
+						count: 1
+						id: "ae2:storage_bus"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			title: "Barramento de Importação"
+			dependencies: [
+				"1000000000007441"
+			]
+			icon: {
+				id: "ae2:import_bus"
+			}
+			id: "1000000000007442"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000009127"
+					item: {
+						count: 1
+						id: "ae2:logic_processor"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009128"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"O §aBarramento de Importação§r puxa itens de um inventário para a rede."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009129"
+					item: {
+						count: 1
+						id: "ae2:import_bus"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 8.0d
+		}
+		{
+			title: "Barramento de Exportação"
+			dependencies: [
+				"1000000000007442"
+			]
+			icon: {
+				id: "ae2:export_bus"
+			}
+			id: "1000000000007443"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000009130"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009131"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"O §aBarramento de Exportação§r entrega itens da rede para um inventário ou máquina."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009132"
+					item: {
+						count: 1
+						id: "ae2:export_bus"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 8.0d
+		}
+		{
+			title: "Emissor de Nível"
+			dependencies: [
+				"1000000000007443"
+			]
+			icon: {
+				id: "ae2:level_emitter"
+			}
+			id: "1000000000007444"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000009133"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009134"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O §aEmissor de Nível§r emite redstone conforme a quantidade de um item na rede."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009135"
+					item: {
+						count: 1
+						id: "ae2:level_emitter"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 8.0d
+		}
+		{
+			title: "Cartão de Capacidade"
+			dependencies: [
+				"1000000000007412"
+			]
+			icon: {
+				id: "ae2:capacity_card"
+			}
+			id: "1000000000007445"
+			rewards: [
+				{
+					count: 16
+					id: "2000000000009136"
+					item: {
+						count: 1
+						id: "minecraft:glowstone_dust"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009137"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"§eMelhorando Dispositivos§r"
+				""
+				"O §aCartão de Capacidade§r expande a capacidade de filtros de alguns dispositivos."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009138"
+					item: {
+						count: 1
+						id: "ae2:capacity_card"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			title: "Cartão de Velocidade"
+			dependencies: [
+				"1000000000007445"
+			]
+			icon: {
+				id: "ae2:speed_card"
+			}
+			id: "1000000000007446"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000009139"
+					item: {
+						count: 1
+						id: "ae2:calculation_processor"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009140"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O §aCartão de Velocidade§r faz barramentos e outros dispositivos trabalharem mais rápido."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009141"
+					item: {
+						count: 1
+						id: "ae2:speed_card"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			title: "Cartão de Redstone"
+			dependencies: [
+				"1000000000007446"
+			]
+			icon: {
+				id: "ae2:redstone_card"
+			}
+			id: "1000000000007447"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000009142"
+					item: {
+						count: 1
+						id: "ae2:engineering_processor"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009143"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O §aCartão de Redstone§r permite ligar e desligar o dispositivo com redstone."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009144"
+					item: {
+						count: 1
+						id: "ae2:redstone_card"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 10.0d
+		}
+		{
+			title: "Cartão Fuzzy"
+			dependencies: [
+				"1000000000007445"
+			]
+			icon: {
+				id: "ae2:fuzzy_card"
+			}
+			id: "1000000000007448"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000009145"
+					item: {
+						count: 1
+						id: "ae2:logic_processor"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009146"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O §aCartão Fuzzy§r faz os filtros aceitarem variações do mesmo item, como durabilidade diferente."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009147"
+					item: {
+						count: 1
+						id: "ae2:fuzzy_card"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 10.0d
+		}
+		{
+			title: "Cartão Inversor"
+			dependencies: [
+				"1000000000007448"
+			]
+			icon: {
+				id: "ae2:inverter_card"
+			}
+			id: "1000000000007449"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000009148"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009149"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O §aCartão Inversor§r transforma a lista de filtros em uma lista de bloqueio."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009150"
+					item: {
+						count: 1
+						id: "ae2:inverter_card"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 10.0d
+		}
+		{
+			title: "Cartão de Fabricação"
+			dependencies: [
+				"1000000000007446"
+			]
+			icon: {
+				id: "ae2:crafting_card"
+			}
+			id: "1000000000007450"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000009151"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009152"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O §aCartão de Fabricação§r permite que um dispositivo peça itens ao autocrafting."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009153"
+					item: {
+						count: 1
+						id: "ae2:crafting_card"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 10.0d
+		}
+		{
+			title: "Cartão de Energia"
+			dependencies: [
+				"1000000000007449"
+			]
+			icon: {
+				id: "ae2:energy_card"
+			}
+			id: "1000000000007451"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000009154"
+					item: {
+						count: 1
+						id: "minecraft:amethyst_shard"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009155"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O §aCartão de Energia§r aumenta a energia guardada por terminais e itens portáteis."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009156"
+					item: {
+						count: 1
+						id: "ae2:energy_card"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 10.0d
+		}
+		{
+			title: "Interface ME"
+			dependencies: [
+				"1000000000007437"
+			]
+			icon: {
+				id: "ae2:interface"
+			}
+			id: "1000000000007452"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000009157"
+					item: {
+						count: 1
+						id: "ae2:calculation_processor"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009158"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"§eAutocrafting§r"
+				""
+				"A §aInterface ME§r serve de ponte entre a rede e máquinas ou montadores vizinhos."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009159"
+					item: {
+						count: 1
+						id: "ae2:interface"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			title: "Provedor de Padrões ME"
+			dependencies: [
+				"1000000000007452"
+			]
+			icon: {
+				id: "ae2:pattern_provider"
+			}
+			id: "1000000000007453"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000009160"
+					item: {
+						count: 1
+						id: "ae2:engineering_processor"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009161"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"O §aProvedor de Padrões ME§r guarda padrões e envia os ingredientes para máquinas e Montadores Moleculares."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009162"
+					item: {
+						count: 1
+						id: "ae2:pattern_provider"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 12.0d
+		}
+		{
+			title: "Padrão em Branco"
+			dependencies: [
+				"1000000000007411"
+			]
+			icon: {
+				id: "ae2:blank_pattern"
+			}
+			id: "1000000000007454"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000009163"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009164"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"O §aPadrão em Branco§r vira um padrão de verdade no Terminal de Codificação."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009165"
+					item: {
+						count: 1
+						id: "ae2:blank_pattern"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 12.0d
+		}
+		{
+			title: "Padrão de Fabricação"
+			dependencies: [
+				"1000000000007454"
+				"1000000000007439"
+			]
+			icon: {
+				id: "ae2:crafting_pattern"
+			}
+			id: "1000000000007455"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000009166"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009167"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O §aPadrão de Fabricação§r ensina a rede uma receita de fabricação 3x3."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009168"
+					item: {
+						count: 1
+						id: "ae2:crafting_pattern"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 12.0d
+		}
+		{
+			title: "Padrão de Processamento"
+			dependencies: [
+				"1000000000007455"
+			]
+			icon: {
+				id: "ae2:processing_pattern"
+			}
+			id: "1000000000007456"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000009169"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009170"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O §aPadrão de Processamento§r ensina a rede a usar uma máquina externa."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009171"
+					item: {
+						count: 1
+						id: "ae2:processing_pattern"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 12.0d
+		}
+		{
+			title: "Montador Molecular"
+			dependencies: [
+				"1000000000007452"
+				"1000000000007412"
+			]
+			icon: {
+				id: "ae2:molecular_assembler"
+			}
+			id: "1000000000007457"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000009172"
+					item: {
+						count: 1
+						id: "minecraft:amethyst_shard"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009173"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"O §aMontador Molecular§r executa receitas de fabricação ao lado de uma Interface ou de um Provedor de Padrões. Ele não gasta canais."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009174"
+					item: {
+						count: 1
+						id: "ae2:molecular_assembler"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 12.0d
+		}
+		{
+			title: "Unidade de Fabricação"
+			dependencies: [
+				"1000000000007412"
+			]
+			icon: {
+				id: "ae2:crafting_unit"
+			}
+			id: "1000000000007458"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000009175"
+					item: {
+						count: 1
+						id: "ae2:fluix_crystal"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009176"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"A §aUnidade de Fabricação§r é a base da CPU de autocrafting, um multibloco."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009177"
+					item: {
+						count: 1
+						id: "ae2:crafting_unit"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 12.0d
+		}
+		{
+			title: "Armazenamento de Fabricação 1k"
+			dependencies: [
+				"1000000000007458"
+			]
+			icon: {
+				id: "ae2:1k_crafting_storage"
+			}
+			id: "1000000000007459"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000009178"
+					item: {
+						count: 1
+						id: "ae2:engineering_processor"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009179"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O §aArmazenamento de Fabricação§r define o tamanho do que a CPU consegue fabricar de uma vez."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009180"
+					item: {
+						count: 1
+						id: "ae2:1k_crafting_storage"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 12.0d
+		}
+		{
+			title: "Coprocessador de Fabricação"
+			dependencies: [
+				"1000000000007458"
+			]
+			icon: {
+				id: "ae2:crafting_accelerator"
+			}
+			id: "1000000000007460"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000009181"
+					item: {
+						count: 1
+						id: "ae2:logic_processor"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009182"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O §aCoprocessador de Fabricação§r acelera a CPU de autocrafting."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009183"
+					item: {
+						count: 1
+						id: "ae2:crafting_accelerator"
+					}
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 12.0d
+		}
+		{
+			title: "Monitor de Fabricação"
+			dependencies: [
+				"1000000000007458"
+			]
+			icon: {
+				id: "ae2:crafting_monitor"
+			}
+			id: "1000000000007461"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000009184"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009185"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O §aMonitor de Fabricação§r mostra o andamento dos trabalhos de autocrafting."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009186"
+					item: {
+						count: 1
+						id: "ae2:crafting_monitor"
+					}
+					type: "item"
+				}
+			]
+			x: 20.0d
+			y: 12.0d
+		}
+		{
+			title: "Ponto de Acesso Sem Fio"
+			dependencies: [
+				"1000000000007437"
+			]
+			icon: {
+				id: "ae2:wireless_access_point"
+			}
+			id: "1000000000007462"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000009187"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009188"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"§eSem Fios§r"
+				""
+				"O §aPonto de Acesso Sem Fio§r permite acessar a rede à distância com terminais sem fio."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009189"
+					item: {
+						count: 1
+						id: "ae2:wireless_access_point"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 14.0d
+		}
+		{
+			title: "Terminal Sem Fio"
+			dependencies: [
+				"1000000000007462"
+			]
+			icon: {
+				id: "ae2:wireless_terminal"
+			}
+			id: "1000000000007463"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000009190"
+					item: {
+						count: 1
+						id: "minecraft:amethyst_shard"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009191"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"O §aTerminal Sem Fio§r é o terminal portátil para usar a rede de qualquer lugar ao alcance."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009192"
+					item: {
+						count: 1
+						id: "ae2:wireless_terminal"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 14.0d
+		}
+		{
+			title: "Reforçador Sem Fio"
+			dependencies: [
+				"1000000000007462"
+			]
+			icon: {
+				id: "ae2:wireless_booster"
+			}
+			id: "1000000000007464"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000009193"
+					item: {
+						count: 1
+						id: "ae2:calculation_processor"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009194"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O §aReforçador Sem Fio§r aumenta o alcance do Ponto de Acesso."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009195"
+					item: {
+						count: 1
+						id: "ae2:wireless_booster"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 14.0d
+		}
+		{
+			title: "Túnel P2P"
+			dependencies: [
+				"1000000000007413"
+			]
+			icon: {
+				id: "ae2:me_p2p_tunnel"
+			}
+			id: "1000000000007465"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000009196"
+					item: {
+						count: 1
+						id: "ae2:engineering_processor"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009197"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"O §aTúnel P2P§r leva sinais (itens, fluidos, energia ou redstone) entre dois pontos distantes."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009198"
+					item: {
+						count: 1
+						id: "ae2:me_p2p_tunnel"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 14.0d
+		}
+		{
+			title: "Plano de Aniquilação"
+			dependencies: [
+				"1000000000007413"
+			]
+			icon: {
+				id: "ae2:annihilation_plane"
+			}
+			id: "1000000000007466"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000009199"
+					item: {
+						count: 1
+						id: "ae2:logic_processor"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009200"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"O §aPlano de Aniquilação§r quebra blocos à frente dele e coleta o resultado para a rede."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009201"
+					item: {
+						count: 1
+						id: "ae2:annihilation_plane"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 14.0d
+		}
+		{
+			title: "Plano de Formação"
+			dependencies: [
+				"1000000000007413"
+			]
+			icon: {
+				id: "ae2:formation_plane"
+			}
+			id: "1000000000007467"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000009202"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009203"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"O §aPlano de Formação§r coloca blocos e itens da rede no mundo."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009204"
+					item: {
+						count: 1
+						id: "ae2:formation_plane"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 14.0d
+		}
+		{
+			title: "Estação de Segurança"
+			dependencies: [
+				"1000000000007425"
+			]
+			icon: {
+				id: "ae2:security_station"
+			}
+			id: "1000000000007468"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000009205"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009206"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"A §aEstação de Segurança§r controla quem pode acessar a sua rede."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009207"
+					item: {
+						count: 1
+						id: "ae2:security_station"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 14.0d
+		}
+		{
+			title: "Ferramenta de Rede"
+			dependencies: [
+				"1000000000007420"
+			]
+			icon: {
+				id: "ae2:network_tool"
+			}
+			id: "1000000000007469"
+			rewards: [
+				{
+					count: 16
+					id: "2000000000009208"
+					item: {
+						count: 1
+						id: "minecraft:glowstone_dust"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009209"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"A §aFerramenta de Rede§r inspeciona a rede, mostrando canais e dispositivos."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009210"
+					item: {
+						count: 1
+						id: "ae2:network_tool"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 14.0d
+		}
+		{
+			title: "Cartão de Memória"
+			dependencies: [
+				"1000000000007441"
+			]
+			icon: {
+				id: "ae2:memory_card"
+			}
+			id: "1000000000007470"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000009211"
+					item: {
+						count: 1
+						id: "ae2:calculation_processor"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009212"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"O §aCartão de Memória§r copia configurações de um dispositivo para outro."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009213"
+					item: {
+						count: 1
+						id: "ae2:memory_card"
+					}
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 14.0d
+		}
+		{
+			title: "Componente Espacial 2³"
+			dependencies: [
+				"1000000000007425"
+			]
+			icon: {
+				id: "ae2:spatial_cell_component_2"
+			}
+			id: "1000000000007471"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000009214"
+					item: {
+						count: 1
+						id: "ae2:engineering_processor"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009215"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"§eDobrando o Espaço§r"
+				""
+				"O §aComponente Espacial 2³§r é o componente da menor célula de armazenamento espacial."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009216"
+					item: {
+						count: 1
+						id: "ae2:spatial_cell_component_2"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 16.0d
+		}
+		{
+			title: "Célula de Armazenamento Espacial 2³"
+			dependencies: [
+				"1000000000007471"
+			]
+			icon: {
+				id: "ae2:spatial_storage_cell_2"
+			}
+			id: "1000000000007472"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000009217"
+					item: {
+						count: 1
+						id: "ae2:logic_processor"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009218"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"A §aCélula de Armazenamento Espacial§r guarda um pedaço do mundo, que pode ser colado de volta em outro lugar."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009219"
+					item: {
+						count: 1
+						id: "ae2:spatial_storage_cell_2"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 16.0d
+		}
+		{
+			title: "Porta de E/S Espacial"
+			dependencies: [
+				"1000000000007471"
+			]
+			icon: {
+				id: "ae2:spatial_io_port"
+			}
+			id: "1000000000007473"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000009220"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009221"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"A §aPorta de E/S Espacial§r usa as células espaciais para capturar e restaurar uma região do mundo."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009222"
+					item: {
+						count: 1
+						id: "ae2:spatial_io_port"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 16.0d
+		}
+		{
+			title: "Pilar Espacial"
+			dependencies: [
+				"1000000000007473"
+			]
+			icon: {
+				id: "ae2:spatial_pylon"
+			}
+			id: "1000000000007474"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000009223"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009224"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"O §aPilar Espacial§r forma, com outros pilares, a estrutura que define a região espacial."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009225"
+					item: {
+						count: 1
+						id: "ae2:spatial_pylon"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 16.0d
+		}
+		{
+			title: "Singularidade"
+			dependencies: [
+				"1000000000007513"
+			]
+			icon: {
+				id: "ae2:singularity"
+			}
+			id: "1000000000007475"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000009226"
+					item: {
+						count: 1
+						id: "minecraft:amethyst_shard"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009227"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"A §aSingularidade§r é um material avançado do AE2, usado em itens de topo."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009228"
+					item: {
+						count: 1
+						id: "ae2:singularity"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 16.0d
+		}
+		{
+			title: "Anel Quântico"
+			dependencies: [
+				"1000000000007475"
+			]
+			icon: {
+				id: "ae2:quantum_ring"
+			}
+			id: "1000000000007476"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000009229"
+					item: {
+						count: 1
+						id: "ae2:calculation_processor"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009230"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"O §aAnel Quântico§r faz parte do Elo Quântico."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009231"
+					item: {
+						count: 1
+						id: "ae2:quantum_ring"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 16.0d
+		}
+		{
+			title: "Elo Quântico"
+			dependencies: [
+				"1000000000007476"
+				"1000000000007516"
+			]
+			icon: {
+				id: "ae2:quantum_link"
+			}
+			id: "1000000000007477"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000009232"
+					item: {
+						count: 1
+						id: "ae2:engineering_processor"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009233"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+			]
+			description: [
+				"O §aElo Quântico§r conecta duas redes distantes, mesmo entre dimensões."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009234"
+					item: {
+						count: 1
+						id: "ae2:quantum_link"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 16.0d
+		}
+		{
+			title: "Fibra de Quartzo"
+			dependencies: [
+				"1000000000007420"
+			]
+			icon: {
+				id: "ae2:quartz_fiber"
+			}
+			id: "1000000000007501"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000009301"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009302"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"A §aFibra de Quartzo§r leva energia pela rede sem ocupar canais."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009303"
+					item: {
+						count: 1
+						id: "ae2:quartz_fiber"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			title: "Barramento de Alternância"
+			dependencies: [
+				"1000000000007422"
+			]
+			icon: {
+				id: "ae2:toggle_bus"
+			}
+			id: "1000000000007502"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000009304"
+					item: {
+						count: 1
+						id: "ae2:logic_processor"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009305"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O §aBarramento de Alternância§r liga e desliga a conexão entre duas partes da rede, controlado por redstone."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009306"
+					item: {
+						count: 1
+						id: "ae2:toggle_bus"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			title: "Aplicador de Cores"
+			dependencies: [
+				"1000000000007421"
+			]
+			icon: {
+				id: "ae2:color_applicator"
+			}
+			id: "1000000000007503"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000009307"
+					item: {
+						count: 1
+						id: "ae2:ender_dust"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009308"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"O §aAplicador de Cores§r pinta cabos e dispositivos, útil para organizar redes grandes."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009309"
+					item: {
+						count: 1
+						id: "ae2:color_applicator"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			title: "Acelerador de Crescimento"
+			dependencies: [
+				"1000000000007404"
+			]
+			icon: {
+				id: "ae2:growth_accelerator"
+			}
+			id: "1000000000007504"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000009310"
+					item: {
+						count: 1
+						id: "ae2:certus_quartz_dust"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009311"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O §aAcelerador de Crescimento§r acelera o crescimento de cristais de quartzo ao lado dele."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009312"
+					item: {
+						count: 1
+						id: "ae2:growth_accelerator"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			title: "Cajado Carregado"
+			dependencies: [
+				"1000000000007405"
+			]
+			icon: {
+				id: "ae2:charged_staff"
+			}
+			id: "1000000000007505"
+			rewards: [
+				{
+					count: 16
+					id: "2000000000009313"
+					item: {
+						count: 1
+						id: "minecraft:glowstone_dust"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009314"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O §aCajado Carregado§r é uma arma elétrica que pode ser recarregada no Carregador."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009315"
+					item: {
+						count: 1
+						id: "ae2:charged_staff"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			title: "Manipulador de Entropia"
+			dependencies: [
+				"1000000000007405"
+			]
+			icon: {
+				id: "ae2:entropy_manipulator"
+			}
+			id: "1000000000007506"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000009316"
+					item: {
+						count: 1
+						id: "ae2:fluix_crystal"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009317"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O §aManipulador de Entropia§r esquenta e esfria blocos, transformando-os."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009318"
+					item: {
+						count: 1
+						id: "ae2:entropy_manipulator"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -4.0d
+		}
+		{
+			title: "Terminal de Fabricação Sem Fio"
+			dependencies: [
+				"1000000000007463"
+			]
+			icon: {
+				id: "ae2:wireless_crafting_terminal"
+			}
+			id: "1000000000007507"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000009319"
+					item: {
+						count: 1
+						id: "ae2:engineering_processor"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009320"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"O §aTerminal de Fabricação Sem Fio§r junta o terminal sem fio à grade de fabricação."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009321"
+					item: {
+						count: 1
+						id: "ae2:wireless_crafting_terminal"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: -4.0d
+		}
+		{
+			title: "Cartão de Anulação"
+			dependencies: [
+				"1000000000007431"
+			]
+			icon: {
+				id: "ae2:void_card"
+			}
+			id: "1000000000007508"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000009322"
+					item: {
+						count: 1
+						id: "ae2:logic_processor"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009323"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O §aCartão de Anulação§r destrói o excesso de itens de uma célula cheia."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009324"
+					item: {
+						count: 1
+						id: "ae2:void_card"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: -4.0d
+		}
+		{
+			title: "Cartão de Distribuição Igualitária"
+			dependencies: [
+				"1000000000007443"
+			]
+			icon: {
+				id: "ae2:equal_distribution_card"
+			}
+			id: "1000000000007509"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000009325"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009326"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O §aCartão de Distribuição Igualitária§r reparte os itens igualmente entre os destinos."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009327"
+					item: {
+						count: 1
+						id: "ae2:equal_distribution_card"
+					}
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: -4.0d
+		}
+		{
+			title: "Bancada de Células"
+			dependencies: [
+				"1000000000007431"
+			]
+			icon: {
+				id: "ae2:cell_workbench"
+			}
+			id: "1000000000007510"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000009328"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009329"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"§eFiltrando o que Entra§r"
+				""
+				"A §aBancada de Células§r configura as células com filtros, para que cada uma aceite só o que você quer."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009330"
+					item: {
+						count: 1
+						id: "ae2:cell_workbench"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 18.0d
+		}
+		{
+			title: "Porta de E/S ME"
+			dependencies: [
+				"1000000000007428"
+			]
+			icon: {
+				id: "ae2:io_port"
+			}
+			id: "1000000000007511"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000009331"
+					item: {
+						count: 1
+						id: "minecraft:amethyst_shard"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009332"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"A §aPorta de E/S ME§r move itens entre células e a rede, para encher ou esvaziar células automaticamente."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009333"
+					item: {
+						count: 1
+						id: "ae2:io_port"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 18.0d
+		}
+		{
+			title: "Célula Portátil de Itens"
+			dependencies: [
+				"1000000000007431"
+			]
+			icon: {
+				id: "ae2:portable_item_cell_1k"
+			}
+			id: "1000000000007512"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000009334"
+					item: {
+						count: 1
+						id: "ae2:calculation_processor"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009335"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"A §aCélula Portátil§r é uma célula com bateria e interface próprias, para carregar itens por aí."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009336"
+					item: {
+						count: 1
+						id: "ae2:portable_item_cell_1k"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 18.0d
+		}
+		{
+			title: "Condensador"
+			dependencies: [
+				"1000000000007413"
+			]
+			icon: {
+				id: "ae2:condenser"
+			}
+			id: "1000000000007513"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000009337"
+					item: {
+						count: 1
+						id: "ae2:engineering_processor"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009338"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"§eMatéria Comprimida§r"
+				""
+				"O §aCondensador§r comprime materiais em Bolas de Matéria ou Singularidades."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009339"
+					item: {
+						count: 1
+						id: "ae2:condenser"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 18.0d
+		}
+		{
+			title: "Bola de Matéria"
+			dependencies: [
+				"1000000000007513"
+			]
+			icon: {
+				id: "ae2:matter_ball"
+			}
+			id: "1000000000007514"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000009340"
+					item: {
+						count: 1
+						id: "ae2:logic_processor"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009341"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"A §aBola de Matéria§r serve de munição do Canhão de Matéria e de ingrediente em receitas avançadas."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009342"
+					item: {
+						count: 1
+						id: "ae2:matter_ball"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 18.0d
+		}
+		{
+			title: "Canhão de Matéria"
+			dependencies: [
+				"1000000000007514"
+			]
+			icon: {
+				id: "ae2:matter_cannon"
+			}
+			id: "1000000000007515"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000009343"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009344"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"O §aCanhão de Matéria§r dispara munição direto da rede ME, usando energia."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009345"
+					item: {
+						count: 1
+						id: "ae2:matter_cannon"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 18.0d
+		}
+		{
+			title: "Singularidade Quântica Emaranhada"
+			dependencies: [
+				"1000000000007475"
+			]
+			icon: {
+				id: "ae2:quantum_entangled_singularity"
+			}
+			id: "1000000000007516"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000009346"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009347"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"A §aSingularidade Quântica Emaranhada§r é sempre feita em pares e é a base do Elo Quântico."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009348"
+					item: {
+						count: 1
+						id: "ae2:quantum_entangled_singularity"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 18.0d
+		}
+		{
+			title: "Célula Espacial 16³"
+			dependencies: [
+				"1000000000007472"
+			]
+			icon: {
+				id: "ae2:spatial_storage_cell_16"
+			}
+			id: "1000000000007517"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000009349"
+					item: {
+						count: 1
+						id: "minecraft:amethyst_shard"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009350"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"A §aCélula Espacial 16³§r guarda uma região bem maior do mundo."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009351"
+					item: {
+						count: 1
+						id: "ae2:spatial_storage_cell_16"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 18.0d
+		}
+		{
+			title: "Célula Espacial 128³"
+			dependencies: [
+				"1000000000007517"
+			]
+			icon: {
+				id: "ae2:spatial_storage_cell_128"
+			}
+			id: "1000000000007518"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000009352"
+					item: {
+						count: 1
+						id: "ae2:calculation_processor"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009353"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+			]
+			description: [
+				"A §aCélula Espacial 128³§r é a maior célula espacial do AE2."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009354"
+					item: {
+						count: 1
+						id: "ae2:spatial_storage_cell_128"
+					}
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 18.0d
+		}
+		{
+			title: "Âncora Espacial"
+			dependencies: [
+				"1000000000007474"
+			]
+			icon: {
+				id: "ae2:spatial_anchor"
+			}
+			id: "1000000000007519"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000009355"
+					item: {
+						count: 1
+						id: "ae2:engineering_processor"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000009356"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"A §aÂncora Espacial§r mantém os chunks ao redor carregados."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000009357"
+					item: {
+						count: 1
+						id: "ae2:spatial_anchor"
+					}
+					type: "item"
+				}
+			]
+			x: 20.0d
+			y: 18.0d
+		}
+	]
+	title: "Applied Energistics 2"
+}

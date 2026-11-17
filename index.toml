@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/ae2.snbt"
+hash = "5ff3b5688dfe2dd31dcce1b31b9b46065796489a5694864f682e92138405b164"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/aeronautics.snbt"
 hash = "11e6ebd9b6027684f71e3892dbc41bfc5aeee8c4fb6bf27ca99d49edadcf1970"
 
