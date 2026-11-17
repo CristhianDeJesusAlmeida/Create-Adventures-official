@@ -681,6 +681,11 @@ hash = "9e62fd645fa939e69c376f49857355388da778adb45621f13dcf4936ec9253e4"
 metafile = true
 
 [[files]]
+file = "mods/ftb-ranks-forge.pw.toml"
+hash = "469cf089d5844cefa2502b1a99e5c7a2056294852bbe5ffa498d05ee0645e6c0"
+metafile = true
+
+[[files]]
 file = "mods/ftb-teams-forge.pw.toml"
 hash = "d1665d3000a0857df2d4ea5d3b3a6c5e2b0a60b0c83f8c0f30f05b5305b1878f"
 metafile = true
