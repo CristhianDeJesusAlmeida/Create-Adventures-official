@@ -661,6 +661,11 @@ hash = "35779b39ddc06059ec483b33de2ecfdc3adb95c0a49e69b6701fb0024827e2f5"
 metafile = true
 
 [[files]]
+file = "mods/globalpacks.pw.toml"
+hash = "f35e6bf57b9bc6a91dbfd238837d65476efe122021e7001812ce9b694d62f7fc"
+metafile = true
+
+[[files]]
 file = "mods/glodium.pw.toml"
 hash = "8b30d03470cc27030f42b6719cdb8975f163ed336fc8592f0277a4291bb08aec"
 metafile = true
