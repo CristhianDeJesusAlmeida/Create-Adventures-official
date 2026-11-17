@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/ftbquests/quests/data.snbt"
+hash = "3241d431a95975463e3af7b3f4045ede2508e9ee7e2f4c4d758421613c5e83d8"
+
+[[files]]
 file = "kubejs/client_scripts/main.js"
 hash = "3df46f0add819bf2602642215b5c62f0581ffdaaf97e77c80a8c4d966e05adcf"
 
