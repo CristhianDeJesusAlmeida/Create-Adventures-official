@@ -366,6 +366,11 @@ hash = "9849c97a0d287156f7ac78ef8b8cfdac1e8eb4638a0b391be205418b49b0aed2"
 metafile = true
 
 [[files]]
+file = "mods/crafting-on-a-stick.pw.toml"
+hash = "d50ae49c6a3a267a6d51b00762d189818bf781fc12b4b005cbb94b1b1b7b3361"
+metafile = true
+
+[[files]]
 file = "mods/crash-assistant.pw.toml"
 hash = "f13994485d9005720181e64c20c8b20204edea6749030877fdcbe0b6fd6de443"
 metafile = true
