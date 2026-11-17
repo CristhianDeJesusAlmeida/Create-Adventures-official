@@ -1,0 +1,687 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "apotheosis"
+	title: "Apotheosis: Spawners"
+	group: "6614EE2378B8AFB9"
+	icon: {
+		id: "minecraft:spawner"
+	}
+	id: "1000000000007001"
+	order_index: 0
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			title: "O Berço das Almas"
+			icon: {
+				id: "minecraft:spawner"
+			}
+			id: "1000000000001063"
+			rewards: [
+				{
+					id: "2000000000001150"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			description: [
+				"O §aGerador de Monstros§r é a base das fazendas deste capítulo. Com um item com §bSilk Touch§r você pode coletá-lo, com todas as configurações, e levá-lo para onde quiser."
+			]
+			tasks: [
+				{
+					id: "2000000000001151"
+					item: {
+						count: 1
+						id: "minecraft:spawner"
+					}
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			title: "Contenção e Transporte"
+			dependencies: [
+				"1000000000001063"
+			]
+			id: "1000000000001064"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000001152"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+			]
+			description: [
+				"A §aCorrente de Spawner§r é um item do módulo de spawners do Apotheosis. Veja a receita no JEI."
+			]
+			tasks: [
+				{
+					id: "2000000000001153"
+					item: {
+						count: 1
+						id: "apotheosis:spawner_chain"
+					}
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 0.0d
+			icon: {
+				id: "apotheosis:spawner_chain"
+			}
+		}
+		{
+			title: "Runas Fundamentais"
+			dependencies: [
+				"1000000000001064"
+			]
+			id: "1000000000001065"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000001155"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			description: [
+				"A §aRuna de Spawner§r é o ingrediente base das runas de melhoria do módulo. As runas abaixo alteram o comportamento do spawner; os modificadores básicos usam itens comuns do jogo."
+			]
+			tasks: [
+				{
+					id: "2000000000001156"
+					item: {
+						count: 1
+						id: "apotheosis:spawner_rune"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			title: "Operação Silenciosa"
+			dependencies: [
+				"1000000000001065"
+			]
+			id: "1000000000001066"
+			rewards: [
+				{
+					id: "2000000000001157"
+					type: "xp"
+					xp: 50
+				}
+			]
+			description: [
+				"Torna o funcionamento do gerador completamente silencioso, eliminando o som ambiente durante a invocação."
+			]
+			tasks: [
+				{
+					id: "2000000000001158"
+					item: {
+						count: 1
+						id: "apotheosis:silent_spawner_rune"
+					}
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			title: "Runa da Imolação"
+			dependencies: [
+				"1000000000001065"
+			]
+			id: "1000000000001067"
+			rewards: [
+				{
+					id: "2000000000001159"
+					type: "xp"
+					xp: 50
+				}
+			]
+			description: [
+				"A §aRuna da Imolação§r aplica um efeito de fogo às criaturas geradas. Confira o efeito exato no JEI."
+			]
+			tasks: [
+				{
+					id: "2000000000001160"
+					item: {
+						count: 1
+						id: "apotheosis:burning_spawner_rune"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			title: "Runa da Debilitação"
+			dependencies: [
+				"1000000000001065"
+			]
+			id: "1000000000001068"
+			rewards: [
+				{
+					id: "2000000000001161"
+					type: "xp"
+					xp: 50
+				}
+			]
+			description: [
+				"A §aRuna da Debilitação§r altera a vida inicial das criaturas geradas, deixando-as mais fracas."
+			]
+			tasks: [
+				{
+					id: "2000000000001162"
+					item: {
+						count: 1
+						id: "apotheosis:initial_health_spawner_rune"
+					}
+					type: "item"
+				}
+			]
+			x: 3.2d
+			y: 1.5d
+		}
+		{
+			title: "Runa da Juventude"
+			dependencies: [
+				"1000000000001065"
+			]
+			id: "1000000000001069"
+			rewards: [
+				{
+					id: "2000000000001163"
+					type: "xp"
+					xp: 50
+				}
+			]
+			description: [
+				"A §aRuna da Juventude§r faz as criaturas nascerem na fase jovem, o que muda os itens que elas soltam."
+			]
+			tasks: [
+				{
+					id: "2000000000001164"
+					item: {
+						count: 1
+						id: "apotheosis:youthful_spawner_rune"
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			title: "Alcance de Geração"
+			dependencies: [
+				"1000000000001065"
+			]
+			id: "1000000000001070"
+			rewards: [
+				{
+					id: "2000000000001165"
+					type: "xp"
+					xp: 50
+				}
+			]
+			description: [
+				"A §aRuna do Alcance de Geração§r aumenta o raio em que o spawner tenta gerar criaturas."
+			]
+			tasks: [
+				{
+					id: "2000000000001166"
+					item: {
+						count: 1
+						id: "apotheosis:spawn_range_spawner_rune"
+					}
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			title: "Crepúsculo Perpétuo"
+			dependencies: [
+				"1000000000001065"
+			]
+			id: "1000000000001071"
+			rewards: [
+				{
+					id: "2000000000001167"
+					type: "xp"
+					xp: 50
+				}
+			]
+			description: [
+				"A §aRuna do Crepúsculo Perpétuo§r faz o spawner funcionar independentemente do nível de luz."
+			]
+			tasks: [
+				{
+					id: "2000000000001168"
+					item: {
+						count: 1
+						id: "apotheosis:ignore_light_spawner_rune"
+					}
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			title: "Aceleração de Invocação"
+			dependencies: [
+				"1000000000001065"
+			]
+			id: "1000000000001072"
+			rewards: [
+				{
+					id: "2000000000001169"
+					type: "xp"
+					xp: 100
+				}
+			]
+			description: [
+				"O §aAçúcar§r, usado com o botão direito no spawner, reduz o tempo mínimo entre uma geração e outra."
+				""
+				"Dica: aperte U sobre um spawner no JEI para ver todos os modificadores."
+			]
+			tasks: [
+				{
+					id: "2000000000001170"
+					item: {
+						count: 1
+						id: "minecraft:sugar"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -1.5d
+			icon: {
+				id: "minecraft:sugar"
+			}
+		}
+		{
+			title: "Teto de Espera"
+			dependencies: [
+				"1000000000001065"
+			]
+			id: "1000000000001073"
+			rewards: [
+				{
+					id: "2000000000001171"
+					type: "xp"
+					xp: 100
+				}
+			]
+			description: [
+				"O §aRelógio§r reduz o tempo máximo de espera entre as gerações do spawner."
+				""
+				"Dica: aperte U sobre um spawner no JEI para ver todos os modificadores."
+			]
+			tasks: [
+				{
+					id: "2000000000001172"
+					item: {
+						count: 1
+						id: "minecraft:clock"
+					}
+					type: "item"
+				}
+			]
+			x: 3.2d
+			y: -1.5d
+			icon: {
+				id: "minecraft:clock"
+			}
+		}
+		{
+			title: "Mais Criaturas por Ciclo"
+			dependencies: [
+				"1000000000001065"
+			]
+			id: "1000000000001074"
+			rewards: [
+				{
+					id: "2000000000001173"
+					type: "xp"
+					xp: 100
+				}
+			]
+			description: [
+				"O §aOlho de Aranha Fermentado§r aumenta o número de criaturas geradas a cada ciclo."
+				""
+				"Dica: aperte U sobre um spawner no JEI para ver todos os modificadores."
+			]
+			tasks: [
+				{
+					id: "2000000000001174"
+					item: {
+						count: 1
+						id: "minecraft:fermented_spider_eye"
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -1.5d
+			icon: {
+				id: "minecraft:fermented_spider_eye"
+			}
+		}
+		{
+			title: "Limite de Criaturas"
+			dependencies: [
+				"1000000000001065"
+			]
+			id: "1000000000001075"
+			rewards: [
+				{
+					id: "2000000000001175"
+					type: "xp"
+					xp: 100
+				}
+			]
+			description: [
+				"A §aLágrima de Ghast§r aumenta quantas criaturas podem ficar por perto antes de o spawner parar de gerar."
+				""
+				"Dica: aperte U sobre um spawner no JEI para ver todos os modificadores."
+			]
+			tasks: [
+				{
+					id: "2000000000001176"
+					item: {
+						count: 1
+						id: "minecraft:ghast_tear"
+					}
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: -1.5d
+			icon: {
+				id: "minecraft:ghast_tear"
+			}
+		}
+		{
+			title: "Alcance de Ativação"
+			dependencies: [
+				"1000000000001065"
+			]
+			id: "1000000000001076"
+			rewards: [
+				{
+					id: "2000000000001177"
+					type: "xp"
+					xp: 100
+				}
+			]
+			description: [
+				"O §aCristal de Prismarina§r aumenta a distância máxima em que o jogador pode estar para o spawner funcionar."
+				""
+				"Dica: aperte U sobre um spawner no JEI para ver todos os modificadores."
+			]
+			tasks: [
+				{
+					id: "2000000000001178"
+					item: {
+						count: 1
+						id: "minecraft:prismarine_crystals"
+					}
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -1.5d
+			icon: {
+				id: "minecraft:prismarine_crystals"
+			}
+		}
+		{
+			title: "Runa da Solidão"
+			dependencies: [
+				"1000000000001065"
+			]
+			id: "1000000000001077"
+			rewards: [
+				{
+					id: "2000000000001179"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			description: [
+				"A §aRuna da Solidão§r faz o spawner ignorar a distância do jogador e funcionar mesmo sem ninguém por perto."
+			]
+			tasks: [
+				{
+					id: "2000000000001180"
+					item: {
+						count: 1
+						id: "apotheosis:ignore_players_spawner_rune"
+					}
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			title: "Sintonização de Almas"
+			dependencies: [
+				"1000000000001065"
+			]
+			id: "1000000000001078"
+			rewards: [
+				{
+					id: "2000000000001181"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "rsquare"
+			size: 1.1d
+			description: [
+				"Ao utilizar um §eOvo de Invocação§r num gerador, podes alterar permanentemente o tipo de entidade que ele invoca."
+				""
+				"Combina isto com as tuas runas de melhoria para criar quintas automatizadas altamente eficientes para qualquer criatura."
+			]
+			tasks: [
+				{
+					id: "2000000000001182"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item_tag(c:spawn_eggs)item(minecraft:pig_spawn_egg))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					title: "Qualquer Ovo de Invocação"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			title: "Controle por Redstone"
+			dependencies: [
+				"1000000000001065"
+			]
+			icon: {
+				id: "apotheosis:redstone_control_spawner_rune"
+			}
+			id: "1000000000005001"
+			rewards: [
+				{
+					id: "2000000000005001"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			description: [
+				"A §aRuna do Controle§r faz o spawner funcionar apenas quando recebe um sinal de redstone, permitindo ligar e desligar a fazenda."
+			]
+			tasks: [
+				{
+					id: "2000000000005002"
+					item: {
+						count: 1
+						id: "apotheosis:redstone_control_spawner_rune"
+					}
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			title: "Desafio às Regras"
+			dependencies: [
+				"1000000000001065"
+			]
+			icon: {
+				id: "apotheosis:ignore_conditions_spawner_rune"
+			}
+			id: "1000000000005002"
+			rewards: [
+				{
+					id: "2000000000005003"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			description: [
+				"A §aRuna do Desafio§r faz o spawner ignorar as regras de geração da criatura, como luz e espaço disponível."
+			]
+			tasks: [
+				{
+					id: "2000000000005004"
+					item: {
+						count: 1
+						id: "apotheosis:ignore_conditions_spawner_rune"
+					}
+					type: "item"
+				}
+			]
+			x: 4d
+			y: 3.5d
+		}
+		{
+			title: "Criaturas sem IA"
+			dependencies: [
+				"1000000000001065"
+			]
+			icon: {
+				id: "apotheosis:no_ai_spawner_rune"
+			}
+			id: "1000000000005003"
+			rewards: [
+				{
+					id: "2000000000005005"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			description: [
+				"A §aRuna do Torpor§r faz as criaturas nascerem sem IA. Ótimo para fazendas mais seguras e fáceis de coletar."
+			]
+			tasks: [
+				{
+					id: "2000000000005006"
+					item: {
+						count: 1
+						id: "apotheosis:no_ai_spawner_rune"
+					}
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			title: "Invertendo Modificadores"
+			dependencies: [
+				"1000000000001072"
+			]
+			icon: {
+				id: "minecraft:quartz"
+			}
+			id: "1000000000005004"
+			rewards: [
+				{
+					id: "2000000000005007"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			description: [
+				"Segure um §aQuartzo§r na mão secundária ao usar um modificador para inverter o efeito dele, por exemplo para diminuir o alcance em vez de aumentar."
+			]
+			tasks: [
+				{
+					id: "2000000000005008"
+					item: {
+						count: 1
+						id: "minecraft:quartz"
+					}
+					type: "item"
+				}
+			]
+			x: 7d
+			y: 3.5d
+		}
+		{
+			title: "Capturando Criaturas"
+			dependencies: [
+				"1000000000001078"
+			]
+			icon: {
+				id: "minecraft:diamond_sword"
+			}
+			id: "1000000000005005"
+			rewards: [
+				{
+					id: "2000000000005009"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"O encantamento §aCapturing§r, do Apothic Spawners, vale para espadas e dá chance de a criatura soltar o ovo de invocação ao morrer."
+				""
+				"Use o ovo em um spawner para trocar o tipo de criatura que ele gera."
+			]
+			tasks: [
+				{
+					id: "2000000000005010"
+					type: "checkmark"
+				}
+			]
+			x: -4.5d
+			y: 0.0d
+		}
+	]
+}
