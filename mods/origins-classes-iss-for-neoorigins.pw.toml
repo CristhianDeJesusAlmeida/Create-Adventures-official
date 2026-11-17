@@ -1,0 +1,13 @@
+name = "Origins: Classes ISS for NeoOrigins"
+filename = "Origins-Classes-ISS-1.21.1-NeoOrigins-1.0.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0b264fbef9c1908b7db59cd1ca65fcdb2f6b60dc"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9261187
+project-id = 1622039
