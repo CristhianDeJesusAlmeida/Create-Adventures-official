@@ -1320,3 +1320,8 @@ metafile = true
 file = "resourcepacks/enhanced-boss-bars.pw.toml"
 hash = "13f3872896bc7f72e1a05325658bc093161de52cbfc16580002b51a74262db24"
 metafile = true
+
+[[files]]
+file = "shaderpacks/complementary-unbound.pw.toml"
+hash = "d28a3f3e991a4d65cda9d18b37bc3672bc87f3e04aeeaf47b59d7e63581e3c3f"
+metafile = true
