@@ -1171,6 +1171,11 @@ hash = "495590cc80aa0e87f82da883e32b0166e6bbb5ffa8a3c5e71cdf72a87a0b6434"
 metafile = true
 
 [[files]]
+file = "mods/wet-backpacks.pw.toml"
+hash = "33108ad738818e6da32ded2e5a65b520a1b3cedaaef7069f9555d43f7be9ebdf"
+metafile = true
+
+[[files]]
 file = "mods/yacl.pw.toml"
 hash = "832ee01bb7981b4b3eb298e9a6b0ab1433bd55f958db84d0beb62d318d33968c"
 metafile = true
