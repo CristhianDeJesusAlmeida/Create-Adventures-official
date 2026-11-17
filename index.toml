@@ -17,6 +17,10 @@ file = "kubejs/config/packicon.png"
 hash = "61e4c8ff95de22dfb4078c1970f8662811af615a68a0a3a7159d2e13c1eb8127"
 
 [[files]]
+file = "kubejs/server_scripts/create_wrench.js"
+hash = "cd0e8e1ccf13d7300b752604faf2b2ad8d7edd64dc6e5f4c33a9d7d04952b2f8"
+
+[[files]]
 file = "kubejs/server_scripts/recipes_add.js"
 hash = "39d3bc93a42fb15ee8d04aca2285d18dc10c3bd9110f90a4ac84fb6a6b074809"
 
