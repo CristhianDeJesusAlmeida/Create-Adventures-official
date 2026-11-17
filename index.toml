@@ -226,6 +226,11 @@ hash = "7aba1ec953f4c80c96e45487ab78e6d981a56e18087075228709af73d172dd63"
 metafile = true
 
 [[files]]
+file = "mods/betterf3.pw.toml"
+hash = "c9aca350959a8936b054c7164fb55d789ab1e0d38cff2af48b78f70af2bc0c6d"
+metafile = true
+
+[[files]]
 file = "mods/biolith.pw.toml"
 hash = "f0cab70bd1ceda65e4a5a838092cae96100bd77ee01e175c1b29cdb8b09aad04"
 metafile = true
