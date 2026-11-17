@@ -1310,3 +1310,8 @@ metafile = true
 file = "mods/yungs-better-end-island.pw.toml"
 hash = "66babda9e1a8ace83418143f2630b2f642dc6fd6d650faf948d4b06d233ceea8"
 metafile = true
+
+[[files]]
+file = "resourcepacks/better-lanterns.pw.toml"
+hash = "a7fc8c31dabaa7c69e27865c7302c3bf750a17fc627746a34c3a8d07a41fbbcd"
+metafile = true
