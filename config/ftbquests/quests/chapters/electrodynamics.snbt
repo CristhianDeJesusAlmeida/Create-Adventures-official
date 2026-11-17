@@ -1,0 +1,4017 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "electrodynamics"
+	group: "0000000000000002"
+	icon: {
+		id: "electrodynamics:coalgenerator"
+	}
+	id: "1000000000007600"
+	order_index: 5
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			title: "Bem-vindo ao Electrodynamics"
+			icon: {
+				id: "electrodynamics:multimeter"
+			}
+			id: "1000000000007601"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000010001"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010002"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			description: [
+				"§eEletricidade de Verdade§r"
+				""
+				"O §aElectrodynamics§r é um mod de eletricidade realista: voltagem, corrente e resistência importam de verdade, então ele funciona de um jeito bem diferente de outros mods de tecnologia."
+				""
+				"Leia o capítulo de Eletricidade do guia do mod e use o JEI para ver as receitas. Este mod também é a base de outros, como o Nuclear Science."
+			]
+			tasks: [
+				{
+					id: "2000000000010003"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			title: "Mineração"
+			dependencies: [
+				"1000000000007601"
+			]
+			icon: {
+				id: "electrodynamics:raworetin"
+			}
+			id: "1000000000007602"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000010004"
+					item: {
+						count: 1
+						id: "electrodynamics:plateiron"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010005"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			description: [
+				"Estanho (cassiterita), chumbo (galena) e prata (acantita) são os primeiros minérios do mod. Cobre e ferro você usa os do jogo base."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010006"
+					item: {
+						count: 1
+						id: "electrodynamics:raworetin"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "2000000000010007"
+					item: {
+						count: 1
+						id: "electrodynamics:raworelead"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "2000000000010008"
+					item: {
+						count: 1
+						id: "electrodynamics:raworesilver"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			title: "Aço"
+			dependencies: [
+				"1000000000007602"
+			]
+			icon: {
+				id: "electrodynamics:ingotsteel"
+			}
+			id: "1000000000007603"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000010009"
+					item: {
+						count: 1
+						id: "electrodynamics:geariron"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010010"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"Para começar você precisa de §aaço§r e de uma fonte de energia. O aço sai de lingotes de ferro fundidos em um Alto-Forno (Blast Furnace)."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010011"
+					item: {
+						count: 1
+						id: "electrodynamics:ingotsteel"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			title: "Gerador Termelétrico"
+			dependencies: [
+				"1000000000007603"
+			]
+			icon: {
+				id: "electrodynamics:thermoelectricgenerator"
+			}
+			id: "1000000000007604"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000010012"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010013"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"É a primeira fonte de energia indicada pelo guia do mod. Coloque uma fonte de calor, como lava, na parte de trás da máquina."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010014"
+					item: {
+						count: 1
+						id: "electrodynamics:thermoelectricgenerator"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			title: "Fio de Cobre"
+			dependencies: [
+				"1000000000007601"
+			]
+			icon: {
+				id: "electrodynamics:wirecopper"
+			}
+			id: "1000000000007605"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000010015"
+					item: {
+						count: 1
+						id: "electrodynamics:ingottin"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010016"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			description: [
+				"Os fios levam energia entre geradores e máquinas. Neste mod eles não armazenam energia e perdem uma parte dela por resistência."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010017"
+					item: {
+						count: 1
+						id: "electrodynamics:wirecopper"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			title: "Isolamento"
+			dependencies: [
+				"1000000000007605"
+			]
+			icon: {
+				id: "electrodynamics:insulation"
+			}
+			id: "1000000000007606"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000010018"
+					item: {
+						count: 1
+						id: "electrodynamics:wirecopper"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010019"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"O isolamento de lã evita choques e incêndios. Fios sem isolamento suficiente podem eletrocutar você."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010020"
+					item: {
+						count: 1
+						id: "electrodynamics:insulation"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			title: "Fio Isolado"
+			dependencies: [
+				"1000000000007606"
+			]
+			icon: {
+				id: "electrodynamics:wireinsulatedcopperblack"
+			}
+			id: "1000000000007607"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000010021"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010022"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"O fio isolado de cobre usa isolamento de lã. Preto é a cor padrão e conecta com qualquer cor; tingir os fios permite passar vários em paralelo sem que se liguem."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010023"
+					item: {
+						count: 1
+						id: "electrodynamics:wireinsulatedcopperblack"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			title: "Fio Grosso"
+			dependencies: [
+				"1000000000007607"
+			]
+			icon: {
+				id: "electrodynamics:wirehighlyinsulatedcopperblack"
+			}
+			id: "1000000000007608"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000010024"
+					item: {
+						count: 1
+						id: "electrodynamics:platesteel"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010025"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O fio grosso de cobre tem isolamento reforçado, para redes mais exigentes."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010026"
+					item: {
+						count: 1
+						id: "electrodynamics:wirehighlyinsulatedcopperblack"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			title: "Multímetro de Mão"
+			dependencies: [
+				"1000000000007605"
+			]
+			icon: {
+				id: "electrodynamics:multimeter"
+			}
+			id: "1000000000007609"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000010027"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010028"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"O Multímetro mostra voltagem, corrente e outros dados de fios e máquinas. É a ferramenta de diagnóstico do mod."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010029"
+					item: {
+						count: 1
+						id: "electrodynamics:multimeter"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			title: "Moinho de Fios"
+			dependencies: [
+				"1000000000007603"
+				"1000000000007605"
+			]
+			icon: {
+				id: "electrodynamics:wiremill"
+			}
+			id: "1000000000007610"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000010030"
+					item: {
+						count: 1
+						id: "electrodynamics:plateiron"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010031"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"O Moinho de Fios produz fios de forma muito mais eficiente do que fabricar à mão."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010032"
+					item: {
+						count: 1
+						id: "electrodynamics:wiremill"
+					}
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			title: "Gerador a Carvão"
+			dependencies: [
+				"1000000000007604"
+			]
+			icon: {
+				id: "electrodynamics:coalgenerator"
+			}
+			id: "1000000000007611"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000010033"
+					item: {
+						count: 1
+						id: "electrodynamics:circuitbasic"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010034"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O Gerador a Carvão queima carvão e vai esquentando aos poucos para produzir energia. Geradores que queimam combustível podem ser desligados com um sinal de redstone."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010035"
+					item: {
+						count: 1
+						id: "electrodynamics:coalgenerator"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			title: "Painel Solar"
+			dependencies: [
+				"1000000000007604"
+			]
+			icon: {
+				id: "electrodynamics:solarpanel"
+			}
+			id: "1000000000007612"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000010036"
+					item: {
+						count: 1
+						id: "electrodynamics:insulation"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010037"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O Painel Solar gera energia durante o dia. Biomas mais quentes produzem mais, e a chuva reduz a produção."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010038"
+					item: {
+						count: 1
+						id: "electrodynamics:solarpanel"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			title: "Painel Solar Avançado"
+			dependencies: [
+				"1000000000007612"
+			]
+			icon: {
+				id: "electrodynamics:advancedsolarpanel"
+			}
+			id: "1000000000007613"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000010039"
+					item: {
+						count: 1
+						id: "electrodynamics:coil"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010040"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O Painel Solar Avançado é a versão melhorada do painel solar."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010041"
+					item: {
+						count: 1
+						id: "electrodynamics:advancedsolarpanel"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			title: "Moinho de Vento"
+			dependencies: [
+				"1000000000007604"
+			]
+			icon: {
+				id: "electrodynamics:windmill"
+			}
+			id: "1000000000007614"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000010042"
+					item: {
+						count: 1
+						id: "electrodynamics:platebronze"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010043"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O Moinho de Vento gera mais energia quanto mais alto ele estiver."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010044"
+					item: {
+						count: 1
+						id: "electrodynamics:windmill"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			title: "Gerador Hidrelétrico"
+			dependencies: [
+				"1000000000007604"
+			]
+			icon: {
+				id: "electrodynamics:hydroelectricgenerator"
+			}
+			id: "1000000000007615"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000010045"
+					item: {
+						count: 1
+						id: "electrodynamics:ingotsilver"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010046"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O Gerador Hidrelétrico gera energia com a força da água."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010047"
+					item: {
+						count: 1
+						id: "electrodynamics:hydroelectricgenerator"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			title: "Câmara de Combustão"
+			dependencies: [
+				"1000000000007604"
+			]
+			icon: {
+				id: "electrodynamics:combustionchamber"
+			}
+			id: "1000000000007616"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000010048"
+					item: {
+						count: 1
+						id: "electrodynamics:platesteel"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010049"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"A Câmara de Combustão queima etanol ou hidrogênio para gerar energia."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010050"
+					item: {
+						count: 1
+						id: "electrodynamics:combustionchamber"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: -2.0d
+		}
+		{
+			title: "Planta de Fermentação"
+			dependencies: [
+				"1000000000007616"
+			]
+			icon: {
+				id: "electrodynamics:fermentationplant"
+			}
+			id: "1000000000007617"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000010051"
+					item: {
+						count: 1
+						id: "electrodynamics:gearsteel"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010052"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"A Planta de Fermentação processa matéria orgânica em etanol, combustível da Câmara de Combustão."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010053"
+					item: {
+						count: 1
+						id: "electrodynamics:fermentationplant"
+					}
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: -2.0d
+		}
+		{
+			title: "Bateria"
+			dependencies: [
+				"1000000000007605"
+			]
+			icon: {
+				id: "electrodynamics:battery"
+			}
+			id: "1000000000007618"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000010054"
+					item: {
+						count: 1
+						id: "electrodynamics:plateiron"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010055"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"A Bateria guarda energia para itens elétricos. Em muitas ferramentas do mod ela pode ser trocada."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010056"
+					item: {
+						count: 1
+						id: "electrodynamics:battery"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			title: "Caixa de Baterias"
+			dependencies: [
+				"1000000000007618"
+			]
+			icon: {
+				id: "electrodynamics:batterybox"
+			}
+			id: "1000000000007619"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000010057"
+					item: {
+						count: 1
+						id: "electrodynamics:geariron"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010058"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"§eGuarde Energia§r"
+				""
+				"A Caixa de Baterias armazena energia na sua rede. O upgrade de capacidade aumenta a capacidade e também a voltagem de saída. Use armazenamento em todas as fases do jogo."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010059"
+					item: {
+						count: 1
+						id: "electrodynamics:batterybox"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			title: "Baterias de Lítio"
+			dependencies: [
+				"1000000000007619"
+			]
+			icon: {
+				id: "electrodynamics:lithiumbattery"
+			}
+			id: "1000000000007620"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000010060"
+					item: {
+						count: 1
+						id: "electrodynamics:insulation"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010061"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"A bateria e a Caixa de Baterias de lítio guardam bem mais energia que as comuns."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010062"
+					item: {
+						count: 1
+						id: "electrodynamics:lithiumbattery"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "2000000000010063"
+					item: {
+						count: 1
+						id: "electrodynamics:lithiumbatterybox"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			title: "Baterias de Carbino"
+			dependencies: [
+				"1000000000007620"
+			]
+			icon: {
+				id: "electrodynamics:carbynebattery"
+			}
+			id: "1000000000007621"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000010064"
+					item: {
+						count: 1
+						id: "electrodynamics:coil"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010065"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"A bateria e a Caixa de Baterias de carbino são o nível mais alto de armazenamento do mod."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010066"
+					item: {
+						count: 1
+						id: "electrodynamics:carbynebattery"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "2000000000010067"
+					item: {
+						count: 1
+						id: "electrodynamics:carbynebatterybox"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -4.0d
+		}
+		{
+			title: "Carregadores"
+			dependencies: [
+				"1000000000007619"
+			]
+			icon: {
+				id: "electrodynamics:chargerlv"
+			}
+			id: "1000000000007622"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000010068"
+					item: {
+						count: 1
+						id: "electrodynamics:platebronze"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010069"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"Os Carregadores (120 V, 240 V e 480 V) recarregam itens. Escolha a voltagem certa: se for menor que a do item, ele carrega só em parte; se for maior, o carregador explode."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010070"
+					item: {
+						count: 1
+						id: "electrodynamics:chargerlv"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "2000000000010071"
+					item: {
+						count: 1
+						id: "electrodynamics:chargermv"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "2000000000010072"
+					item: {
+						count: 1
+						id: "electrodynamics:chargerhv"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: -4.0d
+		}
+		{
+			title: "Disjuntor"
+			dependencies: [
+				"1000000000007607"
+			]
+			icon: {
+				id: "electrodynamics:circuitbreaker"
+			}
+			id: "1000000000007623"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000010073"
+					item: {
+						count: 1
+						id: "electrodynamics:ingotsilver"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010074"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O Disjuntor protege a rede contra sobrecargas."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010075"
+					item: {
+						count: 1
+						id: "electrodynamics:circuitbreaker"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: -4.0d
+		}
+		{
+			title: "Transformador Elevador"
+			dependencies: [
+				"1000000000007607"
+			]
+			icon: {
+				id: "electrodynamics:upgradetransformer"
+			}
+			id: "1000000000007624"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000010076"
+					item: {
+						count: 1
+						id: "electrodynamics:platesteel"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010077"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O Transformador Elevador sobe a voltagem (razão de espiras 0,5, ou seja, dobra a voltagem). Transmita energia em voltagem alta e reduza perto das máquinas: dá para usar fios mais simples."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010078"
+					item: {
+						count: 1
+						id: "electrodynamics:upgradetransformer"
+					}
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: -4.0d
+		}
+		{
+			title: "Transformador Redutor"
+			dependencies: [
+				"1000000000007624"
+			]
+			icon: {
+				id: "electrodynamics:downgradetransformer"
+			}
+			id: "1000000000007625"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000010079"
+					item: {
+						count: 1
+						id: "electrodynamics:gearsteel"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010080"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O Transformador Redutor desce a voltagem (razão de espiras 2, ou seja, divide pela metade) na hora de distribuir a energia."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010081"
+					item: {
+						count: 1
+						id: "electrodynamics:downgradetransformer"
+					}
+					type: "item"
+				}
+			]
+			x: 20.0d
+			y: -4.0d
+		}
+		{
+			title: "Triturador de Minérios"
+			dependencies: [
+				"1000000000007610"
+				"1000000000007640"
+			]
+			icon: {
+				id: "electrodynamics:mineralcrusher"
+			}
+			id: "1000000000007626"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000010082"
+					item: {
+						count: 1
+						id: "electrodynamics:ingotbronze"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010083"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"§eMultiplicando Minérios§r"
+				""
+				"O Triturador de Minérios transforma minérios e minérios brutos em três poeiras impuras, e também faz placas de metal a partir de lingotes. Funciona a 240 V."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010084"
+					item: {
+						count: 1
+						id: "electrodynamics:mineralcrusher"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			title: "Moedor de Minérios"
+			dependencies: [
+				"1000000000007626"
+			]
+			icon: {
+				id: "electrodynamics:mineralgrinder"
+			}
+			id: "1000000000007627"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000010085"
+					item: {
+						count: 1
+						id: "electrodynamics:circuitbasic"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010086"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"O Moedor de Minérios é o passo seguinte do processamento de minérios. Veja as receitas no JEI."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010087"
+					item: {
+						count: 1
+						id: "electrodynamics:mineralgrinder"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			title: "Lavador de Minérios"
+			dependencies: [
+				"1000000000007627"
+			]
+			icon: {
+				id: "electrodynamics:mineralwasher"
+			}
+			id: "1000000000007628"
+			rewards: [
+				{
+					id: "2000000000010088"
+					item: {
+						count: 1
+						id: "electrodynamics:circuitelite"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010089"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"O Lavador de Minérios completa a cadeia de processamento, usando água. Juntas, essas máquinas multiplicam o rendimento dos minérios."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010090"
+					item: {
+						count: 1
+						id: "electrodynamics:mineralwasher"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			title: "Fornalha Elétrica"
+			dependencies: [
+				"1000000000007604"
+			]
+			icon: {
+				id: "electrodynamics:electricfurnace"
+			}
+			id: "1000000000007629"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000010091"
+					item: {
+						count: 1
+						id: "electrodynamics:coil"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010092"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"A Fornalha Elétrica funde itens sem precisar de combustível."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010093"
+					item: {
+						count: 1
+						id: "electrodynamics:electricfurnace"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			title: "Fornalhas Dupla e Tripla"
+			dependencies: [
+				"1000000000007629"
+			]
+			icon: {
+				id: "electrodynamics:electricfurnacedouble"
+			}
+			id: "1000000000007630"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000010094"
+					item: {
+						count: 1
+						id: "electrodynamics:platebronze"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010095"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"As versões dupla e tripla da Fornalha Elétrica processam mais itens ao mesmo tempo, em voltagens maiores."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010096"
+					item: {
+						count: 1
+						id: "electrodynamics:electricfurnacedouble"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "2000000000010097"
+					item: {
+						count: 1
+						id: "electrodynamics:electricfurnacetriple"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			title: "Forno a Arco Elétrico"
+			dependencies: [
+				"1000000000007629"
+			]
+			icon: {
+				id: "electrodynamics:electricarcfurnace"
+			}
+			id: "1000000000007631"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000010098"
+					item: {
+						count: 1
+						id: "electrodynamics:ingotsilver"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010099"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O Forno a Arco Elétrico é a versão elétrica do alto-forno, ideal para fazer aço."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010100"
+					item: {
+						count: 1
+						id: "electrodynamics:electricarcfurnace"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			title: "Processamento Duplo"
+			dependencies: [
+				"1000000000007627"
+			]
+			icon: {
+				id: "electrodynamics:mineralcrusherdouble"
+			}
+			id: "1000000000007632"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000010101"
+					item: {
+						count: 1
+						id: "electrodynamics:circuitadvanced"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010102"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"As máquinas duplas usam 480 V e processam 2 itens ao mesmo tempo."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010103"
+					item: {
+						count: 1
+						id: "electrodynamics:mineralcrusherdouble"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "2000000000010104"
+					item: {
+						count: 1
+						id: "electrodynamics:mineralgrinderdouble"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "2000000000010105"
+					item: {
+						count: 1
+						id: "electrodynamics:wiremilldouble"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 2.0d
+		}
+		{
+			title: "Processamento Triplo"
+			dependencies: [
+				"1000000000007632"
+			]
+			icon: {
+				id: "electrodynamics:mineralcrushertriple"
+			}
+			id: "1000000000007633"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000010106"
+					item: {
+						count: 1
+						id: "electrodynamics:ingottitanium"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010107"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"As máquinas triplas usam 960 V e processam 3 itens ao mesmo tempo."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010108"
+					item: {
+						count: 1
+						id: "electrodynamics:mineralcrushertriple"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "2000000000010109"
+					item: {
+						count: 1
+						id: "electrodynamics:mineralgrindertriple"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "2000000000010110"
+					item: {
+						count: 1
+						id: "electrodynamics:wiremilltriple"
+					}
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 2.0d
+		}
+		{
+			title: "Torno"
+			dependencies: [
+				"1000000000007626"
+			]
+			icon: {
+				id: "electrodynamics:lathe"
+			}
+			id: "1000000000007634"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000010111"
+					item: {
+						count: 1
+						id: "electrodynamics:ingotbronze"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010112"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"O Torno trabalha o metal em peças como hastes, usadas em ferramentas e brocas."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010113"
+					item: {
+						count: 1
+						id: "electrodynamics:lathe"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			title: "Fundidores de Liga"
+			dependencies: [
+				"1000000000007634"
+			]
+			icon: {
+				id: "electrodynamics:energizedalloyer"
+			}
+			id: "1000000000007635"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000010114"
+					item: {
+						count: 1
+						id: "electrodynamics:platetitanium"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010115"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"O Fundidor de Liga Energizado e o Reforçado criam ligas avançadas."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010116"
+					item: {
+						count: 1
+						id: "electrodynamics:energizedalloyer"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "2000000000010117"
+					item: {
+						count: 1
+						id: "electrodynamics:reinforcedalloyer"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			title: "Bronze"
+			dependencies: [
+				"1000000000007626"
+			]
+			icon: {
+				id: "electrodynamics:ingotbronze"
+			}
+			id: "1000000000007636"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000010118"
+					item: {
+						count: 1
+						id: "electrodynamics:insulation"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010119"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"O bronze é uma liga de cobre e estanho. Placas e engrenagens de bronze aparecem em várias máquinas."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010120"
+					item: {
+						count: 1
+						id: "electrodynamics:ingotbronze"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			title: "Placas de Metal"
+			dependencies: [
+				"1000000000007626"
+			]
+			icon: {
+				id: "electrodynamics:plateiron"
+			}
+			id: "1000000000007637"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000010121"
+					item: {
+						count: 1
+						id: "electrodynamics:coil"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010122"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"As placas, feitas no Triturador de Minérios a partir de lingotes, são a base de muitas máquinas."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010123"
+					item: {
+						count: 1
+						id: "electrodynamics:plateiron"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "2000000000010124"
+					item: {
+						count: 1
+						id: "electrodynamics:platecopper"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			title: "Engrenagens"
+			dependencies: [
+				"1000000000007637"
+			]
+			icon: {
+				id: "electrodynamics:geariron"
+			}
+			id: "1000000000007638"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000010125"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010126"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"Engrenagens de metal fazem parte da receita de várias máquinas."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010127"
+					item: {
+						count: 1
+						id: "electrodynamics:geariron"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "2000000000010128"
+					item: {
+						count: 1
+						id: "electrodynamics:gearsteel"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			title: "Circuito Básico"
+			dependencies: [
+				"1000000000007610"
+			]
+			icon: {
+				id: "electrodynamics:circuitbasic"
+			}
+			id: "1000000000007639"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000010129"
+					item: {
+						count: 1
+						id: "electrodynamics:ingotsilver"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010130"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"§eEletrônica§r"
+				""
+				"O Circuito Básico é o primeiro componente eletrônico do mod."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010131"
+					item: {
+						count: 1
+						id: "electrodynamics:circuitbasic"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			title: "Circuito Avançado"
+			dependencies: [
+				"1000000000007639"
+			]
+			icon: {
+				id: "electrodynamics:circuitadvanced"
+			}
+			id: "1000000000007640"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000010132"
+					item: {
+						count: 1
+						id: "electrodynamics:platesteel"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010133"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O Circuito Avançado é usado em máquinas como o Triturador de Minérios."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010134"
+					item: {
+						count: 1
+						id: "electrodynamics:circuitadvanced"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			title: "Circuito de Elite"
+			dependencies: [
+				"1000000000007640"
+			]
+			icon: {
+				id: "electrodynamics:circuitelite"
+			}
+			id: "1000000000007641"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000010135"
+					item: {
+						count: 1
+						id: "electrodynamics:gearsteel"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010136"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"O Circuito de Elite é o passo seguinte da eletrônica do mod."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010137"
+					item: {
+						count: 1
+						id: "electrodynamics:circuitelite"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			title: "Circuito Supremo"
+			dependencies: [
+				"1000000000007641"
+			]
+			icon: {
+				id: "electrodynamics:circuitultimate"
+			}
+			id: "1000000000007642"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000010138"
+					item: {
+						count: 1
+						id: "electrodynamics:ingotbronze"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010139"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"O Circuito Supremo é o componente eletrônico mais avançado do mod."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010140"
+					item: {
+						count: 1
+						id: "electrodynamics:circuitultimate"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			title: "Motor"
+			dependencies: [
+				"1000000000007640"
+			]
+			icon: {
+				id: "electrodynamics:motor"
+			}
+			id: "1000000000007643"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000010141"
+					item: {
+						count: 1
+						id: "electrodynamics:circuitbasic"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010142"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"O Motor é um componente de máquinas e ferramentas."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010143"
+					item: {
+						count: 1
+						id: "electrodynamics:motor"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			title: "Bobinas de Cobre"
+			dependencies: [
+				"1000000000007605"
+			]
+			icon: {
+				id: "electrodynamics:coil"
+			}
+			id: "1000000000007644"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000010144"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010145"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"As bobinas de cobre fazem parte de motores e outros componentes elétricos."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010146"
+					item: {
+						count: 1
+						id: "electrodynamics:coil"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "2000000000010147"
+					item: {
+						count: 1
+						id: "electrodynamics:laminatedcoil"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 6.0d
+		}
+		{
+			title: "Misturador Químico"
+			dependencies: [
+				"1000000000007640"
+			]
+			icon: {
+				id: "electrodynamics:chemicalmixer"
+			}
+			id: "1000000000007645"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000010148"
+					item: {
+						count: 1
+						id: "electrodynamics:coil"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010149"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"§eQuímica§r"
+				""
+				"O Misturador Químico mistura substâncias e produz outras novas. Ele também enche as botas de combate com fluido hidráulico."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010150"
+					item: {
+						count: 1
+						id: "electrodynamics:chemicalmixer"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			title: "Reator Químico"
+			dependencies: [
+				"1000000000007645"
+			]
+			icon: {
+				id: "electrodynamics:chemicalreactor"
+			}
+			id: "1000000000007646"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000010151"
+					item: {
+						count: 1
+						id: "electrodynamics:platebronze"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010152"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"O Reator Químico faz reações avançadas, como lavar minérios com água régia e ácido sulfúrico."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010153"
+					item: {
+						count: 1
+						id: "electrodynamics:chemicalreactor"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			title: "Cristalizador Químico"
+			dependencies: [
+				"1000000000007646"
+			]
+			icon: {
+				id: "electrodynamics:chemicalcrystallizer"
+			}
+			id: "1000000000007647"
+			rewards: [
+				{
+					count: 16
+					id: "2000000000010154"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010155"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"O Cristalizador Químico forma cristais a partir de soluções."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010156"
+					item: {
+						count: 1
+						id: "electrodynamics:chemicalcrystallizer"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			title: "Forno Químico"
+			dependencies: [
+				"1000000000007645"
+			]
+			icon: {
+				id: "electrodynamics:oxidationfurnace"
+			}
+			id: "1000000000007648"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000010157"
+					item: {
+						count: 1
+						id: "electrodynamics:platesteel"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010158"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"O Forno Químico faz reações em alta temperatura."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010159"
+					item: {
+						count: 1
+						id: "electrodynamics:oxidationfurnace"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			title: "Separador Eletrolítico"
+			dependencies: [
+				"1000000000007645"
+			]
+			icon: {
+				id: "electrodynamics:electrolyticseparator"
+			}
+			id: "1000000000007649"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000010160"
+					item: {
+						count: 1
+						id: "electrodynamics:gearsteel"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010161"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"O Separador Eletrolítico divide substâncias com eletricidade, como água em hidrogênio e oxigênio. O hidrogênio abastece o Jetpack."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010162"
+					item: {
+						count: 1
+						id: "electrodynamics:electrolyticseparator"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 8.0d
+		}
+		{
+			title: "Câmara de Eletrólise"
+			dependencies: [
+				"1000000000007646"
+				"1000000000007649"
+			]
+			icon: {
+				id: "electrodynamics:electrolosischamber"
+			}
+			id: "1000000000007650"
+			rewards: [
+				{
+					id: "2000000000010163"
+					item: {
+						count: 1
+						id: "electrodynamics:motor"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010164"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"§eProcessamento de Fim de Jogo§r"
+				""
+				"A Câmara de Eletrólise é a solução de processamento de minérios para o fim do jogo, limitada só pela eletricidade. É um multibloco 5x5x3."
+				""
+				"Antes, o minério precisa ser lavado com água régia e ácido sulfúrico no Reator Químico."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010165"
+					item: {
+						count: 1
+						id: "electrodynamics:electrolosischamber"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 8.0d
+		}
+		{
+			title: "Canos de Fluidos"
+			dependencies: [
+				"1000000000007645"
+			]
+			icon: {
+				id: "electrodynamics:pipecopper"
+			}
+			id: "1000000000007651"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000010166"
+					item: {
+						count: 1
+						id: "electrodynamics:circuitbasic"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010167"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"§eFluidos e Gases§r"
+				""
+				"Os canos de cobre e de aço levam fluidos entre máquinas. Eles não guardam fluido: só transferem se houver para onde ir."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010168"
+					item: {
+						count: 1
+						id: "electrodynamics:pipecopper"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "2000000000010169"
+					item: {
+						count: 1
+						id: "electrodynamics:pipesteel"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			title: "Bomba Elétrica"
+			dependencies: [
+				"1000000000007651"
+			]
+			icon: {
+				id: "electrodynamics:electricpump"
+			}
+			id: "1000000000007652"
+			rewards: [
+				{
+					id: "2000000000010170"
+					item: {
+						count: 1
+						id: "electrodynamics:circuitelite"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010171"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"A Bomba Elétrica retira fluidos do mundo, como água."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010172"
+					item: {
+						count: 1
+						id: "electrodynamics:electricpump"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 10.0d
+		}
+		{
+			title: "Compressores"
+			dependencies: [
+				"1000000000007651"
+			]
+			icon: {
+				id: "electrodynamics:compressor"
+			}
+			id: "1000000000007653"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000010173"
+					item: {
+						count: 1
+						id: "electrodynamics:ingotsuperconductive"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010174"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"O Compressor e o Descompressor mudam a pressão dos gases. Pressão e temperatura importam muito ao lidar com gases."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010175"
+					item: {
+						count: 1
+						id: "electrodynamics:compressor"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "2000000000010176"
+					item: {
+						count: 1
+						id: "electrodynamics:decompressor"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 10.0d
+		}
+		{
+			title: "Coletor de Gás"
+			dependencies: [
+				"1000000000007653"
+			]
+			icon: {
+				id: "electrodynamics:gascollector"
+			}
+			id: "1000000000007654"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000010177"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010178"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"O Coletor de Gás coleta gases do ambiente. Os cartões de cromatografia escolhem qual gás coletar."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010179"
+					item: {
+						count: 1
+						id: "electrodynamics:gascollector"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 10.0d
+		}
+		{
+			title: "Canos de Gás"
+			dependencies: [
+				"1000000000007653"
+			]
+			icon: {
+				id: "electrodynamics:gaspipeuninsulatedcopper"
+			}
+			id: "1000000000007655"
+			rewards: [
+				{
+					count: 16
+					id: "2000000000010180"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010181"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"Canos de gás não guardam gás e têm pressão máxima. Alguns gases corroem canos de metal; nesses casos, use o de plástico."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010182"
+					item: {
+						count: 1
+						id: "electrodynamics:gaspipeuninsulatedcopper"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "2000000000010183"
+					item: {
+						count: 1
+						id: "electrodynamics:gaspipeuninsulatedplastic"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "2000000000010184"
+					item: {
+						count: 1
+						id: "electrodynamics:gaspipeuninsulatedsteel"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 10.0d
+		}
+		{
+			title: "Cilindros de Gás"
+			dependencies: [
+				"1000000000007653"
+			]
+			icon: {
+				id: "electrodynamics:gastanksteel"
+			}
+			id: "1000000000007656"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000010185"
+					item: {
+						count: 1
+						id: "electrodynamics:circuitadvanced"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010186"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"Os cilindros de gás armazenam gases sob pressão. Há de aço, reforçado e de aço HSLA."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010187"
+					item: {
+						count: 1
+						id: "electrodynamics:gastanksteel"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "2000000000010188"
+					item: {
+						count: 1
+						id: "electrodynamics:gastankreinforced"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "2000000000010189"
+					item: {
+						count: 1
+						id: "electrodynamics:gastankhsla"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 10.0d
+		}
+		{
+			title: "Tanque de Aço"
+			dependencies: [
+				"1000000000007651"
+			]
+			icon: {
+				id: "electrodynamics:tanksteel"
+			}
+			id: "1000000000007657"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000010190"
+					item: {
+						count: 1
+						id: "electrodynamics:ingottitanium"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010191"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"O Tanque de Aço armazena grandes volumes de fluido."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010192"
+					item: {
+						count: 1
+						id: "electrodynamics:tanksteel"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 10.0d
+		}
+		{
+			title: "Marcadores Sísmicos"
+			dependencies: [
+				"1000000000007643"
+			]
+			icon: {
+				id: "electrodynamics:seismicmarker"
+			}
+			id: "1000000000007658"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000010193"
+					item: {
+						count: 1
+						id: "electrodynamics:ingotbronze"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010194"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"§eMineração Automática§r"
+				""
+				"Monte um anel com 4 Marcadores Sísmicos, um em cada canto: no mínimo 3x3 e, por padrão, no máximo 66x66. Um sinal de redstone ao lado mostra as linhas-guia."
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "2000000000010195"
+					item: {
+						count: 1
+						id: "electrodynamics:seismicmarker"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 12.0d
+		}
+		{
+			title: "Relé Sísmico"
+			dependencies: [
+				"1000000000007658"
+			]
+			icon: {
+				id: "electrodynamics:seismicrelay"
+			}
+			id: "1000000000007659"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000010196"
+					item: {
+						count: 1
+						id: "electrodynamics:platetitanium"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010197"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"Coloque o Relé Sísmico do lado de fora de um dos cantos, ao lado de um marcador. Ao ouvir o som de bigorna, deu certo: ele recolhe os marcadores."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010198"
+					item: {
+						count: 1
+						id: "electrodynamics:seismicrelay"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 12.0d
+		}
+		{
+			title: "Pedreira"
+			dependencies: [
+				"1000000000007659"
+			]
+			icon: {
+				id: "electrodynamics:quarry"
+			}
+			id: "1000000000007660"
+			rewards: [
+				{
+					id: "2000000000010199"
+					item: {
+						count: 1
+						id: "electrodynamics:circuitelite"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010200"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"A Pedreira é a mineração automática do mod. Coloque-a ao lado do Relé, virada para a mesma direção."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010201"
+					item: {
+						count: 1
+						id: "electrodynamics:quarry"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 12.0d
+		}
+		{
+			title: "Reservatório de Refrigeração"
+			dependencies: [
+				"1000000000007660"
+			]
+			icon: {
+				id: "electrodynamics:coolantresavoir"
+			}
+			id: "1000000000007661"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000010202"
+					item: {
+						count: 1
+						id: "electrodynamics:ingotsuperconductive"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010203"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"Coloque o Reservatório em cima da Pedreira. Ela precisa de um fornecimento constante de água, e quanto mais rápido trabalha, mais água gasta."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010204"
+					item: {
+						count: 1
+						id: "electrodynamics:coolantresavoir"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 12.0d
+		}
+		{
+			title: "Complexo de Motores"
+			dependencies: [
+				"1000000000007660"
+				"1000000000007643"
+			]
+			icon: {
+				id: "electrodynamics:motorcomplex"
+			}
+			id: "1000000000007662"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000010205"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010206"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"O Complexo de Motores fica do lado oposto ao Relé e controla a velocidade da Pedreira, até 1 bloco por tick com upgrades de velocidade. A Pedreira e o Complexo usam 240 V."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010207"
+					item: {
+						count: 1
+						id: "electrodynamics:motorcomplex"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 12.0d
+		}
+		{
+			title: "Furadeira Elétrica"
+			dependencies: [
+				"1000000000007643"
+			]
+			icon: {
+				id: "electrodynamics:electricdrill"
+			}
+			id: "1000000000007663"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000010208"
+					item: {
+						count: 1
+						id: "electrodynamics:ingotsilver"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010209"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"§eFerramentas§r"
+				""
+				"A Furadeira Elétrica dispensa picaretas e aceita upgrades. A bateria pode ser trocada."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010210"
+					item: {
+						count: 1
+						id: "electrodynamics:electricdrill"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 14.0d
+		}
+		{
+			title: "Brocas"
+			dependencies: [
+				"1000000000007663"
+			]
+			icon: {
+				id: "electrodynamics:drillheadsteel"
+			}
+			id: "1000000000007664"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000010211"
+					item: {
+						count: 1
+						id: "electrodynamics:circuitadvanced"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010212"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"Trocar a broca aumenta a velocidade de mineração, e esse bônus não aumenta o consumo de energia."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010213"
+					item: {
+						count: 1
+						id: "electrodynamics:drillheadsteel"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "2000000000010214"
+					item: {
+						count: 1
+						id: "electrodynamics:drillheadtitanium"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "2000000000010215"
+					item: {
+						count: 1
+						id: "electrodynamics:drillheadtitaniumcarbide"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 14.0d
+		}
+		{
+			title: "Motosserra Elétrica"
+			dependencies: [
+				"1000000000007663"
+			]
+			icon: {
+				id: "electrodynamics:electricchainsaw"
+			}
+			id: "1000000000007665"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000010216"
+					item: {
+						count: 1
+						id: "electrodynamics:ingottitanium"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010217"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"A Motosserra Elétrica corta madeira usando a energia da bateria."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010218"
+					item: {
+						count: 1
+						id: "electrodynamics:electricchainsaw"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 14.0d
+		}
+		{
+			title: "Scanner Sônico"
+			dependencies: [
+				"1000000000007640"
+			]
+			icon: {
+				id: "electrodynamics:seismicscanner"
+			}
+			id: "1000000000007666"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000010219"
+					item: {
+						count: 1
+						id: "electrodynamics:ingotbronze"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010220"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"O Scanner Sônico procura o bloco escolhido em um raio de 16 blocos."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010221"
+					item: {
+						count: 1
+						id: "electrodynamics:seismicscanner"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 14.0d
+		}
+		{
+			title: "Canhão Cinético"
+			dependencies: [
+				"1000000000007643"
+			]
+			icon: {
+				id: "electrodynamics:railgunkinetic"
+			}
+			id: "1000000000007667"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000010222"
+					item: {
+						count: 1
+						id: "electrodynamics:circuitbasic"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010223"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"O Canhão Cinético usa a munição que você segura na outra mão e gera calor a cada tiro."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010224"
+					item: {
+						count: 1
+						id: "electrodynamics:railgunkinetic"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 14.0d
+		}
+		{
+			title: "Canhão de Plasma"
+			dependencies: [
+				"1000000000007667"
+			]
+			icon: {
+				id: "electrodynamics:railgunplasma"
+			}
+			id: "1000000000007668"
+			rewards: [
+				{
+					id: "2000000000010225"
+					item: {
+						count: 1
+						id: "electrodynamics:circuitelite"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010226"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"O Canhão de Plasma gera calor a cada tiro. Encher o canhão de amônia líquida reduz esse calor."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010227"
+					item: {
+						count: 1
+						id: "electrodynamics:railgunplasma"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 14.0d
+		}
+		{
+			title: "Botas de Borracha"
+			dependencies: [
+				"1000000000007606"
+			]
+			icon: {
+				id: "electrodynamics:rubberboots"
+			}
+			id: "1000000000007669"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000010228"
+					item: {
+						count: 1
+						id: "electrodynamics:ingottin"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010229"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"§eEquipamento§r"
+				""
+				"As Botas de Borracha ajudam a se proteger de choques elétricos."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010230"
+					item: {
+						count: 1
+						id: "electrodynamics:rubberboots"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 16.0d
+		}
+		{
+			title: "Óculos de Visão Noturna"
+			dependencies: [
+				"1000000000007640"
+			]
+			icon: {
+				id: "electrodynamics:nightvisiongoggles"
+			}
+			id: "1000000000007670"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000010231"
+					item: {
+						count: 1
+						id: "electrodynamics:platebronze"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010232"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"Os Óculos de Visão Noturna deixam você enxergar no escuro."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010233"
+					item: {
+						count: 1
+						id: "electrodynamics:nightvisiongoggles"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 16.0d
+		}
+		{
+			title: "Armadura Composta"
+			dependencies: [
+				"1000000000007637"
+			]
+			icon: {
+				id: "electrodynamics:compositearmorhelmet"
+			}
+			id: "1000000000007671"
+			rewards: [
+				{
+					count: 16
+					id: "2000000000010234"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010235"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"Clique com uma Placa de Cerâmica no peitoral e vista o conjunto completo: ao sofrer mais de 16 de dano, a placa quebra e protege você."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010236"
+					item: {
+						count: 1
+						id: "electrodynamics:compositearmorhelmet"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "2000000000010237"
+					item: {
+						count: 1
+						id: "electrodynamics:compositearmorchestplate"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "2000000000010238"
+					item: {
+						count: 1
+						id: "electrodynamics:compositearmorleggings"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "2000000000010239"
+					item: {
+						count: 1
+						id: "electrodynamics:compositearmorboots"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 16.0d
+		}
+		{
+			title: "Armadura de Combate"
+			dependencies: [
+				"1000000000007671"
+			]
+			icon: {
+				id: "electrodynamics:combatarmorhelmet"
+			}
+			id: "1000000000007672"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000010240"
+					item: {
+						count: 1
+						id: "electrodynamics:circuitadvanced"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010241"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"A Armadura de Combate também usa Placas de Cerâmica. O capacete tem um tanque de oxigênio para respirar debaixo d'água, e as botas usam fluido hidráulico para reduzir o dano de queda."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010242"
+					item: {
+						count: 1
+						id: "electrodynamics:combatarmorhelmet"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "2000000000010243"
+					item: {
+						count: 1
+						id: "electrodynamics:combatarmorchestplate"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "2000000000010244"
+					item: {
+						count: 1
+						id: "electrodynamics:combatarmorleggings"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "2000000000010245"
+					item: {
+						count: 1
+						id: "electrodynamics:combatarmorboots"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 16.0d
+		}
+		{
+			title: "Jetpack"
+			dependencies: [
+				"1000000000007649"
+			]
+			icon: {
+				id: "electrodynamics:jetpack"
+			}
+			id: "1000000000007673"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000010246"
+					item: {
+						count: 1
+						id: "electrodynamics:ingottitanium"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010247"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"O Jetpack usa hidrogênio como combustível e tem quatro modos: normal, pairar, elytra e desligado."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010248"
+					item: {
+						count: 1
+						id: "electrodynamics:jetpack"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 16.0d
+		}
+		{
+			title: "Alumínio"
+			dependencies: [
+				"1000000000007628"
+			]
+			icon: {
+				id: "electrodynamics:ingotaluminum"
+			}
+			id: "1000000000007674"
+			rewards: [
+				{
+					id: "2000000000010249"
+					item: {
+						count: 1
+						id: "electrodynamics:motor"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010250"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"§eMetais Avançados§r"
+				""
+				"O alumínio vem da bauxita. Ele também leva ao ALON, o vidro avançado do mod."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010251"
+					item: {
+						count: 1
+						id: "electrodynamics:ingotaluminum"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 18.0d
+		}
+		{
+			title: "Titânio"
+			dependencies: [
+				"1000000000007628"
+			]
+			icon: {
+				id: "electrodynamics:ingottitanium"
+			}
+			id: "1000000000007675"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000010252"
+					item: {
+						count: 1
+						id: "electrodynamics:platetitanium"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010253"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"O titânio vem do rutilo e é a base de ferramentas e máquinas avançadas."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010254"
+					item: {
+						count: 1
+						id: "electrodynamics:ingottitanium"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 18.0d
+		}
+		{
+			title: "Cromo"
+			dependencies: [
+				"1000000000007628"
+			]
+			icon: {
+				id: "electrodynamics:ingotchromium"
+			}
+			id: "1000000000007676"
+			rewards: [
+				{
+					id: "2000000000010255"
+					item: {
+						count: 1
+						id: "electrodynamics:circuitelite"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010256"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"O cromo vem da cromita e é ingrediente de ligas."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010257"
+					item: {
+						count: 1
+						id: "electrodynamics:ingotchromium"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 18.0d
+		}
+		{
+			title: "Vanádio"
+			dependencies: [
+				"1000000000007628"
+			]
+			icon: {
+				id: "electrodynamics:ingotvanadium"
+			}
+			id: "1000000000007677"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000010258"
+					item: {
+						count: 1
+						id: "electrodynamics:ingotsuperconductive"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010259"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"O vanádio vem da vanadinita e é ingrediente de ligas de aço."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010260"
+					item: {
+						count: 1
+						id: "electrodynamics:ingotvanadium"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 18.0d
+		}
+		{
+			title: "Aço de Vanádio"
+			dependencies: [
+				"1000000000007677"
+			]
+			icon: {
+				id: "electrodynamics:ingotvanadiumsteel"
+			}
+			id: "1000000000007678"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000010261"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010262"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"O aço de vanádio é uma liga de aço resistente."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010263"
+					item: {
+						count: 1
+						id: "electrodynamics:ingotvanadiumsteel"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 18.0d
+		}
+		{
+			title: "Aço HSLA"
+			dependencies: [
+				"1000000000007677"
+			]
+			icon: {
+				id: "electrodynamics:ingothslasteel"
+			}
+			id: "1000000000007679"
+			rewards: [
+				{
+					count: 16
+					id: "2000000000010264"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010265"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"O aço HSLA é uma liga de aço de alta resistência, usada em brocas e cilindros de gás."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010266"
+					item: {
+						count: 1
+						id: "electrodynamics:ingothslasteel"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 18.0d
+		}
+		{
+			title: "Aço Inoxidável"
+			dependencies: [
+				"1000000000007676"
+			]
+			icon: {
+				id: "electrodynamics:ingotstainlesssteel"
+			}
+			id: "1000000000007680"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000010267"
+					item: {
+						count: 1
+						id: "electrodynamics:circuitadvanced"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010268"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"O aço inoxidável é feito com cromo e resiste à corrosão."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010269"
+					item: {
+						count: 1
+						id: "electrodynamics:ingotstainlesssteel"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 18.0d
+		}
+		{
+			title: "Carboneto de Titânio"
+			dependencies: [
+				"1000000000007675"
+			]
+			icon: {
+				id: "electrodynamics:ingottitaniumcarbide"
+			}
+			id: "1000000000007681"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000010270"
+					item: {
+						count: 1
+						id: "electrodynamics:ingottitanium"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010271"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"O carboneto de titânio é uma das ligas mais duras do mod, usada nas melhores brocas."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010272"
+					item: {
+						count: 1
+						id: "electrodynamics:ingottitaniumcarbide"
+					}
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 18.0d
+		}
+		{
+			title: "Supercondutor"
+			dependencies: [
+				"1000000000007675"
+			]
+			icon: {
+				id: "electrodynamics:ingotsuperconductive"
+			}
+			id: "1000000000007682"
+			rewards: [
+				{
+					id: "2000000000010273"
+					item: {
+						count: 1
+						id: "electrodynamics:motor"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010274"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"O supercondutor é o material dos fios sem resistência."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010275"
+					item: {
+						count: 1
+						id: "electrodynamics:ingotsuperconductive"
+					}
+					type: "item"
+				}
+			]
+			x: 20.0d
+			y: 18.0d
+		}
+		{
+			title: "Minérios Radioativos"
+			dependencies: [
+				"1000000000007602"
+			]
+			icon: {
+				id: "electrodynamics:raworeuranium"
+			}
+			id: "1000000000007683"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000010276"
+					item: {
+						count: 1
+						id: "electrodynamics:geariron"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010277"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"§eRadiação§r"
+				""
+				"O urânio (uraninita) e o tório (torianita) são radioativos, e o mod tem efeitos de radiação. Eles são a base do Nuclear Science."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010278"
+					item: {
+						count: 1
+						id: "electrodynamics:raworeuranium"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "2000000000010279"
+					item: {
+						count: 1
+						id: "electrodynamics:raworethorium"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 20.0d
+		}
+		{
+			title: "Isolamento de Cerâmica"
+			dependencies: [
+				"1000000000007607"
+			]
+			icon: {
+				id: "electrodynamics:insulationceramic"
+			}
+			id: "1000000000007684"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000010280"
+					item: {
+						count: 1
+						id: "electrodynamics:insulation"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010281"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O isolamento de cerâmica é à prova de fogo, bom perto de lava, mas menos eficaz que o de lã. Marrom é a cor padrão dos fios de cerâmica."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010282"
+					item: {
+						count: 1
+						id: "electrodynamics:insulationceramic"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "2000000000010283"
+					item: {
+						count: 1
+						id: "electrodynamics:wireceramicinsulatedcopperbrown"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 20.0d
+		}
+		{
+			title: "Fio Logístico"
+			dependencies: [
+				"1000000000007607"
+			]
+			icon: {
+				id: "electrodynamics:wirelogisticscopperblack"
+			}
+			id: "1000000000007685"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000010284"
+					item: {
+						count: 1
+						id: "electrodynamics:coil"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010285"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O fio logístico emite um sinal de redstone quando passa energia por ele."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010286"
+					item: {
+						count: 1
+						id: "electrodynamics:wirelogisticscopperblack"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 20.0d
+		}
+		{
+			title: "Fios de Prata e Ouro"
+			dependencies: [
+				"1000000000007602"
+			]
+			icon: {
+				id: "electrodynamics:wiresilver"
+			}
+			id: "1000000000007686"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000010287"
+					item: {
+						count: 1
+						id: "electrodynamics:wirecopper"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010288"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"Prata e ouro conduzem melhor que o cobre."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010289"
+					item: {
+						count: 1
+						id: "electrodynamics:wiresilver"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "2000000000010290"
+					item: {
+						count: 1
+						id: "electrodynamics:wiregold"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 20.0d
+		}
+		{
+			title: "Fio Supercondutor"
+			dependencies: [
+				"1000000000007682"
+				"1000000000007686"
+			]
+			icon: {
+				id: "electrodynamics:wiresuperconductive"
+			}
+			id: "1000000000007687"
+			rewards: [
+				{
+					count: 16
+					id: "2000000000010291"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010292"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"O fio supercondutor transporta energia quase sem perdas."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010293"
+					item: {
+						count: 1
+						id: "electrodynamics:wiresuperconductive"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 20.0d
+		}
+		{
+			title: "Andaime de Aço"
+			dependencies: [
+				"1000000000007603"
+			]
+			icon: {
+				id: "electrodynamics:steelscaffold"
+			}
+			id: "1000000000007688"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000010294"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000010295"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"Use o Andaime de Aço para camuflar fios e canos como outros blocos. Ele é devolvido ao quebrar o cabo."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000010296"
+					item: {
+						count: 1
+						id: "electrodynamics:steelscaffold"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 20.0d
+		}
+	]
+	title: "Electrodynamics"
+}

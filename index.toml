@@ -13,6 +13,10 @@ file = "config/ftbquests/quests/chapters/create.snbt"
 hash = "3b3441dc3b686039f7f10508307280e206e8caf7c7f00a6032f1e6330d11f58e"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/electrodynamics.snbt"
+hash = "4858c7c187a59ac30c394010934a52d6b8ad60c8a1b6a0c3a75712fda54ce5c6"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/introducao.snbt"
 hash = "3d8849e03255519a3968fdeb4a9ab9b35f94ce9e078740c7e543d25675e1568e"
 
