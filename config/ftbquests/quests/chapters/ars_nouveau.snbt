@@ -1,0 +1,2189 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "ars_nouveau"
+	group: ""
+	icon: {
+		id: "ars_nouveau:novice_spell_book"
+	}
+	id: "1000000000000013"
+	order_index: 7
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			title: "Caderno Gasto"
+			icon: {
+				id: "ars_nouveau:worn_notebook"
+			}
+			id: "2000000000013001"
+			rewards: [
+				{
+					count: 16
+					id: "3000000001300001"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001300002"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			description: [
+				"§eO Guia da Magia§r"
+				""
+				"O §aCaderno Gasto§r é o guia do Ars Nouveau: explica glifos, fontes de Source, rituais e familiares. Consulte-o sempre que tiver dúvidas."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001300003"
+					item: {
+						count: 1
+						id: "ars_nouveau:worn_notebook"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			title: "Gema de Source"
+			dependencies: [
+				"2000000000013001"
+			]
+			icon: {
+				id: "ars_nouveau:source_gem"
+			}
+			id: "2000000000013002"
+			rewards: [
+				{
+					count: 8
+					id: "3000000001300004"
+					item: {
+						count: 1
+						id: "minecraft:amethyst_shard"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001300005"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			description: [
+				"A §aGema de Source§r é o material básico do mod: ela paga glifos e várias construções. Veja a receita no JEI."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001300006"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			title: "Livro de Feitiços Novato"
+			dependencies: [
+				"2000000000013002"
+			]
+			icon: {
+				id: "ars_nouveau:novice_spell_book"
+			}
+			id: "2000000000013003"
+			rewards: [
+				{
+					count: 8
+					id: "3000000001300007"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001300008"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"§eSeu Primeiro Livro§r"
+				""
+				"O §aLivro de Feitiços Novato§r precisa de um livro e de ferramentas de ferro (machado, espada, pá e picareta). É com ele que você monta e lança feitiços."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001300009"
+					item: {
+						count: 1
+						id: "ars_nouveau:novice_spell_book"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			title: "Mesa do Escriba"
+			dependencies: [
+				"2000000000013003"
+			]
+			icon: {
+				id: "ars_nouveau:scribes_table"
+			}
+			id: "2000000000013004"
+			rewards: [
+				{
+					count: 8
+					id: "3000000001300010"
+					item: {
+						count: 1
+						id: "minecraft:glowstone_dust"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001300011"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"Na §aMesa do Escriba§r você aprende glifos gastando gemas de Source. Um glifo aprendido pode ser usado em qualquer feitiço."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001300012"
+					item: {
+						count: 1
+						id: "ars_nouveau:scribes_table"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			title: "Pergaminho de Feitiço"
+			dependencies: [
+				"2000000000013004"
+			]
+			icon: {
+				id: "ars_nouveau:spell_parchment"
+			}
+			id: "2000000000013005"
+			rewards: [
+				{
+					count: 4
+					id: "3000000001300013"
+					item: {
+						count: 1
+						id: "minecraft:blaze_powder"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001300014"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O §aPergaminho de Feitiço§r guarda um feitiço para você copiar em um livro."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001300015"
+					item: {
+						count: 1
+						id: "ars_nouveau:spell_parchment"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			title: "Forma: Toque"
+			dependencies: [
+				"2000000000013004"
+			]
+			icon: {
+				id: "ars_nouveau:glyph_touch"
+			}
+			id: "2000000000013006"
+			rewards: [
+				{
+					count: 8
+					id: "3000000001300016"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001300017"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"§eComo um Feitiço Funciona§r"
+				""
+				"Um feitiço é uma sequência: uma §aforma§r, depois os §aefeitos§r, e por fim os §aaumentos§r que os modificam."
+				""
+				"O glifo de §aToque§r faz o feitiço agir sobre o bloco ou a criatura que você toca."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001300018"
+					item: {
+						count: 1
+						id: "ars_nouveau:glyph_touch"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			title: "Forma: Projétil"
+			dependencies: [
+				"2000000000013004"
+			]
+			icon: {
+				id: "ars_nouveau:glyph_projectile"
+			}
+			id: "2000000000013007"
+			rewards: [
+				{
+					count: 8
+					id: "3000000001300019"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001300020"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O glifo de §aProjétil§r dispara o feitiço à distância, até o primeiro alvo que encontrar."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001300021"
+					item: {
+						count: 1
+						id: "ars_nouveau:glyph_projectile"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			title: "Forma: Si Mesmo"
+			dependencies: [
+				"2000000000013004"
+			]
+			icon: {
+				id: "ars_nouveau:glyph_self"
+			}
+			id: "2000000000013008"
+			rewards: [
+				{
+					count: 8
+					id: "3000000001300022"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001300023"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O glifo de §aSi Mesmo§r aplica o feitiço em você, o conjurador."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001300024"
+					item: {
+						count: 1
+						id: "ars_nouveau:glyph_self"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			title: "Efeito: Quebrar"
+			dependencies: [
+				"2000000000013006"
+			]
+			icon: {
+				id: "ars_nouveau:glyph_break"
+			}
+			id: "2000000000013009"
+			rewards: [
+				{
+					count: 4
+					id: "3000000001300025"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001300026"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"§eEfeitos§r"
+				""
+				"O glifo de §aQuebrar§r destrói o bloco alvo."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001300027"
+					item: {
+						count: 1
+						id: "ars_nouveau:glyph_break"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			title: "Efeito: Ferir"
+			dependencies: [
+				"2000000000013007"
+			]
+			icon: {
+				id: "ars_nouveau:glyph_harm"
+			}
+			id: "2000000000013010"
+			rewards: [
+				{
+					count: 8
+					id: "3000000001300028"
+					item: {
+						count: 1
+						id: "minecraft:quartz"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001300029"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O glifo de §aFerir§r causa dano à criatura alvo."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001300030"
+					item: {
+						count: 1
+						id: "ars_nouveau:glyph_harm"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			title: "Efeito: Curar"
+			dependencies: [
+				"2000000000013008"
+			]
+			icon: {
+				id: "ars_nouveau:glyph_heal"
+			}
+			id: "2000000000013011"
+			rewards: [
+				{
+					count: 4
+					id: "3000000001300031"
+					item: {
+						count: 1
+						id: "minecraft:blaze_powder"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001300032"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O glifo de §aCurar§r restaura a vida do alvo."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001300033"
+					item: {
+						count: 1
+						id: "ars_nouveau:glyph_heal"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			title: "Efeito: Incendiar"
+			dependencies: [
+				"2000000000013007"
+			]
+			icon: {
+				id: "ars_nouveau:glyph_ignite"
+			}
+			id: "2000000000013012"
+			rewards: [
+				{
+					count: 8
+					id: "3000000001300034"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001300035"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O glifo de §aIncendiar§r coloca fogo no alvo."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001300036"
+					item: {
+						count: 1
+						id: "ars_nouveau:glyph_ignite"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			title: "Efeito: Luz"
+			dependencies: [
+				"2000000000013006"
+			]
+			icon: {
+				id: "ars_nouveau:glyph_light"
+			}
+			id: "2000000000013013"
+			rewards: [
+				{
+					count: 8
+					id: "3000000001300037"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001300038"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O glifo de §aLuz§r cria uma fonte de luz onde o feitiço acerta."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001300039"
+					item: {
+						count: 1
+						id: "ars_nouveau:glyph_light"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			title: "Efeito: Salto"
+			dependencies: [
+				"2000000000013008"
+			]
+			icon: {
+				id: "ars_nouveau:glyph_leap"
+			}
+			id: "2000000000013014"
+			rewards: [
+				{
+					count: 8
+					id: "3000000001300040"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001300041"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O glifo de §aSalto§r lança o alvo para a frente."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001300042"
+					item: {
+						count: 1
+						id: "ars_nouveau:glyph_leap"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 4.0d
+		}
+		{
+			title: "Efeito: Piscar"
+			dependencies: [
+				"2000000000013008"
+			]
+			icon: {
+				id: "ars_nouveau:glyph_blink"
+			}
+			id: "2000000000013015"
+			rewards: [
+				{
+					count: 4
+					id: "3000000001300043"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001300044"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O glifo de §aPiscar§r teleporta você alguns blocos à frente."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001300045"
+					item: {
+						count: 1
+						id: "ars_nouveau:glyph_blink"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 4.0d
+		}
+		{
+			title: "Efeito: Explosão"
+			dependencies: [
+				"2000000000013007"
+			]
+			icon: {
+				id: "ars_nouveau:glyph_explosion"
+			}
+			id: "2000000000013016"
+			rewards: [
+				{
+					count: 8
+					id: "3000000001300046"
+					item: {
+						count: 1
+						id: "minecraft:quartz"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001300047"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O glifo de §aExplosão§r provoca uma explosão no ponto de impacto."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001300048"
+					item: {
+						count: 1
+						id: "ars_nouveau:glyph_explosion"
+					}
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 4.0d
+		}
+		{
+			title: "Efeito: Raio"
+			dependencies: [
+				"2000000000013007"
+			]
+			icon: {
+				id: "ars_nouveau:glyph_lightning"
+			}
+			id: "2000000000013017"
+			rewards: [
+				{
+					count: 4
+					id: "3000000001300049"
+					item: {
+						count: 1
+						id: "minecraft:blaze_powder"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001300050"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O glifo de §aRaio§r invoca um relâmpago sobre o alvo."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001300051"
+					item: {
+						count: 1
+						id: "ars_nouveau:glyph_lightning"
+					}
+					type: "item"
+				}
+			]
+			x: 20.0d
+			y: 4.0d
+		}
+		{
+			title: "Efeito: Crescimento"
+			dependencies: [
+				"2000000000013006"
+			]
+			icon: {
+				id: "ars_nouveau:glyph_grow"
+			}
+			id: "2000000000013018"
+			rewards: [
+				{
+					count: 8
+					id: "3000000001300052"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001300053"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O glifo de §aCrescimento§r faz plantas crescerem, como se você usasse farinha de osso."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001300054"
+					item: {
+						count: 1
+						id: "ars_nouveau:glyph_grow"
+					}
+					type: "item"
+				}
+			]
+			x: 22.0d
+			y: 4.0d
+		}
+		{
+			title: "Efeito: Fundir"
+			dependencies: [
+				"2000000000013006"
+			]
+			icon: {
+				id: "ars_nouveau:glyph_smelt"
+			}
+			id: "2000000000013019"
+			rewards: [
+				{
+					count: 8
+					id: "3000000001300055"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001300056"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O glifo de §aFundir§r derrete itens e blocos, como uma fornalha."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001300057"
+					item: {
+						count: 1
+						id: "ars_nouveau:glyph_smelt"
+					}
+					type: "item"
+				}
+			]
+			x: 24.0d
+			y: 4.0d
+		}
+		{
+			title: "Aumentos"
+			dependencies: [
+				"2000000000013009"
+				"2000000000013010"
+			]
+			icon: {
+				id: "ars_nouveau:glyph_amplify"
+			}
+			id: "2000000000013020"
+			rewards: [
+				{
+					count: 8
+					id: "3000000001300058"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001300059"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"§eRefinando Feitiços§r"
+				""
+				"Os §aaumentos§r modificam o glifo anterior: §aAmplificar§r aumenta a potência, §aÁrea de Efeito§r amplia o alcance e §aExtender Tempo§r prolonga a duração."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001300060"
+					item: {
+						count: 1
+						id: "ars_nouveau:glyph_amplify"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "3000000001300061"
+					item: {
+						count: 1
+						id: "ars_nouveau:glyph_aoe"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "3000000001300062"
+					item: {
+						count: 1
+						id: "ars_nouveau:glyph_extend_time"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			title: "Propagadores"
+			dependencies: [
+				"2000000000013020"
+			]
+			icon: {
+				id: "ars_nouveau:glyph_pierce"
+			}
+			id: "2000000000013021"
+			rewards: [
+				{
+					count: 4
+					id: "3000000001300063"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001300064"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"Os §apropagadores§r fazem o feitiço se repetir ou se espalhar a partir do ponto de impacto, como §aPerfurar§r, §aDividir§r, §aPermanecer§r e §aÓrbita§r."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001300065"
+					item: {
+						count: 1
+						id: "ars_nouveau:glyph_pierce"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "3000000001300066"
+					item: {
+						count: 1
+						id: "ars_nouveau:glyph_split"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "3000000001300067"
+					item: {
+						count: 1
+						id: "ars_nouveau:glyph_linger"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "3000000001300068"
+					item: {
+						count: 1
+						id: "ars_nouveau:glyph_orbit"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			title: "Jarro de Source"
+			dependencies: [
+				"2000000000013002"
+			]
+			icon: {
+				id: "ars_nouveau:source_jar"
+			}
+			id: "2000000000013022"
+			rewards: [
+				{
+					count: 8
+					id: "3000000001300069"
+					item: {
+						count: 1
+						id: "minecraft:glowstone_dust"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001300070"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"§eEnergia Mágica§r"
+				""
+				"O §aJarro de Source§r armazena Source, a energia dos feitiços, e abastece construções e feitiços próximos."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001300071"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_jar"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			title: "Relé de Source"
+			dependencies: [
+				"2000000000013022"
+			]
+			icon: {
+				id: "ars_nouveau:relay"
+			}
+			id: "2000000000013023"
+			rewards: [
+				{
+					count: 16
+					id: "3000000001300072"
+					item: {
+						count: 1
+						id: "minecraft:gold_nugget"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001300073"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"O §aRelé de Source§r transporta Source de um ponto a outro. Ligue-o com a Varinha de Domínio."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001300074"
+					item: {
+						count: 1
+						id: "ars_nouveau:relay"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			title: "Varinha de Domínio"
+			dependencies: [
+				"2000000000013022"
+			]
+			icon: {
+				id: "ars_nouveau:dominion_wand"
+			}
+			id: "2000000000013024"
+			rewards: [
+				{
+					count: 4
+					id: "3000000001300075"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001300076"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"A §aVarinha de Domínio§r liga jarros e relés e também comanda familiares e criaturas aliadas."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001300077"
+					item: {
+						count: 1
+						id: "ars_nouveau:dominion_wand"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			title: "Elo de Source Agronômico"
+			dependencies: [
+				"2000000000013023"
+			]
+			icon: {
+				id: "ars_nouveau:agronomic_sourcelink"
+			}
+			id: "2000000000013025"
+			rewards: [
+				{
+					count: 8
+					id: "3000000001300078"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001300079"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"§eFontes de Source§r"
+				""
+				"Os §aElos de Source§r transformam uma atividade em Source. O §aAgronômico§r produz Source a partir de plantações."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001300080"
+					item: {
+						count: 1
+						id: "ars_nouveau:agronomic_sourcelink"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			title: "Elo de Source Vitálico"
+			dependencies: [
+				"2000000000013023"
+			]
+			icon: {
+				id: "ars_nouveau:vitalic_sourcelink"
+			}
+			id: "2000000000013026"
+			rewards: [
+				{
+					count: 8
+					id: "3000000001300081"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001300082"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O §aElo Vitálico§r produz Source a partir da vida ao redor. Veja os detalhes no Caderno."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001300083"
+					item: {
+						count: 1
+						id: "ars_nouveau:vitalic_sourcelink"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			title: "Elo de Source Vulcânico"
+			dependencies: [
+				"2000000000013023"
+			]
+			icon: {
+				id: "ars_nouveau:volcanic_sourcelink"
+			}
+			id: "2000000000013027"
+			rewards: [
+				{
+					count: 4
+					id: "3000000001300084"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001300085"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O §aElo Vulcânico§r produz Source a partir de calor e de itens queimados. Veja os detalhes no Caderno."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001300086"
+					item: {
+						count: 1
+						id: "ars_nouveau:volcanic_sourcelink"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 8.0d
+		}
+		{
+			title: "Elo de Source Alquímico"
+			dependencies: [
+				"2000000000013023"
+			]
+			icon: {
+				id: "ars_nouveau:alchemical_sourcelink"
+			}
+			id: "2000000000013028"
+			rewards: [
+				{
+					count: 8
+					id: "3000000001300087"
+					item: {
+						count: 1
+						id: "minecraft:quartz"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001300088"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O §aElo Alquímico§r produz Source a partir de poções. Veja os detalhes no Caderno."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001300089"
+					item: {
+						count: 1
+						id: "ars_nouveau:alchemical_sourcelink"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 8.0d
+		}
+		{
+			title: "Elo de Source Micelial"
+			dependencies: [
+				"2000000000013023"
+			]
+			icon: {
+				id: "ars_nouveau:mycelial_sourcelink"
+			}
+			id: "2000000000013029"
+			rewards: [
+				{
+					count: 4
+					id: "3000000001300090"
+					item: {
+						count: 1
+						id: "minecraft:blaze_powder"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001300091"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O §aElo Micelial§r produz Source a partir de comida. Veja os detalhes no Caderno."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001300092"
+					item: {
+						count: 1
+						id: "ars_nouveau:mycelial_sourcelink"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 8.0d
+		}
+		{
+			title: "Aparato de Encantamento"
+			dependencies: [
+				"2000000000013002"
+				"2000000000013004"
+			]
+			icon: {
+				id: "ars_nouveau:enchanting_apparatus"
+			}
+			id: "2000000000013030"
+			rewards: [
+				{
+					count: 8
+					id: "3000000001300093"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001300094"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"§eMagia Avançada§r"
+				""
+				"O §aAparato de Encantamento§r cria itens mágicos e melhora equipamentos. Ele funciona com itens colocados em §aPedestais Arcanos§r ao redor."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001300095"
+					item: {
+						count: 1
+						id: "ars_nouveau:enchanting_apparatus"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			title: "Pedestal Arcano"
+			dependencies: [
+				"2000000000013030"
+			]
+			icon: {
+				id: "ars_nouveau:arcane_pedestal"
+			}
+			id: "2000000000013031"
+			rewards: [
+				{
+					count: 8
+					id: "3000000001300096"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001300097"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"Os §aPedestais Arcanos§r seguram os ingredientes do Aparato de Encantamento."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001300098"
+					item: {
+						count: 1
+						id: "ars_nouveau:arcane_pedestal"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			title: "Câmara de Imbuição"
+			dependencies: [
+				"2000000000013031"
+			]
+			icon: {
+				id: "ars_nouveau:imbuement_chamber"
+			}
+			id: "2000000000013032"
+			rewards: [
+				{
+					count: 8
+					id: "3000000001300099"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001300100"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"A §aCâmara de Imbuição§r infunde Source em itens para criar materiais mágicos."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001300101"
+					item: {
+						count: 1
+						id: "ars_nouveau:imbuement_chamber"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 10.0d
+		}
+		{
+			title: "Núcleo Arcano"
+			dependencies: [
+				"2000000000013030"
+			]
+			icon: {
+				id: "ars_nouveau:arcane_core"
+			}
+			id: "2000000000013033"
+			rewards: [
+				{
+					count: 4
+					id: "3000000001300102"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001300103"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O §aNúcleo Arcano§r é um ingrediente de várias construções e do Aparato de Encantamento."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001300104"
+					item: {
+						count: 1
+						id: "ars_nouveau:arcane_core"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 10.0d
+		}
+		{
+			title: "Livro de Feitiços Aprendiz"
+			dependencies: [
+				"2000000000013030"
+				"2000000000013003"
+			]
+			icon: {
+				id: "ars_nouveau:apprentice_spell_book"
+			}
+			id: "2000000000013034"
+			rewards: [
+				{
+					count: 8
+					id: "3000000001300105"
+					item: {
+						count: 1
+						id: "minecraft:quartz"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001300106"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O §aLivro de Feitiços Aprendiz§r é o segundo nível: tem mais espaço e permite glifos de nível maior."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001300107"
+					item: {
+						count: 1
+						id: "ars_nouveau:apprentice_spell_book"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 10.0d
+		}
+		{
+			title: "Livro de Feitiços Arquimago"
+			dependencies: [
+				"2000000000013034"
+			]
+			icon: {
+				id: "ars_nouveau:archmage_spell_book"
+			}
+			id: "2000000000013035"
+			rewards: [
+				{
+					count: 4
+					id: "3000000001300108"
+					item: {
+						count: 1
+						id: "minecraft:blaze_powder"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001300109"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"O §aLivro de Feitiços Arquimago§r é o nível máximo, com glifos de tier mais alto e o maior espaço para feitiços."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001300110"
+					item: {
+						count: 1
+						id: "ars_nouveau:archmage_spell_book"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 10.0d
+		}
+		{
+			title: "Mesa de Alteração"
+			dependencies: [
+				"2000000000013030"
+			]
+			icon: {
+				id: "ars_nouveau:alteration_table"
+			}
+			id: "2000000000013036"
+			rewards: [
+				{
+					count: 8
+					id: "3000000001300111"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001300112"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"A §aMesa de Alteração§r aplica melhorias às armaduras mágicas."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001300113"
+					item: {
+						count: 1
+						id: "ars_nouveau:alteration_table"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 10.0d
+		}
+		{
+			title: "Coroa do Alquimista"
+			dependencies: [
+				"2000000000013036"
+			]
+			icon: {
+				id: "ars_nouveau:alchemists_crown"
+			}
+			id: "2000000000013037"
+			rewards: [
+				{
+					count: 8
+					id: "3000000001300114"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001300115"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"A §aCoroa do Alquimista§r é um item mágico que aparece nas receitas e no equipamento do mod."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001300116"
+					item: {
+						count: 1
+						id: "ars_nouveau:alchemists_crown"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 10.0d
+		}
+		{
+			title: "Amuleto de Starbuncle"
+			dependencies: [
+				"2000000000013030"
+				"2000000000013024"
+			]
+			icon: {
+				id: "ars_nouveau:starbuncle_charm"
+			}
+			id: "2000000000013038"
+			rewards: [
+				{
+					count: 8
+					id: "3000000001300117"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001300118"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"§eFamiliares e Aliados§r"
+				""
+				"O §aStarbuncle§r é um ajudante que carrega itens. Use o amuleto para convocá-lo e a Varinha de Domínio para dar ordens."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001300119"
+					item: {
+						count: 1
+						id: "ars_nouveau:starbuncle_charm"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			title: "Amuleto de Whirlisprig"
+			dependencies: [
+				"2000000000013038"
+			]
+			icon: {
+				id: "ars_nouveau:whirlisprig_charm"
+			}
+			id: "2000000000013039"
+			rewards: [
+				{
+					count: 4
+					id: "3000000001300120"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001300121"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"O §aWhirlisprig§r é um ajudante ligado a plantas e a cultivos."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001300122"
+					item: {
+						count: 1
+						id: "ars_nouveau:whirlisprig_charm"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 12.0d
+		}
+		{
+			title: "Amuleto de Drygmy"
+			dependencies: [
+				"2000000000013038"
+			]
+			icon: {
+				id: "ars_nouveau:drygmy_charm"
+			}
+			id: "2000000000013040"
+			rewards: [
+				{
+					count: 8
+					id: "3000000001300123"
+					item: {
+						count: 1
+						id: "minecraft:quartz"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001300124"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"O §aDrygmy§r é um ajudante que gera Source ao seu redor."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001300125"
+					item: {
+						count: 1
+						id: "ars_nouveau:drygmy_charm"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 12.0d
+		}
+		{
+			title: "Amuleto de Wixie"
+			dependencies: [
+				"2000000000013038"
+			]
+			icon: {
+				id: "ars_nouveau:wixie_charm"
+			}
+			id: "2000000000013041"
+			rewards: [
+				{
+					count: 4
+					id: "3000000001300126"
+					item: {
+						count: 1
+						id: "minecraft:blaze_powder"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001300127"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"O §aWixie§r é um ajudante ligado a poções e a fabricação."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001300128"
+					item: {
+						count: 1
+						id: "ars_nouveau:wixie_charm"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 12.0d
+		}
+		{
+			title: "Amuleto de Golem de Ametista"
+			dependencies: [
+				"2000000000013038"
+			]
+			icon: {
+				id: "ars_nouveau:amethyst_golem_charm"
+			}
+			id: "2000000000013042"
+			rewards: [
+				{
+					count: 8
+					id: "3000000001300129"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001300130"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"O §aGolem de Ametista§r é um ajudante que coleta ametistas e cristais."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001300131"
+					item: {
+						count: 1
+						id: "ars_nouveau:amethyst_golem_charm"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 12.0d
+		}
+		{
+			title: "Varinha Rabdomante"
+			dependencies: [
+				"2000000000013030"
+			]
+			icon: {
+				id: "ars_nouveau:dowsing_rod"
+			}
+			id: "2000000000013043"
+			rewards: [
+				{
+					count: 8
+					id: "3000000001300132"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001300133"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"§eFerramentas§r"
+				""
+				"A §aVarinha Rabdomante§r ajuda a encontrar minérios e blocos a distância."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001300134"
+					item: {
+						count: 1
+						id: "ars_nouveau:dowsing_rod"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 14.0d
+		}
+		{
+			title: "Espada do Encantador"
+			dependencies: [
+				"2000000000013030"
+			]
+			icon: {
+				id: "ars_nouveau:enchanters_sword"
+			}
+			id: "2000000000013044"
+			rewards: [
+				{
+					count: 8
+					id: "3000000001300135"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001300136"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"A §aEspada do Encantador§r é uma arma mágica com bônus ligados a feitiços."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001300137"
+					item: {
+						count: 1
+						id: "ars_nouveau:enchanters_sword"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 14.0d
+		}
+		{
+			title: "Escudo do Encantador"
+			dependencies: [
+				"2000000000013030"
+			]
+			icon: {
+				id: "ars_nouveau:enchanters_shield"
+			}
+			id: "2000000000013045"
+			rewards: [
+				{
+					count: 4
+					id: "3000000001300138"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001300139"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O §aEscudo do Encantador§r é um escudo mágico do Ars Nouveau."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001300140"
+					item: {
+						count: 1
+						id: "ars_nouveau:enchanters_shield"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 14.0d
+		}
+		{
+			title: "Pergaminho de Teletransporte"
+			dependencies: [
+				"2000000000013030"
+			]
+			icon: {
+				id: "ars_nouveau:warp_scroll"
+			}
+			id: "2000000000013046"
+			rewards: [
+				{
+					count: 8
+					id: "3000000001300141"
+					item: {
+						count: 1
+						id: "minecraft:quartz"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001300142"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O §aPergaminho de Teletransporte§r leva você a um ponto marcado, gastando o pergaminho."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001300143"
+					item: {
+						count: 1
+						id: "ars_nouveau:warp_scroll"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 14.0d
+		}
+		{
+			title: "Jarro de Criaturas"
+			dependencies: [
+				"2000000000013022"
+				"2000000000013030"
+			]
+			icon: {
+				id: "ars_nouveau:mob_jar"
+			}
+			id: "2000000000013047"
+			rewards: [
+				{
+					count: 4
+					id: "3000000001300144"
+					item: {
+						count: 1
+						id: "minecraft:blaze_powder"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001300145"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O §aJarro de Criaturas§r guarda uma criatura e permite colher o que ela solta sem precisar caçá-la."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001300146"
+					item: {
+						count: 1
+						id: "ars_nouveau:mob_jar"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 14.0d
+		}
+		{
+			title: "Jarro de Poções"
+			dependencies: [
+				"2000000000013022"
+				"2000000000013030"
+			]
+			icon: {
+				id: "ars_nouveau:potion_jar"
+			}
+			id: "2000000000013048"
+			rewards: [
+				{
+					count: 8
+					id: "3000000001300147"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001300148"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O §aJarro de Poções§r armazena poções e as guarda para uso em construções do mod."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001300149"
+					item: {
+						count: 1
+						id: "ars_nouveau:potion_jar"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 14.0d
+		}
+		{
+			title: "Mistura de Poções"
+			dependencies: [
+				"2000000000013048"
+			]
+			icon: {
+				id: "ars_nouveau:potion_melder"
+			}
+			id: "2000000000013049"
+			rewards: [
+				{
+					count: 8
+					id: "3000000001300150"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001300151"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"O §aMisturador de Poções§r combina poções de dois jarros em uma só."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001300152"
+					item: {
+						count: 1
+						id: "ars_nouveau:potion_melder"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 14.0d
+		}
+		{
+			title: "Braseiro Ritual"
+			dependencies: [
+				"2000000000013030"
+				"2000000000013035"
+			]
+			icon: {
+				id: "ars_nouveau:ritual_brazier"
+			}
+			id: "2000000000013050"
+			rewards: [
+				{
+					count: 8
+					id: "3000000001300153"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001300154"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"§eRituais§r"
+				""
+				"O §aBraseiro Ritual§r é o centro dos rituais: ele recebe uma tábua de ritual e os itens necessários para realizá-lo."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001300155"
+					item: {
+						count: 1
+						id: "ars_nouveau:ritual_brazier"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 14.0d
+		}
+	]
+	title: "Ars Nouveau"
+}
