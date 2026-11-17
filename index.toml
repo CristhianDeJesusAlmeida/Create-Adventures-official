@@ -776,6 +776,11 @@ hash = "a947afda264a2eaaef57dc74999741da0433968a0e639730b063c3f3b676c41b"
 metafile = true
 
 [[files]]
+file = "mods/kubejs.pw.toml"
+hash = "be9f3f981dd69822b4a3e5ab6fd677ec69a4e01dcf66c62e239b6ef65f31f0fd"
+metafile = true
+
+[[files]]
 file = "mods/l_enders-cataclysm-delight.pw.toml"
 hash = "637e5b445b28d460884ce868948328ef512eb10ab2af60a86bd3e2c37ac49697"
 metafile = true
