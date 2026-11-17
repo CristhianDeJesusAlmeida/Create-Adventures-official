@@ -786,6 +786,11 @@ hash = "f262b49b1038ef9f67704e0629da6aafa84cf4f760273589f5d73530ca5d74b5"
 metafile = true
 
 [[files]]
+file = "mods/leaves-be-gone.pw.toml"
+hash = "583a335211bc3a21bb379394344b67d64bffea421e7f7942c254903e1d607814"
+metafile = true
+
+[[files]]
 file = "mods/legendary-survival-overhaul.pw.toml"
 hash = "2dbc02cae544db81511fa9f19f00eaaf36b795099de7fb939e8b396e079c89fa"
 metafile = true
