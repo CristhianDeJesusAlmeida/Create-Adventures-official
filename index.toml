@@ -1136,6 +1136,11 @@ hash = "27dadd4dde0fb4a173c20bec47353083030cce226af17b4f189a0edd252a6d7b"
 metafile = true
 
 [[files]]
+file = "mods/trashslot.pw.toml"
+hash = "28595244ed761eaec28157bbfeb24692fbd6223e376775cd44d3385f0133ec47"
+metafile = true
+
+[[files]]
 file = "mods/tunes-n-tomes-a-bards-journey.pw.toml"
 hash = "5fb24121f1b63d4628bb39154290eb69b0ff459487c829361eb14572c653accf"
 metafile = true
