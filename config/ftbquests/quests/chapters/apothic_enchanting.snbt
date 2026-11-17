@@ -1,0 +1,570 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "apotheosis_gear"
+	title: "Apotheosis: Equipamentos"
+	group: "15E5B587D291A4AA"
+	icon: {
+		id: "apotheosis:godforged_pearl"
+	}
+	id: "1000000000001089"
+	order_index: 1
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			title: "O Poder das Gemas Estelares"
+			icon: {
+				components: {
+					"apotheosis:gem": "apotheosis:core/solar"
+					"apotheosis:purity": "perfect"
+				}
+				id: "apotheosis:gem"
+			}
+			id: "1000000000001090"
+			rewards: [
+				{
+					count: 5
+					id: "2000000000001203"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000001204"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			description: [
+				"As gemas do Apotheosis podem ser incrustadas em armaduras, armas e ferramentas para conceder bónus extraordinários de atributos, melhorando drasticamente a combatividade do jogador."
+			]
+			tasks: [
+				{
+					id: "2000000000001205"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "item(apotheosis:gem)"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			title: "Poeira Cristalina"
+			dependencies: [
+				"1000000000001090"
+			]
+			id: "1000000000001091"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000001206"
+					item: {
+						count: 1
+						id: "minecraft:amethyst_shard"
+					}
+					type: "item"
+				}
+			]
+			size: 1.2d
+			description: [
+				"Triture gemas imperfeitas para obter pó de gemas, essencial para os rituais de refino e fabrico de componentes avançados de equipamento."
+			]
+			tasks: [
+				{
+					id: "2000000000001207"
+					item: {
+						count: 1
+						id: "apotheosis:gem_dust"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			title: "Ardósia Fundida de Gema"
+			dependencies: [
+				"1000000000001091"
+			]
+			id: "1000000000001092"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000001208"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "2000000000001209"
+					item: {
+						count: 1
+						id: "apotheosis:gem_dust"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.9d
+			description: [
+				"Placas estabilizadas infundidas com energia pura de gemas, utilizadas em procedimentos de alta precisão nas mesas de processamento."
+			]
+			tasks: [
+				{
+					id: "2000000000001210"
+					item: {
+						count: 1
+						id: "apotheosis:gem_fused_slate"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			title: "Reciclagem de Relíquias"
+			dependencies: [
+				"1000000000001091"
+			]
+			id: "1000000000001093"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000001211"
+					item: {
+						count: 1
+						id: "apotheosis:mysterious_scrap_metal"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000001212"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "square"
+			size: 1.1d
+			description: [
+				"A Mesa de Reciclagem (Salvaging Table) permite desmontar equipamentos raros e mágicos indesejados para extrair materiais de raridade puros e poeira de gemas."
+			]
+			tasks: [
+				{
+					id: "2000000000001213"
+					item: {
+						count: 1
+						id: "apotheosis:salvaging_table"
+					}
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			title: "Sucata Misteriosa"
+			dependencies: [
+				"1000000000001093"
+			]
+			id: "1000000000001094"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000001214"
+					item: {
+						count: 1
+						id: "apotheosis:gem_dust"
+					}
+					type: "item"
+				}
+			]
+			description: [
+				"Reciclar equipamentos na mesa devolve materiais como a §aSucata Misteriosa§r, além de Pó de Gema. Eles pagam reforjamentos e outras criações do Apotheosis."
+			]
+			tasks: [
+				{
+					id: "2000000000001215"
+					item: {
+						count: 1
+						id: "apotheosis:mysterious_scrap_metal"
+					}
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 3.5d
+			icon: {
+				id: "apotheosis:mysterious_scrap_metal"
+			}
+		}
+		{
+			title: "A Arte do Reforjamento"
+			dependencies: [
+				"1000000000001091"
+			]
+			id: "1000000000001095"
+			rewards: [
+				{
+					id: "2000000000001217"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 8
+					id: "2000000000001218"
+					item: {
+						count: 1
+						id: "apotheosis:gem_dust"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.3d
+			description: [
+				"Utilize a Mesa de Reforjamento para alterar aleatoriamente os atributos prefixados e sufixados de qualquer ferramenta, arma ou armadura."
+				""
+				"Consome materiais de raridade, poeira de gemas e níveis de experiência."
+			]
+			tasks: [
+				{
+					id: "2000000000001219"
+					item: {
+						count: 1
+						id: "apotheosis:reforging_table"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			title: "Combustível de Reforjamento"
+			dependencies: [
+				"1000000000001095"
+			]
+			id: "1000000000001096"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000001220"
+					item: {
+						count: 1
+						id: "apotheosis:gem_dust"
+					}
+					type: "item"
+				}
+			]
+			description: [
+				"O §aSigil of Rebirth§r é o combustível usado nas mesas de reforjamento. Feito de Gem-Fused Slate e Pó de Gema."
+			]
+			tasks: [
+				{
+					id: "2000000000001221"
+					item: {
+						count: 1
+						id: "apotheosis:sigil_of_rebirth"
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 5.5d
+			icon: {
+				id: "apotheosis:sigil_of_rebirth"
+			}
+		}
+		{
+			title: "Selo dos Engastes"
+			dependencies: [
+				"1000000000001095"
+			]
+			id: "1000000000001097"
+			rewards: [
+				{
+					id: "2000000000001222"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			description: [
+				"O §eSigil of Socketing§r permite perfurar um soquete adicional no teu equipamento, criando espaço para incrustar mais uma gema estelar."
+				""
+				"Pode ser utilizado até ao limite máximo de soquetes permitido pela raridade do item."
+			]
+			tasks: [
+				{
+					id: "2000000000001223"
+					item: {
+						count: 1
+						id: "apotheosis:sigil_of_socketing"
+					}
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			title: "Mesa de Corte de Gemas"
+			dependencies: [
+				"1000000000001097"
+			]
+			id: "1000000000001098"
+			rewards: [
+				{
+					count: 6
+					id: "2000000000001224"
+					item: {
+						count: 1
+						id: "apotheosis:gem_dust"
+					}
+					type: "item"
+				}
+			]
+			description: [
+				"Na §aMesa de Corte de Gemas§r você combina duas gemas idênticas com Pó de Gema e materiais de raridade para aumentar a pureza da gema."
+			]
+			tasks: [
+				{
+					id: "2000000000001225"
+					item: {
+						count: 1
+						id: "apotheosis:gem_cutting_table"
+					}
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 6.5d
+			icon: {
+				id: "apotheosis:gem_cutting_table"
+			}
+		}
+		{
+			title: "Extração Segura de Gemas"
+			dependencies: [
+				"1000000000001095"
+			]
+			id: "1000000000001099"
+			rewards: [
+				{
+					id: "2000000000001226"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O §3Sigil of Withdrawal§r remove todas as gemas de um item, devolvendo tanto o item quanto as gemas."
+			]
+			tasks: [
+				{
+					id: "2000000000001227"
+					item: {
+						count: 1
+						id: "apotheosis:sigil_of_withdrawal"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 6.0d
+			icon: {
+				id: "apotheosis:sigil_of_withdrawal"
+			}
+		}
+		{
+			title: "Reforjamento Simples"
+			dependencies: [
+				"1000000000001095"
+			]
+			id: "1000000000001100"
+			rewards: [
+				{
+					id: "2000000000001228"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"A §aMesa de Reforjamento Simples§r reforja itens de até raridade Rara. É feita com uma mesa de encantamento, Pó de Gema, pedra lisa e um lingote de ferro."
+			]
+			tasks: [
+				{
+					id: "2000000000001229"
+					item: {
+						count: 1
+						id: "apotheosis:simple_reforging_table"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 7.5d
+			icon: {
+				id: "apotheosis:simple_reforging_table"
+			}
+		}
+		{
+			title: "Guardando suas Gemas"
+			dependencies: [
+				"1000000000001095"
+			]
+			id: "1000000000001101"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000001230"
+					item: {
+						count: 1
+						id: "apotheosis:gem_dust"
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.2d
+			description: [
+				"O §aGem Case§r guarda e organiza as suas gemas lapidadas."
+			]
+			tasks: [
+				{
+					id: "2000000000001231"
+					item: {
+						count: 1
+						id: "apotheosis:gem_case"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 7.5d
+			icon: {
+				id: "apotheosis:gem_case"
+			}
+		}
+		{
+			title: "A Pérola Forjada pelos Deuses"
+			dependencies: [
+				"1000000000001101"
+			]
+			id: "1000000000001102"
+			rewards: [
+				{
+					id: "2000000000001232"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 8
+					id: "2000000000001233"
+					item: {
+						count: 1
+						id: "apotheosis:gem_dust"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			description: [
+				"A §eGodforged Pearl§r é um material raríssimo do Apotheosis, ligado ao topo da progressão de raridade (Mítica)."
+			]
+			tasks: [
+				{
+					id: "2000000000001234"
+					item: {
+						count: 1
+						id: "apotheosis:godforged_pearl"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 9.5d
+		}
+		{
+			title: "Convocando Invasores"
+			dependencies: [
+				"1000000000001102"
+			]
+			id: "1000000000001103"
+			rewards: [
+				{
+					id: "2000000000001235"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "circle"
+			size: 1.1d
+			description: [
+				"O §aInvocador de Invasores§r chama os Invasores Apotícos, que têm chances maiores de soltar gemas e equipamentos."
+			]
+			tasks: [
+				{
+					id: "2000000000001236"
+					item: {
+						count: 1
+						id: "apotheosis:boss_summoner"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 9.5d
+			icon: {
+				id: "apotheosis:boss_summoner"
+			}
+		}
+		{
+			title: "Dominium Absoluto do Equipamento"
+			dependencies: [
+				"1000000000001102"
+			]
+			id: "1000000000001104"
+			rewards: [
+				{
+					id: "2000000000001237"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "star"
+			size: 1.3d
+			description: [
+				"Parabéns! Dominaste todas as mecânicas de reforjamento, extração, engastes e alinhamento de gemas do Apotheosis."
+				""
+				"O teu equipamento agora rivaliza com o poder dos próprios deuses!"
+			]
+			tasks: [
+				{
+					id: "2000000000001238"
+					title: "Mestre do Forjamento Divino"
+					type: "checkmark"
+				}
+			]
+			x: 4.0d
+			y: 9.5d
+		}
+	]
+}
