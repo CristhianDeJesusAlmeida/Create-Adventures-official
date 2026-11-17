@@ -1315,3 +1315,8 @@ metafile = true
 file = "resourcepacks/better-lanterns.pw.toml"
 hash = "a7fc8c31dabaa7c69e27865c7302c3bf750a17fc627746a34c3a8d07a41fbbcd"
 metafile = true
+
+[[files]]
+file = "resourcepacks/enhanced-boss-bars.pw.toml"
+hash = "13f3872896bc7f72e1a05325658bc093161de52cbfc16580002b51a74262db24"
+metafile = true
