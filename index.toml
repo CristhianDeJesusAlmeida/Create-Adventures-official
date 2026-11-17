@@ -696,6 +696,11 @@ hash = "d85532e5d8240b8531ca7626f8d4d0052ef0713b8542ead9a0fb03d2e44f59b1"
 metafile = true
 
 [[files]]
+file = "mods/ftb-xmod-compat.pw.toml"
+hash = "2cfad52dbc5bd12df95bf3b3f8de574bb7d185a90caaf32829a9b19bc98aebe8"
+metafile = true
+
+[[files]]
 file = "mods/functional-storage.pw.toml"
 hash = "a05de88a883d7ad3534cfcfebddf2efe60162ab2d9ef22cf220c649f5ce2f1e3"
 metafile = true
