@@ -546,6 +546,11 @@ hash = "906235d965b5be5b60104e9f990ec795fed8ed648fb1e26a68172696acc84ec5"
 metafile = true
 
 [[files]]
+file = "mods/duplicationless.pw.toml"
+hash = "e405d9a575258f11098e33a10145fefe2f847d41cb4d938fc12ef268346aa51a"
+metafile = true
+
+[[files]]
 file = "mods/electrodynamics.pw.toml"
 hash = "2453863dd789ca832b6c13cfb72d06a78acf90aafc72a76868054a76f5bcaca4"
 metafile = true
