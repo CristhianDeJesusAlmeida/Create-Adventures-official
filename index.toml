@@ -13,6 +13,10 @@ file = "config/ftbquests/quests/chapters/introducao.snbt"
 hash = "3d8849e03255519a3968fdeb4a9ab9b35f94ce9e078740c7e543d25675e1568e"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/mekanism.snbt"
+hash = "8dff5cdceb85c602502a0662a3f93e245e995e19e68abdae3a05ffda15a0dba4"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/o_comeco.snbt"
 hash = "15cbbb4533d65045712be3983ee9e05cf0a5272681c5246ab53a730a2ee81b3e"
 

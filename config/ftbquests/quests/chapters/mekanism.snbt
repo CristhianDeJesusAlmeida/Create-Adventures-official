@@ -1,0 +1,2663 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "mekanism"
+	group: "0000000000000002"
+	icon: {
+		id: "mekanism:metallurgic_infuser"
+	}
+	id: "1000000000007100"
+	order_index: 2
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			title: "Minério de Ósmio"
+			icon: {
+				id: "mekanism:raw_osmium"
+			}
+			id: "1000000000007101"
+			rewards: [
+				{
+					count: 16
+					id: "2000000000007101"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000007102"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			description: [
+				"§eO Metal da Era Industrial§r"
+				""
+				"O §aÓsmio§r é o metal base do Mekanism e aparece em abundância nas camadas subterrâneas. Colete o §aÓsmio Bruto§r com uma picareta."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000007103"
+					item: {
+						count: 1
+						id: "mekanism:raw_osmium"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			title: "Lingote de Ósmio"
+			dependencies: [
+				"1000000000007101"
+			]
+			icon: {
+				id: "mekanism:ingot_osmium"
+			}
+			id: "1000000000007102"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000007104"
+					item: {
+						count: 1
+						id: "mekanism:enriched_iron"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000007105"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			description: [
+				"§ePronto para a Indústria§r"
+				""
+				"Funda o Ósmio Bruto na fornalha. O lingote de ósmio aparece em quase todas as receitas iniciais do mod."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000007106"
+					item: {
+						count: 1
+						id: "mekanism:ingot_osmium"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			title: "Infusor Metalúrgico"
+			dependencies: [
+				"1000000000007102"
+			]
+			icon: {
+				id: "mekanism:metallurgic_infuser"
+			}
+			id: "1000000000007103"
+			rewards: [
+				{
+					count: 16
+					id: "2000000000007107"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000007108"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"§eO Coração do Começo§r"
+				""
+				"O §aInfusor Metalúrgico§r infunde materiais em metais para criar ligas, circuitos e aço. Quase toda a progressão inicial passa por ele."
+				""
+				"Receita: ferro, fornalha, lingote de ósmio e redstone."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000007109"
+					item: {
+						count: 1
+						id: "mekanism:metallurgic_infuser"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			title: "Ferro Enriquecido"
+			dependencies: [
+				"1000000000007103"
+			]
+			icon: {
+				id: "mekanism:enriched_iron"
+			}
+			id: "1000000000007104"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000007110"
+					item: {
+						count: 1
+						id: "minecraft:charcoal"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000007111"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			description: [
+				"§eO Primeiro Passo do Aço§r"
+				""
+				"No infusor, o ferro com carbono (carvão ou carvão vegetal) vira §aFerro Enriquecido§r."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000007112"
+					item: {
+						count: 1
+						id: "mekanism:enriched_iron"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			title: "Aço"
+			dependencies: [
+				"1000000000007104"
+			]
+			icon: {
+				id: "mekanism:ingot_steel"
+			}
+			id: "1000000000007105"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000007113"
+					item: {
+						count: 1
+						id: "mekanism:alloy_infused"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000007114"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			description: [
+				"§eResistência Industrial§r"
+				""
+				"Infunda mais carbono no ferro enriquecido e funda o resultado para obter o §aLingote de Aço§r."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000007115"
+					item: {
+						count: 1
+						id: "mekanism:ingot_steel"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			title: "Carcaça de Aço"
+			dependencies: [
+				"1000000000007105"
+			]
+			icon: {
+				id: "mekanism:steel_casing"
+			}
+			id: "1000000000007106"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000007116"
+					item: {
+						count: 1
+						id: "mekanism:basic_control_circuit"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000007117"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"§eA Base das Máquinas§r"
+				""
+				"A §aCarcaça de Aço§r é o coração da maioria das máquinas e blocos do Mekanism."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000007118"
+					item: {
+						count: 1
+						id: "mekanism:steel_casing"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			title: "Liga Reforçada"
+			dependencies: [
+				"1000000000007113"
+			]
+			icon: {
+				id: "mekanism:alloy_reinforced"
+			}
+			id: "1000000000007107"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000007119"
+					item: {
+						count: 1
+						id: "mekanism:enriched_redstone"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000007120"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"§eMais Resistente§r"
+				""
+				"Infunda diamante em uma Liga Infundida para obter a §aLiga Reforçada§r, usada em máquinas de nível avançado."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000007121"
+					item: {
+						count: 1
+						id: "mekanism:alloy_reinforced"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			title: "Liga Atômica"
+			dependencies: [
+				"1000000000007107"
+			]
+			icon: {
+				id: "mekanism:alloy_atomic"
+			}
+			id: "1000000000007108"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000007122"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000007123"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"§eO Topo das Ligas§r"
+				""
+				"Infunda obsidiana refinada em uma Liga Reforçada para obter a §aLiga Atômica§r, usada em itens de alto nível."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000007124"
+					item: {
+						count: 1
+						id: "mekanism:alloy_atomic"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			title: "Gerador de Calor"
+			dependencies: [
+				"1000000000007102"
+			]
+			icon: {
+				id: "mekanismgenerators:heat_generator"
+			}
+			id: "1000000000007109"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000007125"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000007126"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			description: [
+				"§ePrimeira Energia§r"
+				""
+				"O §aGerador de Calor§r (módulo Generators) produz energia com combustível ou com lava por perto. É a fonte de energia mais simples."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000007127"
+					item: {
+						count: 1
+						id: "mekanismgenerators:heat_generator"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			title: "Cabos Universais"
+			dependencies: [
+				"1000000000007109"
+			]
+			icon: {
+				id: "mekanism:basic_universal_cable"
+			}
+			id: "1000000000007110"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000007128"
+					item: {
+						count: 1
+						id: "mekanism:ingot_osmium"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000007129"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			description: [
+				"§eLevando Energia§r"
+				""
+				"Os §aCabos Universais§r levam energia entre geradores, cubos de energia e máquinas."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000007130"
+					item: {
+						count: 1
+						id: "mekanism:basic_universal_cable"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			title: "Gerador Solar"
+			dependencies: [
+				"1000000000007110"
+			]
+			icon: {
+				id: "mekanismgenerators:solar_generator"
+			}
+			id: "1000000000007111"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000007131"
+					item: {
+						count: 1
+						id: "mekanism:alloy_infused"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000007132"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			description: [
+				"§eEnergia do Sol§r"
+				""
+				"O §aGerador Solar§r produz energia durante o dia, sem precisar de combustível."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000007133"
+					item: {
+						count: 1
+						id: "mekanismgenerators:solar_generator"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			title: "Gerador Eólico"
+			dependencies: [
+				"1000000000007110"
+			]
+			icon: {
+				id: "mekanismgenerators:wind_generator"
+			}
+			id: "1000000000007112"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000007134"
+					item: {
+						count: 1
+						id: "mekanism:basic_control_circuit"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000007135"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			description: [
+				"§eEnergia dos Ventos§r"
+				""
+				"O §aGerador Eólico§r produz mais energia quanto mais alto ele estiver. Ótimo para montanhas e torres."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000007136"
+					item: {
+						count: 1
+						id: "mekanismgenerators:wind_generator"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			title: "Liga Infundida"
+			dependencies: [
+				"1000000000007103"
+			]
+			icon: {
+				id: "mekanism:alloy_infused"
+			}
+			id: "1000000000007113"
+			rewards: [
+				{
+					count: 16
+					id: "2000000000007137"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000007138"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			description: [
+				"§eCobre e Redstone§r"
+				""
+				"No infusor, o cobre com redstone vira §aLiga Infundida§r, usada no Tablet de Energia, no Configurador e em muitas máquinas."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000007139"
+					item: {
+						count: 1
+						id: "mekanism:alloy_infused"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			title: "Circuito de Controle Básico"
+			dependencies: [
+				"1000000000007103"
+			]
+			icon: {
+				id: "mekanism:basic_control_circuit"
+			}
+			id: "1000000000007114"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000007140"
+					item: {
+						count: 1
+						id: "mekanism:enriched_iron"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000007141"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			description: [
+				"§eInteligência Mecânica§r"
+				""
+				"Infunda redstone em um lingote de ósmio para obter o §aCircuito de Controle Básico§r. Os circuitos avançados exigem ligas melhores."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000007142"
+					item: {
+						count: 1
+						id: "mekanism:basic_control_circuit"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			title: "Tablet de Energia"
+			dependencies: [
+				"1000000000007113"
+			]
+			icon: {
+				id: "mekanism:energy_tablet"
+			}
+			id: "1000000000007115"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000007143"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000007144"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			description: [
+				"§eBateria de Bolso§r"
+				""
+				"O §aTablet de Energia§r é uma bateria portátil que também é ingrediente de várias receitas."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000007145"
+					item: {
+						count: 1
+						id: "mekanism:energy_tablet"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			title: "Configurador"
+			dependencies: [
+				"1000000000007115"
+			]
+			icon: {
+				id: "mekanism:configurator"
+			}
+			id: "1000000000007116"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000007146"
+					item: {
+						count: 1
+						id: "mekanism:ingot_steel"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000007147"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"§eA Chave das Máquinas§r"
+				""
+				"O §aConfigurador§r ajusta de que lado cada máquina recebe e entrega itens, fluidos e energia, e também gira blocos."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000007148"
+					item: {
+						count: 1
+						id: "mekanism:configurator"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			title: "Cubo de Energia"
+			dependencies: [
+				"1000000000007115"
+				"1000000000007106"
+			]
+			icon: {
+				id: "mekanism:basic_energy_cube"
+			}
+			id: "1000000000007117"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000007149"
+					item: {
+						count: 1
+						id: "mekanism:alloy_infused"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000007150"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"§eArmazenamento de Energia§r"
+				""
+				"O §aCubo de Energia§r armazena energia e a distribui para as máquinas ao redor."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000007151"
+					item: {
+						count: 1
+						id: "mekanism:basic_energy_cube"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			title: "Upgrade de Velocidade"
+			dependencies: [
+				"1000000000007115"
+			]
+			icon: {
+				id: "mekanism:upgrade_speed"
+			}
+			id: "1000000000007118"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000007152"
+					item: {
+						count: 1
+						id: "mekanism:basic_control_circuit"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000007153"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"§eMais Rápido§r"
+				""
+				"O §aUpgrade de Velocidade§r é instalado em máquinas para que trabalhem mais rápido, ao custo de mais energia."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000007154"
+					item: {
+						count: 1
+						id: "mekanism:upgrade_speed"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			title: "Upgrade de Energia"
+			dependencies: [
+				"1000000000007118"
+			]
+			icon: {
+				id: "mekanism:upgrade_energy"
+			}
+			id: "1000000000007119"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000007155"
+					item: {
+						count: 1
+						id: "mekanism:enriched_redstone"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000007156"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"§eMais Eficiente§r"
+				""
+				"O §aUpgrade de Energia§r reduz o consumo de energia das máquinas e aumenta a capacidade delas."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000007157"
+					item: {
+						count: 1
+						id: "mekanism:upgrade_energy"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 2.0d
+		}
+		{
+			title: "Câmara de Enriquecimento"
+			dependencies: [
+				"1000000000007114"
+			]
+			icon: {
+				id: "mekanism:enrichment_chamber"
+			}
+			id: "1000000000007120"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000007158"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000007159"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"§eDobrando o Rendimento§r"
+				""
+				"A §aCâmara de Enriquecimento§r transforma minérios em duas poeiras, dobrando o rendimento do processamento."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000007160"
+					item: {
+						count: 1
+						id: "mekanism:enrichment_chamber"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			title: "Triturador"
+			dependencies: [
+				"1000000000007120"
+			]
+			icon: {
+				id: "mekanism:crusher"
+			}
+			id: "1000000000007121"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000007161"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000007162"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"§eReduzindo a Pó§r"
+				""
+				"O §aTriturador§r reduz itens a poeira (por exemplo, lingotes) e quebra blocos, como pedregulho em cascalho."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000007163"
+					item: {
+						count: 1
+						id: "mekanism:crusher"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			title: "Fornalha Energizada"
+			dependencies: [
+				"1000000000007121"
+			]
+			icon: {
+				id: "mekanism:energized_smelter"
+			}
+			id: "1000000000007122"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000007164"
+					item: {
+						count: 1
+						id: "mekanism:ingot_steel"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000007165"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"§eFundindo com Energia§r"
+				""
+				"A §aFornalha Energizada§r derrete itens usando energia, sem combustível."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000007166"
+					item: {
+						count: 1
+						id: "mekanism:energized_smelter"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			title: "Serra de Precisão"
+			dependencies: [
+				"1000000000007122"
+			]
+			icon: {
+				id: "mekanism:precision_sawmill"
+			}
+			id: "1000000000007123"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000007167"
+					item: {
+						count: 1
+						id: "mekanism:alloy_infused"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000007168"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"§eCortes Precisos§r"
+				""
+				"A §aSerra de Precisão§r corta madeira com eficiência e ainda rende subprodutos, como serragem."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000007169"
+					item: {
+						count: 1
+						id: "mekanism:precision_sawmill"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			title: "Minerador Digital"
+			dependencies: [
+				"1000000000007108"
+				"1000000000007121"
+			]
+			icon: {
+				id: "mekanism:digital_miner"
+			}
+			id: "1000000000007124"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000007170"
+					item: {
+						count: 1
+						id: "mekanism:basic_control_circuit"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000007171"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"§eMineração Automática§r"
+				""
+				"O §aMinerador Digital§r minera uma área inteira sozinho. Configure filtros para escolher o que coletar."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000007172"
+					item: {
+						count: 1
+						id: "mekanism:digital_miner"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 4.0d
+		}
+		{
+			title: "Robit"
+			dependencies: [
+				"1000000000007124"
+			]
+			icon: {
+				id: "mekanism:robit"
+			}
+			id: "1000000000007125"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000007173"
+					item: {
+						count: 1
+						id: "mekanism:enriched_redstone"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000007174"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"§eO Ajudante Robótico§r"
+				""
+				"O §aRobit§r é um robô auxiliar com inventário próprio que acompanha você."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000007175"
+					item: {
+						count: 1
+						id: "mekanism:robit"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 4.0d
+		}
+		{
+			title: "Separador Eletrolítico"
+			dependencies: [
+				"1000000000007120"
+			]
+			icon: {
+				id: "mekanism:electrolytic_separator"
+			}
+			id: "1000000000007126"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000007176"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000007177"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"§eÁgua em Gases§r"
+				""
+				"O §aSeparador Eletrolítico§r divide água em hidrogênio e oxigênio. Esses gases são a base da química do Mekanism."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000007178"
+					item: {
+						count: 1
+						id: "mekanism:electrolytic_separator"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			title: "Tubos Pressurizados"
+			dependencies: [
+				"1000000000007126"
+			]
+			icon: {
+				id: "mekanism:basic_pressurized_tube"
+			}
+			id: "1000000000007127"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000007179"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000007180"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			description: [
+				"§eTransportando Gases§r"
+				""
+				"Os §aTubos Pressurizados§r transportam gases e outros químicos entre máquinas."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000007181"
+					item: {
+						count: 1
+						id: "mekanism:basic_pressurized_tube"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			title: "Tanque Químico"
+			dependencies: [
+				"1000000000007127"
+			]
+			icon: {
+				id: "mekanism:basic_chemical_tank"
+			}
+			id: "1000000000007128"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000007182"
+					item: {
+						count: 1
+						id: "mekanism:ingot_steel"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000007183"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"§eEstoque de Gases§r"
+				""
+				"O §aTanque Químico§r armazena químicos, como gases, e ajuda a manter as linhas de produção estáveis."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000007184"
+					item: {
+						count: 1
+						id: "mekanism:basic_chemical_tank"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			title: "Oxidante Químico"
+			dependencies: [
+				"1000000000007128"
+			]
+			icon: {
+				id: "mekanism:chemical_oxidizer"
+			}
+			id: "1000000000007129"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000007185"
+					item: {
+						count: 1
+						id: "mekanism:advanced_control_circuit"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000007186"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"§eDe Sólido para Gás§r"
+				""
+				"O §aOxidante Químico§r converte itens sólidos em gases. Um exemplo é o enxofre, que vira dióxido de enxofre."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000007187"
+					item: {
+						count: 1
+						id: "mekanism:chemical_oxidizer"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			title: "Infusor Químico"
+			dependencies: [
+				"1000000000007129"
+			]
+			icon: {
+				id: "mekanism:chemical_infuser"
+			}
+			id: "1000000000007130"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000007188"
+					item: {
+						count: 1
+						id: "mekanism:alloy_atomic"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000007189"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"§eCombinando Gases§r"
+				""
+				"O §aInfusor Químico§r combina dois gases para criar outro, como hidrogênio e cloro para formar ácido clorídrico."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000007190"
+					item: {
+						count: 1
+						id: "mekanism:chemical_infuser"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 6.0d
+		}
+		{
+			title: "Câmara de Reação Pressurizada"
+			dependencies: [
+				"1000000000007130"
+			]
+			icon: {
+				id: "mekanism:pressurized_reaction_chamber"
+			}
+			id: "1000000000007131"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000007191"
+					item: {
+						count: 1
+						id: "mekanism:ingot_refined_obsidian"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000007192"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"§eQuímica de Alto Nível§r"
+				""
+				"A §aCâmara de Reação Pressurizada§r combina item, fluido e gás para criar novos itens e gases, como o plástico (HDPE)."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000007193"
+					item: {
+						count: 1
+						id: "mekanism:pressurized_reaction_chamber"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 6.0d
+		}
+		{
+			title: "Câmara de Purificação"
+			dependencies: [
+				"1000000000007126"
+			]
+			icon: {
+				id: "mekanism:purification_chamber"
+			}
+			id: "1000000000007132"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000007194"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000007195"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"§eRendimento 3x§r"
+				""
+				"Com oxigênio, a §aCâmara de Purificação§r eleva o rendimento do minério para 3x."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000007196"
+					item: {
+						count: 1
+						id: "mekanism:purification_chamber"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			title: "Câmara de Injeção Química"
+			dependencies: [
+				"1000000000007130"
+			]
+			icon: {
+				id: "mekanism:chemical_injection_chamber"
+			}
+			id: "1000000000007133"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000007197"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000007198"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"§eRendimento 4x§r"
+				""
+				"Com ácido clorídrico, a §aCâmara de Injeção Química§r eleva o rendimento do minério para 4x."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000007199"
+					item: {
+						count: 1
+						id: "mekanism:chemical_injection_chamber"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 8.0d
+		}
+		{
+			title: "Câmara de Dissolução Química"
+			dependencies: [
+				"1000000000007133"
+			]
+			icon: {
+				id: "mekanism:chemical_dissolution_chamber"
+			}
+			id: "1000000000007134"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000007200"
+					item: {
+						count: 1
+						id: "mekanism:alloy_reinforced"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000007201"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"§eRendimento 5x: Dissolver§r"
+				""
+				"Com ácido sulfúrico, a §aCâmara de Dissolução Química§r transforma o minério em lama, o primeiro passo do rendimento 5x."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000007202"
+					item: {
+						count: 1
+						id: "mekanism:chemical_dissolution_chamber"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 8.0d
+		}
+		{
+			title: "Lavador Químico"
+			dependencies: [
+				"1000000000007134"
+			]
+			icon: {
+				id: "mekanism:chemical_washer"
+			}
+			id: "1000000000007135"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000007203"
+					item: {
+						count: 1
+						id: "mekanism:advanced_control_circuit"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000007204"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"§eRendimento 5x: Lavar§r"
+				""
+				"O §aLavador Químico§r limpa a lama com água, removendo impurezas."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000007205"
+					item: {
+						count: 1
+						id: "mekanism:chemical_washer"
+					}
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 8.0d
+		}
+		{
+			title: "Cristalizador Químico"
+			dependencies: [
+				"1000000000007135"
+			]
+			icon: {
+				id: "mekanism:chemical_crystallizer"
+			}
+			id: "1000000000007136"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000007206"
+					item: {
+						count: 1
+						id: "mekanism:alloy_atomic"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000007207"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"§eRendimento 5x: Cristalizar§r"
+				""
+				"O §aCristalizador Químico§r transforma a lama limpa em cristais. É o último passo do processamento 5x."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000007208"
+					item: {
+						count: 1
+						id: "mekanism:chemical_crystallizer"
+					}
+					type: "item"
+				}
+			]
+			x: 20.0d
+			y: 8.0d
+		}
+		{
+			title: "Canos Mecânicos"
+			dependencies: [
+				"1000000000007106"
+			]
+			icon: {
+				id: "mekanism:basic_mechanical_pipe"
+			}
+			id: "1000000000007137"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000007209"
+					item: {
+						count: 1
+						id: "mekanism:enriched_redstone"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000007210"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			description: [
+				"§eLevando Fluidos§r"
+				""
+				"Os §aCanos Mecânicos§r transportam fluidos, como água e lava."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000007211"
+					item: {
+						count: 1
+						id: "mekanism:basic_mechanical_pipe"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			title: "Tanque de Fluidos"
+			dependencies: [
+				"1000000000007137"
+			]
+			icon: {
+				id: "mekanism:basic_fluid_tank"
+			}
+			id: "1000000000007138"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000007212"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000007213"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			description: [
+				"§eReservatório§r"
+				""
+				"O §aTanque de Fluidos§r armazena grandes volumes de fluido."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000007214"
+					item: {
+						count: 1
+						id: "mekanism:basic_fluid_tank"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			title: "Transportador Logístico"
+			dependencies: [
+				"1000000000007106"
+			]
+			icon: {
+				id: "mekanism:basic_logistical_transporter"
+			}
+			id: "1000000000007139"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000007215"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000007216"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			description: [
+				"§eItens em Movimento§r"
+				""
+				"O §aTransportador Logístico§r move itens por uma rede. As cores controlam as rotas."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000007217"
+					item: {
+						count: 1
+						id: "mekanism:basic_logistical_transporter"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -4.0d
+		}
+		{
+			title: "Organizador Logístico"
+			dependencies: [
+				"1000000000007139"
+			]
+			icon: {
+				id: "mekanism:logistical_sorter"
+			}
+			id: "1000000000007140"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000007218"
+					item: {
+						count: 1
+						id: "mekanism:ingot_steel"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000007219"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"§eCada Item no Seu Lugar§r"
+				""
+				"O §aOrganizador Logístico§r filtra itens e entrega cada um no lugar certo."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000007220"
+					item: {
+						count: 1
+						id: "mekanism:logistical_sorter"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: -4.0d
+		}
+		{
+			title: "Caixa de Armazenamento"
+			dependencies: [
+				"1000000000007140"
+			]
+			icon: {
+				id: "mekanism:basic_bin"
+			}
+			id: "1000000000007141"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000007221"
+					item: {
+						count: 1
+						id: "mekanism:advanced_control_circuit"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000007222"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"§eUm Item, Muitas Unidades§r"
+				""
+				"A §aCaixa de Armazenamento§r guarda uma enorme quantidade de um único tipo de item."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000007223"
+					item: {
+						count: 1
+						id: "mekanism:basic_bin"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: -4.0d
+		}
+		{
+			title: "Desmontador Atômico"
+			dependencies: [
+				"1000000000007108"
+			]
+			icon: {
+				id: "mekanism:atomic_disassembler"
+			}
+			id: "1000000000007142"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000007224"
+					item: {
+						count: 1
+						id: "mekanism:basic_control_circuit"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000007225"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"§eA Ferramenta Definitiva§r"
+				""
+				"O §aDesmontador Atômico§r é uma ferramenta elétrica multiuso, com modos de mineração rápida e em veias."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000007226"
+					item: {
+						count: 1
+						id: "mekanism:atomic_disassembler"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 10.0d
+		}
+		{
+			title: "Jetpack"
+			dependencies: [
+				"1000000000007128"
+				"1000000000007131"
+			]
+			icon: {
+				id: "mekanism:jetpack"
+			}
+			id: "1000000000007143"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000007227"
+					item: {
+						count: 1
+						id: "mekanism:ingot_refined_obsidian"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000007228"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"§eAos Céus§r"
+				""
+				"O §aJetpack§r permite voar usando hidrogênio como combustível."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000007229"
+					item: {
+						count: 1
+						id: "mekanism:jetpack"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 10.0d
+		}
+		{
+			title: "Free Runners"
+			dependencies: [
+				"1000000000007108"
+			]
+			icon: {
+				id: "mekanism:free_runners"
+			}
+			id: "1000000000007144"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000007230"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000007231"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"§eCorrida Segura§r"
+				""
+				"As §aFree Runners§r são botas elétricas que protegem você de dano de queda."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000007232"
+					item: {
+						count: 1
+						id: "mekanism:free_runners"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 10.0d
+		}
+		{
+			title: "Núcleo de Teletransporte"
+			dependencies: [
+				"1000000000007108"
+			]
+			icon: {
+				id: "mekanism:teleportation_core"
+			}
+			id: "1000000000007145"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000007233"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000007234"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"§ePeça-Chave§r"
+				""
+				"O §aNúcleo de Teletransporte§r é o componente-chave de todo o teletransporte do Mekanism."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000007235"
+					item: {
+						count: 1
+						id: "mekanism:teleportation_core"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 10.0d
+		}
+		{
+			title: "Teletransportador"
+			dependencies: [
+				"1000000000007145"
+			]
+			icon: {
+				id: "mekanism:teleporter"
+			}
+			id: "1000000000007146"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000007236"
+					item: {
+						count: 1
+						id: "mekanism:ingot_steel"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000007237"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"§eDe Base em Base§r"
+				""
+				"Monte dois §aTeletransportadores§r com o mesmo código para viajar instantaneamente entre bases."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000007238"
+					item: {
+						count: 1
+						id: "mekanism:teleporter"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 10.0d
+		}
+		{
+			title: "Teletransportador Portátil"
+			dependencies: [
+				"1000000000007146"
+			]
+			icon: {
+				id: "mekanism:portable_teleporter"
+			}
+			id: "1000000000007147"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000007239"
+					item: {
+						count: 1
+						id: "mekanism:advanced_control_circuit"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000007240"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"§eViagem de Bolso§r"
+				""
+				"O §aTeletransportador Portátil§r leva você a um teletransportador configurado, de qualquer lugar."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000007241"
+					item: {
+						count: 1
+						id: "mekanism:portable_teleporter"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 10.0d
+		}
+		{
+			title: "Drive QIO"
+			dependencies: [
+				"1000000000007108"
+				"1000000000007117"
+			]
+			icon: {
+				id: "mekanism:qio_drive_base"
+			}
+			id: "1000000000007148"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000007242"
+					item: {
+						count: 1
+						id: "mekanism:basic_control_circuit"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000007243"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"§eArmazenamento em Rede§r"
+				""
+				"O §aDrive QIO§r armazena itens no QIO, o sistema de armazenamento em rede do Mekanism."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000007244"
+					item: {
+						count: 1
+						id: "mekanism:qio_drive_base"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 12.0d
+		}
+		{
+			title: "Painel QIO"
+			dependencies: [
+				"1000000000007148"
+			]
+			icon: {
+				id: "mekanism:qio_dashboard"
+			}
+			id: "1000000000007149"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000007245"
+					item: {
+						count: 1
+						id: "mekanism:ingot_refined_obsidian"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000007246"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"§eTudo ao Alcance§r"
+				""
+				"O §aPainel QIO§r permite ver, buscar e retirar tudo o que está guardado nos drives."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000007247"
+					item: {
+						count: 1
+						id: "mekanism:qio_dashboard"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 12.0d
+		}
+		{
+			title: "Matriz de Indução"
+			dependencies: [
+				"1000000000007117"
+			]
+			icon: {
+				id: "mekanism:induction_casing"
+			}
+			id: "1000000000007150"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000007248"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000007249"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"§eEnergia em Massa§r"
+				""
+				"A §aMatriz de Indução§r é um multibloco que armazena quantidades enormes de energia."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000007250"
+					item: {
+						count: 1
+						id: "mekanism:induction_casing"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "2000000000007251"
+					item: {
+						count: 1
+						id: "mekanism:induction_port"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "2000000000007252"
+					item: {
+						count: 1
+						id: "mekanism:induction_cell_basic"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 14.0d
+		}
+		{
+			title: "Evaporação Térmica"
+			dependencies: [
+				"1000000000007138"
+			]
+			icon: {
+				id: "mekanism:thermal_evaporation_block"
+			}
+			id: "1000000000007151"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000007253"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000007254"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"§eEvaporando Fluidos§r"
+				""
+				"A §aPlanta de Evaporação Térmica§r é um multibloco que evapora fluidos, como transformar água em salmoura."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000007255"
+					item: {
+						count: 1
+						id: "mekanism:thermal_evaporation_block"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "2000000000007256"
+					item: {
+						count: 1
+						id: "mekanism:thermal_evaporation_controller"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "2000000000007257"
+					item: {
+						count: 1
+						id: "mekanism:thermal_evaporation_valve"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 14.0d
+		}
+		{
+			title: "Turbina Industrial"
+			dependencies: [
+				"1000000000007150"
+			]
+			icon: {
+				id: "mekanismgenerators:turbine_casing"
+			}
+			id: "1000000000007152"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000007258"
+					item: {
+						count: 1
+						id: "mekanism:alloy_reinforced"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000007259"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"§eVapor em Eletricidade§r"
+				""
+				"A §aTurbina Industrial§r gera grandes quantidades de energia a partir de vapor."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000007260"
+					item: {
+						count: 1
+						id: "mekanismgenerators:turbine_casing"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "2000000000007261"
+					item: {
+						count: 1
+						id: "mekanismgenerators:turbine_rotor"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "2000000000007262"
+					item: {
+						count: 1
+						id: "mekanismgenerators:turbine_blade"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 14.0d
+		}
+		{
+			title: "Reator de Fissão"
+			dependencies: [
+				"1000000000007150"
+			]
+			icon: {
+				id: "mekanismgenerators:fission_reactor_casing"
+			}
+			id: "1000000000007153"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000007263"
+					item: {
+						count: 1
+						id: "mekanism:advanced_control_circuit"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000007264"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+			]
+			description: [
+				"§eEnergia Nuclear§r"
+				""
+				"O §aReator de Fissão§r gera muita energia e calor com combustível nuclear. Cuidado: ele pode explodir se o resfriamento falhar."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000007265"
+					item: {
+						count: 1
+						id: "mekanismgenerators:fission_reactor_casing"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "2000000000007266"
+					item: {
+						count: 1
+						id: "mekanismgenerators:fission_fuel_assembly"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "2000000000007267"
+					item: {
+						count: 1
+						id: "mekanismgenerators:control_rod_assembly"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 14.0d
+		}
+		{
+			title: "Reator de Fusão"
+			dependencies: [
+				"1000000000007153"
+			]
+			icon: {
+				id: "mekanismgenerators:fusion_reactor_frame"
+			}
+			id: "1000000000007154"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000007268"
+					item: {
+						count: 1
+						id: "mekanism:alloy_atomic"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000007269"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+			]
+			description: [
+				"§eA Energia das Estrelas§r"
+				""
+				"O §aReator de Fusão§r é a fonte de energia mais avançada do Mekanism, alimentada por deutério e trítio com lasers."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000007270"
+					item: {
+						count: 1
+						id: "mekanismgenerators:fusion_reactor_frame"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "2000000000007271"
+					item: {
+						count: 1
+						id: "mekanismgenerators:fusion_reactor_controller"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "2000000000007272"
+					item: {
+						count: 1
+						id: "mekanismgenerators:laser_focus_matrix"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 14.0d
+		}
+		{
+			title: "Processador de Antimatéria"
+			dependencies: [
+				"1000000000007153"
+			]
+			icon: {
+				id: "mekanism:sps_casing"
+			}
+			id: "1000000000007155"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000007273"
+					item: {
+						count: 1
+						id: "mekanism:ingot_refined_obsidian"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000007274"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+			]
+			description: [
+				"§eO Fim da Estrada§r"
+				""
+				"O §aSPS§r (Supercritical Phase Shifter) converte polônio em antimatéria."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000007275"
+					item: {
+						count: 1
+						id: "mekanism:sps_casing"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "2000000000007276"
+					item: {
+						count: 1
+						id: "mekanism:sps_port"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "2000000000007277"
+					item: {
+						count: 1
+						id: "mekanism:supercharged_coil"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 14.0d
+		}
+		{
+			title: "Traje Meka"
+			dependencies: [
+				"1000000000007142"
+				"1000000000007143"
+			]
+			icon: {
+				id: "mekanism:mekasuit_helmet"
+			}
+			id: "1000000000007156"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000007278"
+					item: {
+						count: 1
+						id: "mekanism:ingot_refined_glowstone"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000007279"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			description: [
+				"§eA Armadura Suprema§r"
+				""
+				"O §aTraje Meka§r é a armadura mais avançada do Mekanism, com módulos configuráveis."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000007280"
+					item: {
+						count: 1
+						id: "mekanism:mekasuit_helmet"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "2000000000007281"
+					item: {
+						count: 1
+						id: "mekanism:mekasuit_bodyarmor"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "2000000000007282"
+					item: {
+						count: 1
+						id: "mekanism:mekasuit_pants"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "2000000000007283"
+					item: {
+						count: 1
+						id: "mekanism:mekasuit_boots"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 16.0d
+		}
+		{
+			title: "Meka-Tool"
+			dependencies: [
+				"1000000000007142"
+			]
+			icon: {
+				id: "mekanism:meka_tool"
+			}
+			id: "1000000000007157"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000007284"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000007285"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			description: [
+				"§eA Ferramenta Suprema§r"
+				""
+				"A §aMeka-Tool§r é a ferramenta definitiva do Mekanism, com módulos configuráveis."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000007286"
+					item: {
+						count: 1
+						id: "mekanism:meka_tool"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 16.0d
+		}
+	]
+	title: "Mekanism"
+}
