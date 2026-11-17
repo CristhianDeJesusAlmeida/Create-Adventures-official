@@ -1,0 +1,1867 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "aeronautics"
+	title: "Aeronáutica"
+	group: "345801DAE9BD6E39"
+	icon: {
+		id: "simulated:physics_assembler"
+	}
+	id: "267B3604CFC8AB4D"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			title: "O Despertar dos Céus"
+			id: "1000000000001031"
+			rewards: [
+				{
+					id: "2000000000001042"
+					item: {
+						count: 1
+						id: "simulated:honey_glue"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "2000000000001043"
+					item: {
+						count: 1
+						id: "create:andesite_casing"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			description: [
+				"O §aMontador de Física (Physics Assembler)§r é o coração de toda a engenharia aeronáutica. É ele que permite transformar estruturas estáticas do Create em máquinas voadoras dinâmicas."
+			]
+			tasks: [
+				{
+					id: "2000000000001044"
+					item: {
+						count: 1
+						id: "simulated:physics_assembler"
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			title: "O Coração da Aeronáutica"
+			dependencies: [
+				"1000000000001031"
+			]
+			id: "1000000000001032"
+			rewards: [
+				{
+					id: "2000000000001045"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "heart"
+			size: 1.5d
+			description: [
+				"Valide sua montagem e prepare o terreno para dar vida aos primeiros protótipos aéreos."
+			]
+			tasks: [
+				{
+					id: "2000000000001046"
+					item: {
+						count: 1
+						id: "simulated:physics_assembler"
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			title: "Aerodinâmica Inicial"
+			dependencies: [
+				"1000000000001032"
+			]
+			id: "1000000000001033"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000001047"
+					item: {
+						count: 1
+						id: "create:white_sail"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "2000000000001048"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			description: [
+				"As hélices e superfícies de contato com o ar são fundamentais para gerar sustentação e empuxo."
+			]
+			tasks: [
+				{
+					id: "2000000000001049"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(aeronautics:andesite_propeller)item(aeronautics:wooden_propeller)item(create:encased_fan))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			title: "Força Rotacional no Ar"
+			dependencies: [
+				"1000000000001033"
+			]
+			icon: {
+				id: "aeronautics:propeller_bearing"
+			}
+			id: "1000000000001034"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000001050"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			description: [
+				"O §aRolamento de Hélice§r transfere a rotação mecânica para o empuxo necessário, empurrando a sua aeronave adiante nos céus."
+			]
+			tasks: [
+				{
+					id: "2000000000001051"
+					item: {
+						count: 1
+						id: "aeronautics:propeller_bearing"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000001052"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item_tag(c:wools)item(create:white_sail))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			title: "Estabilidade Giroscópica"
+			dependencies: [
+				"1000000000001033"
+			]
+			id: "1000000000001035"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000001053"
+					item: {
+						count: 1
+						id: "aeronautics:propeller_bearing"
+					}
+					type: "item"
+				}
+			]
+			description: [
+				"Perfeito para veículos que exigem manobras precisas e controle total de inclinação durante o voo."
+			]
+			tasks: [
+				{
+					id: "2000000000001054"
+					item: {
+						count: 1
+						id: "aeronautics:gyroscopic_propeller_bearing"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			title: "Superfícies de Sustentação"
+			dependencies: [
+				"1000000000001033"
+			]
+			id: "1000000000001036"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000001055"
+					item: {
+						count: 1
+						id: "create:cogwheel"
+					}
+					type: "item"
+				}
+			]
+			description: [
+				"As velas e membranas auxiliam na captação de vento e sustentação para aeroplanos e estruturas planadoras."
+			]
+			tasks: [
+				{
+					id: "2000000000001056"
+					item: {
+						count: 1
+						id: "create:white_sail"
+					}
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -4.0d
+		}
+		{
+			title: "Eficiência Otimizada"
+			dependencies: [
+				"1000000000001033"
+			]
+			id: "1000000000001037"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000001057"
+					item: {
+						count: 1
+						id: "create:propeller"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "2000000000001058"
+					item: {
+						count: 1
+						id: "create:shaft"
+					}
+					type: "item"
+				}
+			]
+			description: [
+				"Hélices inteligentes capazes de ajustar automaticamente o passo para maximizar a velocidade e o consumo."
+			]
+			tasks: [
+				{
+					id: "2000000000001059"
+					item: {
+						count: 1
+						id: "aeronautics:smart_propeller"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			title: "Sistema Integrado de Propulsão"
+			dependencies: [
+				"1000000000001037"
+				"1000000000001035"
+			]
+			dependency_requirement: "all_completed"
+			id: "1000000000001038"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000001060"
+					item: {
+						count: 1
+						id: "create:propeller"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2000000000001061"
+					item: {
+						count: 1
+						id: "create:shaft"
+					}
+					type: "item"
+				}
+			]
+			description: [
+				"Combina as tecnologias de rolamentos avançados para garantir que sua aeronave mantenha o empuxo mesmo sob condições severas."
+			]
+			tasks: [
+				{
+					id: "2000000000001062"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(aeronautics:andesite_propeller)item(aeronautics:wooden_propeller)item(create:encased_fan))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -5.5d
+		}
+		{
+			title: "Montagem Concluída: Propulsão Avançada"
+			dependencies: [
+				"1000000000001038"
+			]
+			id: "1000000000001039"
+			rewards: [
+				{
+					id: "2000000000001063"
+					item: {
+						count: 1
+						id: "minecraft:iron_block"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000001064"
+					item: {
+						count: 1
+						id: "minecraft:redstone_block"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "2000000000001065"
+					item: {
+						count: 1
+						id: "create:andesite_alloy"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000001066"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			description: [
+				"Valide o sistema completo de rotores para habilitar construções aéreas de alta performance."
+			]
+			tasks: [
+				{
+					id: "2000000000001067"
+					item: {
+						count: 1
+						id: "simulated:physics_assembler"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000001068"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(aeronautics:gyroscopic_propeller_bearing)item(aeronautics:smart_propeller))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -7.0d
+		}
+		{
+			title: "Ventilação e Fluxo de Ar"
+			dependencies: [
+				"1000000000001033"
+			]
+			id: "1000000000001040"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000001069"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "2000000000001070"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			description: [
+				"Utilize bicos e ventiladores encasados para direcionar fluxos de ar comprimido para os sistemas da aeronave."
+			]
+			tasks: [
+				{
+					id: "2000000000001071"
+					item: {
+						count: 1
+						id: "create:nozzle"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000001072"
+					item: {
+						count: 1
+						id: "create:encased_fan"
+					}
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			title: "Montagem Concluída: Sistemas Pneumáticos"
+			dependencies: [
+				"1000000000001040"
+			]
+			id: "1000000000001041"
+			rewards: [
+				{
+					id: "2000000000001073"
+					item: {
+						count: 1
+						id: "minecraft:iron_block"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000001074"
+					item: {
+						count: 1
+						id: "minecraft:redstone_block"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "2000000000001075"
+					item: {
+						count: 1
+						id: "create:andesite_alloy"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000001076"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			description: [
+				"Valide a montagem dos ventiladores e bicos para certificar a estabilidade aerodinâmica pneumática."
+			]
+			tasks: [
+				{
+					id: "2000000000001077"
+					item: {
+						count: 1
+						id: "simulated:physics_assembler"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000001078"
+					item: {
+						count: 1
+						id: "create:nozzle"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000001079"
+					item: {
+						count: 1
+						id: "create:encased_fan"
+					}
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -7.0d
+		}
+		{
+			title: "Estruturas Envelopadas"
+			dependencies: [
+				"1000000000001033"
+			]
+			id: "1000000000001042"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000001080"
+					item: {
+						count: 1
+						id: "create:cogwheel"
+					}
+					type: "item"
+				}
+			]
+			description: [
+				"Os envelopes são essenciais para conter gases leves e prover sustentação estática para balões e dirigíveis."
+			]
+			tasks: [
+				{
+					id: "2000000000001081"
+					item: {
+						count: 1
+						id: "aeronautics:white_envelope"
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			title: "Ventilação de Vapor"
+			dependencies: [
+				"1000000000001042"
+			]
+			id: "1000000000001043"
+			rewards: [
+				{
+					count: 9
+					id: "2000000000001082"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
+			description: [
+				"Controla a liberação e pressão de vapor acumulada nas caldeiras das suas embarcações voadoras."
+			]
+			tasks: [
+				{
+					id: "2000000000001083"
+					item: {
+						count: 1
+						id: "aeronautics:steam_vent"
+					}
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -5.5d
+		}
+		{
+			title: "Calor Regulável"
+			dependencies: [
+				"1000000000001042"
+			]
+			id: "1000000000001044"
+			rewards: [
+				{
+					count: 9
+					id: "2000000000001084"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			description: [
+				"Ajusta precisamente a intensidade térmica fornecida para modular a força gerada pelos motores a vapor."
+			]
+			tasks: [
+				{
+					id: "2000000000001085"
+					item: {
+						count: 1
+						id: "aeronautics:adjustable_burner"
+					}
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -5.5d
+		}
+		{
+			title: "Montagem Concluída: Sistemas a Vapor"
+			dependencies: [
+				"1000000000001044"
+				"1000000000001043"
+			]
+			dependency_requirement: "all_completed"
+			id: "1000000000001045"
+			rewards: [
+				{
+					id: "2000000000001086"
+					item: {
+						count: 1
+						id: "minecraft:iron_block"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000001087"
+					item: {
+						count: 1
+						id: "minecraft:redstone_block"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "2000000000001088"
+					item: {
+						count: 1
+						id: "create:andesite_alloy"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000001089"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			description: [
+				"Valide o conjunto térmico e os envelopes para dar início às operações com dirigíveis a vapor."
+			]
+			tasks: [
+				{
+					id: "2000000000001090"
+					item: {
+						count: 1
+						id: "simulated:physics_assembler"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000001091"
+					item: {
+						count: 1
+						id: "aeronautics:white_envelope"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000001092"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(aeronautics:adjustable_burner)item(aeronautics:steam_vent))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -7.0d
+		}
+		{
+			title: "Capturando as Correntes de Ar"
+			dependencies: [
+				"1000000000001036"
+			]
+			id: "1000000000001046"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000001093"
+					item: {
+						count: 1
+						id: "minecraft:phantom_membrane"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2000000000001094"
+					item: {
+						count: 1
+						id: "minecraft:phantom_membrane"
+					}
+					type: "item"
+				}
+			]
+			description: [
+				"Utilize rolamentos mecânicos combinados com velas simétricas para construir estruturas capazes de aproveitar o vento diretamente."
+			]
+			tasks: [
+				{
+					id: "2000000000001095"
+					item: {
+						count: 1
+						id: "create:mechanical_bearing"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000001096"
+					item: {
+						count: 1
+						id: "simulated:white_symmetric_sail"
+					}
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -5.5d
+		}
+		{
+			title: "Montagem Concluída: Navegação a Vela"
+			dependencies: [
+				"1000000000001046"
+			]
+			id: "1000000000001047"
+			rewards: [
+				{
+					id: "2000000000001097"
+					item: {
+						count: 1
+						id: "minecraft:iron_block"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000001098"
+					item: {
+						count: 1
+						id: "minecraft:redstone_block"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "2000000000001099"
+					item: {
+						count: 1
+						id: "create:andesite_alloy"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000001100"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			description: [
+				"Valide o sistema de velas e rolamentos para garantir o funcionamento estrutural de embarcações movidas a vento."
+			]
+			tasks: [
+				{
+					id: "2000000000001101"
+					item: {
+						count: 1
+						id: "simulated:physics_assembler"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000001102"
+					item: {
+						count: 1
+						id: "create:white_sail"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000001103"
+					item: {
+						count: 1
+						id: "simulated:white_symmetric_sail"
+					}
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -7.0d
+		}
+		{
+			title: "Suportes de Rodagem"
+			dependencies: [
+				"1000000000001033"
+			]
+			id: "1000000000001048"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000001104"
+					item: {
+						count: 1
+						id: "create:cogwheel"
+					}
+					type: "item"
+				}
+			]
+			description: [
+				"Os suportes de rodas permitem fixar e articular eixos de tração terrestre para veículos adaptados a qualquer terreno."
+			]
+			tasks: [
+				{
+					id: "2000000000001105"
+					item: {
+						count: 1
+						id: "offroad:wheel_mount"
+					}
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			title: "Aderência Máxima"
+			dependencies: [
+				"1000000000001048"
+			]
+			id: "1000000000001049"
+			rewards: [
+				{
+					count: 12
+					id: "2000000000001106"
+					item: {
+						count: 1
+						id: "minecraft:dried_kelp"
+					}
+					type: "item"
+				}
+			]
+			description: [
+				"Selecione e fabrique pneus robustos para garantir tração em terrenos acidentados, lama ou asfalto."
+			]
+			tasks: [
+				{
+					id: "2000000000001107"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(offroad:small_tire)item(offroad:tire)item(offroad:large_tire)item(offroad:monstrous_tire))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -5.5d
+		}
+		{
+			title: "Montagem Concluída: Veículos Terrestres"
+			dependencies: [
+				"1000000000001049"
+			]
+			id: "1000000000001050"
+			rewards: [
+				{
+					id: "2000000000001108"
+					item: {
+						count: 1
+						id: "minecraft:iron_block"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000001109"
+					item: {
+						count: 1
+						id: "minecraft:redstone_block"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "2000000000001110"
+					item: {
+						count: 1
+						id: "create:andesite_alloy"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000001111"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			description: [
+				"Valide o sistema de rodas e suportes para colocar seus primeiros veículos e rovers em movimento."
+			]
+			tasks: [
+				{
+					id: "2000000000001112"
+					item: {
+						count: 1
+						id: "simulated:physics_assembler"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000001113"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(offroad:small_tire)item(offroad:tire)item(offroad:large_tire)item(offroad:monstrous_tire))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000001114"
+					item: {
+						count: 1
+						id: "offroad:wheel_mount"
+					}
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -7.0d
+		}
+		{
+			title: "Propulsão Compacta"
+			dependencies: [
+				"1000000000001032"
+			]
+			id: "1000000000001051"
+			rewards: [
+				{
+					count: 32
+					id: "2000000000001115"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.25d
+			description: [
+				"O motor portátil fornece a energia autônoma necessária para impulsionar máquinas e veículos móveis de pequeno porte."
+			]
+			tasks: [
+				{
+					id: "2000000000001116"
+					item: {
+						count: 1
+						id: "simulated:red_portable_engine"
+					}
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			title: "Direção e Controle"
+			dependencies: [
+				"1000000000001051"
+			]
+			id: "1000000000001052"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000001117"
+					item: {
+						count: 1
+						id: "create:cogwheel"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "2000000000001118"
+					item: {
+						count: 1
+						id: "create:shaft"
+					}
+					type: "item"
+				}
+			]
+			description: [
+				"Volante de manobra para direcionar com precisão o trajeto de automóveis e embarcações terrestres."
+			]
+			tasks: [
+				{
+					id: "2000000000001119"
+					item: {
+						count: 1
+						id: "simulated:steering_wheel"
+					}
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			title: "Elasticidade Mecânica"
+			dependencies: [
+				"1000000000001051"
+			]
+			id: "1000000000001053"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000001120"
+					item: {
+						count: 1
+						id: "create:shaft"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2000000000001121"
+					item: {
+						count: 1
+						id: "simulated:spring"
+					}
+					type: "item"
+				}
+			]
+			description: [
+				"Molas de torção armazenam e liberam energia elástica para suspensões e mecanismos articulados."
+			]
+			tasks: [
+				{
+					id: "2000000000001122"
+					item: {
+						count: 1
+						id: "simulated:torsion_spring"
+					}
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			title: "Transmissão de Força Proporcional"
+			dependencies: [
+				"1000000000001051"
+			]
+			id: "1000000000001054"
+			rewards: [
+				{
+					count: 3
+					id: "2000000000001123"
+					item: {
+						count: 1
+						id: "create:encased_chain_drive"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000001124"
+					item: {
+						count: 1
+						id: "simulated:throttle_lever"
+					}
+					type: "item"
+				}
+			]
+			description: [
+				"Sistema de transmissão analógica para controlar marchas e velocidades de rotação progressivas."
+			]
+			tasks: [
+				{
+					id: "2000000000001125"
+					item: {
+						count: 1
+						id: "simulated:analog_transmission"
+					}
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			title: "Articulação Universal"
+			dependencies: [
+				"1000000000001051"
+			]
+			id: "1000000000001055"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000001126"
+					item: {
+						count: 1
+						id: "create:industrial_iron_block"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2000000000001127"
+					item: {
+						count: 1
+						id: "create:mechanical_bearing"
+					}
+					type: "item"
+				}
+			]
+			description: [
+				"Rolamento giratório de rótula que permite eixos girarem livremente em múltiplos ângulos simultâneos."
+			]
+			tasks: [
+				{
+					id: "2000000000001128"
+					item: {
+						count: 1
+						id: "simulated:swivel_bearing"
+					}
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			title: "Amortecimento Elástico"
+			dependencies: [
+				"1000000000001051"
+			]
+			id: "1000000000001056"
+			rewards: [
+				{
+					count: 10
+					id: "2000000000001129"
+					item: {
+						count: 1
+						id: "create:andesite_alloy"
+					}
+					type: "item"
+				}
+			]
+			description: [
+				"Molas helicoidais comuns para absorção de impactos em estruturas mecânicas e trens de pouso."
+			]
+			tasks: [
+				{
+					id: "2000000000001130"
+					item: {
+						count: 1
+						id: "simulated:spring"
+					}
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			title: "Comando Sem Fios"
+			dependencies: [
+				"1000000000001032"
+			]
+			id: "1000000000001057"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000001131"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2000000000001132"
+					item: {
+						count: 1
+						id: "minecraft:redstone_block"
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.25d
+			description: [
+				"Controladores e links de redstone avançados para gerenciar sinais à distância entre componentes da sua aeronave."
+			]
+			tasks: [
+				{
+					id: "2000000000001133"
+					item: {
+						count: 1
+						id: "create:linked_controller"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000001134"
+					item: {
+						count: 1
+						id: "create:redstone_link"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			title: "Precisão a Laser"
+			dependencies: [
+				"1000000000001057"
+			]
+			id: "1000000000001058"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000001135"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "2000000000001136"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			description: [
+				"Apontadores e sensores a laser para automação avançada e rastreamento de alvos ou posições."
+			]
+			tasks: [
+				{
+					id: "2000000000001137"
+					item: {
+						count: 1
+						id: "simulated:laser_pointer"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000001138"
+					item: {
+						count: 1
+						id: "simulated:laser_sensor"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			title: "Alavanca de Aceleração"
+			dependencies: [
+				"1000000000001057"
+			]
+			id: "1000000000001059"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000001139"
+					item: {
+						count: 1
+						id: "minecraft:redstone_block"
+					}
+					type: "item"
+				}
+			]
+			description: [
+				"Controla a potência de aceleração de forma linear e dedicada para motores e turbinas."
+			]
+			tasks: [
+				{
+					id: "2000000000001140"
+					item: {
+						count: 1
+						id: "simulated:throttle_lever"
+					}
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			title: "Monitoramento de Velocidade"
+			dependencies: [
+				"1000000000001057"
+			]
+			id: "1000000000001060"
+			rewards: [
+				{
+					id: "2000000000001141"
+					item: {
+						count: 1
+						id: "aeronautics:propeller_bearing"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000001142"
+					item: {
+						count: 1
+						id: "minecraft:redstone_block"
+					}
+					type: "item"
+				}
+			]
+			description: [
+				"Sensor de velocidade para medir o deslocamento relativo e automatizar respostas em voo."
+			]
+			tasks: [
+				{
+					id: "2000000000001143"
+					item: {
+						count: 1
+						id: "simulated:velocity_sensor"
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			title: "Altímetro Automático"
+			dependencies: [
+				"1000000000001057"
+			]
+			id: "1000000000001061"
+			rewards: [
+				{
+					count: 16
+					id: "2000000000001144"
+					item: {
+						count: 1
+						id: "aeronautics:white_envelope"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000001145"
+					item: {
+						count: 1
+						id: "minecraft:redstone_block"
+					}
+					type: "item"
+				}
+			]
+			description: [
+				"Sensor de altitude essencial para manter níveis de voo estáveis e evitar colisões com o solo."
+			]
+			tasks: [
+				{
+					id: "2000000000001146"
+					item: {
+						count: 1
+						id: "simulated:altitude_sensor"
+					}
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			title: "Comunicação Escrita por Redstone"
+			dependencies: [
+				"1000000000001057"
+			]
+			id: "1000000000001062"
+			rewards: [
+				{
+					count: 6
+					id: "2000000000001147"
+					item: {
+						count: 1
+						id: "create:redstone_link"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2000000000001148"
+					item: {
+						count: 1
+						id: "minecraft:redstone_block"
+					}
+					type: "item"
+				}
+			]
+			description: [
+				"Dispositivo de digitação e transmissão avançada de sinais lógicos integrados."
+			]
+			tasks: [
+				{
+					id: "2000000000001149"
+					item: {
+						count: 1
+						id: "simulated:linked_typewriter"
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			title: "O Bloco que Desafia a Gravidade"
+			dependencies: [
+				"1000000000001033"
+			]
+			icon: {
+				id: "aeronautics:levitite"
+			}
+			id: "1000000000004001"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000004001"
+					item: {
+						count: 1
+						id: "create:iron_sheet"
+					}
+					type: "item"
+				}
+			]
+			description: [
+				"O §aLevitite§r é o bloco que dá sustentação às suas construções: quanto mais Levitite uma estrutura tiver, mais ela resiste à gravidade."
+				""
+				"Consulte a receita no JEI antes de juntar os materiais."
+			]
+			tasks: [
+				{
+					id: "2000000000004011"
+					item: {
+						count: 1
+						id: "aeronautics:levitite"
+					}
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			title: "Hélice de Andesito"
+			dependencies: [
+				"1000000000001034"
+			]
+			icon: {
+				id: "aeronautics:andesite_propeller"
+			}
+			id: "1000000000004002"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000004002"
+					item: {
+						count: 1
+						id: "create:brass_ingot"
+					}
+					type: "item"
+				}
+			]
+			description: [
+				"A §aHélice de Andesito§r é a pá básica das aeronaves: ela se fixa em um Rolamento de Hélice e transforma rotação em empuxo."
+			]
+			tasks: [
+				{
+					id: "2000000000004012"
+					item: {
+						count: 1
+						id: "aeronautics:andesite_propeller"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			title: "Envelope com Eixo"
+			dependencies: [
+				"1000000000001042"
+			]
+			icon: {
+				id: "aeronautics:white_envelope_encased_shaft"
+			}
+			id: "1000000000004003"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000004003"
+					item: {
+						count: 1
+						id: "minecraft:feather"
+					}
+					type: "item"
+				}
+			]
+			description: [
+				"O §aEnvelope com Eixo§r é uma versão do envelope que carrega um eixo dentro dele, permitindo passar rotação pelo balão."
+			]
+			tasks: [
+				{
+					id: "2000000000004013"
+					item: {
+						count: 1
+						id: "aeronautics:white_envelope_encased_shaft"
+					}
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -7.0d
+		}
+		{
+			title: "Mecanismo Giroscópico"
+			dependencies: [
+				"1000000000001031"
+			]
+			icon: {
+				id: "simulated:gyroscopic_mechanism"
+			}
+			id: "1000000000004004"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000004004"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000004005"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"O §aMecanismo Giroscópico§r é um componente avançado usado nas receitas de navegação e de sensores, como a Mesa de Navegação e o Sensor de Gimbal."
+				""
+				"Ele não é um bloco de uso direto: é um ingrediente."
+			]
+			tasks: [
+				{
+					id: "2000000000004014"
+					item: {
+						count: 1
+						id: "simulated:gyroscopic_mechanism"
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			title: "Mesa de Navegação"
+			dependencies: [
+				"1000000000004004"
+			]
+			icon: {
+				id: "simulated:navigation_table"
+			}
+			id: "1000000000004005"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000004006"
+					item: {
+						count: 1
+						id: "create:shaft"
+					}
+					type: "item"
+				}
+			]
+			description: [
+				"A §aMesa de Navegação§r aponta para um alvo definido por um mapa ou uma bússola e emite sinais de redstone de acordo com a direção."
+			]
+			tasks: [
+				{
+					id: "2000000000004015"
+					item: {
+						count: 1
+						id: "simulated:navigation_table"
+					}
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 9.0d
+		}
+		{
+			title: "Sensor de Gimbal"
+			dependencies: [
+				"1000000000004004"
+			]
+			icon: {
+				id: "simulated:gimbal_sensor"
+			}
+			id: "1000000000004006"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000004007"
+					item: {
+						count: 1
+						id: "create:cogwheel"
+					}
+					type: "item"
+				}
+			]
+			description: [
+				"O §aSensor de Gimbal§r mede a inclinação da aeronave e emite sinais de redstone. É a base dos sistemas de estabilização."
+				""
+				"Receita: bússola, mecanismo giroscópico e carcaça de latão."
+			]
+			tasks: [
+				{
+					id: "2000000000004016"
+					item: {
+						count: 1
+						id: "simulated:gimbal_sensor"
+					}
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 9.0d
+		}
+		{
+			title: "Sensor Óptico"
+			dependencies: [
+				"1000000000004004"
+			]
+			icon: {
+				id: "simulated:optical_sensor"
+			}
+			id: "1000000000004007"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000004008"
+					item: {
+						count: 1
+						id: "create:iron_sheet"
+					}
+					type: "item"
+				}
+			]
+			description: [
+				"O §aSensor Óptico§r detecta o que está à frente dentro de um alcance limitado e emite um sinal de redstone."
+				""
+				"Combine vários sensores para desviar de obstáculos ou seguir alvos."
+			]
+			tasks: [
+				{
+					id: "2000000000004017"
+					item: {
+						count: 1
+						id: "simulated:optical_sensor"
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 10.5d
+		}
+		{
+			title: "Conector de Acoplamento"
+			dependencies: [
+				"1000000000001031"
+			]
+			icon: {
+				id: "simulated:docking_connector"
+			}
+			id: "1000000000004008"
+			rewards: [
+				{
+					count: 10
+					id: "2000000000004009"
+					item: {
+						count: 1
+						id: "create:andesite_alloy"
+					}
+					type: "item"
+				}
+			]
+			description: [
+				"O §aConector de Acoplamento§r prende uma aeronave a uma base e permite transferir itens e energia entre as duas."
+				""
+				"Ideal para montar portos e plataformas de carga."
+			]
+			tasks: [
+				{
+					id: "2000000000004018"
+					item: {
+						count: 1
+						id: "simulated:docking_connector"
+					}
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 7.5d
+		}
+		{
+			title: "Guincho de Corda"
+			dependencies: [
+				"1000000000001031"
+			]
+			icon: {
+				id: "simulated:rope_winch"
+			}
+			id: "1000000000004009"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000004010"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			description: [
+				"O §aGuincho de Corda§r enrola e solta uma corda presa à estrutura, útil para ancorar, rebocar e baixar cargas."
+			]
+			tasks: [
+				{
+					id: "2000000000004019"
+					item: {
+						count: 1
+						id: "simulated:rope_winch"
+					}
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 7.5d
+		}
+		{
+			title: "Montagem Concluída: Piloto Automático"
+			dependencies: [
+				"1000000000004005"
+				"1000000000004006"
+				"1000000000004007"
+			]
+			id: "1000000000004010"
+			rewards: [
+				{
+					id: "2000000000004020"
+					item: {
+						count: 1
+						id: "minecraft:iron_block"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000004021"
+					item: {
+						count: 1
+						id: "minecraft:redstone_block"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "2000000000004022"
+					item: {
+						count: 1
+						id: "create:andesite_alloy"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000004023"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			description: [
+				"Valide uma aeronave com sensores de navegação para voos automáticos e estáveis."
+			]
+			tasks: [
+				{
+					id: "2000000000004024"
+					item: {
+						count: 1
+						id: "simulated:physics_assembler"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000004025"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "or(item(simulated:navigation_table)item(simulated:gimbal_sensor)item(simulated:optical_sensor))"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 12.5d
+		}
+	]
+}
