@@ -17,6 +17,10 @@ file = "kubejs/config/packicon.png"
 hash = "61e4c8ff95de22dfb4078c1970f8662811af615a68a0a3a7159d2e13c1eb8127"
 
 [[files]]
+file = "kubejs/startup_scripts/stack.js"
+hash = "cc10feb12f327d4a6d463843fef917d773332e1a2ce074220baf1f047a355036"
+
+[[files]]
 file = "mods/accessories-compat-layer.pw.toml"
 hash = "b77da93300cfb9a239aa33ad731f9672ae3c74d3218aa149df89449962cb8594"
 metafile = true
