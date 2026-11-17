@@ -1,0 +1,2561 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "irons_spellbooks"
+	group: ""
+	icon: {
+		id: "irons_spellbooks:arcane_anvil"
+	}
+	id: "1000000000000014"
+	order_index: 8
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			title: "Bem-vindo ao Iron's Spells"
+			icon: {
+				id: "irons_spellbooks:arcane_essence"
+			}
+			id: "2000000000014001"
+			rewards: [
+				{
+					count: 8
+					id: "3000000001400001"
+					item: {
+						count: 1
+						id: "minecraft:amethyst_shard"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001400002"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			description: [
+				"§eMagia em Nove Escolas§r"
+				""
+				"O §aIron's Spells 'n Spellbooks§r traz magias de nove escolas: Fogo, Gelo, Raio, Sagrado, Ender, Sangue, Evocação, Natureza e Eldritch."
+				""
+				"Você junta livros de feitiços, aprende magias por pergaminhos e administra a §bmana§r. Cada feitiço gasta mana, e livros, anéis e armaduras podem aumentá-la."
+			]
+			tasks: [
+				{
+					id: "3000000001400003"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			title: "Diário Frágil"
+			dependencies: [
+				"2000000000014001"
+			]
+			icon: {
+				id: "irons_spellbooks:copper_spell_book"
+			}
+			id: "2000000000014002"
+			rewards: [
+				{
+					count: 16
+					id: "3000000001400004"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001400005"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			description: [
+				"§eSeu Primeiro Livro§r"
+				""
+				"O §aDiário Frágil§r (livro de cobre) é o primeiro livro de feitiços, com 5 espaços para magias."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001400006"
+					item: {
+						count: 1
+						id: "irons_spellbooks:copper_spell_book"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			title: "Mesa de Inscrição"
+			dependencies: [
+				"2000000000014002"
+			]
+			icon: {
+				id: "irons_spellbooks:inscription_table"
+			}
+			id: "2000000000014003"
+			rewards: [
+				{
+					count: 4
+					id: "3000000001400007"
+					item: {
+						count: 1
+						id: "minecraft:book"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001400008"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"A §aMesa de Inscrição§r escreve pergaminhos em um livro de feitiços: cada pergaminho ocupa um espaço, e a magia pode ser lançada quantas vezes a mana permitir. Você também pode retirar a magia de volta como pergaminho, sem perder o nível."
+				""
+				"Receita: um livro, três lajes de madeira e duas cercas."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001400009"
+					item: {
+						count: 1
+						id: "irons_spellbooks:inscription_table"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			title: "Forja de Pergaminhos"
+			dependencies: [
+				"2000000000014003"
+			]
+			icon: {
+				id: "irons_spellbooks:scroll_forge"
+			}
+			id: "2000000000014004"
+			rewards: [
+				{
+					count: 2
+					id: "3000000001400010"
+					item: {
+						count: 1
+						id: "irons_spellbooks:common_ink"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001400011"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"A §aForja de Pergaminhos§r faz um pergaminho de qualquer magia que você escolher. Ela gasta um frasco de tinta, um papel e o item de foco da escola, como uma vara de blaze para Fogo. A tinta define o nível."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001400012"
+					item: {
+						count: 1
+						id: "irons_spellbooks:scroll_forge"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			title: "Bigorna Arcana"
+			dependencies: [
+				"2000000000014004"
+			]
+			icon: {
+				id: "irons_spellbooks:arcane_anvil"
+			}
+			id: "2000000000014005"
+			rewards: [
+				{
+					count: 4
+					id: "3000000001400013"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001400014"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"A §aBigorna Arcana§r é a estação de melhorias: sobe o nível de pergaminhos com tinta, imbui espadas com magias, adiciona Orbes de Melhoria e mais espaços em livros. Nada ali custa experiência, e ela não se desgasta."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001400015"
+					item: {
+						count: 1
+						id: "irons_spellbooks:arcane_anvil"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			title: "Caldeirão do Alquimista"
+			dependencies: [
+				"2000000000014004"
+			]
+			icon: {
+				id: "irons_spellbooks:alchemist_cauldron"
+			}
+			id: "2000000000014006"
+			rewards: [
+				{
+					count: 2
+					id: "3000000001400016"
+					item: {
+						count: 1
+						id: "irons_spellbooks:uncommon_ink"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001400017"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O §aCaldeirão do Alquimista§r prepara as tintas, quatro frascos por vez. Os níveis mais altos de magia exigem tintas mais raras."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001400018"
+					item: {
+						count: 1
+						id: "irons_spellbooks:alchemist_cauldron"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			title: "Tintas"
+			dependencies: [
+				"2000000000014006"
+			]
+			icon: {
+				id: "irons_spellbooks:common_ink"
+			}
+			id: "2000000000014007"
+			rewards: [
+				{
+					count: 4
+					id: "3000000001400019"
+					item: {
+						count: 1
+						id: "irons_spellbooks:arcane_essence"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001400020"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"§eOs Cinco Raridades§r"
+				""
+				"As tintas vão de §aComum§r a §6Lendária§r. Para subir um pergaminho, a tinta deve combinar com a raridade do nível seguinte. Em uma magia de 10 níveis: Comum nos níveis 2 e 3, Incomum no 4 e 5, Rara no 6 e 7, Épica no 8 e 9 e Lendária no 10."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001400021"
+					item: {
+						count: 1
+						id: "irons_spellbooks:common_ink"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "3000000001400022"
+					item: {
+						count: 1
+						id: "irons_spellbooks:uncommon_ink"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "3000000001400023"
+					item: {
+						count: 1
+						id: "irons_spellbooks:rare_ink"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "3000000001400024"
+					item: {
+						count: 1
+						id: "irons_spellbooks:epic_ink"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "3000000001400025"
+					item: {
+						count: 1
+						id: "irons_spellbooks:legendary_ink"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			title: "Tomo Ferrenho"
+			dependencies: [
+				"2000000000014002"
+			]
+			icon: {
+				id: "irons_spellbooks:iron_spell_book"
+			}
+			id: "2000000000014008"
+			rewards: [
+				{
+					count: 16
+					id: "3000000001400026"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001400027"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"O §aTomo Ferrenho§r (livro de ferro) tem 6 espaços para magias."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001400028"
+					item: {
+						count: 1
+						id: "irons_spellbooks:iron_spell_book"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			title: "Livro do Aprendiz"
+			dependencies: [
+				"2000000000014008"
+			]
+			icon: {
+				id: "irons_spellbooks:gold_spell_book"
+			}
+			id: "2000000000014009"
+			rewards: [
+				{
+					count: 4
+					id: "3000000001400029"
+					item: {
+						count: 1
+						id: "minecraft:book"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001400030"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"O §aLivro do Aprendiz§r (livro de ouro) tem 8 espaços, reduz o tempo de lançamento em 15% e dá +50 de mana máxima."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001400031"
+					item: {
+						count: 1
+						id: "irons_spellbooks:gold_spell_book"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			title: "Pergaminho"
+			dependencies: [
+				"2000000000014004"
+			]
+			icon: {
+				id: "irons_spellbooks:scroll"
+			}
+			id: "2000000000014010"
+			rewards: [
+				{
+					id: "3000000001400032"
+					item: {
+						count: 1
+						id: "irons_spellbooks:rare_ink"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001400033"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O §aPergaminho§r guarda uma magia. Você pode lançá-la direto (o pergaminho é consumido), escrevê-la em um livro na Mesa de Inscrição ou fundi-la na Bigorna Arcana para subir o nível."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001400034"
+					item: {
+						count: 1
+						id: "irons_spellbooks:scroll"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			title: "Tecido Arcano"
+			dependencies: [
+				"2000000000014005"
+			]
+			icon: {
+				id: "irons_spellbooks:magic_cloth"
+			}
+			id: "2000000000014011"
+			rewards: [
+				{
+					count: 4
+					id: "3000000001400035"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001400036"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O §aTecido Arcano§r é um material usado na melhoria de espaços dos livros."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001400037"
+					item: {
+						count: 1
+						id: "irons_spellbooks:magic_cloth"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			title: "Melhoria de Espaço Menor"
+			dependencies: [
+				"2000000000014011"
+			]
+			icon: {
+				id: "irons_spellbooks:lesser_spell_slot_upgrade"
+			}
+			id: "2000000000014012"
+			rewards: [
+				{
+					count: 2
+					id: "3000000001400038"
+					item: {
+						count: 1
+						id: "irons_spellbooks:uncommon_ink"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001400039"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"A §aMelhoria de Espaço Menor§r, feita com Couro de Porco e Tecido Arcano, adiciona um espaço a qualquer livro na Bigorna Arcana, até o limite de 12."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001400040"
+					item: {
+						count: 1
+						id: "irons_spellbooks:lesser_spell_slot_upgrade"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			title: "Códice Ancestral"
+			dependencies: [
+				"2000000000014009"
+			]
+			icon: {
+				id: "irons_spellbooks:netherite_spell_book"
+			}
+			id: "2000000000014013"
+			rewards: [
+				{
+					count: 4
+					id: "3000000001400041"
+					item: {
+						count: 1
+						id: "irons_spellbooks:arcane_essence"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001400042"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O §aCódice Ancestral§r (livro de netherite) é o maior livro de feitiços comum, com 12 espaços."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001400043"
+					item: {
+						count: 1
+						id: "irons_spellbooks:netherite_spell_book"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			title: "Livros Únicos: Grimórios"
+			dependencies: [
+				"2000000000014005"
+			]
+			icon: {
+				id: "irons_spellbooks:evoker_spell_book"
+			}
+			id: "2000000000014014"
+			rewards: [
+				{
+					count: 8
+					id: "3000000001400044"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001400045"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"Os livros únicos já vêm com magias fixas, que não podem ser retiradas, mas podem ser melhoradas: coloque o livro na Bigorna Arcana com um pergaminho da mesma magia em nível maior."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001400046"
+					item: {
+						count: 1
+						id: "irons_spellbooks:evoker_spell_book"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "3000000001400047"
+					item: {
+						count: 1
+						id: "irons_spellbooks:necronomicon_spell_book"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "3000000001400048"
+					item: {
+						count: 1
+						id: "irons_spellbooks:dragonskin_spell_book"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "3000000001400049"
+					item: {
+						count: 1
+						id: "irons_spellbooks:ice_spell_book"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			title: "Livros Únicos: Tomos"
+			dependencies: [
+				"2000000000014014"
+			]
+			icon: {
+				id: "irons_spellbooks:cursed_doll_spell_book"
+			}
+			id: "2000000000014015"
+			rewards: [
+				{
+					count: 8
+					id: "3000000001400050"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001400051"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"Estes livros únicos seguem a mesma regra: as magias fixas sobem de nível na Bigorna Arcana, mas não dá para escrever outras no livro."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001400052"
+					item: {
+						count: 1
+						id: "irons_spellbooks:cursed_doll_spell_book"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "3000000001400053"
+					item: {
+						count: 1
+						id: "irons_spellbooks:druidic_spell_book"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "3000000001400054"
+					item: {
+						count: 1
+						id: "irons_spellbooks:blaze_spell_book"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "3000000001400055"
+					item: {
+						count: 1
+						id: "irons_spellbooks:villager_spell_book"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 2.0d
+		}
+		{
+			title: "Orbe de Melhoria Vazio"
+			dependencies: [
+				"2000000000014005"
+			]
+			icon: {
+				id: "irons_spellbooks:upgrade_orb"
+			}
+			id: "2000000000014016"
+			rewards: [
+				{
+					id: "3000000001400056"
+					item: {
+						count: 1
+						id: "irons_spellbooks:rare_ink"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001400057"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"§eMelhorias§r"
+				""
+				"Os §aOrbes de Melhoria§r são aplicados na Bigorna Arcana em armaduras, livros e cajados. Cada item aceita até 3 orbes, que podem ser misturados."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001400058"
+					item: {
+						count: 1
+						id: "irons_spellbooks:upgrade_orb"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			title: "Orbe de Mana"
+			dependencies: [
+				"2000000000014016"
+			]
+			icon: {
+				id: "irons_spellbooks:mana_upgrade_orb"
+			}
+			id: "2000000000014017"
+			rewards: [
+				{
+					count: 4
+					id: "3000000001400059"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001400060"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"O §aOrbe de Mana§r aumenta a mana máxima do item em 50."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001400061"
+					item: {
+						count: 1
+						id: "irons_spellbooks:mana_upgrade_orb"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			title: "Orbes de Escola"
+			dependencies: [
+				"2000000000014016"
+			]
+			icon: {
+				id: "irons_spellbooks:fire_upgrade_orb"
+			}
+			id: "2000000000014018"
+			rewards: [
+				{
+					count: 2
+					id: "3000000001400062"
+					item: {
+						count: 1
+						id: "irons_spellbooks:uncommon_ink"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001400063"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"Cada §aOrbe de Escola§r aumenta em 5% o poder dos feitiços de uma escola. Há um para cada escola, como Fogo, Gelo e Raio."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001400064"
+					item: {
+						count: 1
+						id: "irons_spellbooks:fire_upgrade_orb"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "3000000001400065"
+					item: {
+						count: 1
+						id: "irons_spellbooks:ice_upgrade_orb"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "3000000001400066"
+					item: {
+						count: 1
+						id: "irons_spellbooks:lightning_upgrade_orb"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			title: "Pedra de Absolvição"
+			dependencies: [
+				"2000000000014005"
+			]
+			icon: {
+				id: "irons_spellbooks:shriving_stone"
+			}
+			id: "2000000000014019"
+			rewards: [
+				{
+					count: 4
+					id: "3000000001400067"
+					item: {
+						count: 1
+						id: "irons_spellbooks:arcane_essence"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001400068"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"A §aPedra de Absolvição§r (ferro e fragmento de ametista) remove todos os orbes e a magia imbuída de um item na Bigorna Arcana. Os orbes voltam para você, mas a magia imbuída é perdida."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001400069"
+					item: {
+						count: 1
+						id: "irons_spellbooks:shriving_stone"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			title: "Runa em Branco"
+			dependencies: [
+				"2000000000014003"
+			]
+			icon: {
+				id: "irons_spellbooks:blank_rune"
+			}
+			id: "2000000000014020"
+			rewards: [
+				{
+					count: 16
+					id: "3000000001400070"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001400071"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"§eRunas das Escolas§r"
+				""
+				"A §aRuna em Branco§r é a base das runas de cada escola de magia."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001400072"
+					item: {
+						count: 1
+						id: "irons_spellbooks:blank_rune"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			title: "Runas: Fogo, Gelo, Raio e Sagrado"
+			dependencies: [
+				"2000000000014020"
+			]
+			icon: {
+				id: "irons_spellbooks:fire_rune"
+			}
+			id: "2000000000014021"
+			rewards: [
+				{
+					count: 8
+					id: "3000000001400073"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001400074"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"As runas representam as escolas de magia e aparecem em receitas e itens do mod."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001400075"
+					item: {
+						count: 1
+						id: "irons_spellbooks:fire_rune"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "3000000001400076"
+					item: {
+						count: 1
+						id: "irons_spellbooks:ice_rune"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "3000000001400077"
+					item: {
+						count: 1
+						id: "irons_spellbooks:lightning_rune"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "3000000001400078"
+					item: {
+						count: 1
+						id: "irons_spellbooks:holy_rune"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			title: "Runas: Ender, Sangue, Evocação e Natureza"
+			dependencies: [
+				"2000000000014021"
+			]
+			icon: {
+				id: "irons_spellbooks:ender_rune"
+			}
+			id: "2000000000014022"
+			rewards: [
+				{
+					id: "3000000001400079"
+					item: {
+						count: 1
+						id: "irons_spellbooks:rare_ink"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001400080"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"As outras quatro escolas também têm a sua runa."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001400081"
+					item: {
+						count: 1
+						id: "irons_spellbooks:ender_rune"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "3000000001400082"
+					item: {
+						count: 1
+						id: "irons_spellbooks:blood_rune"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "3000000001400083"
+					item: {
+						count: 1
+						id: "irons_spellbooks:evocation_rune"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "3000000001400084"
+					item: {
+						count: 1
+						id: "irons_spellbooks:nature_rune"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			title: "Manuscrito Eldritch"
+			dependencies: [
+				"2000000000014022"
+				"2000000000014004"
+			]
+			icon: {
+				id: "irons_spellbooks:eldritch_manuscript"
+			}
+			id: "2000000000014023"
+			rewards: [
+				{
+					count: 4
+					id: "3000000001400085"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001400086"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"O §aManuscrito Eldritch§r ensina uma magia da escola Eldritch. Essas magias só aparecem na Forja de Pergaminhos depois de aprendidas assim."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001400087"
+					item: {
+						count: 1
+						id: "irons_spellbooks:eldritch_manuscript"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			title: "Essência Arcana"
+			dependencies: [
+				"2000000000014006"
+			]
+			icon: {
+				id: "irons_spellbooks:arcane_essence"
+			}
+			id: "2000000000014024"
+			rewards: [
+				{
+					count: 2
+					id: "3000000001400088"
+					item: {
+						count: 1
+						id: "irons_spellbooks:uncommon_ink"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001400089"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"§eMateriais§r"
+				""
+				"A §aEssência Arcana§r é um material base do mod, ligado às receitas arcanas."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001400090"
+					item: {
+						count: 1
+						id: "irons_spellbooks:arcane_essence"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			title: "Barra Arcana"
+			dependencies: [
+				"2000000000014024"
+			]
+			icon: {
+				id: "irons_spellbooks:arcane_ingot"
+			}
+			id: "2000000000014025"
+			rewards: [
+				{
+					count: 4
+					id: "3000000001400091"
+					item: {
+						count: 1
+						id: "irons_spellbooks:arcane_essence"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001400092"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"A §aBarra Arcana§r é um metal usado em equipamentos e itens do mod."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001400093"
+					item: {
+						count: 1
+						id: "irons_spellbooks:arcane_ingot"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			title: "Mithril"
+			dependencies: [
+				"2000000000014025"
+			]
+			icon: {
+				id: "irons_spellbooks:mithril_ingot"
+			}
+			id: "2000000000014026"
+			rewards: [
+				{
+					count: 8
+					id: "3000000001400094"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001400095"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"A §aBarra de Mithril§r é um metal raro usado em equipamento mágico."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001400096"
+					item: {
+						count: 1
+						id: "irons_spellbooks:mithril_ingot"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			title: "Pyrium"
+			dependencies: [
+				"2000000000014025"
+			]
+			icon: {
+				id: "irons_spellbooks:pyrium_ingot"
+			}
+			id: "2000000000014027"
+			rewards: [
+				{
+					count: 8
+					id: "3000000001400097"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001400098"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"A §aBarra de Pyrium§r é um metal ligado ao fogo, usado nas armas de Pyrium."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001400099"
+					item: {
+						count: 1
+						id: "irons_spellbooks:pyrium_ingot"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			title: "Núcleo Energizado"
+			dependencies: [
+				"2000000000014025"
+			]
+			icon: {
+				id: "irons_spellbooks:energized_core"
+			}
+			id: "2000000000014028"
+			rewards: [
+				{
+					id: "3000000001400100"
+					item: {
+						count: 1
+						id: "irons_spellbooks:rare_ink"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001400101"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"O §aNúcleo Energizado§r é um componente avançado de itens mágicos."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001400102"
+					item: {
+						count: 1
+						id: "irons_spellbooks:energized_core"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			title: "Armaduras Iniciais"
+			dependencies: [
+				"2000000000014008"
+			]
+			icon: {
+				id: "irons_spellbooks:wizard_chestplate"
+			}
+			id: "2000000000014029"
+			rewards: [
+				{
+					count: 8
+					id: "3000000001400103"
+					item: {
+						count: 1
+						id: "minecraft:glowstone_dust"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001400104"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"§eArmaduras de Mago§r"
+				""
+				"Os peitorais de mago podem ser imbuídos com uma magia na Bigorna Arcana, que dá um espaço de feitiço extra à armadura."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001400105"
+					item: {
+						count: 1
+						id: "irons_spellbooks:wizard_chestplate"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "3000000001400106"
+					item: {
+						count: 1
+						id: "irons_spellbooks:wandering_magician_chestplate"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "3000000001400107"
+					item: {
+						count: 1
+						id: "irons_spellbooks:pumpkin_chestplate"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			title: "Armaduras de Escola"
+			dependencies: [
+				"2000000000014029"
+			]
+			icon: {
+				id: "irons_spellbooks:pyromancer_chestplate"
+			}
+			id: "2000000000014030"
+			rewards: [
+				{
+					count: 2
+					id: "3000000001400108"
+					item: {
+						count: 1
+						id: "irons_spellbooks:uncommon_ink"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001400109"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"Estas armaduras reforçam uma escola específica: Fogo, Raio e Gelo."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001400110"
+					item: {
+						count: 1
+						id: "irons_spellbooks:pyromancer_chestplate"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "3000000001400111"
+					item: {
+						count: 1
+						id: "irons_spellbooks:electromancer_chestplate"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "3000000001400112"
+					item: {
+						count: 1
+						id: "irons_spellbooks:cryomancer_chestplate"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			title: "Armaduras Avançadas"
+			dependencies: [
+				"2000000000014030"
+			]
+			icon: {
+				id: "irons_spellbooks:archevoker_chestplate"
+			}
+			id: "2000000000014031"
+			rewards: [
+				{
+					count: 4
+					id: "3000000001400113"
+					item: {
+						count: 1
+						id: "irons_spellbooks:arcane_essence"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001400114"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"Armaduras de Evocação, Ender e Sagrado, para magos de nível mais alto."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001400115"
+					item: {
+						count: 1
+						id: "irons_spellbooks:archevoker_chestplate"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "3000000001400116"
+					item: {
+						count: 1
+						id: "irons_spellbooks:shadowwalker_chestplate"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "3000000001400117"
+					item: {
+						count: 1
+						id: "irons_spellbooks:priest_chestplate"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 10.0d
+		}
+		{
+			title: "Armaduras Sombrias"
+			dependencies: [
+				"2000000000014031"
+			]
+			icon: {
+				id: "irons_spellbooks:cultist_chestplate"
+			}
+			id: "2000000000014032"
+			rewards: [
+				{
+					count: 8
+					id: "3000000001400118"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001400119"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"Armaduras de magia sombria e infernal."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001400120"
+					item: {
+						count: 1
+						id: "irons_spellbooks:cultist_chestplate"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "3000000001400121"
+					item: {
+						count: 1
+						id: "irons_spellbooks:plagued_chestplate"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "3000000001400122"
+					item: {
+						count: 1
+						id: "irons_spellbooks:infernal_sorcerer_chestplate"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 10.0d
+		}
+		{
+			title: "Armaduras de Batalha"
+			dependencies: [
+				"2000000000014032"
+				"2000000000014005"
+			]
+			icon: {
+				id: "irons_spellbooks:netherite_mage_chestplate"
+			}
+			id: "2000000000014033"
+			rewards: [
+				{
+					count: 8
+					id: "3000000001400123"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001400124"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"O Peitoral de Battlemage de Netherite e o Peitoral de Lightbringer são armaduras de batalha para quem mistura magia e combate corpo a corpo."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001400125"
+					item: {
+						count: 1
+						id: "irons_spellbooks:netherite_mage_chestplate"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "3000000001400126"
+					item: {
+						count: 1
+						id: "irons_spellbooks:paladin_chestplate"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 10.0d
+		}
+		{
+			title: "Cajados"
+			dependencies: [
+				"2000000000014009"
+			]
+			icon: {
+				id: "irons_spellbooks:pyrium_staff"
+			}
+			id: "2000000000014034"
+			rewards: [
+				{
+					id: "3000000001400127"
+					item: {
+						count: 1
+						id: "irons_spellbooks:rare_ink"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001400128"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"§eArmas Mágicas§r"
+				""
+				"Os cajados lançam magias e aceitam Orbes de Melhoria."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001400129"
+					item: {
+						count: 1
+						id: "irons_spellbooks:pyrium_staff"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "3000000001400130"
+					item: {
+						count: 1
+						id: "irons_spellbooks:ice_staff"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "3000000001400131"
+					item: {
+						count: 1
+						id: "irons_spellbooks:lightning_rod"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "3000000001400132"
+					item: {
+						count: 1
+						id: "irons_spellbooks:blood_staff"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "3000000001400133"
+					item: {
+						count: 1
+						id: "irons_spellbooks:graybeard_staff"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "3000000001400134"
+					item: {
+						count: 1
+						id: "irons_spellbooks:artificer_cane"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			title: "Espadas Encantadas"
+			dependencies: [
+				"2000000000014008"
+				"2000000000014005"
+			]
+			icon: {
+				id: "irons_spellbooks:amethyst_rapier"
+			}
+			id: "2000000000014035"
+			rewards: [
+				{
+					count: 4
+					id: "3000000001400135"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001400136"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"Uma espada com um pergaminho na Bigorna Arcana é imbuída com a magia no nível do pergaminho. Ela pode ser lançada com a espada em qualquer mão, com metade do tempo de recarga, mas ainda gasta mana."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001400137"
+					item: {
+						count: 1
+						id: "irons_spellbooks:amethyst_rapier"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "3000000001400138"
+					item: {
+						count: 1
+						id: "irons_spellbooks:hellrazor"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "3000000001400139"
+					item: {
+						count: 1
+						id: "irons_spellbooks:decrepit_scythe"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "3000000001400140"
+					item: {
+						count: 1
+						id: "irons_spellbooks:boreal_blade"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "3000000001400141"
+					item: {
+						count: 1
+						id: "irons_spellbooks:twilight_gale"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 12.0d
+		}
+		{
+			title: "Armas de Chefes"
+			dependencies: [
+				"2000000000014035"
+			]
+			icon: {
+				id: "irons_spellbooks:legionnaire_flamberge"
+			}
+			id: "2000000000014036"
+			rewards: [
+				{
+					count: 2
+					id: "3000000001400142"
+					item: {
+						count: 1
+						id: "irons_spellbooks:uncommon_ink"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001400143"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"Armas raras, que aparecem como recompensa de estruturas e inimigos do mod."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001400144"
+					item: {
+						count: 1
+						id: "irons_spellbooks:legionnaire_flamberge"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "3000000001400145"
+					item: {
+						count: 1
+						id: "irons_spellbooks:keeper_flamberge"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "3000000001400146"
+					item: {
+						count: 1
+						id: "irons_spellbooks:magehunter"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "3000000001400147"
+					item: {
+						count: 1
+						id: "irons_spellbooks:spellbreaker"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 12.0d
+		}
+		{
+			title: "Varinha Cá-e-Lá"
+			dependencies: [
+				"2000000000014034"
+			]
+			icon: {
+				id: "irons_spellbooks:hither_thither_wand"
+			}
+			id: "2000000000014037"
+			rewards: [
+				{
+					count: 4
+					id: "3000000001400148"
+					item: {
+						count: 1
+						id: "irons_spellbooks:arcane_essence"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001400149"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"A §aVarinha Cá-e-Lá§r é uma varinha mágica do mod. Veja os detalhes no JEI."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001400150"
+					item: {
+						count: 1
+						id: "irons_spellbooks:hither_thither_wand"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 12.0d
+		}
+		{
+			title: "Besta Autocarregável"
+			dependencies: [
+				"2000000000014035"
+			]
+			icon: {
+				id: "irons_spellbooks:autoloader_crossbow"
+			}
+			id: "2000000000014038"
+			rewards: [
+				{
+					count: 8
+					id: "3000000001400151"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001400152"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"A §aBesta Autocarregável§r é uma besta que recarrega sozinha. Veja os detalhes no JEI."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001400153"
+					item: {
+						count: 1
+						id: "irons_spellbooks:autoloader_crossbow"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 12.0d
+		}
+		{
+			title: "Evocador de Almas Cindéreo"
+			dependencies: [
+				"2000000000014036"
+			]
+			icon: {
+				id: "irons_spellbooks:cinderous_soulcaller"
+			}
+			id: "2000000000014039"
+			rewards: [
+				{
+					count: 8
+					id: "3000000001400154"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001400155"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"O §aEvocador de Almas Cindéreo§r é uma arma ligada ao chefe Eco de Tyros, o Primeiro Portador da Chama."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001400156"
+					item: {
+						count: 1
+						id: "irons_spellbooks:cinderous_soulcaller"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 12.0d
+		}
+		{
+			title: "Anéis de Mana e Recuperação"
+			dependencies: [
+				"2000000000014009"
+			]
+			icon: {
+				id: "irons_spellbooks:mana_ring"
+			}
+			id: "2000000000014040"
+			rewards: [
+				{
+					id: "3000000001400157"
+					item: {
+						count: 1
+						id: "irons_spellbooks:rare_ink"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001400158"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"§eJoias e Amuletos§r"
+				""
+				"Estes anéis melhoram a sua mana, o tempo de recarga e o tempo de lançamento dos feitiços."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001400159"
+					item: {
+						count: 1
+						id: "irons_spellbooks:mana_ring"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "3000000001400160"
+					item: {
+						count: 1
+						id: "irons_spellbooks:cooldown_ring"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "3000000001400161"
+					item: {
+						count: 1
+						id: "irons_spellbooks:cast_time_ring"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 14.0d
+		}
+		{
+			title: "Anel de Afinidade"
+			dependencies: [
+				"2000000000014040"
+				"2000000000014005"
+			]
+			icon: {
+				id: "irons_spellbooks:affinity_ring"
+			}
+			id: "2000000000014041"
+			rewards: [
+				{
+					count: 4
+					id: "3000000001400162"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001400163"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O §aAnel de Afinidade§r é sintonizado na Bigorna Arcana com um pergaminho: ele então adiciona um nível àquela magia enquanto você o usa, de qualquer origem."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001400164"
+					item: {
+						count: 1
+						id: "irons_spellbooks:affinity_ring"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 14.0d
+		}
+		{
+			title: "Amuletos"
+			dependencies: [
+				"2000000000014040"
+			]
+			icon: {
+				id: "irons_spellbooks:concentration_amulet"
+			}
+			id: "2000000000014042"
+			rewards: [
+				{
+					count: 2
+					id: "3000000001400165"
+					item: {
+						count: 1
+						id: "irons_spellbooks:uncommon_ink"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001400166"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O §aAmuleto de Concentração§r e o §aAmuleto de Teletransporte§r são amuletos de apoio ao mago."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001400167"
+					item: {
+						count: 1
+						id: "irons_spellbooks:concentration_amulet"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "3000000001400168"
+					item: {
+						count: 1
+						id: "irons_spellbooks:teleportation_amulet"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 14.0d
+		}
+		{
+			title: "Talismãs e Selos"
+			dependencies: [
+				"2000000000014042"
+			]
+			icon: {
+				id: "irons_spellbooks:conjurers_talisman"
+			}
+			id: "2000000000014043"
+			rewards: [
+				{
+					count: 4
+					id: "3000000001400169"
+					item: {
+						count: 1
+						id: "irons_spellbooks:arcane_essence"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001400170"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"O §aTalismã do Conjurador§r e o §aSigno do Traidor§r são joias especiais do mod."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001400171"
+					item: {
+						count: 1
+						id: "irons_spellbooks:conjurers_talisman"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "3000000001400172"
+					item: {
+						count: 1
+						id: "irons_spellbooks:betrayer_signet"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 14.0d
+		}
+		{
+			title: "Proteções"
+			dependencies: [
+				"2000000000014040"
+			]
+			icon: {
+				id: "irons_spellbooks:fireward_ring"
+			}
+			id: "2000000000014044"
+			rewards: [
+				{
+					count: 8
+					id: "3000000001400173"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001400174"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O §aAnel de Proteção contra Fogo§r, o §aAnel de Invisibilidade§r e o §aAmuleto de Ressonância de Ametista§r protegem ou escondem o mago."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001400175"
+					item: {
+						count: 1
+						id: "irons_spellbooks:fireward_ring"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "3000000001400176"
+					item: {
+						count: 1
+						id: "irons_spellbooks:invisibility_ring"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "3000000001400177"
+					item: {
+						count: 1
+						id: "irons_spellbooks:amethyst_resonance_charm"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 14.0d
+		}
+		{
+			title: "Bússola Errante"
+			dependencies: [
+				"2000000000014009"
+			]
+			icon: {
+				id: "irons_spellbooks:wayward_compass"
+			}
+			id: "2000000000014045"
+			rewards: [
+				{
+					count: 8
+					id: "3000000001400178"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001400179"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"§eExploração e Poções§r"
+				""
+				"A §aBússola Errante§r ajuda a encontrar estruturas do mod, como as catacumbas."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001400180"
+					item: {
+						count: 1
+						id: "irons_spellbooks:wayward_compass"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 16.0d
+		}
+		{
+			title: "Mapa Enrolado"
+			dependencies: [
+				"2000000000014045"
+			]
+			icon: {
+				id: "irons_spellbooks:furled_map"
+			}
+			id: "2000000000014046"
+			rewards: [
+				{
+					id: "3000000001400181"
+					item: {
+						count: 1
+						id: "irons_spellbooks:rare_ink"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001400182"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O §aMapa Enrolado§r leva a uma estrutura do mod, como o Forte do Invocador."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001400183"
+					item: {
+						count: 1
+						id: "irons_spellbooks:furled_map"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 16.0d
+		}
+		{
+			title: "Elixires e Poções"
+			dependencies: [
+				"2000000000014006"
+			]
+			icon: {
+				id: "irons_spellbooks:oakskin_elixir"
+			}
+			id: "2000000000014047"
+			rewards: [
+				{
+					count: 4
+					id: "3000000001400184"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001400185"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"Os elixires e poções do mod dão bônus temporários e ajudam em combate."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001400186"
+					item: {
+						count: 1
+						id: "irons_spellbooks:oakskin_elixir"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "3000000001400187"
+					item: {
+						count: 1
+						id: "irons_spellbooks:greater_healing_potion"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "3000000001400188"
+					item: {
+						count: 1
+						id: "irons_spellbooks:fire_ale"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "3000000001400189"
+					item: {
+						count: 1
+						id: "irons_spellbooks:netherward_tincture"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 16.0d
+		}
+		{
+			title: "Lama Atemporal"
+			dependencies: [
+				"2000000000014047"
+			]
+			icon: {
+				id: "irons_spellbooks:timeless_slurry"
+			}
+			id: "2000000000014048"
+			rewards: [
+				{
+					count: 2
+					id: "3000000001400190"
+					item: {
+						count: 1
+						id: "irons_spellbooks:uncommon_ink"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001400191"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"A §aLama Atemporal§r é uma substância rara do mod. Veja os detalhes no JEI."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001400192"
+					item: {
+						count: 1
+						id: "irons_spellbooks:timeless_slurry"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 16.0d
+		}
+		{
+			title: "Essência de Cinzas"
+			dependencies: [
+				"2000000000014047"
+			]
+			icon: {
+				id: "irons_spellbooks:cinder_essence"
+			}
+			id: "2000000000014049"
+			rewards: [
+				{
+					count: 4
+					id: "3000000001400193"
+					item: {
+						count: 1
+						id: "irons_spellbooks:arcane_essence"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001400194"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"A §aEssência de Cinzas§r é um material dropado por inimigos do mod."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001400195"
+					item: {
+						count: 1
+						id: "irons_spellbooks:cinder_essence"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 16.0d
+		}
+		{
+			title: "Fragmento de Alma Divino"
+			dependencies: [
+				"2000000000014049"
+			]
+			icon: {
+				id: "irons_spellbooks:divine_soulshard"
+			}
+			id: "2000000000014050"
+			rewards: [
+				{
+					count: 8
+					id: "3000000001400196"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000001400197"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"O §aFragmento de Alma Divino§r é um material raro, ligado à escola Sagrada."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3000000001400198"
+					item: {
+						count: 1
+						id: "irons_spellbooks:divine_soulshard"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 16.0d
+		}
+	]
+	title: "Iron's Spells 'n Spellbooks"
+}
