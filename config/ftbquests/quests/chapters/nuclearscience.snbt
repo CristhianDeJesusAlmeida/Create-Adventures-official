@@ -1,0 +1,2941 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "nuclearscience"
+	group: "0000000000000002"
+	icon: {
+		id: "nuclearscience:fissionreactorcore"
+	}
+	id: "1000000000007900"
+	order_index: 6
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			title: "Bem-vindo ao Nuclear Science"
+			icon: {
+				id: "nuclearscience:geigercounter"
+			}
+			id: "1000000000007901"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000030001"
+					item: {
+						count: 1
+						id: "nuclearscience:canisterlead"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000030002"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			description: [
+				"§eÁtomos e Perigo§r"
+				""
+				"O §aNuclear Science§r é um complemento do Electrodynamics: traz radiação, reatores de fissão e fusão, aceleradores de partículas e muito mais, usando a eletricidade e as máquinas do Electrodynamics."
+				""
+				"Leia o guia do mod antes de ligar um reator."
+			]
+			tasks: [
+				{
+					id: "2000000000030003"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			title: "Minérios Radioativos"
+			dependencies: [
+				"1000000000007901"
+			]
+			icon: {
+				id: "electrodynamics:raworeuranium"
+			}
+			id: "1000000000007902"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000030004"
+					item: {
+						count: 1
+						id: "electrodynamics:ingotlead"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000030005"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			description: [
+				"O urânio (uraninita) e o tório (torianita) vêm do Electrodynamics e são a matéria-prima deste mod. Cuidado: itens e blocos radioativos emitem radiação."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000030006"
+					item: {
+						count: 1
+						id: "electrodynamics:raworeuranium"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "2000000000030007"
+					item: {
+						count: 1
+						id: "electrodynamics:raworethorium"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			title: "Contador Geiger"
+			dependencies: [
+				"1000000000007901"
+			]
+			icon: {
+				id: "nuclearscience:geigercounter"
+			}
+			id: "1000000000007903"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000030008"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000030009"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			description: [
+				"§eMedindo a Radiação§r"
+				""
+				"O Contador Geiger mede a radiação ao redor. Você também vê o quanto um item é radioativo segurando Ctrl sobre ele no inventário."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000030010"
+					item: {
+						count: 1
+						id: "nuclearscience:geigercounter"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			title: "Pílula de Iodo"
+			dependencies: [
+				"1000000000007903"
+			]
+			icon: {
+				id: "nuclearscience:iodinetablet"
+			}
+			id: "1000000000007904"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000030011"
+					item: {
+						count: 1
+						id: "electrodynamics:platelead"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000030012"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"A pílula de iodo dá resistência limitada à radiação por alguns minutos. É uma proteção temporária."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000030013"
+					item: {
+						count: 1
+						id: "nuclearscience:iodinetablet"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			title: "Traje Hazmat"
+			dependencies: [
+				"1000000000007904"
+			]
+			icon: {
+				id: "nuclearscience:hazmathelmet"
+			}
+			id: "1000000000007905"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000030014"
+					item: {
+						count: 1
+						id: "electrodynamics:platelead"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000030015"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"O Traje Hazmat protege da radiação, mas gasta durabilidade enquanto você o usa."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000030016"
+					item: {
+						count: 1
+						id: "nuclearscience:hazmathelmet"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "2000000000030017"
+					item: {
+						count: 1
+						id: "nuclearscience:hazmatplate"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "2000000000030018"
+					item: {
+						count: 1
+						id: "nuclearscience:hazmatlegs"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "2000000000030019"
+					item: {
+						count: 1
+						id: "nuclearscience:hazmatboots"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			title: "Blocos Revestidos de Chumbo"
+			dependencies: [
+				"1000000000007903"
+			]
+			icon: {
+				id: "nuclearscience:radiationshieldingbase"
+			}
+			id: "1000000000007906"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000030020"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000030021"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"Blocos revestidos de chumbo reduzem a radiação que passa por eles. Como o jogador tem 2 blocos de altura, use 2 blocos para se proteger por completo."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000030022"
+					item: {
+						count: 1
+						id: "nuclearscience:radiationshieldingbase"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "2000000000030023"
+					item: {
+						count: 1
+						id: "nuclearscience:radiationshieldingglass"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "2000000000030024"
+					item: {
+						count: 1
+						id: "nuclearscience:radiationshieldingdoor"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			title: "Hazmat Reforçado"
+			dependencies: [
+				"1000000000007905"
+			]
+			icon: {
+				id: "nuclearscience:reinforcedhazmathelmet"
+			}
+			id: "1000000000007907"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000030025"
+					item: {
+						count: 1
+						id: "electrodynamics:circuitbasic"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000030026"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"A versão reforçada do traje tem mais durabilidade, mas, no fim, ela também acaba gastando."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000030027"
+					item: {
+						count: 1
+						id: "nuclearscience:reinforcedhazmathelmet"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "2000000000030028"
+					item: {
+						count: 1
+						id: "nuclearscience:reinforcedhazmatplate"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "2000000000030029"
+					item: {
+						count: 1
+						id: "nuclearscience:reinforcedhazmatlegs"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "2000000000030030"
+					item: {
+						count: 1
+						id: "nuclearscience:reinforcedhazmatboots"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			title: "Câmara de Nuvem"
+			dependencies: [
+				"1000000000007903"
+			]
+			icon: {
+				id: "nuclearscience:cloudchamber"
+			}
+			id: "1000000000007908"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000030031"
+					item: {
+						count: 1
+						id: "electrodynamics:ingotlead"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000030032"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"A Câmara de Nuvem, ligada e abastecida com metanol líquido, mostra todas as fontes de radiação ao redor, dentro de um certo raio."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000030033"
+					item: {
+						count: 1
+						id: "nuclearscience:cloudchamber"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			title: "Antídoto"
+			dependencies: [
+				"1000000000007904"
+			]
+			icon: {
+				id: "nuclearscience:antidote"
+			}
+			id: "1000000000007909"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000030034"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000030035"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"O Antídoto remove por completo o efeito de radiação."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000030036"
+					item: {
+						count: 1
+						id: "nuclearscience:antidote"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			title: "Purificador de Fallout"
+			dependencies: [
+				"1000000000007908"
+			]
+			icon: {
+				id: "nuclearscience:falloutscrubber"
+			}
+			id: "1000000000007910"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000030037"
+					item: {
+						count: 1
+						id: "nuclearscience:iodinetablet"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000030038"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"O Purificador de Fallout ajuda a limpar a radiação do ambiente. A radiação pode ser permanente, temporária ou se dissipar com o tempo."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000030039"
+					item: {
+						count: 1
+						id: "nuclearscience:falloutscrubber"
+					}
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			title: "Bolo Amarelo"
+			dependencies: [
+				"1000000000007902"
+			]
+			icon: {
+				id: "nuclearscience:yellowcake"
+			}
+			id: "1000000000007911"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000030040"
+					item: {
+						count: 1
+						id: "electrodynamics:platelead"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000030041"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"§eProcessando Urânio§r"
+				""
+				"O Bolo Amarelo é um concentrado de urânio, o primeiro passo do processamento."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000030042"
+					item: {
+						count: 1
+						id: "nuclearscience:yellowcake"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			title: "Extrator Químico"
+			dependencies: [
+				"1000000000007911"
+			]
+			icon: {
+				id: "nuclearscience:chemicalextractor"
+			}
+			id: "1000000000007912"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000030043"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000030044"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"O Extrator Químico faz parte da cadeia de processamento de materiais radioativos. Veja a receita e os usos no JEI."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000030045"
+					item: {
+						count: 1
+						id: "nuclearscience:chemicalextractor"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			title: "Processador Radioativo"
+			dependencies: [
+				"1000000000007912"
+			]
+			icon: {
+				id: "nuclearscience:radioactiveprocessor"
+			}
+			id: "1000000000007913"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000030046"
+					item: {
+						count: 1
+						id: "electrodynamics:circuitbasic"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000030047"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O Processador Radioativo faz parte da cadeia de processamento de materiais radioativos. Veja a receita e os usos no JEI."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000030048"
+					item: {
+						count: 1
+						id: "nuclearscience:radioactiveprocessor"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			title: "Caldeira Nuclear"
+			dependencies: [
+				"1000000000007913"
+			]
+			icon: {
+				id: "nuclearscience:nuclearboiler"
+			}
+			id: "1000000000007914"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000030049"
+					item: {
+						count: 1
+						id: "electrodynamics:platesteel"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000030050"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"A Caldeira Nuclear faz parte da cadeia que prepara o urânio para a centrifugação. Veja os detalhes no JEI."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000030051"
+					item: {
+						count: 1
+						id: "nuclearscience:nuclearboiler"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			title: "Centrífuga a Gás"
+			dependencies: [
+				"1000000000007914"
+			]
+			icon: {
+				id: "nuclearscience:gascentrifuge"
+			}
+			id: "1000000000007915"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000030052"
+					item: {
+						count: 1
+						id: "nuclearscience:cellempty"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000030053"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"A Centrífuga a Gás separa o hexafluoreto de urânio em seus isótopos U-235 e U-238, na proporção de 17,5% para 82,5%. Ela funciona sem parar enquanto tiver gás, e produz um item a cada 2500 mB acumulados."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000030054"
+					item: {
+						count: 1
+						id: "nuclearscience:gascentrifuge"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			title: "Urânio-235"
+			dependencies: [
+				"1000000000007915"
+			]
+			icon: {
+				id: "nuclearscience:uranium235"
+			}
+			id: "1000000000007916"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000030055"
+					item: {
+						count: 1
+						id: "electrodynamics:circuitadvanced"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000030056"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"O Urânio-235 é o isótopo físsil usado no combustível enriquecido."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000030057"
+					item: {
+						count: 1
+						id: "nuclearscience:uranium235"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			title: "Urânio-238"
+			dependencies: [
+				"1000000000007915"
+			]
+			icon: {
+				id: "nuclearscience:uranium238"
+			}
+			id: "1000000000007917"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000030058"
+					item: {
+						count: 1
+						id: "nuclearscience:iodinetablet"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000030059"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"O Urânio-238 é o isótopo mais abundante do urânio."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000030060"
+					item: {
+						count: 1
+						id: "nuclearscience:uranium238"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: -2.0d
+		}
+		{
+			title: "Combustível Enriquecido"
+			dependencies: [
+				"1000000000007916"
+			]
+			icon: {
+				id: "nuclearscience:fuelleuo2"
+			}
+			id: "1000000000007918"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000030061"
+					item: {
+						count: 1
+						id: "electrodynamics:ingotsuperconductive"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000030062"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"A barra de combustível enriquecido aquece o reator de fissão. Quanto mais quente o núcleo, mais vapor e mais eletricidade."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000030063"
+					item: {
+						count: 1
+						id: "nuclearscience:fuelleuo2"
+					}
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: -2.0d
+		}
+		{
+			title: "Combustível Altamente Enriquecido"
+			dependencies: [
+				"1000000000007918"
+			]
+			icon: {
+				id: "nuclearscience:fuelheuo2"
+			}
+			id: "1000000000007919"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000030064"
+					item: {
+						count: 1
+						id: "nuclearscience:cellempty"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000030065"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"Esta barra esquenta ainda mais o núcleo. Um conjunto completo de algumas barras pode causar o derretimento: misture combustíveis ou use uma barra de controle."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000030066"
+					item: {
+						count: 1
+						id: "nuclearscience:fuelheuo2"
+					}
+					type: "item"
+				}
+			]
+			x: 20.0d
+			y: -2.0d
+		}
+		{
+			title: "Reprocessador de Combustível"
+			dependencies: [
+				"1000000000007919"
+			]
+			icon: {
+				id: "nuclearscience:fuelreprocessor"
+			}
+			id: "1000000000007920"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000030067"
+					item: {
+						count: 1
+						id: "electrodynamics:circuitelite"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000030068"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"O Reprocessador de Combustível trata barras de combustível usadas. Veja os detalhes no JEI."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000030069"
+					item: {
+						count: 1
+						id: "nuclearscience:fuelreprocessor"
+					}
+					type: "item"
+				}
+			]
+			x: 22.0d
+			y: -2.0d
+		}
+		{
+			title: "Plutônio-239"
+			dependencies: [
+				"1000000000007920"
+			]
+			icon: {
+				id: "nuclearscience:plutonium239"
+			}
+			id: "1000000000007921"
+			rewards: [
+				{
+					id: "2000000000030070"
+					item: {
+						count: 1
+						id: "electrodynamics:circuitultimate"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000030071"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"O Plutônio-239 é um material avançado, ligado ao combustível de plutônio."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000030072"
+					item: {
+						count: 1
+						id: "nuclearscience:plutonium239"
+					}
+					type: "item"
+				}
+			]
+			x: 24.0d
+			y: -2.0d
+		}
+		{
+			title: "Combustível de Plutônio"
+			dependencies: [
+				"1000000000007921"
+			]
+			icon: {
+				id: "nuclearscience:fuelplutonium"
+			}
+			id: "1000000000007922"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000030073"
+					item: {
+						count: 1
+						id: "nuclearscience:antidote"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000030074"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"A barra de combustível de plutônio é uma das opções para aquecer o núcleo do reator."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000030075"
+					item: {
+						count: 1
+						id: "nuclearscience:fuelplutonium"
+					}
+					type: "item"
+				}
+			]
+			x: 26.0d
+			y: -2.0d
+		}
+		{
+			title: "Núcleo do Reator de Fissão"
+			dependencies: [
+				"1000000000007905"
+				"1000000000007916"
+			]
+			icon: {
+				id: "nuclearscience:fissionreactorcore"
+			}
+			id: "1000000000007923"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000030076"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000030077"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"§eEnergia Atômica§r"
+				""
+				"O Reator de Fissão é a primeira fonte de energia atômica do mod: rudimentar, mas barata. Monte o núcleo com um volume de água de no mínimo 5x5x2 (o recomendado é 7x7x2) e cubra o topo da água com turbinas."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000030078"
+					item: {
+						count: 1
+						id: "nuclearscience:fissionreactorcore"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			title: "Barra de Controle de Fissão"
+			dependencies: [
+				"1000000000007923"
+			]
+			icon: {
+				id: "nuclearscience:fissioncontrolrod"
+			}
+			id: "1000000000007924"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000030079"
+					item: {
+						count: 1
+						id: "electrodynamics:ingotsuperconductive"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000030080"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"Coloque a barra embaixo do núcleo. Clique direito para estender e Shift+clique direito para recolher: quanto mais estendida, menor a taxa de fissão."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000030081"
+					item: {
+						count: 1
+						id: "nuclearscience:fissioncontrolrod"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			title: "Turbina a Vapor"
+			dependencies: [
+				"1000000000007923"
+			]
+			icon: {
+				id: "nuclearscience:turbine"
+			}
+			id: "1000000000007925"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000030082"
+					item: {
+						count: 1
+						id: "nuclearscience:cellempty"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000030083"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"As turbinas geram a energia: quanto mais quente o vapor, maior a voltagem. Ligue um fio no topo. Um grupo 3x3 vira uma turbina grande se você acertar a do centro com uma chave inglesa."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000030084"
+					item: {
+						count: 1
+						id: "nuclearscience:turbine"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			title: "Funil de Vapor"
+			dependencies: [
+				"1000000000007925"
+			]
+			icon: {
+				id: "nuclearscience:steamfunnel"
+			}
+			id: "1000000000007926"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000030085"
+					item: {
+						count: 1
+						id: "electrodynamics:circuitelite"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000030086"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"O Funil de Vapor transporta o vapor dos reatores por canos de gás. Coloque-o onde uma turbina iria."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000030087"
+					item: {
+						count: 1
+						id: "nuclearscience:steamfunnel"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			title: "Célula de Deutério"
+			dependencies: [
+				"1000000000007923"
+			]
+			icon: {
+				id: "nuclearscience:celldeuterium"
+			}
+			id: "1000000000007927"
+			rewards: [
+				{
+					id: "2000000000030088"
+					item: {
+						count: 1
+						id: "electrodynamics:circuitultimate"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000030089"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"Colocar uma Célula de Deutério no núcleo ativo dá uma chance de transformá-la em Célula de Trítio."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000030090"
+					item: {
+						count: 1
+						id: "nuclearscience:celldeuterium"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			title: "Célula de Trítio"
+			dependencies: [
+				"1000000000007927"
+			]
+			icon: {
+				id: "nuclearscience:celltritium"
+			}
+			id: "1000000000007928"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000030091"
+					item: {
+						count: 1
+						id: "nuclearscience:antidote"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000030092"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"A Célula de Trítio é um dos combustíveis do reator de fusão."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000030093"
+					item: {
+						count: 1
+						id: "nuclearscience:celltritium"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			title: "Gerador de Radioisótopos"
+			dependencies: [
+				"1000000000007923"
+			]
+			icon: {
+				id: "nuclearscience:radioisotopegenerator"
+			}
+			id: "1000000000007929"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000030094"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000030095"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"O Gerador de Radioisótopos usa o calor natural do decaimento radioativo para gerar eletricidade. Basta colocar um item radioativo nele."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000030096"
+					item: {
+						count: 1
+						id: "nuclearscience:radioisotopegenerator"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 2.0d
+		}
+		{
+			title: "Polônio-210"
+			dependencies: [
+				"1000000000007929"
+			]
+			icon: {
+				id: "nuclearscience:polonium210"
+			}
+			id: "1000000000007930"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000030097"
+					item: {
+						count: 1
+						id: "electrodynamics:ingotsuperconductive"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000030098"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"O Polônio-210 é um material radioativo avançado. Veja os usos no JEI."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000030099"
+					item: {
+						count: 1
+						id: "nuclearscience:polonium210"
+					}
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 2.0d
+		}
+		{
+			title: "Actínio-225"
+			dependencies: [
+				"1000000000007929"
+			]
+			icon: {
+				id: "nuclearscience:actinium225"
+			}
+			id: "1000000000007931"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000030100"
+					item: {
+						count: 1
+						id: "nuclearscience:cellempty"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000030101"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"O Actínio-225 é um material radioativo avançado. Veja os usos no JEI."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000030102"
+					item: {
+						count: 1
+						id: "nuclearscience:actinium225"
+					}
+					type: "item"
+				}
+			]
+			x: 20.0d
+			y: 2.0d
+		}
+		{
+			title: "Tampão de Congelamento do RSM"
+			dependencies: [
+				"1000000000007924"
+				"1000000000007925"
+			]
+			icon: {
+				id: "nuclearscience:freezeplug"
+			}
+			id: "1000000000007932"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000030103"
+					item: {
+						count: 1
+						id: "electrodynamics:circuitelite"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000030104"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"§eReator de Sal Fundido§r"
+				""
+				"O Reator de Sal Fundido é uma versão bem mais refinada, e mais cara, do reator de fissão. Comece colocando o Tampão de Congelamento e, em cima dele, o núcleo."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000030105"
+					item: {
+						count: 1
+						id: "nuclearscience:freezeplug"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			title: "Núcleo do Reator de Sal Fundido"
+			dependencies: [
+				"1000000000007932"
+			]
+			icon: {
+				id: "nuclearscience:msreactorcore"
+			}
+			id: "1000000000007933"
+			rewards: [
+				{
+					id: "2000000000030106"
+					item: {
+						count: 1
+						id: "electrodynamics:circuitultimate"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000030107"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"Esse reator não pode derreter, mas queima o combustível mais rápido quanto mais quente fica."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000030108"
+					item: {
+						count: 1
+						id: "nuclearscience:msreactorcore"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			title: "Fornecedor de Sal Fundido"
+			dependencies: [
+				"1000000000007933"
+			]
+			icon: {
+				id: "nuclearscience:moltensaltsupplier"
+			}
+			id: "1000000000007934"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000030109"
+					item: {
+						count: 1
+						id: "nuclearscience:antidote"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000030110"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"Posicione o Fornecedor de frente para a porta verde do núcleo. O Tampão e o Fornecedor precisam de um pouco de energia."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000030111"
+					item: {
+						count: 1
+						id: "nuclearscience:moltensaltsupplier"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			title: "Sal FLiNaK"
+			dependencies: [
+				"1000000000007932"
+			]
+			icon: {
+				id: "nuclearscience:flinak"
+			}
+			id: "1000000000007935"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000030112"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000030113"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"O FLiNaK é o sal condutor do reator. Ele é fornecido pelo Tampão de Congelamento e não é consumido."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000030114"
+					item: {
+						count: 1
+						id: "nuclearscience:flinak"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			title: "Poeira de Torianita"
+			dependencies: [
+				"1000000000007902"
+			]
+			icon: {
+				id: "nuclearscience:thorianitedust"
+			}
+			id: "1000000000007936"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000030115"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000030116"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"A Poeira de Torianita é um ingrediente do combustível de sal do reator."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000030117"
+					item: {
+						count: 1
+						id: "nuclearscience:thorianitedust"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			title: "Sal Físsil (LiF-ThF4-UF4)"
+			dependencies: [
+				"1000000000007935"
+				"1000000000007936"
+			]
+			icon: {
+				id: "nuclearscience:lifthf4uf4"
+			}
+			id: "1000000000007937"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000030118"
+					item: {
+						count: 1
+						id: "nuclearscience:cellempty"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000030119"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"O combustível do reator de sal fundido. Ele precisa estar derretido para funcionar: coloque a pelota no Fornecedor de Sal Fundido."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000030120"
+					item: {
+						count: 1
+						id: "nuclearscience:lifthf4uf4"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 4.0d
+		}
+		{
+			title: "Pré-Processador de Combustível do RSM"
+			dependencies: [
+				"1000000000007937"
+			]
+			icon: {
+				id: "nuclearscience:msrfuelpreprocessor"
+			}
+			id: "1000000000007938"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000030121"
+					item: {
+						count: 1
+						id: "electrodynamics:circuitelite"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000030122"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"O Pré-Processador prepara o combustível do reator de sal fundido. Veja os detalhes no JEI."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000030123"
+					item: {
+						count: 1
+						id: "nuclearscience:msrfuelpreprocessor"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 4.0d
+		}
+		{
+			title: "Cano VS-Cerâmica"
+			dependencies: [
+				"1000000000007934"
+			]
+			icon: {
+				id: "nuclearscience:moltensaltpipevanadiumsteelceramic"
+			}
+			id: "1000000000007939"
+			rewards: [
+				{
+					id: "2000000000030124"
+					item: {
+						count: 1
+						id: "electrodynamics:circuitultimate"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000030125"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"O Cano VS-Cerâmica leva o sal fundido a partir do topo do núcleo até o trocador de calor."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000030126"
+					item: {
+						count: 1
+						id: "nuclearscience:moltensaltpipevanadiumsteelceramic"
+					}
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 4.0d
+		}
+		{
+			title: "Trocador de Calor"
+			dependencies: [
+				"1000000000007939"
+			]
+			icon: {
+				id: "nuclearscience:heatexchanger"
+			}
+			id: "1000000000007940"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000030127"
+					item: {
+						count: 1
+						id: "nuclearscience:antidote"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000030128"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"O Trocador de Calor passa o calor do sal fundido para o fluido que vai gerar vapor."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000030129"
+					item: {
+						count: 1
+						id: "nuclearscience:heatexchanger"
+					}
+					type: "item"
+				}
+			]
+			x: 20.0d
+			y: 4.0d
+		}
+		{
+			title: "Barra de Controle do RSM"
+			dependencies: [
+				"1000000000007933"
+			]
+			icon: {
+				id: "nuclearscience:mscontrolrod"
+			}
+			id: "1000000000007941"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000030130"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000030131"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"A Barra de Controle do RSM diminui o consumo de combustível do reator."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000030132"
+					item: {
+						count: 1
+						id: "nuclearscience:mscontrolrod"
+					}
+					type: "item"
+				}
+			]
+			x: 22.0d
+			y: 4.0d
+		}
+		{
+			title: "Eletroímã"
+			dependencies: [
+				"1000000000007925"
+			]
+			icon: {
+				id: "nuclearscience:electromagnet"
+			}
+			id: "1000000000007942"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000030133"
+					item: {
+						count: 1
+						id: "electrodynamics:ingotsuperconductive"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000030134"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"§eFusão e Partículas§r"
+				""
+				"Os Eletroímãs formam as estruturas do reator de fusão e do acelerador de partículas. Podem ser opacos ou de vidro."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000030135"
+					item: {
+						count: 1
+						id: "nuclearscience:electromagnet"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			title: "Vidro Eletromagnético"
+			dependencies: [
+				"1000000000007942"
+			]
+			icon: {
+				id: "nuclearscience:electromagneticglass"
+			}
+			id: "1000000000007943"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000030136"
+					item: {
+						count: 1
+						id: "nuclearscience:cellempty"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000030137"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"O Vidro Eletromagnético faz o mesmo papel do eletroímã, mas deixa você ver o que acontece lá dentro."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000030138"
+					item: {
+						count: 1
+						id: "nuclearscience:electromagneticglass"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			title: "Núcleo do Reator de Fusão"
+			dependencies: [
+				"1000000000007942"
+				"1000000000007928"
+			]
+			icon: {
+				id: "nuclearscience:fusionreactorcore"
+			}
+			id: "1000000000007944"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000030139"
+					item: {
+						count: 1
+						id: "electrodynamics:circuitelite"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000030140"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"O Reator de Fusão é a maior fonte de energia do mod: mais de 6 MW. Monte um losango 13x13 de eletroímãs com o núcleo no centro, um anel nas laterais e outro losango como teto. Água por cima gera o vapor das turbinas, que operam a 480 V."
+				""
+				"O núcleo precisa de 50 kJ/t a 480 V para funcionar e usa Células de Deutério e de Trítio como combustível."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000030141"
+					item: {
+						count: 1
+						id: "nuclearscience:fusionreactorcore"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			title: "Célula de Água Pesada"
+			dependencies: [
+				"1000000000007927"
+			]
+			icon: {
+				id: "nuclearscience:cellheavywater"
+			}
+			id: "1000000000007945"
+			rewards: [
+				{
+					id: "2000000000030142"
+					item: {
+						count: 1
+						id: "electrodynamics:circuitultimate"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000030143"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"A Célula de Água Pesada faz parte da cadeia do deutério. Veja os detalhes no JEI."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000030144"
+					item: {
+						count: 1
+						id: "nuclearscience:cellheavywater"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			title: "Injetor de Partículas"
+			dependencies: [
+				"1000000000007942"
+			]
+			icon: {
+				id: "nuclearscience:particleinjector"
+			}
+			id: "1000000000007946"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000030145"
+					item: {
+						count: 1
+						id: "nuclearscience:antidote"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000030146"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"O Injetor cria partículas a partir de qualquer bloco ou item usado como matéria. Elas nascem lentas e precisam de aceleradores para colidir."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000030147"
+					item: {
+						count: 1
+						id: "nuclearscience:particleinjector"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			title: "Acelerador Eletromagnético"
+			dependencies: [
+				"1000000000007946"
+			]
+			icon: {
+				id: "nuclearscience:electromagneticbooster"
+			}
+			id: "1000000000007947"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000030148"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000030149"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"O Acelerador Eletromagnético aumenta a velocidade das partículas que passam por ele."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000030150"
+					item: {
+						count: 1
+						id: "nuclearscience:electromagneticbooster"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 6.0d
+		}
+		{
+			title: "Portal Eletromagnético"
+			dependencies: [
+				"1000000000007947"
+			]
+			icon: {
+				id: "nuclearscience:electromagneticgateway"
+			}
+			id: "1000000000007948"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000030151"
+					item: {
+						count: 1
+						id: "electrodynamics:ingotsuperconductive"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000030152"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"O Portal só deixa passar partículas com velocidade igual ou maior que a programada, em porcentagem da velocidade da luz."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000030153"
+					item: {
+						count: 1
+						id: "nuclearscience:electromagneticgateway"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 6.0d
+		}
+		{
+			title: "Diodo Eletromagnético"
+			dependencies: [
+				"1000000000007948"
+			]
+			icon: {
+				id: "nuclearscience:electromagneticdiode"
+			}
+			id: "1000000000007949"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000030154"
+					item: {
+						count: 1
+						id: "nuclearscience:cellempty"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000030155"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"O Diodo deixa as partículas passarem em uma só direção. A seta deve apontar para o sentido do movimento."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000030156"
+					item: {
+						count: 1
+						id: "nuclearscience:electromagneticdiode"
+					}
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 6.0d
+		}
+		{
+			title: "Interruptor Eletromagnético"
+			dependencies: [
+				"1000000000007949"
+			]
+			icon: {
+				id: "nuclearscience:electromagneticswitch"
+			}
+			id: "1000000000007950"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000030157"
+					item: {
+						count: 1
+						id: "electrodynamics:circuitelite"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000030158"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"O Interruptor inverte a direção de uma partícula a cada duas que passam, o que faz duas partículas colidirem de frente."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000030159"
+					item: {
+						count: 1
+						id: "nuclearscience:electromagneticswitch"
+					}
+					type: "item"
+				}
+			]
+			x: 20.0d
+			y: 6.0d
+		}
+		{
+			title: "Célula Eletromagnética"
+			dependencies: [
+				"1000000000007942"
+			]
+			icon: {
+				id: "nuclearscience:cellelectromagnetic"
+			}
+			id: "1000000000007951"
+			rewards: [
+				{
+					id: "2000000000030160"
+					item: {
+						count: 1
+						id: "electrodynamics:circuitultimate"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000030161"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"A Célula Eletromagnética é um componente do acelerador de partículas. Veja os detalhes no JEI."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000030162"
+					item: {
+						count: 1
+						id: "nuclearscience:cellelectromagnetic"
+					}
+					type: "item"
+				}
+			]
+			x: 22.0d
+			y: 6.0d
+		}
+		{
+			title: "Células de Antimatéria"
+			dependencies: [
+				"1000000000007950"
+			]
+			icon: {
+				id: "nuclearscience:cellantimattersmall"
+			}
+			id: "1000000000007952"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000030163"
+					item: {
+						count: 1
+						id: "nuclearscience:antidote"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000030164"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"§eMatéria Exótica§r"
+				""
+				"O Acelerador de Partículas faz antimatéria quando duas partículas colidem em velocidades quase luminais. As células guardam 500 mg, 4 g ou 12 g."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000030165"
+					item: {
+						count: 1
+						id: "nuclearscience:cellantimattersmall"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "2000000000030166"
+					item: {
+						count: 1
+						id: "nuclearscience:cellantimatterlarge"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "2000000000030167"
+					item: {
+						count: 1
+						id: "nuclearscience:cellantimatterverylarge"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			title: "Célula de Matéria Escura"
+			dependencies: [
+				"1000000000007952"
+			]
+			icon: {
+				id: "nuclearscience:celldarkmatter"
+			}
+			id: "1000000000007953"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000030168"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000030169"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"A matéria escura só é criada quando as duas partículas viajam a pelo menos 99,99% da velocidade da luz."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000030170"
+					item: {
+						count: 1
+						id: "nuclearscience:celldarkmatter"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			title: "Montador Atômico"
+			dependencies: [
+				"1000000000007953"
+			]
+			icon: {
+				id: "nuclearscience:atomicassembler"
+			}
+			id: "1000000000007954"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000030171"
+					item: {
+						count: 1
+						id: "electrodynamics:ingotsuperconductive"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000030172"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"O Montador Atômico duplica itens usando Células de Matéria Escura. Gasta 72 kW a 480 V; cada duplicação leva 5 minutos e consome um dos 12 usos da célula."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000030173"
+					item: {
+						count: 1
+						id: "nuclearscience:atomicassembler"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			title: "Cabo de Logística de Reatores"
+			dependencies: [
+				"1000000000007923"
+			]
+			icon: {
+				id: "nuclearscience:logisticscablebase"
+			}
+			id: "1000000000007955"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000030174"
+					item: {
+						count: 1
+						id: "nuclearscience:cellempty"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000030175"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"§eControle Remoto§r"
+				""
+				"O Cabo de Logística é uma fibra óptica resistente à radiação, que viaja longas distâncias sem gastar energia."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000030176"
+					item: {
+						count: 1
+						id: "nuclearscience:logisticscablebase"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			title: "Controlador RL"
+			dependencies: [
+				"1000000000007955"
+			]
+			icon: {
+				id: "nuclearscience:logisticscontroller"
+			}
+			id: "1000000000007956"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000030177"
+					item: {
+						count: 1
+						id: "electrodynamics:circuitelite"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000030178"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"O Controlador RL é o cérebro da rede de logística: só pode haver um por rede."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000030179"
+					item: {
+						count: 1
+						id: "nuclearscience:logisticscontroller"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 10.0d
+		}
+		{
+			title: "Interface de Fissão"
+			dependencies: [
+				"1000000000007956"
+			]
+			icon: {
+				id: "nuclearscience:fissioninterface"
+			}
+			id: "1000000000007957"
+			rewards: [
+				{
+					id: "2000000000030180"
+					item: {
+						count: 1
+						id: "electrodynamics:circuitultimate"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000030181"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"A Interface de Fissão ocupa o lugar da barra de controle embaixo do reator e liga o núcleo à rede."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000030182"
+					item: {
+						count: 1
+						id: "nuclearscience:fissioninterface"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 10.0d
+		}
+		{
+			title: "Interface de Fusão"
+			dependencies: [
+				"1000000000007956"
+				"1000000000007944"
+			]
+			icon: {
+				id: "nuclearscience:fusioninterface"
+			}
+			id: "1000000000007958"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000030183"
+					item: {
+						count: 1
+						id: "nuclearscience:antidote"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000030184"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"A Interface de Fusão fica embaixo do núcleo do reator de fusão e liga o núcleo à rede."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000030185"
+					item: {
+						count: 1
+						id: "nuclearscience:fusioninterface"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 10.0d
+		}
+		{
+			title: "Interface do RSM"
+			dependencies: [
+				"1000000000007956"
+				"1000000000007933"
+			]
+			icon: {
+				id: "nuclearscience:msinterface"
+			}
+			id: "1000000000007959"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000030186"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000030187"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"A Interface do RSM ocupa o lugar da barra de controle do reator de sal fundido."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000030188"
+					item: {
+						count: 1
+						id: "nuclearscience:msinterface"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 10.0d
+		}
+		{
+			title: "Módulo Monitor"
+			dependencies: [
+				"1000000000007956"
+			]
+			icon: {
+				id: "nuclearscience:monitormodule"
+			}
+			id: "1000000000007960"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000030189"
+					item: {
+						count: 1
+						id: "electrodynamics:ingotsuperconductive"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000030190"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"O Módulo Monitor mostra a distância informações do reator ligado a ele."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000030191"
+					item: {
+						count: 1
+						id: "nuclearscience:monitormodule"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 10.0d
+		}
+		{
+			title: "Módulo de Barra de Controle"
+			dependencies: [
+				"1000000000007956"
+			]
+			icon: {
+				id: "nuclearscience:controlrodmodule"
+			}
+			id: "1000000000007961"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000030192"
+					item: {
+						count: 1
+						id: "nuclearscience:cellempty"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000030193"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"O Módulo de Barra de Controle funciona como uma barra de controle remota. Com redstone, a força do sinal define a inserção."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000030194"
+					item: {
+						count: 1
+						id: "nuclearscience:controlrodmodule"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 10.0d
+		}
+		{
+			title: "Módulo de Suprimentos"
+			dependencies: [
+				"1000000000007956"
+			]
+			icon: {
+				id: "nuclearscience:supplymodule"
+			}
+			id: "1000000000007962"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000030195"
+					item: {
+						count: 1
+						id: "electrodynamics:circuitelite"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000030196"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"O Módulo de Suprimentos reabastece o reator e retira o resíduo: o que está nos 9 slots de cima entra no reator, e a rede tenta guardar o resíduo nos 9 de baixo."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000030197"
+					item: {
+						count: 1
+						id: "nuclearscience:supplymodule"
+					}
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 10.0d
+		}
+		{
+			title: "Módulo Termômetro"
+			dependencies: [
+				"1000000000007956"
+			]
+			icon: {
+				id: "nuclearscience:thermometermodule"
+			}
+			id: "1000000000007963"
+			rewards: [
+				{
+					id: "2000000000030198"
+					item: {
+						count: 1
+						id: "electrodynamics:circuitultimate"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000030199"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"O Módulo Termômetro monitora a temperatura do reator. Com um comparador de redstone, ele gera um sinal em relação à temperatura programada."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000030200"
+					item: {
+						count: 1
+						id: "nuclearscience:thermometermodule"
+					}
+					type: "item"
+				}
+			]
+			x: 20.0d
+			y: 10.0d
+		}
+		{
+			title: "Carregador de Chunks"
+			dependencies: [
+				"1000000000007901"
+			]
+			icon: {
+				id: "nuclearscience:chunkloader"
+			}
+			id: "1000000000007964"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000030201"
+					item: {
+						count: 1
+						id: "nuclearscience:iodinetablet"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000030202"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			description: [
+				"§eUtilidades§r"
+				""
+				"O Carregador de Chunks mantém carregada uma área de 3x3 chunks centrada no chunk onde ele está, sem exigir nada para funcionar."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000030203"
+					item: {
+						count: 1
+						id: "nuclearscience:chunkloader"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 12.0d
+		}
+		{
+			title: "Túnel Quântico"
+			dependencies: [
+				"1000000000007944"
+			]
+			icon: {
+				id: "nuclearscience:quantumcapacitor"
+			}
+			id: "1000000000007965"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000030204"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000030205"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"O Túnel Quântico transporta itens, fluidos, gases e energia entre pontos instantaneamente, ligado por frequências. Ele precisa estar carregado para funcionar."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000030206"
+					item: {
+						count: 1
+						id: "nuclearscience:quantumcapacitor"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 12.0d
+		}
+		{
+			title: "Teletransportador"
+			dependencies: [
+				"1000000000007965"
+			]
+			icon: {
+				id: "nuclearscience:teleporter"
+			}
+			id: "1000000000007966"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000030207"
+					item: {
+						count: 1
+						id: "electrodynamics:ingotsuperconductive"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000030208"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"O Teletransportador leva uma entidade para as coordenadas programadas e a viagem é de ida só: você precisa de dois, um para ir e outro para voltar. Há uma recarga de 4 segundos entre os usos."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000030209"
+					item: {
+						count: 1
+						id: "nuclearscience:teleporter"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 12.0d
+		}
+		{
+			title: "Cartão de Frequência"
+			dependencies: [
+				"1000000000007966"
+			]
+			icon: {
+				id: "nuclearscience:frequencycard"
+			}
+			id: "1000000000007967"
+			rewards: [
+				{
+					count: 8
+					id: "2000000000030210"
+					item: {
+						count: 1
+						id: "nuclearscience:cellempty"
+					}
+					type: "item"
+				}
+				{
+					id: "2000000000030211"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			description: [
+				"O Cartão de Frequência guarda coordenadas: clique com o botão direito em um bloco para gravar, e depois importe no Teletransportador."
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2000000000030212"
+					item: {
+						count: 1
+						id: "nuclearscience:frequencycard"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 12.0d
+		}
+	]
+	title: "Nuclear Science"
+}
