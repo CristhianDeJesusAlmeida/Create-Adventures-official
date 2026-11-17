@@ -201,6 +201,11 @@ hash = "e1f4a53e3e52b534add5dd018597fefd345d9bd6350b9c46ef0ec281fc62af8e"
 metafile = true
 
 [[files]]
+file = "mods/better-advanced-tooltips.pw.toml"
+hash = "03084ff4f74cedc1b8ac6c85a98842f75956fb4fa811d285d8ca7caa8d54da5d"
+metafile = true
+
+[[files]]
 file = "mods/better-block-entities.pw.toml"
 hash = "78f4fbf2a654bb34a7b87e58596c55e7f64e27bb3cd2cd83ea18f55552e7628c"
 metafile = true
