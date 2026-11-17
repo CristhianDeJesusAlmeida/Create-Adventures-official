@@ -1141,6 +1141,11 @@ hash = "28595244ed761eaec28157bbfeb24692fbd6223e376775cd44d3385f0133ec47"
 metafile = true
 
 [[files]]
+file = "mods/travelers-titles.pw.toml"
+hash = "01cab903b1a7f77aa4f28c7fab24e7fa09b376b18c77b487b7ba34e0afc57813"
+metafile = true
+
+[[files]]
 file = "mods/tunes-n-tomes-a-bards-journey.pw.toml"
 hash = "5fb24121f1b63d4628bb39154290eb69b0ff459487c829361eb14572c653accf"
 metafile = true
