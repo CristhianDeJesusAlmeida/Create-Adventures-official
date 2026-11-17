@@ -691,6 +691,11 @@ hash = "d1665d3000a0857df2d4ea5d3b3a6c5e2b0a60b0c83f8c0f30f05b5305b1878f"
 metafile = true
 
 [[files]]
+file = "mods/ftb-ultimine-forge.pw.toml"
+hash = "d85532e5d8240b8531ca7626f8d4d0052ef0713b8542ead9a0fb03d2e44f59b1"
+metafile = true
+
+[[files]]
 file = "mods/functional-storage.pw.toml"
 hash = "a05de88a883d7ad3534cfcfebddf2efe60162ab2d9ef22cf220c649f5ce2f1e3"
 metafile = true
