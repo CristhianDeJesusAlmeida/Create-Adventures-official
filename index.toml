@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/ars_nouveau-common.toml"
+hash = "b1a7e267eac38e5dab7a225798f854333eb45a405e1caee6e895af1cc51b006f"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/ae2.snbt"
 hash = "5ff3b5688dfe2dd31dcce1b31b9b46065796489a5694864f682e92138405b164"
 
