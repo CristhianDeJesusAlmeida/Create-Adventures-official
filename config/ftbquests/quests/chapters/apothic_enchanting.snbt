@@ -1,39 +1,34 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "apotheosis_gear"
-	title: "Apotheosis: Equipamentos"
-	group: "15E5B587D291A4AA"
+	filename: "apothic_enchanting"
+	title: "Apothic Enchanting"
 	icon: {
-		id: "apotheosis:godforged_pearl"
+		id: "apothic_enchanting:apothic_enchanting_table"
 	}
-	id: "1000000000001089"
-	order_index: 1
+	id: "1000000000090000"
+	order_index: 2
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
-			title: "O Poder das Gemas Estelares"
+			title: "A Nova Mesa"
 			icon: {
-				components: {
-					"apotheosis:gem": "apotheosis:core/solar"
-					"apotheosis:purity": "perfect"
-				}
-				id: "apotheosis:gem"
+				id: "apothic_enchanting:apothic_enchanting_table"
 			}
-			id: "1000000000001090"
+			id: "2000000000000001"
 			rewards: [
 				{
-					count: 5
-					id: "2000000000001203"
+					count: 3
+					id: "3000000000000001"
 					item: {
 						count: 1
-						id: "minecraft:iron_ingot"
+						id: "minecraft:book"
 					}
 					type: "item"
 				}
 				{
-					id: "2000000000001204"
+					id: "3000000000000002"
 					type: "xp_levels"
 					xp_levels: 1
 				}
@@ -41,18 +36,12 @@
 			shape: "gear"
 			size: 2.0d
 			description: [
-				"As gemas do Apotheosis podem ser incrustadas em armaduras, armas e ferramentas para conceder bónus extraordinários de atributos, melhorando drasticamente a combatividade do jogador."
+				"O Apothic Enchanting reformula a mesa de encantamento: o resultado passa a depender das estantes ao redor dela. Comece fabricando a sua mesa."
 			]
 			tasks: [
 				{
-					id: "2000000000001205"
-					item: {
-						components: {
-							"ftbfiltersystem:filter": "item(apotheosis:gem)"
-						}
-						count: 1
-						id: "ftbfiltersystem:smart_filter"
-					}
+					id: "3000000000000003"
+					item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:enchanting_table)item(apothic_enchanting:apothic_enchanting_table))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 			]
@@ -60,15 +49,506 @@
 			y: 0.0d
 		}
 		{
-			title: "Poeira Cristalina"
+			title: "Estantes ao Redor"
 			dependencies: [
-				"1000000000001090"
+				"2000000000000001"
 			]
-			id: "1000000000001091"
+			dependency_requirement: "all_completed"
+			id: "2000000000000002"
+			rewards: [
+				{
+					count: 16
+					id: "3000000000000004"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000000000005"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			size: 1.2d
+			description: [
+				"Cerque a mesa com estantes de livros. Reúna o suficiente antes de partir para as estantes especiais."
+			]
+			tasks: [
+				{
+					count: 15L
+					id: "3000000000000006"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:bookshelves)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			title: "Combustível Azul"
+			dependencies: [
+				"2000000000000001"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000000003"
+			rewards: [
+				{
+					count: 4
+					id: "3000000000000007"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+			]
+			size: 1.2d
+			description: [
+				"Encantar consome lápis-lazúli. Mantenha um bom estoque para não ficar na mão no meio do processo."
+			]
+			tasks: [
+				{
+					count: 32L
+					id: "3000000000000008"
+					item: { count: 1, id: "minecraft:lapis_lazuli" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			title: "A Biblioteca"
+			dependencies: [
+				"2000000000000002"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000000004"
+			rewards: [
+				{
+					count: 4
+					id: "3000000000000009"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000000000010"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			description: [
+				"A biblioteca guarda livros encantados e deixa a sua coleção de encantamentos sempre à mão."
+			]
+			tasks: [
+				{
+					id: "3000000000000011"
+					item: { count: 1, id: "apothic_enchanting:library" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			title: "Biblioteca do Fim"
+			dependencies: [
+				"2000000000000004"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000000005"
+			rewards: [
+				{
+					count: 4
+					id: "3000000000000012"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000000000013"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			description: [
+				"Uma biblioteca mais avançada, com capacidade maior para a sua coleção."
+			]
+			tasks: [
+				{
+					id: "3000000000000014"
+					item: { count: 1, id: "apothic_enchanting:ender_library" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			title: "Tomo Rasgado"
+			dependencies: [
+				"2000000000000001"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000000006"
+			rewards: [
+				{
+					count: 2
+					id: "3000000000000015"
+					item: {
+						count: 1
+						id: "minecraft:book"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000000000016"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			size: 1.2d
+			description: [
+				"Os tomos são ferramentas para trabalhar com encantamentos. O tomo rasgado é o mais simples da família."
+			]
+			tasks: [
+				{
+					id: "3000000000000017"
+					item: { count: 1, id: "apothic_enchanting:scrap_tome" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			title: "Tomo Rasgado Aprimorado"
+			dependencies: [
+				"2000000000000006"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000000007"
+			rewards: [
+				{
+					count: 6
+					id: "3000000000000018"
+					item: {
+						count: 1
+						id: "minecraft:amethyst_shard"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000000000019"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			size: 1.2d
+			description: [
+				"Uma versão melhorada do tomo rasgado."
+			]
+			tasks: [
+				{
+					id: "3000000000000020"
+					item: { count: 1, id: "apothic_enchanting:improved_scrap_tome" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			title: "Tomo de Extração"
+			dependencies: [
+				"2000000000000007"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000000008"
+			rewards: [
+				{
+					count: 1
+					id: "3000000000000021"
+					item: {
+						count: 1
+						id: "minecraft:echo_shard"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000000000022"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			size: 1.2d
+			description: [
+				"O tomo de extração trabalha com os encantamentos que já estão em um equipamento."
+			]
+			tasks: [
+				{
+					id: "3000000000000023"
+					item: { count: 1, id: "apothic_enchanting:extraction_tome" }
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: 3.0d
+		}
+		{
+			title: "Tomos de Armadura"
+			dependencies: [
+				"2000000000000007"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000000009"
 			rewards: [
 				{
 					count: 8
-					id: "2000000000001206"
+					id: "3000000000000024"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000000000025"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			size: 1.2d
+			description: [
+				"Tomos feitos sob medida para as peças de armadura."
+			]
+			tasks: [
+				{
+					id: "3000000000000026"
+					item: { count: 1, id: "apothic_enchanting:helmet_tome" }
+					type: "item"
+				}
+				{
+					id: "3000000000000027"
+					item: { count: 1, id: "apothic_enchanting:chestplate_tome" }
+					type: "item"
+				}
+				{
+					id: "3000000000000028"
+					item: { count: 1, id: "apothic_enchanting:leggings_tome" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			title: "Tomos de Combate e Ferramentas"
+			dependencies: [
+				"2000000000000007"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000000010"
+			rewards: [
+				{
+					count: 8
+					id: "3000000000000029"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000000000030"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			size: 1.2d
+			description: [
+				"Tomos para armas, arcos, picaretas e varas de pescar."
+			]
+			tasks: [
+				{
+					id: "3000000000000031"
+					item: { count: 1, id: "apothic_enchanting:weapon_tome" }
+					type: "item"
+				}
+				{
+					id: "3000000000000032"
+					item: { count: 1, id: "apothic_enchanting:bow_tome" }
+					type: "item"
+				}
+				{
+					id: "3000000000000033"
+					item: { count: 1, id: "apothic_enchanting:pickaxe_tome" }
+					type: "item"
+				}
+				{
+					id: "3000000000000034"
+					item: { count: 1, id: "apothic_enchanting:fishing_tome" }
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: 6.0d
+		}
+		{
+			title: "Tomo Universal"
+			dependencies: [
+				"2000000000000006"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000000011"
+			rewards: [
+				{
+					count: 3
+					id: "3000000000000035"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+			]
+			size: 1.2d
+			description: [
+				"Para tudo o que não cabe nos tomos específicos."
+			]
+			tasks: [
+				{
+					id: "3000000000000036"
+					item: { count: 1, id: "apothic_enchanting:other_tome" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			title: "Coleira Frágil"
+			dependencies: [
+				"2000000000000004"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000000012"
+			rewards: [
+				{
+					count: 8
+					id: "3000000000000037"
+					item: {
+						count: 1
+						id: "minecraft:string"
+					}
+					type: "item"
+				}
+			]
+			size: 1.2d
+			description: [
+				"Uma família de coleiras especiais. A mais simples é frágil, e serve de ponto de partida."
+			]
+			tasks: [
+				{
+					id: "3000000000000038"
+					item: { count: 1, id: "apothic_enchanting:flimsy_ender_lead" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 9.0d
+		}
+		{
+			title: "Coleira do Fim"
+			dependencies: [
+				"2000000000000012"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000000013"
+			rewards: [
+				{
+					count: 2
+					id: "3000000000000039"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+			]
+			size: 1.2d
+			description: [
+				"O passo seguinte da família de coleiras."
+			]
+			tasks: [
+				{
+					id: "3000000000000040"
+					item: { count: 1, id: "apothic_enchanting:ender_lead" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 9.0d
+		}
+		{
+			title: "Coleira Oculta"
+			dependencies: [
+				"2000000000000013"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000000014"
+			rewards: [
+				{
+					count: 1
+					id: "3000000000000041"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000000000042"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			size: 1.2d
+			description: [
+				"A coleira mais refinada da linha."
+			]
+			tasks: [
+				{
+					id: "3000000000000043"
+					item: { count: 1, id: "apothic_enchanting:occult_ender_lead" }
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: 9.0d
+		}
+		{
+			title: "Estojo de Gemas"
+			dependencies: [
+				"2000000000000001"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000000015"
+			rewards: [
+				{
+					count: 4
+					id: "3000000000000044"
 					item: {
 						count: 1
 						id: "minecraft:amethyst_shard"
@@ -78,493 +558,880 @@
 			]
 			size: 1.2d
 			description: [
-				"Triture gemas imperfeitas para obter pó de gemas, essencial para os rituais de refino e fabrico de componentes avançados de equipamento."
+				"Aqui o Apothic Enchanting encontra o sistema de gemas do Apotheosis."
 			]
 			tasks: [
 				{
-					id: "2000000000001207"
+					id: "3000000000000045"
+					item: { count: 1, id: "apotheosis:gem_case" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			title: "Estojo de Gemas do Fim"
+			dependencies: [
+				"2000000000000015"
+				"2000000000000005"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000000016"
+			rewards: [
+				{
+					count: 2
+					id: "3000000000000046"
 					item: {
 						count: 1
-						id: "apotheosis:gem_dust"
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000000000047"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			size: 1.2d
+			description: [
+				"A versão do Fim do estojo, para quem já chegou longe."
+			]
+			tasks: [
+				{
+					id: "3000000000000048"
+					item: { count: 1, id: "apotheosis:ender_gem_case" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			title: "Estantes Curiosas"
+			dependencies: [
+				"2000000000000002"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000000017"
+			rewards: [
+				{
+					count: 2
+					id: "3000000000000049"
+					item: {
+						count: 1
+						id: "minecraft:honey_bottle"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000000000050"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			size: 1.2d
+			description: [
+				"Algumas estantes simples fogem do padrão: de colmeia, de pedra e de melancia."
+			]
+			tasks: [
+				{
+					id: "3000000000000051"
+					item: { count: 1, id: "apothic_enchanting:beeshelf" }
+					type: "item"
+				}
+				{
+					id: "3000000000000052"
+					item: { count: 1, id: "apothic_enchanting:stoneshelf" }
+					type: "item"
+				}
+				{
+					id: "3000000000000053"
+					item: { count: 1, id: "apothic_enchanting:melonshelf" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			title: "Estante Infernal"
+			dependencies: [
+				"2000000000000002"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000000018"
+			rewards: [
+				{
+					count: 8
+					id: "3000000000000054"
+					item: {
+						count: 1
+						id: "minecraft:nether_wart"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000000000055"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			size: 1.2d
+			description: [
+				"Feitas com materiais do Nether, as estantes infernais abrem o ramo mais quente da sua mesa."
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "3000000000000056"
+					item: { count: 1, id: "apothic_enchanting:hellshelf" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			title: "Estante Infernal Infundida"
+			dependencies: [
+				"2000000000000018"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000000019"
+			rewards: [
+				{
+					count: 2
+					id: "3000000000000057"
+					item: {
+						count: 1
+						id: "minecraft:blaze_rod"
 					}
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 2.0d
+			size: 1.2d
+			description: [
+				"Uma versão infundida da estante infernal."
+			]
+			tasks: [
+				{
+					count: 6L
+					id: "3000000000000058"
+					item: { count: 1, id: "apothic_enchanting:infused_hellshelf" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 3.0d
 		}
 		{
-			title: "Ardósia Fundida de Gema"
+			title: "Estante Infernal Flamejante"
 			dependencies: [
-				"1000000000001091"
+				"2000000000000018"
 			]
-			id: "1000000000001092"
+			dependency_requirement: "all_completed"
+			id: "2000000000000020"
+			rewards: [
+				{
+					count: 4
+					id: "3000000000000059"
+					item: {
+						count: 1
+						id: "minecraft:magma_cream"
+					}
+					type: "item"
+				}
+			]
+			size: 1.2d
+			description: [
+				"Mais uma variação do ramo infernal."
+			]
+			tasks: [
+				{
+					id: "3000000000000060"
+					item: { count: 1, id: "apothic_enchanting:blazing_hellshelf" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 4.5d
+		}
+		{
+			title: "Estante Infernal Brilhante"
+			dependencies: [
+				"2000000000000018"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000000021"
 			rewards: [
 				{
 					count: 8
-					id: "2000000000001208"
+					id: "3000000000000061"
+					item: {
+						count: 1
+						id: "minecraft:glowstone"
+					}
+					type: "item"
+				}
+			]
+			size: 1.2d
+			description: [
+				"A variação brilhante do ramo infernal."
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "3000000000000062"
+					item: { count: 1, id: "apothic_enchanting:glowing_hellshelf" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			title: "Estante da Visão"
+			dependencies: [
+				"2000000000000018"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000000022"
+			rewards: [
+				{
+					count: 8
+					id: "3000000000000063"
+					item: {
+						count: 1
+						id: "minecraft:spectral_arrow"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000000000064"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			size: 1.2d
+			description: [
+				"Estantes especiais com um papel próprio na sua mesa."
+			]
+			tasks: [
+				{
+					id: "3000000000000065"
+					item: { count: 1, id: "apothic_enchanting:sightshelf" }
+					type: "item"
+				}
+				{
+					id: "3000000000000066"
+					item: { count: 1, id: "apothic_enchanting:sightshelf_t2" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 4.5d
+		}
+		{
+			title: "Estante Marinha"
+			dependencies: [
+				"2000000000000002"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000000023"
+			rewards: [
+				{
+					count: 8
+					id: "3000000000000067"
+					item: {
+						count: 1
+						id: "minecraft:prismarine_shard"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000000000068"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			size: 1.2d
+			description: [
+				"O ramo do mar começa com a estante marinha."
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "3000000000000069"
+					item: { count: 1, id: "apothic_enchanting:seashelf" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			title: "Estante Marinha Infundida"
+			dependencies: [
+				"2000000000000023"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000000024"
+			rewards: [
+				{
+					count: 1
+					id: "3000000000000070"
+					item: {
+						count: 1
+						id: "minecraft:nautilus_shell"
+					}
+					type: "item"
+				}
+			]
+			size: 1.2d
+			description: [
+				"A versão infundida da estante marinha."
+			]
+			tasks: [
+				{
+					count: 6L
+					id: "3000000000000071"
+					item: { count: 1, id: "apothic_enchanting:infused_seashelf" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 7.5d
+		}
+		{
+			title: "Estante de Filtragem"
+			dependencies: [
+				"2000000000000023"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000000025"
+			rewards: [
+				{
+					count: 2
+					id: "3000000000000072"
+					item: {
+						count: 1
+						id: "minecraft:sponge"
+					}
+					type: "item"
+				}
+			]
+			size: 1.2d
+			description: [
+				"Uma estante especial do ramo marinho."
+			]
+			tasks: [
+				{
+					id: "3000000000000073"
+					item: { count: 1, id: "apothic_enchanting:filtering_shelf" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 9.0d
+		}
+		{
+			title: "Estante Marinha do Coração"
+			dependencies: [
+				"2000000000000023"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000000026"
+			rewards: [
+				{
+					count: 1
+					id: "3000000000000074"
+					item: {
+						count: 1
+						id: "minecraft:heart_of_the_sea"
+					}
+					type: "item"
+				}
+			]
+			size: 1.2d
+			description: [
+				"Mais uma variação do mar."
+			]
+			tasks: [
+				{
+					id: "3000000000000075"
+					item: { count: 1, id: "apothic_enchanting:heart_seashelf" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 10.5d
+		}
+		{
+			title: "Estante Marinha de Cristal"
+			dependencies: [
+				"2000000000000023"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000000027"
+			rewards: [
+				{
+					count: 4
+					id: "3000000000000076"
+					item: {
+						count: 1
+						id: "minecraft:amethyst_block"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000000000077"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			size: 1.2d
+			description: [
+				"A variação de cristal do ramo marinho."
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "3000000000000078"
+					item: { count: 1, id: "apothic_enchanting:crystal_seashelf" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 9.0d
+		}
+		{
+			title: "Estante das Profundezas"
+			dependencies: [
+				"2000000000000018"
+				"2000000000000023"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000000028"
+			rewards: [
+				{
+					count: 16
+					id: "3000000000000079"
+					item: {
+						count: 1
+						id: "minecraft:sculk"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000000000080"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			description: [
+				"O ramo mais sombrio só se abre para quem já domina o Nether e o mar."
+			]
+			tasks: [
+				{
+					id: "3000000000000081"
+					item: { count: 1, id: "apothic_enchanting:deepshelf" }
+					type: "item"
+				}
+			]
+			x: 13.0d
+			y: 6.5d
+		}
+		{
+			title: "Profundezas Tocadas pela Alma"
+			dependencies: [
+				"2000000000000028"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000000029"
+			rewards: [
+				{
+					count: 16
+					id: "3000000000000082"
+					item: {
+						count: 1
+						id: "minecraft:soul_sand"
+					}
+					type: "item"
+				}
+			]
+			size: 1.2d
+			description: [
+				"Uma variação do ramo das profundezas."
+			]
+			tasks: [
+				{
+					id: "3000000000000083"
+					item: { count: 1, id: "apothic_enchanting:soul_touched_deepshelf" }
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 5.0d
+		}
+		{
+			title: "Profundezas Ecoantes"
+			dependencies: [
+				"2000000000000028"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000000030"
+			rewards: [
+				{
+					count: 2
+					id: "3000000000000084"
+					item: {
+						count: 1
+						id: "minecraft:echo_shard"
+					}
+					type: "item"
+				}
+			]
+			size: 1.2d
+			description: [
+				"Outra variação do ramo das profundezas."
+			]
+			tasks: [
+				{
+					id: "3000000000000085"
+					item: { count: 1, id: "apothic_enchanting:echoing_deepshelf" }
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 8.0d
+		}
+		{
+			title: "Estante de Sculk Tocada pela Alma"
+			dependencies: [
+				"2000000000000029"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000000031"
+			rewards: [
+				{
+					count: 1
+					id: "3000000000000086"
+					item: {
+						count: 1
+						id: "minecraft:sculk_catalyst"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000000000087"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			size: 1.2d
+			description: [
+				"O passo seguinte da linha tocada pela alma."
+			]
+			tasks: [
+				{
+					id: "3000000000000088"
+					item: { count: 1, id: "apothic_enchanting:soul_touched_sculkshelf" }
+					type: "item"
+				}
+			]
+			x: 19.0d
+			y: 5.0d
+		}
+		{
+			title: "Estante de Sculk Ecoante"
+			dependencies: [
+				"2000000000000030"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000000032"
+			rewards: [
+				{
+					count: 1
+					id: "3000000000000089"
+					item: {
+						count: 1
+						id: "minecraft:sculk_shrieker"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000000000090"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			size: 1.2d
+			description: [
+				"O passo seguinte da linha ecoante."
+			]
+			tasks: [
+				{
+					id: "3000000000000091"
+					item: { count: 1, id: "apothic_enchanting:echoing_sculkshelf" }
+					type: "item"
+				}
+			]
+			x: 19.0d
+			y: 8.0d
+		}
+		{
+			title: "Estante do Fim"
+			dependencies: [
+				"2000000000000028"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000000033"
+			rewards: [
+				{
+					count: 16
+					id: "3000000000000092"
+					item: {
+						count: 1
+						id: "minecraft:end_stone_bricks"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000000000093"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			description: [
+				"No Fim, as estantes mudam de patamar mais uma vez."
+			]
+			tasks: [
+				{
+					id: "3000000000000094"
+					item: { count: 1, id: "apothic_enchanting:endshelf" }
+					type: "item"
+				}
+			]
+			x: 22.0d
+			y: 6.5d
+		}
+		{
+			title: "Estante do Fim com Pérola"
+			dependencies: [
+				"2000000000000033"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000000034"
+			rewards: [
+				{
+					count: 8
+					id: "3000000000000095"
+					item: {
+						count: 1
+						id: "minecraft:chorus_fruit"
+					}
+					type: "item"
+				}
+			]
+			size: 1.2d
+			description: [
+				"Uma variação do ramo do Fim."
+			]
+			tasks: [
+				{
+					id: "3000000000000096"
+					item: { count: 1, id: "apothic_enchanting:pearl_endshelf" }
+					type: "item"
+				}
+			]
+			x: 25.0d
+			y: 5.0d
+		}
+		{
+			title: "Estante Dracônica do Fim"
+			dependencies: [
+				"2000000000000033"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000000035"
+			rewards: [
+				{
+					count: 2
+					id: "3000000000000097"
+					item: {
+						count: 1
+						id: "minecraft:dragon_breath"
+					}
+					type: "item"
+				}
+			]
+			size: 1.2d
+			description: [
+				"A variação dracônica do ramo do Fim."
+			]
+			tasks: [
+				{
+					id: "3000000000000098"
+					item: { count: 1, id: "apothic_enchanting:draconic_endshelf" }
+					type: "item"
+				}
+			]
+			x: 25.0d
+			y: 8.0d
+		}
+		{
+			title: "Sopro Infundido"
+			dependencies: [
+				"2000000000000033"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000000036"
+			rewards: [
+				{
+					count: 8
+					id: "3000000000000099"
 					item: {
 						count: 1
 						id: "minecraft:experience_bottle"
 					}
 					type: "item"
 				}
-				{
-					count: 10
-					id: "2000000000001209"
-					item: {
-						count: 1
-						id: "apotheosis:gem_dust"
-					}
-					type: "item"
-				}
 			]
-			shape: "rsquare"
-			size: 0.9d
+			size: 1.2d
 			description: [
-				"Placas estabilizadas infundidas com energia pura de gemas, utilizadas em procedimentos de alta precisão nas mesas de processamento."
+				"Um material valioso para quem chegou até aqui."
 			]
 			tasks: [
 				{
-					id: "2000000000001210"
-					item: {
-						count: 1
-						id: "apotheosis:gem_fused_slate"
-					}
+					id: "3000000000000100"
+					item: { count: 1, id: "apothic_enchanting:infused_breath" }
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: 2.0d
+			x: 22.0d
+			y: 9.5d
 		}
 		{
-			title: "Reciclagem de Relíquias"
+			title: "Estante do Tesouro"
 			dependencies: [
-				"1000000000001091"
+				"2000000000000031"
+				"2000000000000032"
+				"2000000000000035"
 			]
-			id: "1000000000001093"
+			dependency_requirement: "all_completed"
+			id: "2000000000000037"
 			rewards: [
 				{
 					count: 2
-					id: "2000000000001211"
+					id: "3000000000000101"
 					item: {
 						count: 1
-						id: "apotheosis:mysterious_scrap_metal"
+						id: "minecraft:netherite_scrap"
 					}
 					type: "item"
 				}
 				{
-					id: "2000000000001212"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-			]
-			shape: "square"
-			size: 1.1d
-			description: [
-				"A Mesa de Reciclagem (Salvaging Table) permite desmontar equipamentos raros e mágicos indesejados para extrair materiais de raridade puros e poeira de gemas."
-			]
-			tasks: [
-				{
-					id: "2000000000001213"
-					item: {
-						count: 1
-						id: "apotheosis:salvaging_table"
-					}
-					type: "item"
-				}
-			]
-			x: -2.0d
-			y: 2.0d
-		}
-		{
-			title: "Sucata Misteriosa"
-			dependencies: [
-				"1000000000001093"
-			]
-			id: "1000000000001094"
-			rewards: [
-				{
-					count: 4
-					id: "2000000000001214"
-					item: {
-						count: 1
-						id: "apotheosis:gem_dust"
-					}
-					type: "item"
-				}
-			]
-			description: [
-				"Reciclar equipamentos na mesa devolve materiais como a §aSucata Misteriosa§r, além de Pó de Gema. Eles pagam reforjamentos e outras criações do Apotheosis."
-			]
-			tasks: [
-				{
-					id: "2000000000001215"
-					item: {
-						count: 1
-						id: "apotheosis:mysterious_scrap_metal"
-					}
-					type: "item"
-				}
-			]
-			x: -3.5d
-			y: 3.5d
-			icon: {
-				id: "apotheosis:mysterious_scrap_metal"
-			}
-		}
-		{
-			title: "A Arte do Reforjamento"
-			dependencies: [
-				"1000000000001091"
-			]
-			id: "1000000000001095"
-			rewards: [
-				{
-					id: "2000000000001217"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					count: 8
-					id: "2000000000001218"
-					item: {
-						count: 1
-						id: "apotheosis:gem_dust"
-					}
-					type: "item"
-				}
-			]
-			shape: "hexagon"
-			size: 1.3d
-			description: [
-				"Utilize a Mesa de Reforjamento para alterar aleatoriamente os atributos prefixados e sufixados de qualquer ferramenta, arma ou armadura."
-				""
-				"Consome materiais de raridade, poeira de gemas e níveis de experiência."
-			]
-			tasks: [
-				{
-					id: "2000000000001219"
-					item: {
-						count: 1
-						id: "apotheosis:reforging_table"
-					}
-					type: "item"
-				}
-			]
-			x: 0.0d
-			y: 4.0d
-		}
-		{
-			title: "Combustível de Reforjamento"
-			dependencies: [
-				"1000000000001095"
-			]
-			id: "1000000000001096"
-			rewards: [
-				{
-					count: 8
-					id: "2000000000001220"
-					item: {
-						count: 1
-						id: "apotheosis:gem_dust"
-					}
-					type: "item"
-				}
-			]
-			description: [
-				"O §aSigil of Rebirth§r é o combustível usado nas mesas de reforjamento. Feito de Gem-Fused Slate e Pó de Gema."
-			]
-			tasks: [
-				{
-					id: "2000000000001221"
-					item: {
-						count: 1
-						id: "apotheosis:sigil_of_rebirth"
-					}
-					type: "item"
-				}
-			]
-			x: 1.5d
-			y: 5.5d
-			icon: {
-				id: "apotheosis:sigil_of_rebirth"
-			}
-		}
-		{
-			title: "Selo dos Engastes"
-			dependencies: [
-				"1000000000001095"
-			]
-			id: "1000000000001097"
-			rewards: [
-				{
-					id: "2000000000001222"
+					id: "3000000000000102"
 					type: "xp_levels"
 					xp_levels: 5
 				}
 			]
 			shape: "diamond"
-			size: 1.2d
+			size: 1.5d
 			description: [
-				"O §eSigil of Socketing§r permite perfurar um soquete adicional no teu equipamento, criando espaço para incrustar mais uma gema estelar."
-				""
-				"Pode ser utilizado até ao limite máximo de soquetes permitido pela raridade do item."
+				"Reúna as estantes mais raras para fabricar a estante do tesouro."
 			]
 			tasks: [
 				{
-					id: "2000000000001223"
-					item: {
-						count: 1
-						id: "apotheosis:sigil_of_socketing"
-					}
+					id: "3000000000000103"
+					item: { count: 1, id: "apothic_enchanting:treasure_shelf" }
 					type: "item"
 				}
 			]
-			x: -1.5d
-			y: 5.5d
-		}
-		{
-			title: "Mesa de Corte de Gemas"
-			dependencies: [
-				"1000000000001097"
-			]
-			id: "1000000000001098"
-			rewards: [
-				{
-					count: 6
-					id: "2000000000001224"
-					item: {
-						count: 1
-						id: "apotheosis:gem_dust"
-					}
-					type: "item"
-				}
-			]
-			description: [
-				"Na §aMesa de Corte de Gemas§r você combina duas gemas idênticas com Pó de Gema e materiais de raridade para aumentar a pureza da gema."
-			]
-			tasks: [
-				{
-					id: "2000000000001225"
-					item: {
-						count: 1
-						id: "apotheosis:gem_cutting_table"
-					}
-					type: "item"
-				}
-			]
-			x: -3.0d
+			x: 28.0d
 			y: 6.5d
-			icon: {
-				id: "apotheosis:gem_cutting_table"
-			}
 		}
 		{
-			title: "Extração Segura de Gemas"
+			title: "Pérola Divina"
 			dependencies: [
-				"1000000000001095"
+				"2000000000000037"
 			]
-			id: "1000000000001099"
-			rewards: [
-				{
-					id: "2000000000001226"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-			]
-			description: [
-				"O §3Sigil of Withdrawal§r remove todas as gemas de um item, devolvendo tanto o item quanto as gemas."
-			]
-			tasks: [
-				{
-					id: "2000000000001227"
-					item: {
-						count: 1
-						id: "apotheosis:sigil_of_withdrawal"
-					}
-					type: "item"
-				}
-			]
-			x: 0.0d
-			y: 6.0d
-			icon: {
-				id: "apotheosis:sigil_of_withdrawal"
-			}
-		}
-		{
-			title: "Reforjamento Simples"
-			dependencies: [
-				"1000000000001095"
-			]
-			id: "1000000000001100"
-			rewards: [
-				{
-					id: "2000000000001228"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-			]
-			description: [
-				"A §aMesa de Reforjamento Simples§r reforja itens de até raridade Rara. É feita com uma mesa de encantamento, Pó de Gema, pedra lisa e um lingote de ferro."
-			]
-			tasks: [
-				{
-					id: "2000000000001229"
-					item: {
-						count: 1
-						id: "apotheosis:simple_reforging_table"
-					}
-					type: "item"
-				}
-			]
-			x: 0.0d
-			y: 7.5d
-			icon: {
-				id: "apotheosis:simple_reforging_table"
-			}
-		}
-		{
-			title: "Guardando suas Gemas"
-			dependencies: [
-				"1000000000001095"
-			]
-			id: "1000000000001101"
+			dependency_requirement: "all_completed"
+			id: "2000000000000038"
 			rewards: [
 				{
 					count: 4
-					id: "2000000000001230"
+					id: "3000000000000104"
 					item: {
 						count: 1
-						id: "apotheosis:gem_dust"
+						id: "minecraft:diamond"
 					}
 					type: "item"
 				}
+				{
+					id: "3000000000000105"
+					type: "xp_levels"
+					xp_levels: 5
+				}
 			]
-			shape: "pentagon"
-			size: 1.2d
+			shape: "diamond"
+			size: 1.5d
 			description: [
-				"O §aGem Case§r guarda e organiza as suas gemas lapidadas."
+				"Um item do Apotheosis que marca o auge da jornada."
 			]
 			tasks: [
 				{
-					id: "2000000000001231"
-					item: {
-						count: 1
-						id: "apotheosis:gem_case"
-					}
+					id: "3000000000000106"
+					item: { count: 1, id: "apotheosis:god_fused_pearl" }
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: 7.5d
-			icon: {
-				id: "apotheosis:gem_case"
-			}
+			x: 31.0d
+			y: 6.5d
 		}
 		{
-			title: "A Pérola Forjada pelos Deuses"
+			title: "A Mesa do Corvo"
 			dependencies: [
-				"1000000000001101"
+				"2000000000000038"
 			]
-			id: "1000000000001102"
+			dependency_requirement: "all_completed"
+			id: "2000000000000039"
 			rewards: [
 				{
-					id: "2000000000001232"
+					count: 1
+					id: "3000000000000107"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000000000108"
 					type: "xp_levels"
 					xp_levels: 10
 				}
-				{
-					count: 8
-					id: "2000000000001233"
-					item: {
-						count: 1
-						id: "apotheosis:gem_dust"
-					}
-					type: "item"
-				}
 			]
 			shape: "gear"
-			size: 1.5d
+			size: 2.0d
 			description: [
-				"A §eGodforged Pearl§r é um material raríssimo do Apotheosis, ligado ao topo da progressão de raridade (Mítica)."
+				"A mesa final desta linha de progresso."
 			]
 			tasks: [
 				{
-					id: "2000000000001234"
-					item: {
-						count: 1
-						id: "apotheosis:godforged_pearl"
-					}
+					id: "3000000000000109"
+					item: { count: 1, id: "apothic_enchanting:raven_enchanting_table" }
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: 9.5d
-		}
-		{
-			title: "Convocando Invasores"
-			dependencies: [
-				"1000000000001102"
-			]
-			id: "1000000000001103"
-			rewards: [
-				{
-					id: "2000000000001235"
-					type: "xp_levels"
-					xp_levels: 15
-				}
-			]
-			shape: "circle"
-			size: 1.1d
-			description: [
-				"O §aInvocador de Invasores§r chama os Invasores Apotícos, que têm chances maiores de soltar gemas e equipamentos."
-			]
-			tasks: [
-				{
-					id: "2000000000001236"
-					item: {
-						count: 1
-						id: "apotheosis:boss_summoner"
-					}
-					type: "item"
-				}
-			]
-			x: 0.0d
-			y: 9.5d
-			icon: {
-				id: "apotheosis:boss_summoner"
-			}
-		}
-		{
-			title: "Dominium Absoluto do Equipamento"
-			dependencies: [
-				"1000000000001102"
-			]
-			id: "1000000000001104"
-			rewards: [
-				{
-					id: "2000000000001237"
-					type: "xp_levels"
-					xp_levels: 20
-				}
-			]
-			shape: "star"
-			size: 1.3d
-			description: [
-				"Parabéns! Dominaste todas as mecânicas de reforjamento, extração, engastes e alinhamento de gemas do Apotheosis."
-				""
-				"O teu equipamento agora rivaliza com o poder dos próprios deuses!"
-			]
-			tasks: [
-				{
-					id: "2000000000001238"
-					title: "Mestre do Forjamento Divino"
-					type: "checkmark"
-				}
-			]
-			x: 4.0d
-			y: 9.5d
+			x: 34.0d
+			y: 6.5d
 		}
 	]
 }
