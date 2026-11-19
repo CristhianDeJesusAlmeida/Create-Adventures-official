@@ -1,0 +1,400 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "o_fim"
+	title: "O Fim"
+	group: ""
+	icon: {
+		id: "minecraft:ender_eye"
+	}
+	id: "1000000000000092"
+	images: [ ]
+	order_index: 5
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			title: "Pérolas de Ender"
+			dependencies: [
+				"2000000000091006"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000092001"
+			rewards: [
+				{
+					count: 6
+					id: "3000000009200001"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009200002"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"Os endermen carregam pérolas e aparecem muito nas florestas deformadas do Nether. Olhar nos olhos deles os deixa hostis, então tenha cuidado."
+			]
+			tasks: [
+				{
+					count: 12L
+					id: "3000000009200003"
+					item: { count: 1, id: "minecraft:ender_pearl" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			title: "Pó de Blaze"
+			dependencies: [
+				"2000000000091006"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000092002"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009200004"
+					item: {
+						count: 1
+						id: "minecraft:gunpowder"
+					}
+					type: "item"
+				}
+			]
+			description: [
+				"Triture hastes de blaze para obter o pó, o outro ingrediente do olho de ender."
+			]
+			tasks: [
+				{
+					count: 12L
+					id: "3000000009200005"
+					item: { count: 1, id: "minecraft:blaze_powder" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			title: "Olho de Ender"
+			dependencies: [
+				"2000000000092001"
+				"2000000000092002"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000092003"
+			rewards: [
+				{
+					count: 16
+					id: "3000000009200006"
+					item: {
+						count: 1
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009200007"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"Uma pérola e um pó de blaze formam o olho de ender. Faça um punhado deles, porque alguns se perdem no caminho."
+			]
+			tasks: [
+				{
+					count: 12L
+					id: "3000000009200008"
+					item: { count: 1, id: "minecraft:ender_eye" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			title: "Olho Espião"
+			dependencies: [
+				"2000000000092003"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000092004"
+			rewards: [
+				{
+					count: 32
+					id: "3000000009200009"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009200010"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"Arremesse o olho de ender e siga o caminho que ele aponta. Ele leva até a fortaleza com o portal do Fim."
+			]
+			tasks: [
+				{
+					advancement: "minecraft:story/follow_ender_eye"
+					criterion: ""
+					id: "3000000009200011"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			title: "Preparação para o Fim"
+			dependencies: [
+				"2000000000092003"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000092005"
+			rewards: [
+				{
+					count: 2
+					id: "3000000009200012"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009200013"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"Leve arco e muitas flechas e uma abóbora esculpida na cabeça para não irritar os endermen. Ninguém volta do Fim sem preparo."
+			]
+			tasks: [
+				{
+					id: "3000000009200014"
+					item: { count: 1, id: "minecraft:bow" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "3000000009200015"
+					item: { count: 1, id: "minecraft:arrow" }
+					type: "item"
+				}
+				{
+					id: "3000000009200016"
+					item: { count: 1, id: "minecraft:carved_pumpkin" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			title: "Entrar no Fim"
+			dependencies: [
+				"2000000000092004"
+				"2000000000092005"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000092006"
+			rewards: [
+				{
+					count: 10
+					id: "3000000009200017"
+					item: {
+						count: 1
+						id: "minecraft:obsidian"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009200018"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			description: [
+				"Ative o portal com os olhos de ender e pule. Do outro lado, uma ilha flutuante e um dragão esperam por você."
+			]
+			tasks: [
+				{
+					advancement: "minecraft:story/enter_the_end"
+					criterion: ""
+					id: "3000000009200019"
+					type: "advancement"
+				}
+			]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			title: "Libertar o Fim"
+			dependencies: [
+				"2000000000092006"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000092007"
+			rewards: [
+				{
+					count: 4
+					id: "3000000009200020"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009200021"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			description: [
+				"Destrua os cristais que curam o dragão e derrube-o. Esta é a luta mais famosa do jogo base."
+			]
+			tasks: [
+				{
+					advancement: "minecraft:end/kill_dragon"
+					criterion: ""
+					id: "3000000009200022"
+					type: "advancement"
+				}
+			]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			title: "Portal Remoto"
+			dependencies: [
+				"2000000000092007"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000092008"
+			rewards: [
+				{
+					count: 4
+					id: "3000000009200023"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009200024"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"Depois do dragão, um portal de passagem aparece. Entre nele para chegar às ilhas externas."
+			]
+			tasks: [
+				{
+					advancement: "minecraft:end/enter_end_gateway"
+					criterion: ""
+					id: "3000000009200025"
+					type: "advancement"
+				}
+			]
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			title: "Cidade do Fim"
+			dependencies: [
+				"2000000000092008"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000092009"
+			rewards: [
+				{
+					count: 6
+					id: "3000000009200026"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009200027"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"As cidades do Fim ficam nas ilhas externas e guardam tesouros e shulkers. Vá preparado."
+			]
+			tasks: [
+				{
+					advancement: "minecraft:end/find_end_city"
+					criterion: ""
+					id: "3000000009200028"
+					type: "advancement"
+				}
+			]
+			x: 12.0d
+			y: 1.0d
+		}
+		{
+			title: "Os Céus são o Limite"
+			dependencies: [
+				"2000000000092009"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000092010"
+			rewards: [
+				{
+					count: 16
+					id: "3000000009200029"
+					item: {
+						count: 1
+						id: "minecraft:firework_rocket"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009200030"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			description: [
+				"Um navio do Fim guarda as asas. Com élitros e foguetes, o mundo inteiro fica ao seu alcance."
+			]
+			tasks: [
+				{
+					advancement: "minecraft:end/elytra"
+					criterion: ""
+					id: "3000000009200031"
+					type: "advancement"
+				}
+			]
+			x: 14.0d
+			y: 1.0d
+		}
+	]
+}
