@@ -57,6 +57,10 @@ file = "config/ftbquests/quests/chapters/o_comeco.snbt"
 hash = "f3f0456e51e6bd500e7bc1154bb3e2215ab3dd9868dfc2b6d7a8a5b05f58f0c1"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/o_nether.snbt"
+hash = "32b644f5d1017c79e60474c8e4939addd2096964e98e4ff32a9a258b65ee3b1d"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/oritech.snbt"
 hash = "cf641a8a2bb8a12d701b0b4238a6678a5163cf1fc31a341129200b6e027a5e9b"
 

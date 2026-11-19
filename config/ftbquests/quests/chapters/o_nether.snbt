@@ -1,0 +1,417 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "o_nether"
+	title: "O Nether"
+	group: ""
+	icon: {
+		id: "minecraft:netherrack"
+	}
+	id: "1000000000000091"
+	images: [ ]
+	order_index: 4
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			title: "Obsidiana"
+			icon: {
+				id: "minecraft:obsidian"
+			}
+			dependencies: [
+				"2000000000093003"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000091001"
+			rewards: [
+				{
+					id: "3000000009100001"
+					item: {
+						count: 1
+						id: "minecraft:flint_and_steel"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009100002"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"A obsidiana nasce quando a água encontra uma fonte de lava parada, e só uma picareta de diamante a quebra. Dez blocos bastam para o portal."
+			]
+			tasks: [
+				{
+					count: 10L
+					id: "3000000009100003"
+					item: { count: 1, id: "minecraft:obsidian" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			title: "Isqueiro"
+			dependencies: [
+				"2000000000091001"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000091002"
+			rewards: [
+				{
+					count: 4
+					id: "3000000009100004"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009100005"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			description: [
+				"Um lingote de ferro e um sílex dão o isqueiro, que acende o portal. Sílex sai ao quebrar cascalho."
+			]
+			tasks: [
+				{
+					id: "3000000009100006"
+					item: { count: 1, id: "minecraft:flint_and_steel" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			title: "Armadura de Ouro"
+			dependencies: [
+				"2000000000091002"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000091003"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009100007"
+					item: {
+						count: 1
+						id: "minecraft:cooked_porkchop"
+					}
+					type: "item"
+				}
+			]
+			description: [
+				"Os piglins ficam hostis com quem aparece sem ouro. Vista ao menos uma peça de armadura de ouro antes de entrar."
+			]
+			tasks: [
+				{
+					id: "3000000009100008"
+					item: { count: 1, id: "minecraft:golden_helmet" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			title: "Portal do Nether"
+			dependencies: [
+				"2000000000091002"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000091004"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009100009"
+					item: {
+						count: 1
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009100010"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			description: [
+				"Monte a moldura, acenda o portal e atravesse. Leve blocos, comida e água, porque lava e ghasts não perdoam."
+			]
+			tasks: [
+				{
+					advancement: "minecraft:story/enter_the_nether"
+					criterion: ""
+					id: "3000000009100011"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			title: "Fortaleza do Nether"
+			dependencies: [
+				"2000000000091004"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000091005"
+			rewards: [
+				{
+					count: 32
+					id: "3000000009100012"
+					item: {
+						count: 1
+						id: "minecraft:arrow"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009100013"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"As fortalezas são grandes construções de tijolos do Nether, cheias de blazes e de verrugas."
+			]
+			tasks: [
+				{
+					advancement: "minecraft:nether/find_fortress"
+					criterion: ""
+					id: "3000000009100014"
+					type: "advancement"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			title: "Hastes de Blaze"
+			dependencies: [
+				"2000000000091005"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000091006"
+			rewards: [
+				{
+					count: 6
+					id: "3000000009100015"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009100016"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"Os blazes patrulham as fortalezas. Leve um arco e proteção contra fogo, e junte hastes para poções e olhos de ender."
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "3000000009100017"
+					item: { count: 1, id: "minecraft:blaze_rod" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			title: "Bastião"
+			dependencies: [
+				"2000000000091004"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000091007"
+			rewards: [
+				{
+					id: "3000000009100018"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009100019"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"Os bastiões guardam tesouros e são cheios de piglins. Vá bem equipado e com ouro vestido."
+			]
+			tasks: [
+				{
+					advancement: "minecraft:nether/find_bastion"
+					criterion: ""
+					id: "3000000009100020"
+					type: "advancement"
+				}
+			]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			title: "Verruga do Nether"
+			dependencies: [
+				"2000000000091005"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000091008"
+			rewards: [
+				{
+					count: 6
+					id: "3000000009100021"
+					item: {
+						count: 1
+						id: "minecraft:glass_bottle"
+					}
+					type: "item"
+				}
+			]
+			description: [
+				"A verruga cresce na areia de almas dentro das fortalezas e é a base de quase todas as poções."
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "3000000009100022"
+					item: { count: 1, id: "minecraft:nether_wart" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			title: "Cervejaria Local"
+			dependencies: [
+				"2000000000091006"
+				"2000000000091008"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000091009"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009100023"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009100024"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"Com uma haste de blaze e uma verruga você monta o seu suporte de poções e prepara a primeira poção."
+			]
+			tasks: [
+				{
+					advancement: "minecraft:nether/brew_potion"
+					criterion: ""
+					id: "3000000009100025"
+					type: "advancement"
+				}
+			]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			title: "Detritos Antigos"
+			dependencies: [
+				"2000000000091004"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000091010"
+			rewards: [
+				{
+					count: 2
+					id: "3000000009100026"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009100027"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"Os detritos antigos são raros e ficam bem fundo no Nether. Leve a picareta de diamante e muita paciência."
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "3000000009100028"
+					item: { count: 1, id: "minecraft:ancient_debris" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			title: "Lingote de Netherita"
+			dependencies: [
+				"2000000000091010"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000091011"
+			rewards: [
+				{
+					count: 2
+					id: "3000000009100029"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009100030"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			description: [
+				"Funda os detritos para obter fragmentos e combine-os com ouro. A netherita é o melhor material do jogo base."
+			]
+			tasks: [
+				{
+					id: "3000000009100031"
+					item: { count: 1, id: "minecraft:netherite_ingot" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 4.0d
+		}
+	]
+}
