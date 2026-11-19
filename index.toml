@@ -26,7 +26,7 @@ hash = "8f2c376648b6dba928c013a178e30a2edcd8d99335eaf83142139a0cea8ca3b4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ars_nouveau.snbt"
-hash = "7c33c5a36fab47b3a1a9a4608e3dd72568bf116908c960eead966fcecfdf5560"
+hash = "40b5f4af147a8e515bebe66d61640ebcb0656945b333851fd0c097077c71b1f2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create.snbt"

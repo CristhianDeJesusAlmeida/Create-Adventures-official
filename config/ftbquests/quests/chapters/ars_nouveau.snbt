@@ -32,21 +32,26 @@
 					type: "xp_levels"
 					xp_levels: 1
 				}
-			]
-			description: [
-				"§eO Guia da Magia§r"
-				""
-				"O §aCaderno Gasto§r é o guia do Ars Nouveau: explica glifos, fontes de Source, rituais e familiares. Consulte-o sempre que tiver dúvidas."
-			]
-			tasks: [
 				{
-					count: 1L
-					id: "3000000001300003"
+					id: "3000000001399001"
 					item: {
 						count: 1
 						id: "ars_nouveau:worn_notebook"
 					}
 					type: "item"
+				}
+			]
+			description: [
+				"§eO Guia da Magia§r"
+				""
+				"O §aCaderno Gasto§r é o guia do Ars Nouveau: explica glifos, fontes de Source, rituais e familiares. Consulte-o sempre que tiver dúvidas."
+				""
+				"Neste pack o caderno não vem no início do jogo: clique na quest para recebê-lo como recompensa."
+			]
+			tasks: [
+				{
+					id: "3000000001300003"
+					type: "checkmark"
 				}
 			]
 			x: 0.0d
@@ -57,6 +62,7 @@
 			dependencies: [
 				"2000000000013001"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ars_nouveau:source_gem"
 			}
@@ -99,6 +105,7 @@
 			dependencies: [
 				"2000000000013002"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ars_nouveau:novice_spell_book"
 			}
@@ -143,6 +150,7 @@
 			dependencies: [
 				"2000000000013003"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ars_nouveau:scribes_table"
 			}
@@ -185,6 +193,7 @@
 			dependencies: [
 				"2000000000013004"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ars_nouveau:spell_parchment"
 			}
@@ -227,6 +236,7 @@
 			dependencies: [
 				"2000000000013004"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ars_nouveau:glyph_touch"
 			}
@@ -273,6 +283,7 @@
 			dependencies: [
 				"2000000000013004"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ars_nouveau:glyph_projectile"
 			}
@@ -315,6 +326,7 @@
 			dependencies: [
 				"2000000000013004"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ars_nouveau:glyph_self"
 			}
@@ -357,6 +369,7 @@
 			dependencies: [
 				"2000000000013006"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ars_nouveau:glyph_break"
 			}
@@ -401,6 +414,7 @@
 			dependencies: [
 				"2000000000013007"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ars_nouveau:glyph_harm"
 			}
@@ -443,6 +457,7 @@
 			dependencies: [
 				"2000000000013008"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ars_nouveau:glyph_heal"
 			}
@@ -485,6 +500,7 @@
 			dependencies: [
 				"2000000000013007"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ars_nouveau:glyph_ignite"
 			}
@@ -527,6 +543,7 @@
 			dependencies: [
 				"2000000000013006"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ars_nouveau:glyph_light"
 			}
@@ -569,6 +586,7 @@
 			dependencies: [
 				"2000000000013008"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ars_nouveau:glyph_leap"
 			}
@@ -611,6 +629,7 @@
 			dependencies: [
 				"2000000000013008"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ars_nouveau:glyph_blink"
 			}
@@ -653,6 +672,7 @@
 			dependencies: [
 				"2000000000013007"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ars_nouveau:glyph_explosion"
 			}
@@ -695,6 +715,7 @@
 			dependencies: [
 				"2000000000013007"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ars_nouveau:glyph_lightning"
 			}
@@ -737,6 +758,7 @@
 			dependencies: [
 				"2000000000013006"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ars_nouveau:glyph_grow"
 			}
@@ -779,6 +801,7 @@
 			dependencies: [
 				"2000000000013006"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ars_nouveau:glyph_smelt"
 			}
@@ -822,6 +845,7 @@
 				"2000000000013009"
 				"2000000000013010"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ars_nouveau:glyph_amplify"
 			}
@@ -884,6 +908,7 @@
 			dependencies: [
 				"2000000000013020"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ars_nouveau:glyph_pierce"
 			}
@@ -953,6 +978,7 @@
 			dependencies: [
 				"2000000000013002"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ars_nouveau:source_jar"
 			}
@@ -997,6 +1023,7 @@
 			dependencies: [
 				"2000000000013022"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ars_nouveau:relay"
 			}
@@ -1039,6 +1066,7 @@
 			dependencies: [
 				"2000000000013022"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ars_nouveau:dominion_wand"
 			}
@@ -1081,6 +1109,7 @@
 			dependencies: [
 				"2000000000013023"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ars_nouveau:agronomic_sourcelink"
 			}
@@ -1125,6 +1154,7 @@
 			dependencies: [
 				"2000000000013023"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ars_nouveau:vitalic_sourcelink"
 			}
@@ -1167,6 +1197,7 @@
 			dependencies: [
 				"2000000000013023"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ars_nouveau:volcanic_sourcelink"
 			}
@@ -1209,6 +1240,7 @@
 			dependencies: [
 				"2000000000013023"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ars_nouveau:alchemical_sourcelink"
 			}
@@ -1251,6 +1283,7 @@
 			dependencies: [
 				"2000000000013023"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ars_nouveau:mycelial_sourcelink"
 			}
@@ -1294,6 +1327,7 @@
 				"2000000000013002"
 				"2000000000013004"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ars_nouveau:enchanting_apparatus"
 			}
@@ -1338,6 +1372,7 @@
 			dependencies: [
 				"2000000000013030"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ars_nouveau:arcane_pedestal"
 			}
@@ -1380,6 +1415,7 @@
 			dependencies: [
 				"2000000000013031"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ars_nouveau:imbuement_chamber"
 			}
@@ -1422,6 +1458,7 @@
 			dependencies: [
 				"2000000000013030"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ars_nouveau:arcane_core"
 			}
@@ -1465,6 +1502,7 @@
 				"2000000000013030"
 				"2000000000013003"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ars_nouveau:apprentice_spell_book"
 			}
@@ -1507,6 +1545,7 @@
 			dependencies: [
 				"2000000000013034"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ars_nouveau:archmage_spell_book"
 			}
@@ -1549,6 +1588,7 @@
 			dependencies: [
 				"2000000000013030"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ars_nouveau:alteration_table"
 			}
@@ -1591,6 +1631,7 @@
 			dependencies: [
 				"2000000000013036"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ars_nouveau:alchemists_crown"
 			}
@@ -1634,6 +1675,7 @@
 				"2000000000013030"
 				"2000000000013024"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ars_nouveau:starbuncle_charm"
 			}
@@ -1678,6 +1720,7 @@
 			dependencies: [
 				"2000000000013038"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ars_nouveau:whirlisprig_charm"
 			}
@@ -1720,6 +1763,7 @@
 			dependencies: [
 				"2000000000013038"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ars_nouveau:drygmy_charm"
 			}
@@ -1762,6 +1806,7 @@
 			dependencies: [
 				"2000000000013038"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ars_nouveau:wixie_charm"
 			}
@@ -1804,6 +1849,7 @@
 			dependencies: [
 				"2000000000013038"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ars_nouveau:amethyst_golem_charm"
 			}
@@ -1846,6 +1892,7 @@
 			dependencies: [
 				"2000000000013030"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ars_nouveau:dowsing_rod"
 			}
@@ -1890,6 +1937,7 @@
 			dependencies: [
 				"2000000000013030"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ars_nouveau:enchanters_sword"
 			}
@@ -1932,6 +1980,7 @@
 			dependencies: [
 				"2000000000013030"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ars_nouveau:enchanters_shield"
 			}
@@ -1974,6 +2023,7 @@
 			dependencies: [
 				"2000000000013030"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ars_nouveau:warp_scroll"
 			}
@@ -2017,6 +2067,7 @@
 				"2000000000013022"
 				"2000000000013030"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ars_nouveau:mob_jar"
 			}
@@ -2060,6 +2111,7 @@
 				"2000000000013022"
 				"2000000000013030"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ars_nouveau:potion_jar"
 			}
@@ -2102,6 +2154,7 @@
 			dependencies: [
 				"2000000000013048"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ars_nouveau:potion_melder"
 			}
@@ -2145,6 +2198,7 @@
 				"2000000000013030"
 				"2000000000013035"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ars_nouveau:ritual_brazier"
 			}
