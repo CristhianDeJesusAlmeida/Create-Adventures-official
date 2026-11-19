@@ -50,6 +50,7 @@
 			dependencies: [
 				"1000000000000004"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "minecraft:stone_pickaxe"
 			}
@@ -87,6 +88,7 @@
 			dependencies: [
 				"1000000000000005"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "minecraft:furnace"
 			}
@@ -124,6 +126,7 @@
 			dependencies: [
 				"1000000000000006"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "minecraft:iron_ingot"
 			}
@@ -166,6 +169,7 @@
 			dependencies: [
 				"1000000000000005"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "minecraft:andesite"
 			}
@@ -205,6 +209,7 @@
 			dependencies: [
 				"1000000000000007"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "minecraft:iron_chestplate"
 			}
@@ -224,8 +229,8 @@
 					xp_levels: 2
 				}
 			]
-			x: 8.0d
-			y: 0.0d
+			x: 6.0d
+			y: 2.0d
 			description: [
 				"Este mundo tem criaturas perigosas, e várias são bem mais fortes que as do jogo base. Vista uma armadura antes de se afastar da base."
 				""
@@ -245,6 +250,7 @@
 			dependencies: [
 				"1000000000007701"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "minecraft:shield"
 			}
@@ -265,8 +271,8 @@
 					xp_levels: 2
 				}
 			]
-			x: 10.0d
-			y: 0.0d
+			x: 8.0d
+			y: 2.0d
 			description: [
 				"O §aEscudo§r bloqueia flechas e ataques corpo a corpo. Vale muito a pena nos primeiros combates."
 			]
@@ -287,6 +293,7 @@
 			dependencies: [
 				"1000000000000004"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "minecraft:red_bed"
 			}
@@ -331,6 +338,7 @@
 			dependencies: [
 				"1000000000000004"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "minecraft:bread"
 			}
@@ -373,6 +381,7 @@
 			dependencies: [
 				"1000000000000004"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "minecraft:chest"
 			}
@@ -409,6 +418,151 @@
 					type: "item"
 				}
 			]
+		}
+		{
+			title: "Balde"
+			dependencies: [
+				"1000000000000007"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000093001"
+			rewards: [
+				{
+					count: 6
+					id: "3000000009300001"
+					item: {
+						count: 1
+						id: "minecraft:cooked_salmon"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009300002"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			description: [
+				"Um balde de água salva a sua vida perto de lava e abre caminho para muita coisa. Faça um com três lingotes de ferro."
+			]
+			tasks: [
+				{
+					id: "3000000009300003"
+					item: { count: 1, id: "minecraft:bucket" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			title: "Diamantes!"
+			dependencies: [
+				"2000000000093001"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000093002"
+			rewards: [
+				{
+					count: 6
+					id: "3000000009300004"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009300005"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"Os diamantes ficam bem fundo, perto da lava. Leve água, tenha cuidado e use a picareta de ferro."
+			]
+			tasks: [
+				{
+					count: 3L
+					id: "3000000009300006"
+					item: { count: 1, id: "minecraft:diamond" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			title: "Picareta de Diamante"
+			dependencies: [
+				"2000000000093002"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000093003"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009300007"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009300008"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"Ela é a única que minera obsidiana, a chave do Nether. A próxima etapa da sua jornada começa aqui."
+			]
+			tasks: [
+				{
+					id: "3000000009300009"
+					item: { count: 1, id: "minecraft:diamond_pickaxe" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			title: "Mesa de Encantamento"
+			dependencies: [
+				"2000000000093002"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000093004"
+			rewards: [
+				{
+					count: 16
+					id: "3000000009300010"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009300011"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"Quatro blocos de obsidiana, dois diamantes e um livro formam a mesa de encantamento. Este pack tem o §6Apothic Enchanting§r, que amplia muito esse sistema: o capítulo dele explica as estantes."
+			]
+			tasks: [
+				{
+					id: "3000000009300012"
+					item: { count: 1, id: "minecraft:enchanting_table" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 2.0d
 		}
 	]
 	icon: {
