@@ -3,10 +3,12 @@
 	default_quest_shape: ""
 	filename: "apothic_enchanting"
 	title: "Apothic Enchanting"
+	group: ""
 	icon: {
 		id: "apothic_enchanting:apothic_enchanting_table"
 	}
-	id: "1000000000090000"
+	id: "1000000000000090"
+	images: [ ]
 	order_index: 2
 	progression_mode: "flexible"
 	quest_links: [ ]
@@ -16,11 +18,11 @@
 			icon: {
 				id: "apothic_enchanting:apothic_enchanting_table"
 			}
-			id: "2000000000000001"
+			id: "2000000000090001"
 			rewards: [
 				{
 					count: 3
-					id: "3000000000000001"
+					id: "3000000009000001"
 					item: {
 						count: 1
 						id: "minecraft:book"
@@ -28,7 +30,7 @@
 					type: "item"
 				}
 				{
-					id: "3000000000000002"
+					id: "3000000009000002"
 					type: "xp_levels"
 					xp_levels: 1
 				}
@@ -40,7 +42,7 @@
 			]
 			tasks: [
 				{
-					id: "3000000000000003"
+					id: "3000000009000003"
 					item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:enchanting_table)item(apothic_enchanting:apothic_enchanting_table))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
@@ -51,14 +53,14 @@
 		{
 			title: "Estantes ao Redor"
 			dependencies: [
-				"2000000000000001"
+				"2000000000090001"
 			]
 			dependency_requirement: "all_completed"
-			id: "2000000000000002"
+			id: "2000000000090002"
 			rewards: [
 				{
 					count: 16
-					id: "3000000000000004"
+					id: "3000000009000004"
 					item: {
 						count: 1
 						id: "minecraft:lapis_lazuli"
@@ -66,7 +68,7 @@
 					type: "item"
 				}
 				{
-					id: "3000000000000005"
+					id: "3000000009000005"
 					type: "xp_levels"
 					xp_levels: 2
 				}
@@ -78,7 +80,7 @@
 			tasks: [
 				{
 					count: 15L
-					id: "3000000000000006"
+					id: "3000000009000006"
 					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:bookshelves)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
@@ -89,14 +91,14 @@
 		{
 			title: "Combustível Azul"
 			dependencies: [
-				"2000000000000001"
+				"2000000000090001"
 			]
 			dependency_requirement: "all_completed"
-			id: "2000000000000003"
+			id: "2000000000090003"
 			rewards: [
 				{
 					count: 4
-					id: "3000000000000007"
+					id: "3000000009000007"
 					item: {
 						count: 1
 						id: "minecraft:experience_bottle"
@@ -111,7 +113,7 @@
 			tasks: [
 				{
 					count: 32L
-					id: "3000000000000008"
+					id: "3000000009000008"
 					item: { count: 1, id: "minecraft:lapis_lazuli" }
 					type: "item"
 				}
@@ -122,14 +124,14 @@
 		{
 			title: "A Biblioteca"
 			dependencies: [
-				"2000000000000002"
+				"2000000000090002"
 			]
 			dependency_requirement: "all_completed"
-			id: "2000000000000004"
+			id: "2000000000090004"
 			rewards: [
 				{
 					count: 4
-					id: "3000000000000009"
+					id: "3000000009000009"
 					item: {
 						count: 1
 						id: "minecraft:emerald"
@@ -137,7 +139,7 @@
 					type: "item"
 				}
 				{
-					id: "3000000000000010"
+					id: "3000000009000010"
 					type: "xp_levels"
 					xp_levels: 2
 				}
@@ -149,7 +151,7 @@
 			]
 			tasks: [
 				{
-					id: "3000000000000011"
+					id: "3000000009000011"
 					item: { count: 1, id: "apothic_enchanting:library" }
 					type: "item"
 				}
@@ -160,14 +162,14 @@
 		{
 			title: "Biblioteca do Fim"
 			dependencies: [
-				"2000000000000004"
+				"2000000000090004"
 			]
 			dependency_requirement: "all_completed"
-			id: "2000000000000005"
+			id: "2000000000090005"
 			rewards: [
 				{
 					count: 4
-					id: "3000000000000012"
+					id: "3000000009000012"
 					item: {
 						count: 1
 						id: "minecraft:ender_pearl"
@@ -175,7 +177,7 @@
 					type: "item"
 				}
 				{
-					id: "3000000000000013"
+					id: "3000000009000013"
 					type: "xp_levels"
 					xp_levels: 3
 				}
@@ -187,7 +189,7 @@
 			]
 			tasks: [
 				{
-					id: "3000000000000014"
+					id: "3000000009000014"
 					item: { count: 1, id: "apothic_enchanting:ender_library" }
 					type: "item"
 				}
@@ -198,14 +200,14 @@
 		{
 			title: "Tomo Rasgado"
 			dependencies: [
-				"2000000000000001"
+				"2000000000090001"
 			]
 			dependency_requirement: "all_completed"
-			id: "2000000000000006"
+			id: "2000000000090006"
 			rewards: [
 				{
 					count: 2
-					id: "3000000000000015"
+					id: "3000000009000015"
 					item: {
 						count: 1
 						id: "minecraft:book"
@@ -213,7 +215,7 @@
 					type: "item"
 				}
 				{
-					id: "3000000000000016"
+					id: "3000000009000016"
 					type: "xp_levels"
 					xp_levels: 1
 				}
@@ -224,7 +226,7 @@
 			]
 			tasks: [
 				{
-					id: "3000000000000017"
+					id: "3000000009000017"
 					item: { count: 1, id: "apothic_enchanting:scrap_tome" }
 					type: "item"
 				}
@@ -235,14 +237,14 @@
 		{
 			title: "Tomo Rasgado Aprimorado"
 			dependencies: [
-				"2000000000000006"
+				"2000000000090006"
 			]
 			dependency_requirement: "all_completed"
-			id: "2000000000000007"
+			id: "2000000000090007"
 			rewards: [
 				{
 					count: 6
-					id: "3000000000000018"
+					id: "3000000009000018"
 					item: {
 						count: 1
 						id: "minecraft:amethyst_shard"
@@ -250,7 +252,7 @@
 					type: "item"
 				}
 				{
-					id: "3000000000000019"
+					id: "3000000009000019"
 					type: "xp_levels"
 					xp_levels: 2
 				}
@@ -261,7 +263,7 @@
 			]
 			tasks: [
 				{
-					id: "3000000000000020"
+					id: "3000000009000020"
 					item: { count: 1, id: "apothic_enchanting:improved_scrap_tome" }
 					type: "item"
 				}
@@ -272,14 +274,13 @@
 		{
 			title: "Tomo de Extração"
 			dependencies: [
-				"2000000000000007"
+				"2000000000090007"
 			]
 			dependency_requirement: "all_completed"
-			id: "2000000000000008"
+			id: "2000000000090008"
 			rewards: [
 				{
-					count: 1
-					id: "3000000000000021"
+					id: "3000000009000021"
 					item: {
 						count: 1
 						id: "minecraft:echo_shard"
@@ -287,7 +288,7 @@
 					type: "item"
 				}
 				{
-					id: "3000000000000022"
+					id: "3000000009000022"
 					type: "xp_levels"
 					xp_levels: 3
 				}
@@ -298,7 +299,7 @@
 			]
 			tasks: [
 				{
-					id: "3000000000000023"
+					id: "3000000009000023"
 					item: { count: 1, id: "apothic_enchanting:extraction_tome" }
 					type: "item"
 				}
@@ -309,14 +310,14 @@
 		{
 			title: "Tomos de Armadura"
 			dependencies: [
-				"2000000000000007"
+				"2000000000090007"
 			]
 			dependency_requirement: "all_completed"
-			id: "2000000000000009"
+			id: "2000000000090009"
 			rewards: [
 				{
 					count: 8
-					id: "3000000000000024"
+					id: "3000000009000024"
 					item: {
 						count: 1
 						id: "minecraft:iron_ingot"
@@ -324,7 +325,7 @@
 					type: "item"
 				}
 				{
-					id: "3000000000000025"
+					id: "3000000009000025"
 					type: "xp_levels"
 					xp_levels: 3
 				}
@@ -335,17 +336,17 @@
 			]
 			tasks: [
 				{
-					id: "3000000000000026"
+					id: "3000000009000026"
 					item: { count: 1, id: "apothic_enchanting:helmet_tome" }
 					type: "item"
 				}
 				{
-					id: "3000000000000027"
+					id: "3000000009000027"
 					item: { count: 1, id: "apothic_enchanting:chestplate_tome" }
 					type: "item"
 				}
 				{
-					id: "3000000000000028"
+					id: "3000000009000028"
 					item: { count: 1, id: "apothic_enchanting:leggings_tome" }
 					type: "item"
 				}
@@ -356,14 +357,14 @@
 		{
 			title: "Tomos de Combate e Ferramentas"
 			dependencies: [
-				"2000000000000007"
+				"2000000000090007"
 			]
 			dependency_requirement: "all_completed"
-			id: "2000000000000010"
+			id: "2000000000090010"
 			rewards: [
 				{
 					count: 8
-					id: "3000000000000029"
+					id: "3000000009000029"
 					item: {
 						count: 1
 						id: "minecraft:gold_ingot"
@@ -371,7 +372,7 @@
 					type: "item"
 				}
 				{
-					id: "3000000000000030"
+					id: "3000000009000030"
 					type: "xp_levels"
 					xp_levels: 3
 				}
@@ -382,22 +383,22 @@
 			]
 			tasks: [
 				{
-					id: "3000000000000031"
+					id: "3000000009000031"
 					item: { count: 1, id: "apothic_enchanting:weapon_tome" }
 					type: "item"
 				}
 				{
-					id: "3000000000000032"
+					id: "3000000009000032"
 					item: { count: 1, id: "apothic_enchanting:bow_tome" }
 					type: "item"
 				}
 				{
-					id: "3000000000000033"
+					id: "3000000009000033"
 					item: { count: 1, id: "apothic_enchanting:pickaxe_tome" }
 					type: "item"
 				}
 				{
-					id: "3000000000000034"
+					id: "3000000009000034"
 					item: { count: 1, id: "apothic_enchanting:fishing_tome" }
 					type: "item"
 				}
@@ -408,14 +409,14 @@
 		{
 			title: "Tomo Universal"
 			dependencies: [
-				"2000000000000006"
+				"2000000000090006"
 			]
 			dependency_requirement: "all_completed"
-			id: "2000000000000011"
+			id: "2000000000090011"
 			rewards: [
 				{
 					count: 3
-					id: "3000000000000035"
+					id: "3000000009000035"
 					item: {
 						count: 1
 						id: "minecraft:experience_bottle"
@@ -429,7 +430,7 @@
 			]
 			tasks: [
 				{
-					id: "3000000000000036"
+					id: "3000000009000036"
 					item: { count: 1, id: "apothic_enchanting:other_tome" }
 					type: "item"
 				}
@@ -440,14 +441,14 @@
 		{
 			title: "Coleira Frágil"
 			dependencies: [
-				"2000000000000004"
+				"2000000000090004"
 			]
 			dependency_requirement: "all_completed"
-			id: "2000000000000012"
+			id: "2000000000090012"
 			rewards: [
 				{
 					count: 8
-					id: "3000000000000037"
+					id: "3000000009000037"
 					item: {
 						count: 1
 						id: "minecraft:string"
@@ -461,7 +462,7 @@
 			]
 			tasks: [
 				{
-					id: "3000000000000038"
+					id: "3000000009000038"
 					item: { count: 1, id: "apothic_enchanting:flimsy_ender_lead" }
 					type: "item"
 				}
@@ -472,14 +473,14 @@
 		{
 			title: "Coleira do Fim"
 			dependencies: [
-				"2000000000000012"
+				"2000000000090012"
 			]
 			dependency_requirement: "all_completed"
-			id: "2000000000000013"
+			id: "2000000000090013"
 			rewards: [
 				{
 					count: 2
-					id: "3000000000000039"
+					id: "3000000009000039"
 					item: {
 						count: 1
 						id: "minecraft:ender_pearl"
@@ -493,7 +494,7 @@
 			]
 			tasks: [
 				{
-					id: "3000000000000040"
+					id: "3000000009000040"
 					item: { count: 1, id: "apothic_enchanting:ender_lead" }
 					type: "item"
 				}
@@ -504,14 +505,13 @@
 		{
 			title: "Coleira Oculta"
 			dependencies: [
-				"2000000000000013"
+				"2000000000090013"
 			]
 			dependency_requirement: "all_completed"
-			id: "2000000000000014"
+			id: "2000000000090014"
 			rewards: [
 				{
-					count: 1
-					id: "3000000000000041"
+					id: "3000000009000041"
 					item: {
 						count: 1
 						id: "minecraft:diamond"
@@ -519,7 +519,7 @@
 					type: "item"
 				}
 				{
-					id: "3000000000000042"
+					id: "3000000009000042"
 					type: "xp_levels"
 					xp_levels: 3
 				}
@@ -530,7 +530,7 @@
 			]
 			tasks: [
 				{
-					id: "3000000000000043"
+					id: "3000000009000043"
 					item: { count: 1, id: "apothic_enchanting:occult_ender_lead" }
 					type: "item"
 				}
@@ -541,14 +541,14 @@
 		{
 			title: "Estojo de Gemas"
 			dependencies: [
-				"2000000000000001"
+				"2000000000090001"
 			]
 			dependency_requirement: "all_completed"
-			id: "2000000000000015"
+			id: "2000000000090015"
 			rewards: [
 				{
 					count: 4
-					id: "3000000000000044"
+					id: "3000000009000044"
 					item: {
 						count: 1
 						id: "minecraft:amethyst_shard"
@@ -562,7 +562,7 @@
 			]
 			tasks: [
 				{
-					id: "3000000000000045"
+					id: "3000000009000045"
 					item: { count: 1, id: "apotheosis:gem_case" }
 					type: "item"
 				}
@@ -573,15 +573,15 @@
 		{
 			title: "Estojo de Gemas do Fim"
 			dependencies: [
-				"2000000000000015"
-				"2000000000000005"
+				"2000000000090015"
+				"2000000000090005"
 			]
 			dependency_requirement: "all_completed"
-			id: "2000000000000016"
+			id: "2000000000090016"
 			rewards: [
 				{
 					count: 2
-					id: "3000000000000046"
+					id: "3000000009000046"
 					item: {
 						count: 1
 						id: "minecraft:diamond"
@@ -589,7 +589,7 @@
 					type: "item"
 				}
 				{
-					id: "3000000000000047"
+					id: "3000000009000047"
 					type: "xp_levels"
 					xp_levels: 4
 				}
@@ -600,7 +600,7 @@
 			]
 			tasks: [
 				{
-					id: "3000000000000048"
+					id: "3000000009000048"
 					item: { count: 1, id: "apotheosis:ender_gem_case" }
 					type: "item"
 				}
@@ -611,14 +611,14 @@
 		{
 			title: "Estantes Curiosas"
 			dependencies: [
-				"2000000000000002"
+				"2000000000090002"
 			]
 			dependency_requirement: "all_completed"
-			id: "2000000000000017"
+			id: "2000000000090017"
 			rewards: [
 				{
 					count: 2
-					id: "3000000000000049"
+					id: "3000000009000049"
 					item: {
 						count: 1
 						id: "minecraft:honey_bottle"
@@ -626,7 +626,7 @@
 					type: "item"
 				}
 				{
-					id: "3000000000000050"
+					id: "3000000009000050"
 					type: "xp_levels"
 					xp_levels: 2
 				}
@@ -637,17 +637,17 @@
 			]
 			tasks: [
 				{
-					id: "3000000000000051"
+					id: "3000000009000051"
 					item: { count: 1, id: "apothic_enchanting:beeshelf" }
 					type: "item"
 				}
 				{
-					id: "3000000000000052"
+					id: "3000000009000052"
 					item: { count: 1, id: "apothic_enchanting:stoneshelf" }
 					type: "item"
 				}
 				{
-					id: "3000000000000053"
+					id: "3000000009000053"
 					item: { count: 1, id: "apothic_enchanting:melonshelf" }
 					type: "item"
 				}
@@ -658,14 +658,14 @@
 		{
 			title: "Estante Infernal"
 			dependencies: [
-				"2000000000000002"
+				"2000000000090002"
 			]
 			dependency_requirement: "all_completed"
-			id: "2000000000000018"
+			id: "2000000000090018"
 			rewards: [
 				{
 					count: 8
-					id: "3000000000000054"
+					id: "3000000009000054"
 					item: {
 						count: 1
 						id: "minecraft:nether_wart"
@@ -673,7 +673,7 @@
 					type: "item"
 				}
 				{
-					id: "3000000000000055"
+					id: "3000000009000055"
 					type: "xp_levels"
 					xp_levels: 2
 				}
@@ -685,7 +685,7 @@
 			tasks: [
 				{
 					count: 8L
-					id: "3000000000000056"
+					id: "3000000009000056"
 					item: { count: 1, id: "apothic_enchanting:hellshelf" }
 					type: "item"
 				}
@@ -696,14 +696,14 @@
 		{
 			title: "Estante Infernal Infundida"
 			dependencies: [
-				"2000000000000018"
+				"2000000000090018"
 			]
 			dependency_requirement: "all_completed"
-			id: "2000000000000019"
+			id: "2000000000090019"
 			rewards: [
 				{
 					count: 2
-					id: "3000000000000057"
+					id: "3000000009000057"
 					item: {
 						count: 1
 						id: "minecraft:blaze_rod"
@@ -718,7 +718,7 @@
 			tasks: [
 				{
 					count: 6L
-					id: "3000000000000058"
+					id: "3000000009000058"
 					item: { count: 1, id: "apothic_enchanting:infused_hellshelf" }
 					type: "item"
 				}
@@ -729,14 +729,14 @@
 		{
 			title: "Estante Infernal Flamejante"
 			dependencies: [
-				"2000000000000018"
+				"2000000000090018"
 			]
 			dependency_requirement: "all_completed"
-			id: "2000000000000020"
+			id: "2000000000090020"
 			rewards: [
 				{
 					count: 4
-					id: "3000000000000059"
+					id: "3000000009000059"
 					item: {
 						count: 1
 						id: "minecraft:magma_cream"
@@ -750,7 +750,7 @@
 			]
 			tasks: [
 				{
-					id: "3000000000000060"
+					id: "3000000009000060"
 					item: { count: 1, id: "apothic_enchanting:blazing_hellshelf" }
 					type: "item"
 				}
@@ -761,14 +761,14 @@
 		{
 			title: "Estante Infernal Brilhante"
 			dependencies: [
-				"2000000000000018"
+				"2000000000090018"
 			]
 			dependency_requirement: "all_completed"
-			id: "2000000000000021"
+			id: "2000000000090021"
 			rewards: [
 				{
 					count: 8
-					id: "3000000000000061"
+					id: "3000000009000061"
 					item: {
 						count: 1
 						id: "minecraft:glowstone"
@@ -783,7 +783,7 @@
 			tasks: [
 				{
 					count: 8L
-					id: "3000000000000062"
+					id: "3000000009000062"
 					item: { count: 1, id: "apothic_enchanting:glowing_hellshelf" }
 					type: "item"
 				}
@@ -794,14 +794,14 @@
 		{
 			title: "Estante da Visão"
 			dependencies: [
-				"2000000000000018"
+				"2000000000090018"
 			]
 			dependency_requirement: "all_completed"
-			id: "2000000000000022"
+			id: "2000000000090022"
 			rewards: [
 				{
 					count: 8
-					id: "3000000000000063"
+					id: "3000000009000063"
 					item: {
 						count: 1
 						id: "minecraft:spectral_arrow"
@@ -809,7 +809,7 @@
 					type: "item"
 				}
 				{
-					id: "3000000000000064"
+					id: "3000000009000064"
 					type: "xp_levels"
 					xp_levels: 2
 				}
@@ -820,12 +820,12 @@
 			]
 			tasks: [
 				{
-					id: "3000000000000065"
+					id: "3000000009000065"
 					item: { count: 1, id: "apothic_enchanting:sightshelf" }
 					type: "item"
 				}
 				{
-					id: "3000000000000066"
+					id: "3000000009000066"
 					item: { count: 1, id: "apothic_enchanting:sightshelf_t2" }
 					type: "item"
 				}
@@ -836,14 +836,14 @@
 		{
 			title: "Estante Marinha"
 			dependencies: [
-				"2000000000000002"
+				"2000000000090002"
 			]
 			dependency_requirement: "all_completed"
-			id: "2000000000000023"
+			id: "2000000000090023"
 			rewards: [
 				{
 					count: 8
-					id: "3000000000000067"
+					id: "3000000009000067"
 					item: {
 						count: 1
 						id: "minecraft:prismarine_shard"
@@ -851,7 +851,7 @@
 					type: "item"
 				}
 				{
-					id: "3000000000000068"
+					id: "3000000009000068"
 					type: "xp_levels"
 					xp_levels: 2
 				}
@@ -863,7 +863,7 @@
 			tasks: [
 				{
 					count: 8L
-					id: "3000000000000069"
+					id: "3000000009000069"
 					item: { count: 1, id: "apothic_enchanting:seashelf" }
 					type: "item"
 				}
@@ -874,14 +874,13 @@
 		{
 			title: "Estante Marinha Infundida"
 			dependencies: [
-				"2000000000000023"
+				"2000000000090023"
 			]
 			dependency_requirement: "all_completed"
-			id: "2000000000000024"
+			id: "2000000000090024"
 			rewards: [
 				{
-					count: 1
-					id: "3000000000000070"
+					id: "3000000009000070"
 					item: {
 						count: 1
 						id: "minecraft:nautilus_shell"
@@ -896,7 +895,7 @@
 			tasks: [
 				{
 					count: 6L
-					id: "3000000000000071"
+					id: "3000000009000071"
 					item: { count: 1, id: "apothic_enchanting:infused_seashelf" }
 					type: "item"
 				}
@@ -907,14 +906,14 @@
 		{
 			title: "Estante de Filtragem"
 			dependencies: [
-				"2000000000000023"
+				"2000000000090023"
 			]
 			dependency_requirement: "all_completed"
-			id: "2000000000000025"
+			id: "2000000000090025"
 			rewards: [
 				{
 					count: 2
-					id: "3000000000000072"
+					id: "3000000009000072"
 					item: {
 						count: 1
 						id: "minecraft:sponge"
@@ -928,7 +927,7 @@
 			]
 			tasks: [
 				{
-					id: "3000000000000073"
+					id: "3000000009000073"
 					item: { count: 1, id: "apothic_enchanting:filtering_shelf" }
 					type: "item"
 				}
@@ -939,14 +938,13 @@
 		{
 			title: "Estante Marinha do Coração"
 			dependencies: [
-				"2000000000000023"
+				"2000000000090023"
 			]
 			dependency_requirement: "all_completed"
-			id: "2000000000000026"
+			id: "2000000000090026"
 			rewards: [
 				{
-					count: 1
-					id: "3000000000000074"
+					id: "3000000009000074"
 					item: {
 						count: 1
 						id: "minecraft:heart_of_the_sea"
@@ -960,7 +958,7 @@
 			]
 			tasks: [
 				{
-					id: "3000000000000075"
+					id: "3000000009000075"
 					item: { count: 1, id: "apothic_enchanting:heart_seashelf" }
 					type: "item"
 				}
@@ -971,14 +969,14 @@
 		{
 			title: "Estante Marinha de Cristal"
 			dependencies: [
-				"2000000000000023"
+				"2000000000090023"
 			]
 			dependency_requirement: "all_completed"
-			id: "2000000000000027"
+			id: "2000000000090027"
 			rewards: [
 				{
 					count: 4
-					id: "3000000000000076"
+					id: "3000000009000076"
 					item: {
 						count: 1
 						id: "minecraft:amethyst_block"
@@ -986,7 +984,7 @@
 					type: "item"
 				}
 				{
-					id: "3000000000000077"
+					id: "3000000009000077"
 					type: "xp_levels"
 					xp_levels: 2
 				}
@@ -998,7 +996,7 @@
 			tasks: [
 				{
 					count: 8L
-					id: "3000000000000078"
+					id: "3000000009000078"
 					item: { count: 1, id: "apothic_enchanting:crystal_seashelf" }
 					type: "item"
 				}
@@ -1009,15 +1007,15 @@
 		{
 			title: "Estante das Profundezas"
 			dependencies: [
-				"2000000000000018"
-				"2000000000000023"
+				"2000000000090018"
+				"2000000000090023"
 			]
 			dependency_requirement: "all_completed"
-			id: "2000000000000028"
+			id: "2000000000090028"
 			rewards: [
 				{
 					count: 16
-					id: "3000000000000079"
+					id: "3000000009000079"
 					item: {
 						count: 1
 						id: "minecraft:sculk"
@@ -1025,7 +1023,7 @@
 					type: "item"
 				}
 				{
-					id: "3000000000000080"
+					id: "3000000009000080"
 					type: "xp_levels"
 					xp_levels: 3
 				}
@@ -1037,7 +1035,7 @@
 			]
 			tasks: [
 				{
-					id: "3000000000000081"
+					id: "3000000009000081"
 					item: { count: 1, id: "apothic_enchanting:deepshelf" }
 					type: "item"
 				}
@@ -1048,14 +1046,14 @@
 		{
 			title: "Profundezas Tocadas pela Alma"
 			dependencies: [
-				"2000000000000028"
+				"2000000000090028"
 			]
 			dependency_requirement: "all_completed"
-			id: "2000000000000029"
+			id: "2000000000090029"
 			rewards: [
 				{
 					count: 16
-					id: "3000000000000082"
+					id: "3000000009000082"
 					item: {
 						count: 1
 						id: "minecraft:soul_sand"
@@ -1069,7 +1067,7 @@
 			]
 			tasks: [
 				{
-					id: "3000000000000083"
+					id: "3000000009000083"
 					item: { count: 1, id: "apothic_enchanting:soul_touched_deepshelf" }
 					type: "item"
 				}
@@ -1080,14 +1078,14 @@
 		{
 			title: "Profundezas Ecoantes"
 			dependencies: [
-				"2000000000000028"
+				"2000000000090028"
 			]
 			dependency_requirement: "all_completed"
-			id: "2000000000000030"
+			id: "2000000000090030"
 			rewards: [
 				{
 					count: 2
-					id: "3000000000000084"
+					id: "3000000009000084"
 					item: {
 						count: 1
 						id: "minecraft:echo_shard"
@@ -1101,7 +1099,7 @@
 			]
 			tasks: [
 				{
-					id: "3000000000000085"
+					id: "3000000009000085"
 					item: { count: 1, id: "apothic_enchanting:echoing_deepshelf" }
 					type: "item"
 				}
@@ -1112,14 +1110,13 @@
 		{
 			title: "Estante de Sculk Tocada pela Alma"
 			dependencies: [
-				"2000000000000029"
+				"2000000000090029"
 			]
 			dependency_requirement: "all_completed"
-			id: "2000000000000031"
+			id: "2000000000090031"
 			rewards: [
 				{
-					count: 1
-					id: "3000000000000086"
+					id: "3000000009000086"
 					item: {
 						count: 1
 						id: "minecraft:sculk_catalyst"
@@ -1127,7 +1124,7 @@
 					type: "item"
 				}
 				{
-					id: "3000000000000087"
+					id: "3000000009000087"
 					type: "xp_levels"
 					xp_levels: 3
 				}
@@ -1138,7 +1135,7 @@
 			]
 			tasks: [
 				{
-					id: "3000000000000088"
+					id: "3000000009000088"
 					item: { count: 1, id: "apothic_enchanting:soul_touched_sculkshelf" }
 					type: "item"
 				}
@@ -1149,14 +1146,13 @@
 		{
 			title: "Estante de Sculk Ecoante"
 			dependencies: [
-				"2000000000000030"
+				"2000000000090030"
 			]
 			dependency_requirement: "all_completed"
-			id: "2000000000000032"
+			id: "2000000000090032"
 			rewards: [
 				{
-					count: 1
-					id: "3000000000000089"
+					id: "3000000009000089"
 					item: {
 						count: 1
 						id: "minecraft:sculk_shrieker"
@@ -1164,7 +1160,7 @@
 					type: "item"
 				}
 				{
-					id: "3000000000000090"
+					id: "3000000009000090"
 					type: "xp_levels"
 					xp_levels: 3
 				}
@@ -1175,7 +1171,7 @@
 			]
 			tasks: [
 				{
-					id: "3000000000000091"
+					id: "3000000009000091"
 					item: { count: 1, id: "apothic_enchanting:echoing_sculkshelf" }
 					type: "item"
 				}
@@ -1186,14 +1182,14 @@
 		{
 			title: "Estante do Fim"
 			dependencies: [
-				"2000000000000028"
+				"2000000000090028"
 			]
 			dependency_requirement: "all_completed"
-			id: "2000000000000033"
+			id: "2000000000090033"
 			rewards: [
 				{
 					count: 16
-					id: "3000000000000092"
+					id: "3000000009000092"
 					item: {
 						count: 1
 						id: "minecraft:end_stone_bricks"
@@ -1201,7 +1197,7 @@
 					type: "item"
 				}
 				{
-					id: "3000000000000093"
+					id: "3000000009000093"
 					type: "xp_levels"
 					xp_levels: 3
 				}
@@ -1213,7 +1209,7 @@
 			]
 			tasks: [
 				{
-					id: "3000000000000094"
+					id: "3000000009000094"
 					item: { count: 1, id: "apothic_enchanting:endshelf" }
 					type: "item"
 				}
@@ -1224,14 +1220,14 @@
 		{
 			title: "Estante do Fim com Pérola"
 			dependencies: [
-				"2000000000000033"
+				"2000000000090033"
 			]
 			dependency_requirement: "all_completed"
-			id: "2000000000000034"
+			id: "2000000000090034"
 			rewards: [
 				{
 					count: 8
-					id: "3000000000000095"
+					id: "3000000009000095"
 					item: {
 						count: 1
 						id: "minecraft:chorus_fruit"
@@ -1245,7 +1241,7 @@
 			]
 			tasks: [
 				{
-					id: "3000000000000096"
+					id: "3000000009000096"
 					item: { count: 1, id: "apothic_enchanting:pearl_endshelf" }
 					type: "item"
 				}
@@ -1256,14 +1252,14 @@
 		{
 			title: "Estante Dracônica do Fim"
 			dependencies: [
-				"2000000000000033"
+				"2000000000090033"
 			]
 			dependency_requirement: "all_completed"
-			id: "2000000000000035"
+			id: "2000000000090035"
 			rewards: [
 				{
 					count: 2
-					id: "3000000000000097"
+					id: "3000000009000097"
 					item: {
 						count: 1
 						id: "minecraft:dragon_breath"
@@ -1277,7 +1273,7 @@
 			]
 			tasks: [
 				{
-					id: "3000000000000098"
+					id: "3000000009000098"
 					item: { count: 1, id: "apothic_enchanting:draconic_endshelf" }
 					type: "item"
 				}
@@ -1288,14 +1284,14 @@
 		{
 			title: "Sopro Infundido"
 			dependencies: [
-				"2000000000000033"
+				"2000000000090033"
 			]
 			dependency_requirement: "all_completed"
-			id: "2000000000000036"
+			id: "2000000000090036"
 			rewards: [
 				{
 					count: 8
-					id: "3000000000000099"
+					id: "3000000009000099"
 					item: {
 						count: 1
 						id: "minecraft:experience_bottle"
@@ -1309,7 +1305,7 @@
 			]
 			tasks: [
 				{
-					id: "3000000000000100"
+					id: "3000000009000100"
 					item: { count: 1, id: "apothic_enchanting:infused_breath" }
 					type: "item"
 				}
@@ -1320,16 +1316,16 @@
 		{
 			title: "Estante do Tesouro"
 			dependencies: [
-				"2000000000000031"
-				"2000000000000032"
-				"2000000000000035"
+				"2000000000090031"
+				"2000000000090032"
+				"2000000000090035"
 			]
 			dependency_requirement: "all_completed"
-			id: "2000000000000037"
+			id: "2000000000090037"
 			rewards: [
 				{
 					count: 2
-					id: "3000000000000101"
+					id: "3000000009000101"
 					item: {
 						count: 1
 						id: "minecraft:netherite_scrap"
@@ -1337,7 +1333,7 @@
 					type: "item"
 				}
 				{
-					id: "3000000000000102"
+					id: "3000000009000102"
 					type: "xp_levels"
 					xp_levels: 5
 				}
@@ -1349,7 +1345,7 @@
 			]
 			tasks: [
 				{
-					id: "3000000000000103"
+					id: "3000000009000103"
 					item: { count: 1, id: "apothic_enchanting:treasure_shelf" }
 					type: "item"
 				}
@@ -1360,14 +1356,14 @@
 		{
 			title: "Pérola Divina"
 			dependencies: [
-				"2000000000000037"
+				"2000000000090037"
 			]
 			dependency_requirement: "all_completed"
-			id: "2000000000000038"
+			id: "2000000000090038"
 			rewards: [
 				{
 					count: 4
-					id: "3000000000000104"
+					id: "3000000009000104"
 					item: {
 						count: 1
 						id: "minecraft:diamond"
@@ -1375,7 +1371,7 @@
 					type: "item"
 				}
 				{
-					id: "3000000000000105"
+					id: "3000000009000105"
 					type: "xp_levels"
 					xp_levels: 5
 				}
@@ -1387,7 +1383,7 @@
 			]
 			tasks: [
 				{
-					id: "3000000000000106"
+					id: "3000000009000106"
 					item: { count: 1, id: "apotheosis:god_fused_pearl" }
 					type: "item"
 				}
@@ -1398,14 +1394,13 @@
 		{
 			title: "A Mesa do Corvo"
 			dependencies: [
-				"2000000000000038"
+				"2000000000090038"
 			]
 			dependency_requirement: "all_completed"
-			id: "2000000000000039"
+			id: "2000000000090039"
 			rewards: [
 				{
-					count: 1
-					id: "3000000000000107"
+					id: "3000000009000107"
 					item: {
 						count: 1
 						id: "minecraft:netherite_ingot"
@@ -1413,7 +1408,7 @@
 					type: "item"
 				}
 				{
-					id: "3000000000000108"
+					id: "3000000009000108"
 					type: "xp_levels"
 					xp_levels: 10
 				}
@@ -1425,7 +1420,7 @@
 			]
 			tasks: [
 				{
-					id: "3000000000000109"
+					id: "3000000009000109"
 					item: { count: 1, id: "apothic_enchanting:raven_enchanting_table" }
 					type: "item"
 				}
