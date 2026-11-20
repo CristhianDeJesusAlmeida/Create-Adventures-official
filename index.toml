@@ -10,15 +10,15 @@ hash = "e2945735bd4ee6dc250197cc84869c0fdc49bfbba0a3705b5b050c9d7c308deb"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/aeronautics.snbt"
-hash = "11e6ebd9b6027684f71e3892dbc41bfc5aeee8c4fb6bf27ca99d49edadcf1970"
+hash = "2ec34612895d1b205c1beb513954c8a34fa2fc6af5f7ee2e4cb203f8072e30b8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/apotheosis.snbt"
-hash = "2f9114c3f73a6c293fd5041895ad145000ab5121aea3a1b5011b0cae12ee9869"
+hash = "b56fc5d976fefd5811e505542a355eadaf930e82dbb3822fac371f083940d852"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/apotheosis_gear.snbt"
-hash = "b0f560af9150438637ba6dc6d3945a97fa9903811acf2ba8d64b8dd1d6a2b517"
+hash = "a17906ba9eeb311e5bde49f305962a90304e86e0a21ec6e4d6565dc740f87601"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/apothic_enchanting.snbt"
@@ -30,27 +30,27 @@ hash = "40b5f4af147a8e515bebe66d61640ebcb0656945b333851fd0c097077c71b1f2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create.snbt"
-hash = "3b3441dc3b686039f7f10508307280e206e8caf7c7f00a6032f1e6330d11f58e"
+hash = "6ea025570c5f0ad733773979726e82eae23afec9a9d1ea77548de4afffad2b06"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/electrodynamics.snbt"
-hash = "4858c7c187a59ac30c394010934a52d6b8ad60c8a1b6a0c3a75712fda54ce5c6"
+hash = "6f0642c9307a75c2bdf827ec7c8ff30c545f4c82d6465a7a6fa06304f41fc0e0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/introducao.snbt"
-hash = "3d8849e03255519a3968fdeb4a9ab9b35f94ce9e078740c7e543d25675e1568e"
+hash = "0c9428d8cc2826cba63278fb6e4308876d89e78d87adb67549ec7f76f90bb16e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/irons_spellbooks.snbt"
-hash = "44b1b579c5ede1cc1954ddaf46ddd21d7930baed89b9855e9ef9ac4b30667171"
+hash = "eac5e8dd8dbb3b54f930c5009e1375e5b093695a0b6905b50ed4a706582f8adb"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mekanism.snbt"
-hash = "8dff5cdceb85c602502a0662a3f93e245e995e19e68abdae3a05ffda15a0dba4"
+hash = "ad6a63bb0a9fb98b48fd76c1381528f0e203d24d85ff3cbfba86835b8933a56a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/nuclearscience.snbt"
-hash = "ce8ca0f4785993942092f87b9a8410cb4c61dea647b0f9ac821135f534d5af61"
+hash = "8ab9db1062cc83fc36de5bd5428ce2f78972013e6ff5a5585c716eb38244d346"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/o_comeco.snbt"
@@ -66,7 +66,7 @@ hash = "32b644f5d1017c79e60474c8e4939addd2096964e98e4ff32a9a258b65ee3b1d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/oritech.snbt"
-hash = "cf641a8a2bb8a12d701b0b4238a6678a5163cf1fc31a341129200b6e027a5e9b"
+hash = "070748058e2ffd3f3edfcd649988a0e33c23b7549d3a3c9301659e9477ef6b64"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"

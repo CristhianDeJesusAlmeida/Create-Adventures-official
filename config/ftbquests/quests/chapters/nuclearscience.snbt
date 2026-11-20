@@ -54,6 +54,7 @@
 			dependencies: [
 				"1000000000007901"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:raworeuranium"
 			}
@@ -105,6 +106,7 @@
 			dependencies: [
 				"1000000000007901"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "nuclearscience:geigercounter"
 			}
@@ -149,6 +151,7 @@
 			dependencies: [
 				"1000000000007903"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "nuclearscience:iodinetablet"
 			}
@@ -191,6 +194,7 @@
 			dependencies: [
 				"1000000000007904"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "nuclearscience:hazmathelmet"
 			}
@@ -260,6 +264,7 @@
 			dependencies: [
 				"1000000000007903"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "nuclearscience:radiationshieldingbase"
 			}
@@ -320,6 +325,7 @@
 			dependencies: [
 				"1000000000007905"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "nuclearscience:reinforcedhazmathelmet"
 			}
@@ -389,6 +395,7 @@
 			dependencies: [
 				"1000000000007903"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "nuclearscience:cloudchamber"
 			}
@@ -431,6 +438,7 @@
 			dependencies: [
 				"1000000000007904"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "nuclearscience:antidote"
 			}
@@ -473,6 +481,7 @@
 			dependencies: [
 				"1000000000007908"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "nuclearscience:falloutscrubber"
 			}
@@ -515,6 +524,7 @@
 			dependencies: [
 				"1000000000007902"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "nuclearscience:yellowcake"
 			}
@@ -559,6 +569,7 @@
 			dependencies: [
 				"1000000000007911"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "nuclearscience:chemicalextractor"
 			}
@@ -601,6 +612,7 @@
 			dependencies: [
 				"1000000000007912"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "nuclearscience:radioactiveprocessor"
 			}
@@ -643,6 +655,7 @@
 			dependencies: [
 				"1000000000007913"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "nuclearscience:nuclearboiler"
 			}
@@ -685,6 +698,7 @@
 			dependencies: [
 				"1000000000007914"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "nuclearscience:gascentrifuge"
 			}
@@ -727,6 +741,7 @@
 			dependencies: [
 				"1000000000007915"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "nuclearscience:uranium235"
 			}
@@ -769,6 +784,7 @@
 			dependencies: [
 				"1000000000007915"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "nuclearscience:uranium238"
 			}
@@ -811,6 +827,7 @@
 			dependencies: [
 				"1000000000007916"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "nuclearscience:fuelleuo2"
 			}
@@ -853,6 +870,7 @@
 			dependencies: [
 				"1000000000007918"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "nuclearscience:fuelheuo2"
 			}
@@ -895,6 +913,7 @@
 			dependencies: [
 				"1000000000007919"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "nuclearscience:fuelreprocessor"
 			}
@@ -937,6 +956,7 @@
 			dependencies: [
 				"1000000000007920"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "nuclearscience:plutonium239"
 			}
@@ -978,6 +998,7 @@
 			dependencies: [
 				"1000000000007921"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "nuclearscience:fuelplutonium"
 			}
@@ -1021,6 +1042,7 @@
 				"1000000000007905"
 				"1000000000007916"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "nuclearscience:fissionreactorcore"
 			}
@@ -1065,6 +1087,7 @@
 			dependencies: [
 				"1000000000007923"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "nuclearscience:fissioncontrolrod"
 			}
@@ -1107,6 +1130,7 @@
 			dependencies: [
 				"1000000000007923"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "nuclearscience:turbine"
 			}
@@ -1149,6 +1173,7 @@
 			dependencies: [
 				"1000000000007925"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "nuclearscience:steamfunnel"
 			}
@@ -1191,6 +1216,7 @@
 			dependencies: [
 				"1000000000007923"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "nuclearscience:celldeuterium"
 			}
@@ -1232,6 +1258,7 @@
 			dependencies: [
 				"1000000000007927"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "nuclearscience:celltritium"
 			}
@@ -1274,6 +1301,7 @@
 			dependencies: [
 				"1000000000007923"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "nuclearscience:radioisotopegenerator"
 			}
@@ -1316,6 +1344,7 @@
 			dependencies: [
 				"1000000000007929"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "nuclearscience:polonium210"
 			}
@@ -1358,6 +1387,7 @@
 			dependencies: [
 				"1000000000007929"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "nuclearscience:actinium225"
 			}
@@ -1401,6 +1431,7 @@
 				"1000000000007924"
 				"1000000000007925"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "nuclearscience:freezeplug"
 			}
@@ -1445,6 +1476,7 @@
 			dependencies: [
 				"1000000000007932"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "nuclearscience:msreactorcore"
 			}
@@ -1486,6 +1518,7 @@
 			dependencies: [
 				"1000000000007933"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "nuclearscience:moltensaltsupplier"
 			}
@@ -1528,6 +1561,7 @@
 			dependencies: [
 				"1000000000007932"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "nuclearscience:flinak"
 			}
@@ -1570,6 +1604,7 @@
 			dependencies: [
 				"1000000000007902"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "nuclearscience:thorianitedust"
 			}
@@ -1613,6 +1648,7 @@
 				"1000000000007935"
 				"1000000000007936"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "nuclearscience:lifthf4uf4"
 			}
@@ -1655,6 +1691,7 @@
 			dependencies: [
 				"1000000000007937"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "nuclearscience:msrfuelpreprocessor"
 			}
@@ -1697,6 +1734,7 @@
 			dependencies: [
 				"1000000000007934"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "nuclearscience:moltensaltpipevanadiumsteelceramic"
 			}
@@ -1738,6 +1776,7 @@
 			dependencies: [
 				"1000000000007939"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "nuclearscience:heatexchanger"
 			}
@@ -1780,6 +1819,7 @@
 			dependencies: [
 				"1000000000007933"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "nuclearscience:mscontrolrod"
 			}
@@ -1822,6 +1862,7 @@
 			dependencies: [
 				"1000000000007925"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "nuclearscience:electromagnet"
 			}
@@ -1866,6 +1907,7 @@
 			dependencies: [
 				"1000000000007942"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "nuclearscience:electromagneticglass"
 			}
@@ -1909,6 +1951,7 @@
 				"1000000000007942"
 				"1000000000007928"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "nuclearscience:fusionreactorcore"
 			}
@@ -1953,6 +1996,7 @@
 			dependencies: [
 				"1000000000007927"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "nuclearscience:cellheavywater"
 			}
@@ -1994,6 +2038,7 @@
 			dependencies: [
 				"1000000000007942"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "nuclearscience:particleinjector"
 			}
@@ -2036,6 +2081,7 @@
 			dependencies: [
 				"1000000000007946"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "nuclearscience:electromagneticbooster"
 			}
@@ -2078,6 +2124,7 @@
 			dependencies: [
 				"1000000000007947"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "nuclearscience:electromagneticgateway"
 			}
@@ -2120,6 +2167,7 @@
 			dependencies: [
 				"1000000000007948"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "nuclearscience:electromagneticdiode"
 			}
@@ -2162,6 +2210,7 @@
 			dependencies: [
 				"1000000000007949"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "nuclearscience:electromagneticswitch"
 			}
@@ -2204,6 +2253,7 @@
 			dependencies: [
 				"1000000000007942"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "nuclearscience:cellelectromagnetic"
 			}
@@ -2245,6 +2295,7 @@
 			dependencies: [
 				"1000000000007950"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "nuclearscience:cellantimattersmall"
 			}
@@ -2307,6 +2358,7 @@
 			dependencies: [
 				"1000000000007952"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "nuclearscience:celldarkmatter"
 			}
@@ -2349,6 +2401,7 @@
 			dependencies: [
 				"1000000000007953"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "nuclearscience:atomicassembler"
 			}
@@ -2391,6 +2444,7 @@
 			dependencies: [
 				"1000000000007923"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "nuclearscience:logisticscablebase"
 			}
@@ -2435,6 +2489,7 @@
 			dependencies: [
 				"1000000000007955"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "nuclearscience:logisticscontroller"
 			}
@@ -2477,6 +2532,7 @@
 			dependencies: [
 				"1000000000007956"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "nuclearscience:fissioninterface"
 			}
@@ -2519,6 +2575,7 @@
 				"1000000000007956"
 				"1000000000007944"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "nuclearscience:fusioninterface"
 			}
@@ -2562,6 +2619,7 @@
 				"1000000000007956"
 				"1000000000007933"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "nuclearscience:msinterface"
 			}
@@ -2604,6 +2662,7 @@
 			dependencies: [
 				"1000000000007956"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "nuclearscience:monitormodule"
 			}
@@ -2646,6 +2705,7 @@
 			dependencies: [
 				"1000000000007956"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "nuclearscience:controlrodmodule"
 			}
@@ -2688,6 +2748,7 @@
 			dependencies: [
 				"1000000000007956"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "nuclearscience:supplymodule"
 			}
@@ -2730,6 +2791,7 @@
 			dependencies: [
 				"1000000000007956"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "nuclearscience:thermometermodule"
 			}
@@ -2771,6 +2833,7 @@
 			dependencies: [
 				"1000000000007901"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "nuclearscience:chunkloader"
 			}
@@ -2815,6 +2878,7 @@
 			dependencies: [
 				"1000000000007944"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "nuclearscience:quantumcapacitor"
 			}
@@ -2857,6 +2921,7 @@
 			dependencies: [
 				"1000000000007965"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "nuclearscience:teleporter"
 			}
@@ -2899,6 +2964,7 @@
 			dependencies: [
 				"1000000000007966"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "nuclearscience:frequencycard"
 			}

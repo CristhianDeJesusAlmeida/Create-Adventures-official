@@ -24,6 +24,7 @@
 			dependencies: [
 				"2000000000002005"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:andesite_alloy"
 			}
@@ -68,6 +69,7 @@
 			dependencies: [
 				"2000000000003001"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:shaft"
 			}
@@ -112,6 +114,7 @@
 			dependencies: [
 				"2000000000003044"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:encased_fan"
 			}
@@ -156,6 +159,7 @@
 			dependencies: [
 				"2000000000003002"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:gearbox"
 			}
@@ -200,6 +204,7 @@
 			dependencies: [
 				"2000000000003002"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:clutch"
 			}
@@ -244,6 +249,7 @@
 			dependencies: [
 				"2000000000003002"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:gearshift"
 			}
@@ -288,6 +294,7 @@
 			dependencies: [
 				"2000000000003002"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:encased_chain_drive"
 			}
@@ -330,6 +337,7 @@
 			dependencies: [
 				"2000000000003007"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:adjustable_chain_gearshift"
 			}
@@ -373,6 +381,7 @@
 			dependencies: [
 				"2000000000003044"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:mechanical_press"
 			}
@@ -417,6 +426,7 @@
 			dependencies: [
 				"2000000000003044"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:mechanical_mixer"
 			}
@@ -462,6 +472,7 @@
 				"2000000000003050"
 				"2000000000003041"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:basin"
 			}
@@ -547,6 +558,7 @@
 				"2000000000003039"
 				"2000000000003058"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:mechanical_piston"
 			}
@@ -594,6 +606,7 @@
 				"2000000000003043"
 				"2000000000003044"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:speedometer"
 			}
@@ -636,6 +649,7 @@
 				"2000000000003043"
 				"2000000000003044"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:stressometer"
 			}
@@ -679,6 +693,7 @@
 			dependencies: [
 				"2000000000003058"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:cart_assembler"
 			}
@@ -720,6 +735,7 @@
 			dependencies: [
 				"2000000000003058"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:linear_chassis"
 			}
@@ -761,6 +777,7 @@
 			dependencies: [
 				"2000000000003058"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:radial_chassis"
 			}
@@ -802,6 +819,7 @@
 			dependencies: [
 				"2000000000003042"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:windmill_bearing"
 			}
@@ -854,6 +872,7 @@
 			dependencies: [
 				"2000000000003058"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:mechanical_drill"
 			}
@@ -898,6 +917,7 @@
 			dependencies: [
 				"2000000000003058"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:mechanical_saw"
 			}
@@ -942,6 +962,7 @@
 			dependencies: [
 				"2000000000003044"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:deployer"
 			}
@@ -986,6 +1007,7 @@
 			dependencies: [
 				"2000000000003058"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:mechanical_harvester"
 			}
@@ -1030,6 +1052,7 @@
 			dependencies: [
 				"2000000000003058"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:mechanical_plough"
 			}
@@ -1074,6 +1097,7 @@
 			dependencies: [
 				"2000000000003051"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:copper_casing"
 			}
@@ -1119,6 +1143,7 @@
 				"2000000000003062"
 				"2000000000003061"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:mechanical_arm"
 			}
@@ -1163,6 +1188,7 @@
 			dependencies: [
 				"2000000000003041"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:andesite_funnel"
 			}
@@ -1206,6 +1232,7 @@
 			dependencies: [
 				"2000000000003041"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:brass_funnel"
 			}
@@ -1249,6 +1276,7 @@
 			dependencies: [
 				"2000000000003041"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:andesite_tunnel"
 			}
@@ -1292,6 +1320,7 @@
 			dependencies: [
 				"2000000000003041"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:brass_tunnel"
 			}
@@ -1335,6 +1364,7 @@
 			dependencies: [
 				"2000000000003041"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:chute"
 			}
@@ -1378,6 +1408,7 @@
 			dependencies: [
 				"2000000000003037"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:blaze_cake"
 			}
@@ -1422,6 +1453,7 @@
 			dependencies: [
 				"2000000000003061"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:mechanical_crafter"
 			}
@@ -1466,6 +1498,7 @@
 			dependencies: [
 				"2000000000003058"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:gantry_carriage"
 			}
@@ -1515,6 +1548,7 @@
 			dependencies: [
 				"2000000000003031"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:smart_chute"
 			}
@@ -1556,6 +1590,7 @@
 			dependencies: [
 				"2000000000003058"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:rope_pulley"
 			}
@@ -1599,6 +1634,7 @@
 			dependencies: [
 				"2000000000003025"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:spout"
 			}
@@ -1642,6 +1678,7 @@
 			dependencies: [
 				"2000000000003025"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:hose_pulley"
 			}
@@ -1685,6 +1722,7 @@
 			dependencies: [
 				"2000000000003058"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:piston_extension_pole"
 			}
@@ -1727,6 +1765,7 @@
 				"2000000000003025"
 				"2000000000003058"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:portable_fluid_interface"
 			}
@@ -1768,6 +1807,7 @@
 			dependencies: [
 				"2000000000002005"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:belt_connector"
 			}
@@ -1812,6 +1852,7 @@
 			dependencies: [
 				"2000000000003002"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:cogwheel"
 			}
@@ -1858,6 +1899,7 @@
 			dependencies: [
 				"2000000000003042"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:large_cogwheel"
 			}
@@ -1910,6 +1952,7 @@
 			dependencies: [
 				"2000000000003001"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:andesite_casing"
 			}
@@ -1956,6 +1999,7 @@
 			dependencies: [
 				"2000000000003042"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:water_wheel"
 			}
@@ -2003,6 +2047,7 @@
 			dependencies: [
 				"2000000000003042"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:steam_engine"
 			}
@@ -2063,6 +2108,7 @@
 			dependencies: [
 				"2000000000003042"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:hand_crank"
 			}
@@ -2107,6 +2153,7 @@
 			dependencies: [
 				"2000000000003041"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:depot"
 			}
@@ -2150,6 +2197,7 @@
 			dependencies: [
 				"2000000000003048"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:weighted_ejector"
 			}
@@ -2191,6 +2239,7 @@
 			dependencies: [
 				"2000000000003051"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:fluid_pipe"
 			}
@@ -2235,6 +2284,7 @@
 			dependencies: [
 				"2000000000002005"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "minecraft:copper_ingot"
 			}
@@ -2279,6 +2329,7 @@
 			dependencies: [
 				"2000000000003044"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:crushing_wheel"
 			}
@@ -2324,6 +2375,7 @@
 			dependencies: [
 				"2000000000003044"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:millstone"
 			}
@@ -2368,6 +2420,7 @@
 			dependencies: [
 				"2000000000003050"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:mechanical_pump"
 			}
@@ -2411,6 +2464,7 @@
 			dependencies: [
 				"2000000000002005"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:wrench"
 			}
@@ -2455,6 +2509,7 @@
 			dependencies: [
 				"2000000000002005"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:super_glue"
 			}
@@ -2499,6 +2554,7 @@
 			dependencies: [
 				"2000000000002005"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:goggles"
 			}
@@ -2544,6 +2600,7 @@
 				"2000000000003044"
 				"2000000000003056"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:super_glue"
 			}
@@ -2597,6 +2654,7 @@
 			dependencies: [
 				"2000000000003050"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:smart_fluid_pipe"
 			}
@@ -2640,6 +2698,7 @@
 			dependencies: [
 				"2000000000003050"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:fluid_valve"
 			}
@@ -2684,6 +2743,7 @@
 				"2000000000003010"
 				"2000000000003012"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:brass_casing"
 			}
@@ -2728,6 +2788,7 @@
 			dependencies: [
 				"2000000000003022"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:precision_mechanism"
 			}
@@ -2772,6 +2833,7 @@
 			dependencies: [
 				"2000000000003006"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:sequenced_gearshift"
 			}
@@ -2815,6 +2877,7 @@
 			dependencies: [
 				"2000000000003061"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:railway_casing"
 			}
@@ -2857,6 +2920,7 @@
 			dependencies: [
 				"2000000000003002"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:vertical_gearbox"
 			}
@@ -2899,6 +2963,7 @@
 			dependencies: [
 				"2000000000003051"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:fluid_tank"
 			}
@@ -2942,6 +3007,7 @@
 			dependencies: [
 				"2000000000003025"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:item_drain"
 			}
@@ -2985,6 +3051,7 @@
 			dependencies: [
 				"2000000000003058"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:mechanical_bearing"
 			}
@@ -3028,6 +3095,7 @@
 			dependencies: [
 				"2000000000003058"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:clockwork_bearing"
 			}
@@ -3071,6 +3139,7 @@
 			dependencies: [
 				"2000000000003022"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:track"
 			}
@@ -3115,6 +3184,7 @@
 				"2000000000003064"
 				"2000000000003070"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:track_station"
 			}
@@ -3159,6 +3229,7 @@
 				"2000000000003070"
 				"2000000000003071"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:controls"
 			}
@@ -3219,6 +3290,7 @@
 			dependencies: [
 				"2000000000003072"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:track_signal"
 			}
@@ -3262,6 +3334,7 @@
 			dependencies: [
 				"2000000000003072"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:track_observer"
 			}
@@ -3305,6 +3378,7 @@
 			dependencies: [
 				"2000000000003072"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:schedule"
 			}
@@ -3357,6 +3431,7 @@
 			dependencies: [
 				"2000000000003072"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:controls"
 			}
@@ -3398,6 +3473,7 @@
 			dependencies: [
 				"2000000000003072"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:super_glue"
 			}
@@ -3439,6 +3515,7 @@
 			dependencies: [
 				"2000000000003041"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:cardboard"
 			}
@@ -3481,6 +3558,7 @@
 			dependencies: [
 				"2000000000003085"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:chain_conveyor"
 			}
@@ -3522,6 +3600,7 @@
 			dependencies: [
 				"2000000000003079"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:package_frogport"
 			}
@@ -3563,6 +3642,7 @@
 			dependencies: [
 				"2000000000003085"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:red_postbox"
 			}
@@ -3607,6 +3687,7 @@
 			dependencies: [
 				"2000000000003085"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:stock_link"
 			}
@@ -3648,6 +3729,7 @@
 			dependencies: [
 				"2000000000003082"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:stock_ticker"
 			}
@@ -3689,6 +3771,7 @@
 			dependencies: [
 				"2000000000003078"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:packager"
 			}
@@ -3732,6 +3815,7 @@
 			dependencies: [
 				"2000000000003084"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create_dragons_plus:rare_marble_gate_package"
 			}
@@ -3777,6 +3861,7 @@
 			dependencies: [
 				"2000000000003041"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:item_vault"
 			}
@@ -3819,6 +3904,7 @@
 				"2000000000003082"
 				"2000000000003083"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:white_table_cloth"
 			}
@@ -3865,6 +3951,7 @@
 				"2000000000003062"
 				"2000000000003061"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "create:rotation_speed_controller"
 			}

@@ -54,6 +54,7 @@
 			dependencies: [
 				"1000000000007601"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:raworetin"
 			}
@@ -114,6 +115,7 @@
 			dependencies: [
 				"1000000000007602"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:ingotsteel"
 			}
@@ -156,6 +158,7 @@
 			dependencies: [
 				"1000000000007603"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:thermoelectricgenerator"
 			}
@@ -198,6 +201,7 @@
 			dependencies: [
 				"1000000000007601"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:wirecopper"
 			}
@@ -240,6 +244,7 @@
 			dependencies: [
 				"1000000000007605"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:insulation"
 			}
@@ -282,6 +287,7 @@
 			dependencies: [
 				"1000000000007606"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:wireinsulatedcopperblack"
 			}
@@ -324,6 +330,7 @@
 			dependencies: [
 				"1000000000007607"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:wirehighlyinsulatedcopperblack"
 			}
@@ -366,6 +373,7 @@
 			dependencies: [
 				"1000000000007605"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:multimeter"
 			}
@@ -409,6 +417,7 @@
 				"1000000000007603"
 				"1000000000007605"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:wiremill"
 			}
@@ -451,6 +460,7 @@
 			dependencies: [
 				"1000000000007604"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:coalgenerator"
 			}
@@ -493,6 +503,7 @@
 			dependencies: [
 				"1000000000007604"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:solarpanel"
 			}
@@ -535,6 +546,7 @@
 			dependencies: [
 				"1000000000007612"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:advancedsolarpanel"
 			}
@@ -577,6 +589,7 @@
 			dependencies: [
 				"1000000000007604"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:windmill"
 			}
@@ -619,6 +632,7 @@
 			dependencies: [
 				"1000000000007604"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:hydroelectricgenerator"
 			}
@@ -661,6 +675,7 @@
 			dependencies: [
 				"1000000000007604"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:combustionchamber"
 			}
@@ -703,6 +718,7 @@
 			dependencies: [
 				"1000000000007616"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:fermentationplant"
 			}
@@ -745,6 +761,7 @@
 			dependencies: [
 				"1000000000007605"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:battery"
 			}
@@ -787,6 +804,7 @@
 			dependencies: [
 				"1000000000007618"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:batterybox"
 			}
@@ -831,6 +849,7 @@
 			dependencies: [
 				"1000000000007619"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:lithiumbattery"
 			}
@@ -882,6 +901,7 @@
 			dependencies: [
 				"1000000000007620"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:carbynebattery"
 			}
@@ -933,6 +953,7 @@
 			dependencies: [
 				"1000000000007619"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:chargerlv"
 			}
@@ -993,6 +1014,7 @@
 			dependencies: [
 				"1000000000007607"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:circuitbreaker"
 			}
@@ -1035,6 +1057,7 @@
 			dependencies: [
 				"1000000000007607"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:upgradetransformer"
 			}
@@ -1077,6 +1100,7 @@
 			dependencies: [
 				"1000000000007624"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:downgradetransformer"
 			}
@@ -1120,6 +1144,7 @@
 				"1000000000007610"
 				"1000000000007640"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:mineralcrusher"
 			}
@@ -1164,6 +1189,7 @@
 			dependencies: [
 				"1000000000007626"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:mineralgrinder"
 			}
@@ -1206,6 +1232,7 @@
 			dependencies: [
 				"1000000000007627"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:mineralwasher"
 			}
@@ -1247,6 +1274,7 @@
 			dependencies: [
 				"1000000000007604"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:electricfurnace"
 			}
@@ -1289,6 +1317,7 @@
 			dependencies: [
 				"1000000000007629"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:electricfurnacedouble"
 			}
@@ -1340,6 +1369,7 @@
 			dependencies: [
 				"1000000000007629"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:electricarcfurnace"
 			}
@@ -1382,6 +1412,7 @@
 			dependencies: [
 				"1000000000007627"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:mineralcrusherdouble"
 			}
@@ -1442,6 +1473,7 @@
 			dependencies: [
 				"1000000000007632"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:mineralcrushertriple"
 			}
@@ -1502,6 +1534,7 @@
 			dependencies: [
 				"1000000000007626"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:lathe"
 			}
@@ -1544,6 +1577,7 @@
 			dependencies: [
 				"1000000000007634"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:energizedalloyer"
 			}
@@ -1595,6 +1629,7 @@
 			dependencies: [
 				"1000000000007626"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:ingotbronze"
 			}
@@ -1637,6 +1672,7 @@
 			dependencies: [
 				"1000000000007626"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:plateiron"
 			}
@@ -1688,6 +1724,7 @@
 			dependencies: [
 				"1000000000007637"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:geariron"
 			}
@@ -1739,6 +1776,7 @@
 			dependencies: [
 				"1000000000007610"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:circuitbasic"
 			}
@@ -1783,6 +1821,7 @@
 			dependencies: [
 				"1000000000007639"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:circuitadvanced"
 			}
@@ -1825,6 +1864,7 @@
 			dependencies: [
 				"1000000000007640"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:circuitelite"
 			}
@@ -1867,6 +1907,7 @@
 			dependencies: [
 				"1000000000007641"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:circuitultimate"
 			}
@@ -1909,6 +1950,7 @@
 			dependencies: [
 				"1000000000007640"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:motor"
 			}
@@ -1951,6 +1993,7 @@
 			dependencies: [
 				"1000000000007605"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:coil"
 			}
@@ -2002,6 +2045,7 @@
 			dependencies: [
 				"1000000000007640"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:chemicalmixer"
 			}
@@ -2046,6 +2090,7 @@
 			dependencies: [
 				"1000000000007645"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:chemicalreactor"
 			}
@@ -2088,6 +2133,7 @@
 			dependencies: [
 				"1000000000007646"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:chemicalcrystallizer"
 			}
@@ -2130,6 +2176,7 @@
 			dependencies: [
 				"1000000000007645"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:oxidationfurnace"
 			}
@@ -2172,6 +2219,7 @@
 			dependencies: [
 				"1000000000007645"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:electrolyticseparator"
 			}
@@ -2215,6 +2263,7 @@
 				"1000000000007646"
 				"1000000000007649"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:electrolosischamber"
 			}
@@ -2260,6 +2309,7 @@
 			dependencies: [
 				"1000000000007645"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:pipecopper"
 			}
@@ -2313,6 +2363,7 @@
 			dependencies: [
 				"1000000000007651"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:electricpump"
 			}
@@ -2354,6 +2405,7 @@
 			dependencies: [
 				"1000000000007651"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:compressor"
 			}
@@ -2405,6 +2457,7 @@
 			dependencies: [
 				"1000000000007653"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:gascollector"
 			}
@@ -2447,6 +2500,7 @@
 			dependencies: [
 				"1000000000007653"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:gaspipeuninsulatedcopper"
 			}
@@ -2507,6 +2561,7 @@
 			dependencies: [
 				"1000000000007653"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:gastanksteel"
 			}
@@ -2567,6 +2622,7 @@
 			dependencies: [
 				"1000000000007651"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:tanksteel"
 			}
@@ -2609,6 +2665,7 @@
 			dependencies: [
 				"1000000000007643"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:seismicmarker"
 			}
@@ -2653,6 +2710,7 @@
 			dependencies: [
 				"1000000000007658"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:seismicrelay"
 			}
@@ -2695,6 +2753,7 @@
 			dependencies: [
 				"1000000000007659"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:quarry"
 			}
@@ -2736,6 +2795,7 @@
 			dependencies: [
 				"1000000000007660"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:coolantresavoir"
 			}
@@ -2779,6 +2839,7 @@
 				"1000000000007660"
 				"1000000000007643"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:motorcomplex"
 			}
@@ -2821,6 +2882,7 @@
 			dependencies: [
 				"1000000000007643"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:electricdrill"
 			}
@@ -2865,6 +2927,7 @@
 			dependencies: [
 				"1000000000007663"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:drillheadsteel"
 			}
@@ -2925,6 +2988,7 @@
 			dependencies: [
 				"1000000000007663"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:electricchainsaw"
 			}
@@ -2967,6 +3031,7 @@
 			dependencies: [
 				"1000000000007640"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:seismicscanner"
 			}
@@ -3009,6 +3074,7 @@
 			dependencies: [
 				"1000000000007643"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:railgunkinetic"
 			}
@@ -3051,6 +3117,7 @@
 			dependencies: [
 				"1000000000007667"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:railgunplasma"
 			}
@@ -3092,6 +3159,7 @@
 			dependencies: [
 				"1000000000007606"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:rubberboots"
 			}
@@ -3136,6 +3204,7 @@
 			dependencies: [
 				"1000000000007640"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:nightvisiongoggles"
 			}
@@ -3178,6 +3247,7 @@
 			dependencies: [
 				"1000000000007637"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:compositearmorhelmet"
 			}
@@ -3247,6 +3317,7 @@
 			dependencies: [
 				"1000000000007671"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:combatarmorhelmet"
 			}
@@ -3316,6 +3387,7 @@
 			dependencies: [
 				"1000000000007649"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:jetpack"
 			}
@@ -3358,6 +3430,7 @@
 			dependencies: [
 				"1000000000007628"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:ingotaluminum"
 			}
@@ -3401,6 +3474,7 @@
 			dependencies: [
 				"1000000000007628"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:ingottitanium"
 			}
@@ -3443,6 +3517,7 @@
 			dependencies: [
 				"1000000000007628"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:ingotchromium"
 			}
@@ -3484,6 +3559,7 @@
 			dependencies: [
 				"1000000000007628"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:ingotvanadium"
 			}
@@ -3526,6 +3602,7 @@
 			dependencies: [
 				"1000000000007677"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:ingotvanadiumsteel"
 			}
@@ -3568,6 +3645,7 @@
 			dependencies: [
 				"1000000000007677"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:ingothslasteel"
 			}
@@ -3610,6 +3688,7 @@
 			dependencies: [
 				"1000000000007676"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:ingotstainlesssteel"
 			}
@@ -3652,6 +3731,7 @@
 			dependencies: [
 				"1000000000007675"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:ingottitaniumcarbide"
 			}
@@ -3694,6 +3774,7 @@
 			dependencies: [
 				"1000000000007675"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:ingotsuperconductive"
 			}
@@ -3735,6 +3816,7 @@
 			dependencies: [
 				"1000000000007602"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:raworeuranium"
 			}
@@ -3788,6 +3870,7 @@
 			dependencies: [
 				"1000000000007607"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:insulationceramic"
 			}
@@ -3839,6 +3922,7 @@
 			dependencies: [
 				"1000000000007607"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:wirelogisticscopperblack"
 			}
@@ -3881,6 +3965,7 @@
 			dependencies: [
 				"1000000000007602"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:wiresilver"
 			}
@@ -3933,6 +4018,7 @@
 				"1000000000007682"
 				"1000000000007686"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:wiresuperconductive"
 			}
@@ -3975,6 +4061,7 @@
 			dependencies: [
 				"1000000000007603"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "electrodynamics:steelscaffold"
 			}

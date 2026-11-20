@@ -56,6 +56,7 @@
 			dependencies: [
 				"1000000000001031"
 			]
+			dependency_requirement: "all_completed"
 			id: "1000000000001032"
 			rewards: [
 				{
@@ -87,6 +88,7 @@
 			dependencies: [
 				"1000000000001032"
 			]
+			dependency_requirement: "all_completed"
 			id: "1000000000001033"
 			rewards: [
 				{
@@ -134,6 +136,7 @@
 			dependencies: [
 				"1000000000001033"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "aeronautics:propeller_bearing"
 			}
@@ -181,6 +184,7 @@
 			dependencies: [
 				"1000000000001033"
 			]
+			dependency_requirement: "all_completed"
 			id: "1000000000001035"
 			rewards: [
 				{
@@ -214,6 +218,7 @@
 			dependencies: [
 				"1000000000001033"
 			]
+			dependency_requirement: "all_completed"
 			id: "1000000000001036"
 			rewards: [
 				{
@@ -247,6 +252,7 @@
 			dependencies: [
 				"1000000000001033"
 			]
+			dependency_requirement: "all_completed"
 			id: "1000000000001037"
 			rewards: [
 				{
@@ -336,6 +342,7 @@
 			dependencies: [
 				"1000000000001038"
 			]
+			dependency_requirement: "all_completed"
 			id: "1000000000001039"
 			rewards: [
 				{
@@ -403,6 +410,7 @@
 			dependencies: [
 				"1000000000001033"
 			]
+			dependency_requirement: "all_completed"
 			id: "1000000000001040"
 			rewards: [
 				{
@@ -453,6 +461,7 @@
 			dependencies: [
 				"1000000000001040"
 			]
+			dependency_requirement: "all_completed"
 			id: "1000000000001041"
 			rewards: [
 				{
@@ -525,6 +534,7 @@
 			dependencies: [
 				"1000000000001033"
 			]
+			dependency_requirement: "all_completed"
 			id: "1000000000001042"
 			rewards: [
 				{
@@ -558,6 +568,7 @@
 			dependencies: [
 				"1000000000001042"
 			]
+			dependency_requirement: "all_completed"
 			id: "1000000000001043"
 			rewards: [
 				{
@@ -591,6 +602,7 @@
 			dependencies: [
 				"1000000000001042"
 			]
+			dependency_requirement: "all_completed"
 			id: "1000000000001044"
 			rewards: [
 				{
@@ -701,6 +713,7 @@
 			dependencies: [
 				"1000000000001036"
 			]
+			dependency_requirement: "all_completed"
 			id: "1000000000001046"
 			rewards: [
 				{
@@ -751,6 +764,7 @@
 			dependencies: [
 				"1000000000001046"
 			]
+			dependency_requirement: "all_completed"
 			id: "1000000000001047"
 			rewards: [
 				{
@@ -823,6 +837,7 @@
 			dependencies: [
 				"1000000000001033"
 			]
+			dependency_requirement: "all_completed"
 			id: "1000000000001048"
 			rewards: [
 				{
@@ -856,6 +871,7 @@
 			dependencies: [
 				"1000000000001048"
 			]
+			dependency_requirement: "all_completed"
 			id: "1000000000001049"
 			rewards: [
 				{
@@ -892,6 +908,7 @@
 			dependencies: [
 				"1000000000001049"
 			]
+			dependency_requirement: "all_completed"
 			id: "1000000000001050"
 			rewards: [
 				{
@@ -967,6 +984,7 @@
 			dependencies: [
 				"1000000000001032"
 			]
+			dependency_requirement: "all_completed"
 			id: "1000000000001051"
 			rewards: [
 				{
@@ -1002,6 +1020,7 @@
 			dependencies: [
 				"1000000000001051"
 			]
+			dependency_requirement: "all_completed"
 			id: "1000000000001052"
 			rewards: [
 				{
@@ -1044,6 +1063,7 @@
 			dependencies: [
 				"1000000000001051"
 			]
+			dependency_requirement: "all_completed"
 			id: "1000000000001053"
 			rewards: [
 				{
@@ -1086,6 +1106,7 @@
 			dependencies: [
 				"1000000000001051"
 			]
+			dependency_requirement: "all_completed"
 			id: "1000000000001054"
 			rewards: [
 				{
@@ -1127,6 +1148,7 @@
 			dependencies: [
 				"1000000000001051"
 			]
+			dependency_requirement: "all_completed"
 			id: "1000000000001055"
 			rewards: [
 				{
@@ -1169,6 +1191,7 @@
 			dependencies: [
 				"1000000000001051"
 			]
+			dependency_requirement: "all_completed"
 			id: "1000000000001056"
 			rewards: [
 				{
@@ -1202,6 +1225,7 @@
 			dependencies: [
 				"1000000000001032"
 			]
+			dependency_requirement: "all_completed"
 			id: "1000000000001057"
 			rewards: [
 				{
@@ -1254,6 +1278,7 @@
 			dependencies: [
 				"1000000000001057"
 			]
+			dependency_requirement: "all_completed"
 			id: "1000000000001058"
 			rewards: [
 				{
@@ -1304,6 +1329,7 @@
 			dependencies: [
 				"1000000000001057"
 			]
+			dependency_requirement: "all_completed"
 			id: "1000000000001059"
 			rewards: [
 				{
@@ -1337,6 +1363,7 @@
 			dependencies: [
 				"1000000000001057"
 			]
+			dependency_requirement: "all_completed"
 			id: "1000000000001060"
 			rewards: [
 				{
@@ -1377,6 +1404,7 @@
 			dependencies: [
 				"1000000000001057"
 			]
+			dependency_requirement: "all_completed"
 			id: "1000000000001061"
 			rewards: [
 				{
@@ -1418,6 +1446,7 @@
 			dependencies: [
 				"1000000000001057"
 			]
+			dependency_requirement: "all_completed"
 			id: "1000000000001062"
 			rewards: [
 				{
@@ -1460,6 +1489,7 @@
 			dependencies: [
 				"1000000000001033"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "aeronautics:levitite"
 			}
@@ -1498,6 +1528,7 @@
 			dependencies: [
 				"1000000000001034"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "aeronautics:andesite_propeller"
 			}
@@ -1534,6 +1565,7 @@
 			dependencies: [
 				"1000000000001042"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "aeronautics:white_envelope_encased_shaft"
 			}
@@ -1570,6 +1602,7 @@
 			dependencies: [
 				"1000000000001031"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "simulated:gyroscopic_mechanism"
 			}
@@ -1613,6 +1646,7 @@
 			dependencies: [
 				"1000000000004004"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "simulated:navigation_table"
 			}
@@ -1649,6 +1683,7 @@
 			dependencies: [
 				"1000000000004004"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "simulated:gimbal_sensor"
 			}
@@ -1687,6 +1722,7 @@
 			dependencies: [
 				"1000000000004004"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "simulated:optical_sensor"
 			}
@@ -1725,6 +1761,7 @@
 			dependencies: [
 				"1000000000001031"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "simulated:docking_connector"
 			}
@@ -1763,6 +1800,7 @@
 			dependencies: [
 				"1000000000001031"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "simulated:rope_winch"
 			}
@@ -1801,6 +1839,7 @@
 				"1000000000004006"
 				"1000000000004007"
 			]
+			dependency_requirement: "all_completed"
 			id: "1000000000004010"
 			rewards: [
 				{

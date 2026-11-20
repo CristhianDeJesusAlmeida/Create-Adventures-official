@@ -48,6 +48,7 @@
 			dependencies: [
 				"1000000000001063"
 			]
+			dependency_requirement: "all_completed"
 			id: "1000000000001064"
 			rewards: [
 				{
@@ -84,6 +85,7 @@
 			dependencies: [
 				"1000000000001064"
 			]
+			dependency_requirement: "all_completed"
 			id: "1000000000001065"
 			rewards: [
 				{
@@ -118,6 +120,7 @@
 			dependencies: [
 				"1000000000001065"
 			]
+			dependency_requirement: "all_completed"
 			id: "1000000000001066"
 			rewards: [
 				{
@@ -147,6 +150,7 @@
 			dependencies: [
 				"1000000000001065"
 			]
+			dependency_requirement: "all_completed"
 			id: "1000000000001067"
 			rewards: [
 				{
@@ -176,6 +180,7 @@
 			dependencies: [
 				"1000000000001065"
 			]
+			dependency_requirement: "all_completed"
 			id: "1000000000001068"
 			rewards: [
 				{
@@ -205,6 +210,7 @@
 			dependencies: [
 				"1000000000001065"
 			]
+			dependency_requirement: "all_completed"
 			id: "1000000000001069"
 			rewards: [
 				{
@@ -234,6 +240,7 @@
 			dependencies: [
 				"1000000000001065"
 			]
+			dependency_requirement: "all_completed"
 			id: "1000000000001070"
 			rewards: [
 				{
@@ -263,6 +270,7 @@
 			dependencies: [
 				"1000000000001065"
 			]
+			dependency_requirement: "all_completed"
 			id: "1000000000001071"
 			rewards: [
 				{
@@ -292,6 +300,7 @@
 			dependencies: [
 				"1000000000001065"
 			]
+			dependency_requirement: "all_completed"
 			id: "1000000000001072"
 			rewards: [
 				{
@@ -326,6 +335,7 @@
 			dependencies: [
 				"1000000000001065"
 			]
+			dependency_requirement: "all_completed"
 			id: "1000000000001073"
 			rewards: [
 				{
@@ -360,6 +370,7 @@
 			dependencies: [
 				"1000000000001065"
 			]
+			dependency_requirement: "all_completed"
 			id: "1000000000001074"
 			rewards: [
 				{
@@ -394,6 +405,7 @@
 			dependencies: [
 				"1000000000001065"
 			]
+			dependency_requirement: "all_completed"
 			id: "1000000000001075"
 			rewards: [
 				{
@@ -428,6 +440,7 @@
 			dependencies: [
 				"1000000000001065"
 			]
+			dependency_requirement: "all_completed"
 			id: "1000000000001076"
 			rewards: [
 				{
@@ -462,6 +475,7 @@
 			dependencies: [
 				"1000000000001065"
 			]
+			dependency_requirement: "all_completed"
 			id: "1000000000001077"
 			rewards: [
 				{
@@ -493,6 +507,7 @@
 			dependencies: [
 				"1000000000001065"
 			]
+			dependency_requirement: "all_completed"
 			id: "1000000000001078"
 			rewards: [
 				{
@@ -530,6 +545,7 @@
 			dependencies: [
 				"1000000000001065"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "apotheosis:redstone_control_spawner_rune"
 			}
@@ -562,6 +578,7 @@
 			dependencies: [
 				"1000000000001065"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "apotheosis:ignore_conditions_spawner_rune"
 			}
@@ -594,6 +611,7 @@
 			dependencies: [
 				"1000000000001065"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "apotheosis:no_ai_spawner_rune"
 			}
@@ -626,6 +644,7 @@
 			dependencies: [
 				"1000000000001072"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "minecraft:quartz"
 			}
@@ -658,6 +677,7 @@
 			dependencies: [
 				"1000000000001078"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "minecraft:diamond_sword"
 			}

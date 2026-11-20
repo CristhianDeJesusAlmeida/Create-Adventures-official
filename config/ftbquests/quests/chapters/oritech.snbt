@@ -57,6 +57,7 @@
 			dependencies: [
 				"1000000000007201"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:magnetic_coil"
 			}
@@ -99,6 +100,7 @@
 			dependencies: [
 				"1000000000007202"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:basic_generator_block"
 			}
@@ -143,6 +145,7 @@
 			dependencies: [
 				"1000000000007203"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:powered_furnace_block"
 			}
@@ -185,6 +188,7 @@
 			dependencies: [
 				"1000000000007203"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:steel_ingot"
 			}
@@ -227,6 +231,7 @@
 			dependencies: [
 				"1000000000007204"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:pulverizer_block"
 			}
@@ -270,6 +275,7 @@
 				"1000000000007206"
 				"1000000000007205"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:foundry_block"
 			}
@@ -312,6 +318,7 @@
 			dependencies: [
 				"1000000000007207"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:assembler_block"
 			}
@@ -356,6 +363,7 @@
 			dependencies: [
 				"1000000000007208"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:centrifuge_block"
 			}
@@ -398,6 +406,7 @@
 			dependencies: [
 				"1000000000007209"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:fragment_forge_block"
 			}
@@ -440,6 +449,7 @@
 			dependencies: [
 				"1000000000007212"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:small_storage_block"
 			}
@@ -482,6 +492,7 @@
 			dependencies: [
 				"1000000000007202"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:basic_battery"
 			}
@@ -524,6 +535,7 @@
 			dependencies: [
 				"1000000000007203"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:energy_pipe"
 			}
@@ -566,6 +578,7 @@
 			dependencies: [
 				"1000000000007213"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:big_solar_panel_block"
 			}
@@ -608,6 +621,7 @@
 			dependencies: [
 				"1000000000007203"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:bio_generator_block"
 			}
@@ -650,6 +664,7 @@
 			dependencies: [
 				"1000000000007215"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:fuel_generator_block"
 			}
@@ -692,6 +707,7 @@
 			dependencies: [
 				"1000000000007216"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:lava_generator_block"
 			}
@@ -734,6 +750,7 @@
 			dependencies: [
 				"1000000000007217"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:steam_engine_block"
 			}
@@ -776,6 +793,7 @@
 			dependencies: [
 				"1000000000007208"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:advanced_battery"
 			}
@@ -818,6 +836,7 @@
 			dependencies: [
 				"1000000000007207"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:plastic_sheet"
 			}
@@ -860,6 +879,7 @@
 			dependencies: [
 				"1000000000007206"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:silicon"
 			}
@@ -902,6 +922,7 @@
 			dependencies: [
 				"1000000000007221"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:silicon_wafer"
 			}
@@ -945,6 +966,7 @@
 				"1000000000007222"
 				"1000000000007208"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:processing_unit"
 			}
@@ -987,6 +1009,7 @@
 			dependencies: [
 				"1000000000007208"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:motor"
 			}
@@ -1029,6 +1052,7 @@
 			dependencies: [
 				"1000000000007209"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:carbon_fibre_strands"
 			}
@@ -1071,6 +1095,7 @@
 			dependencies: [
 				"1000000000007225"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:reinforced_carbon_sheet"
 			}
@@ -1113,6 +1138,7 @@
 			dependencies: [
 				"1000000000007205"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:electrum_ingot"
 			}
@@ -1155,6 +1181,7 @@
 			dependencies: [
 				"1000000000007227"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:adamant_ingot"
 			}
@@ -1197,6 +1224,7 @@
 			dependencies: [
 				"1000000000007228"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:biosteel_ingot"
 			}
@@ -1239,6 +1267,7 @@
 			dependencies: [
 				"1000000000007210"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:platinum_ingot"
 			}
@@ -1281,6 +1310,7 @@
 			dependencies: [
 				"1000000000007208"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:laser_arm_block"
 			}
@@ -1325,6 +1355,7 @@
 			dependencies: [
 				"1000000000007231"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:target_designator"
 			}
@@ -1367,6 +1398,7 @@
 			dependencies: [
 				"1000000000007232"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:fluxite"
 			}
@@ -1409,6 +1441,7 @@
 			dependencies: [
 				"1000000000007233"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:atomic_forge_block"
 			}
@@ -1451,6 +1484,7 @@
 			dependencies: [
 				"1000000000007233"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:energite_ingot"
 			}
@@ -1493,6 +1527,7 @@
 			dependencies: [
 				"1000000000007235"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:duratium_ingot"
 			}
@@ -1535,6 +1570,7 @@
 			dependencies: [
 				"1000000000007236"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:prometheum_ingot"
 			}
@@ -1577,6 +1613,7 @@
 			dependencies: [
 				"1000000000007203"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:wrench"
 			}
@@ -1619,6 +1656,7 @@
 			dependencies: [
 				"1000000000007238"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:item_pipe"
 			}
@@ -1661,6 +1699,7 @@
 			dependencies: [
 				"1000000000007239"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:fluid_pipe"
 			}
@@ -1703,6 +1742,7 @@
 			dependencies: [
 				"1000000000007239"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:item_filter_block"
 			}
@@ -1745,6 +1785,7 @@
 			dependencies: [
 				"1000000000007240"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:pump_block"
 			}
@@ -1787,6 +1828,7 @@
 			dependencies: [
 				"1000000000007240"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:small_tank_block"
 			}
@@ -1829,6 +1871,7 @@
 			dependencies: [
 				"1000000000007213"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:power_pole_block"
 			}
@@ -1871,6 +1914,7 @@
 			dependencies: [
 				"1000000000007208"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:machine_speed_addon"
 			}
@@ -1915,6 +1959,7 @@
 			dependencies: [
 				"1000000000007245"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:machine_efficiency_addon"
 			}
@@ -1957,6 +2002,7 @@
 			dependencies: [
 				"1000000000007245"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:machine_capacitor_addon"
 			}
@@ -1999,6 +2045,7 @@
 			dependencies: [
 				"1000000000007247"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:machine_acceptor_addon"
 			}
@@ -2042,6 +2089,7 @@
 				"1000000000007209"
 				"1000000000007245"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:machine_processing_addon"
 			}
@@ -2084,6 +2132,7 @@
 			dependencies: [
 				"1000000000007245"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:machine_fluid_addon"
 			}
@@ -2126,6 +2175,7 @@
 			dependencies: [
 				"1000000000007245"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:machine_redstone_addon"
 			}
@@ -2168,6 +2218,7 @@
 			dependencies: [
 				"1000000000007234"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:machine_combi_addon"
 			}
@@ -2210,6 +2261,7 @@
 			dependencies: [
 				"1000000000007233"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:deep_drill_block"
 			}
@@ -2254,6 +2306,7 @@
 			dependencies: [
 				"1000000000007224"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:treefeller_block"
 			}
@@ -2296,6 +2349,7 @@
 			dependencies: [
 				"1000000000007224"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:destroyer_block"
 			}
@@ -2338,6 +2392,7 @@
 			dependencies: [
 				"1000000000007255"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:placer_block"
 			}
@@ -2380,6 +2435,7 @@
 			dependencies: [
 				"1000000000007256"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:fertilizer_block"
 			}
@@ -2422,6 +2478,7 @@
 			dependencies: [
 				"1000000000007223"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:drone_port_block"
 			}
@@ -2464,6 +2521,7 @@
 			dependencies: [
 				"1000000000007219"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:charger_block"
 			}
@@ -2506,6 +2564,7 @@
 			dependencies: [
 				"1000000000007259"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:hand_drill"
 			}
@@ -2548,6 +2607,7 @@
 			dependencies: [
 				"1000000000007259"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:chainsaw"
 			}
@@ -2591,6 +2651,7 @@
 				"1000000000007259"
 				"1000000000007231"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:portable_laser"
 			}
@@ -2633,6 +2694,7 @@
 			dependencies: [
 				"1000000000007259"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:electric_mace"
 			}
@@ -2676,6 +2738,7 @@
 				"1000000000007259"
 				"1000000000007226"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:exo_chestplate"
 			}
@@ -2718,6 +2781,7 @@
 			dependencies: [
 				"1000000000007264"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:jetpack"
 			}
@@ -2761,6 +2825,7 @@
 				"1000000000007237"
 				"1000000000007259"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:promethium_pickaxe"
 			}
@@ -2803,6 +2868,7 @@
 			dependencies: [
 				"1000000000007223"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:simple_augment_station"
 			}
@@ -2847,6 +2913,7 @@
 			dependencies: [
 				"1000000000007267"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:advanced_augment_station"
 			}
@@ -2889,6 +2956,7 @@
 			dependencies: [
 				"1000000000007268"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:arcane_augment_station"
 			}
@@ -2931,6 +2999,7 @@
 			dependencies: [
 				"1000000000007267"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:augment_application_block"
 			}
@@ -2973,6 +3042,7 @@
 			dependencies: [
 				"1000000000007269"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:enchanter_block"
 			}
@@ -3015,6 +3085,7 @@
 			dependencies: [
 				"1000000000007209"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:uranium_pellet"
 			}
@@ -3060,6 +3131,7 @@
 				"1000000000007272"
 				"1000000000007223"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:reactor_controller"
 			}
@@ -3102,6 +3174,7 @@
 			dependencies: [
 				"1000000000007273"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:reactor_wall"
 			}
@@ -3144,6 +3217,7 @@
 			dependencies: [
 				"1000000000007273"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:reactor_rod"
 			}
@@ -3186,6 +3260,7 @@
 			dependencies: [
 				"1000000000007275"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:reactor_fuel_port"
 			}
@@ -3228,6 +3303,7 @@
 			dependencies: [
 				"1000000000007274"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:reactor_energy_port"
 			}
@@ -3270,6 +3346,7 @@
 			dependencies: [
 				"1000000000007274"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:reactor_heat_pipe"
 			}
@@ -3312,6 +3389,7 @@
 			dependencies: [
 				"1000000000007275"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:reactor_reflector"
 			}
@@ -3355,6 +3433,7 @@
 				"1000000000007234"
 				"1000000000007224"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:accelerator_controller"
 			}
@@ -3399,6 +3478,7 @@
 			dependencies: [
 				"1000000000007280"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:accelerator_motor"
 			}
@@ -3441,6 +3521,7 @@
 			dependencies: [
 				"1000000000007280"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:accelerator_ring"
 			}
@@ -3483,6 +3564,7 @@
 			dependencies: [
 				"1000000000007282"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:accelerator_sensor"
 			}
@@ -3525,6 +3607,7 @@
 			dependencies: [
 				"1000000000007283"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "oritech:particle_collector_block"
 			}

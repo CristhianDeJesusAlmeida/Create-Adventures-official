@@ -51,6 +51,7 @@
 			dependencies: [
 				"1000000000000001"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "minecraft:writable_book"
 			}
@@ -81,6 +82,7 @@
 			dependencies: [
 				"1000000000007801"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "minecraft:player_head"
 			}
@@ -111,6 +113,7 @@
 			dependencies: [
 				"1000000000007802"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "minecraft:water_bucket"
 			}
@@ -141,6 +144,7 @@
 			dependencies: [
 				"1000000000007803"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "minecraft:filled_map"
 			}
@@ -171,6 +175,7 @@
 			dependencies: [
 				"1000000000007804"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "minecraft:barrel"
 			}
@@ -199,6 +204,7 @@
 			dependencies: [
 				"1000000000007805"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "minecraft:compass"
 			}

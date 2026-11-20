@@ -64,6 +64,7 @@
 			dependencies: [
 				"1000000000001090"
 			]
+			dependency_requirement: "all_completed"
 			id: "1000000000001091"
 			rewards: [
 				{
@@ -98,6 +99,7 @@
 			dependencies: [
 				"1000000000001091"
 			]
+			dependency_requirement: "all_completed"
 			id: "1000000000001092"
 			rewards: [
 				{
@@ -142,6 +144,7 @@
 			dependencies: [
 				"1000000000001091"
 			]
+			dependency_requirement: "all_completed"
 			id: "1000000000001093"
 			rewards: [
 				{
@@ -182,6 +185,7 @@
 			dependencies: [
 				"1000000000001093"
 			]
+			dependency_requirement: "all_completed"
 			id: "1000000000001094"
 			rewards: [
 				{
@@ -218,6 +222,7 @@
 			dependencies: [
 				"1000000000001091"
 			]
+			dependency_requirement: "all_completed"
 			id: "1000000000001095"
 			rewards: [
 				{
@@ -260,6 +265,7 @@
 			dependencies: [
 				"1000000000001095"
 			]
+			dependency_requirement: "all_completed"
 			id: "1000000000001096"
 			rewards: [
 				{
@@ -296,6 +302,7 @@
 			dependencies: [
 				"1000000000001095"
 			]
+			dependency_requirement: "all_completed"
 			id: "1000000000001097"
 			rewards: [
 				{
@@ -329,6 +336,7 @@
 			dependencies: [
 				"1000000000001097"
 			]
+			dependency_requirement: "all_completed"
 			id: "1000000000001098"
 			rewards: [
 				{
@@ -365,6 +373,7 @@
 			dependencies: [
 				"1000000000001095"
 			]
+			dependency_requirement: "all_completed"
 			id: "1000000000001099"
 			rewards: [
 				{
@@ -397,6 +406,7 @@
 			dependencies: [
 				"1000000000001095"
 			]
+			dependency_requirement: "all_completed"
 			id: "1000000000001100"
 			rewards: [
 				{
@@ -429,6 +439,7 @@
 			dependencies: [
 				"1000000000001095"
 			]
+			dependency_requirement: "all_completed"
 			id: "1000000000001101"
 			rewards: [
 				{
@@ -467,6 +478,7 @@
 			dependencies: [
 				"1000000000001101"
 			]
+			dependency_requirement: "all_completed"
 			id: "1000000000001102"
 			rewards: [
 				{
@@ -507,6 +519,7 @@
 			dependencies: [
 				"1000000000001102"
 			]
+			dependency_requirement: "all_completed"
 			id: "1000000000001103"
 			rewards: [
 				{
@@ -541,6 +554,7 @@
 			dependencies: [
 				"1000000000001102"
 			]
+			dependency_requirement: "all_completed"
 			id: "1000000000001104"
 			rewards: [
 				{

@@ -57,6 +57,7 @@
 			dependencies: [
 				"1000000000007101"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "mekanism:ingot_osmium"
 			}
@@ -101,6 +102,7 @@
 			dependencies: [
 				"1000000000007102"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "mekanism:metallurgic_infuser"
 			}
@@ -147,6 +149,7 @@
 			dependencies: [
 				"1000000000007103"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "mekanism:enriched_iron"
 			}
@@ -191,6 +194,7 @@
 			dependencies: [
 				"1000000000007104"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "mekanism:ingot_steel"
 			}
@@ -235,6 +239,7 @@
 			dependencies: [
 				"1000000000007105"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "mekanism:steel_casing"
 			}
@@ -279,6 +284,7 @@
 			dependencies: [
 				"1000000000007113"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "mekanism:alloy_reinforced"
 			}
@@ -323,6 +329,7 @@
 			dependencies: [
 				"1000000000007107"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "mekanism:alloy_atomic"
 			}
@@ -367,6 +374,7 @@
 			dependencies: [
 				"1000000000007102"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "mekanismgenerators:heat_generator"
 			}
@@ -411,6 +419,7 @@
 			dependencies: [
 				"1000000000007109"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "mekanism:basic_universal_cable"
 			}
@@ -455,6 +464,7 @@
 			dependencies: [
 				"1000000000007110"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "mekanismgenerators:solar_generator"
 			}
@@ -499,6 +509,7 @@
 			dependencies: [
 				"1000000000007110"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "mekanismgenerators:wind_generator"
 			}
@@ -543,6 +554,7 @@
 			dependencies: [
 				"1000000000007103"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "mekanism:alloy_infused"
 			}
@@ -587,6 +599,7 @@
 			dependencies: [
 				"1000000000007103"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "mekanism:basic_control_circuit"
 			}
@@ -631,6 +644,7 @@
 			dependencies: [
 				"1000000000007113"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "mekanism:energy_tablet"
 			}
@@ -675,6 +689,7 @@
 			dependencies: [
 				"1000000000007115"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "mekanism:configurator"
 			}
@@ -720,6 +735,7 @@
 				"1000000000007115"
 				"1000000000007106"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "mekanism:basic_energy_cube"
 			}
@@ -764,6 +780,7 @@
 			dependencies: [
 				"1000000000007115"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "mekanism:upgrade_speed"
 			}
@@ -808,6 +825,7 @@
 			dependencies: [
 				"1000000000007118"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "mekanism:upgrade_energy"
 			}
@@ -852,6 +870,7 @@
 			dependencies: [
 				"1000000000007114"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "mekanism:enrichment_chamber"
 			}
@@ -896,6 +915,7 @@
 			dependencies: [
 				"1000000000007120"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "mekanism:crusher"
 			}
@@ -940,6 +960,7 @@
 			dependencies: [
 				"1000000000007121"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "mekanism:energized_smelter"
 			}
@@ -984,6 +1005,7 @@
 			dependencies: [
 				"1000000000007122"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "mekanism:precision_sawmill"
 			}
@@ -1029,6 +1051,7 @@
 				"1000000000007108"
 				"1000000000007121"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "mekanism:digital_miner"
 			}
@@ -1073,6 +1096,7 @@
 			dependencies: [
 				"1000000000007124"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "mekanism:robit"
 			}
@@ -1117,6 +1141,7 @@
 			dependencies: [
 				"1000000000007120"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "mekanism:electrolytic_separator"
 			}
@@ -1161,6 +1186,7 @@
 			dependencies: [
 				"1000000000007126"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "mekanism:basic_pressurized_tube"
 			}
@@ -1205,6 +1231,7 @@
 			dependencies: [
 				"1000000000007127"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "mekanism:basic_chemical_tank"
 			}
@@ -1249,6 +1276,7 @@
 			dependencies: [
 				"1000000000007128"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "mekanism:chemical_oxidizer"
 			}
@@ -1293,6 +1321,7 @@
 			dependencies: [
 				"1000000000007129"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "mekanism:chemical_infuser"
 			}
@@ -1337,6 +1366,7 @@
 			dependencies: [
 				"1000000000007130"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "mekanism:pressurized_reaction_chamber"
 			}
@@ -1381,6 +1411,7 @@
 			dependencies: [
 				"1000000000007126"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "mekanism:purification_chamber"
 			}
@@ -1425,6 +1456,7 @@
 			dependencies: [
 				"1000000000007130"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "mekanism:chemical_injection_chamber"
 			}
@@ -1469,6 +1501,7 @@
 			dependencies: [
 				"1000000000007133"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "mekanism:chemical_dissolution_chamber"
 			}
@@ -1513,6 +1546,7 @@
 			dependencies: [
 				"1000000000007134"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "mekanism:chemical_washer"
 			}
@@ -1557,6 +1591,7 @@
 			dependencies: [
 				"1000000000007135"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "mekanism:chemical_crystallizer"
 			}
@@ -1601,6 +1636,7 @@
 			dependencies: [
 				"1000000000007106"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "mekanism:basic_mechanical_pipe"
 			}
@@ -1645,6 +1681,7 @@
 			dependencies: [
 				"1000000000007137"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "mekanism:basic_fluid_tank"
 			}
@@ -1689,6 +1726,7 @@
 			dependencies: [
 				"1000000000007106"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "mekanism:basic_logistical_transporter"
 			}
@@ -1733,6 +1771,7 @@
 			dependencies: [
 				"1000000000007139"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "mekanism:logistical_sorter"
 			}
@@ -1777,6 +1816,7 @@
 			dependencies: [
 				"1000000000007140"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "mekanism:basic_bin"
 			}
@@ -1821,6 +1861,7 @@
 			dependencies: [
 				"1000000000007108"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "mekanism:atomic_disassembler"
 			}
@@ -1866,6 +1907,7 @@
 				"1000000000007128"
 				"1000000000007131"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "mekanism:jetpack"
 			}
@@ -1910,6 +1952,7 @@
 			dependencies: [
 				"1000000000007108"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "mekanism:free_runners"
 			}
@@ -1954,6 +1997,7 @@
 			dependencies: [
 				"1000000000007108"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "mekanism:teleportation_core"
 			}
@@ -1998,6 +2042,7 @@
 			dependencies: [
 				"1000000000007145"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "mekanism:teleporter"
 			}
@@ -2042,6 +2087,7 @@
 			dependencies: [
 				"1000000000007146"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "mekanism:portable_teleporter"
 			}
@@ -2087,6 +2133,7 @@
 				"1000000000007108"
 				"1000000000007117"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "mekanism:qio_drive_base"
 			}
@@ -2131,6 +2178,7 @@
 			dependencies: [
 				"1000000000007148"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "mekanism:qio_dashboard"
 			}
@@ -2175,6 +2223,7 @@
 			dependencies: [
 				"1000000000007117"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "mekanism:induction_casing"
 			}
@@ -2237,6 +2286,7 @@
 			dependencies: [
 				"1000000000007138"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "mekanism:thermal_evaporation_block"
 			}
@@ -2299,6 +2349,7 @@
 			dependencies: [
 				"1000000000007150"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "mekanismgenerators:turbine_casing"
 			}
@@ -2361,6 +2412,7 @@
 			dependencies: [
 				"1000000000007150"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "mekanismgenerators:fission_reactor_casing"
 			}
@@ -2423,6 +2475,7 @@
 			dependencies: [
 				"1000000000007153"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "mekanismgenerators:fusion_reactor_frame"
 			}
@@ -2485,6 +2538,7 @@
 			dependencies: [
 				"1000000000007153"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "mekanism:sps_casing"
 			}
@@ -2548,6 +2602,7 @@
 				"1000000000007142"
 				"1000000000007143"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "mekanism:mekasuit_helmet"
 			}
@@ -2619,6 +2674,7 @@
 			dependencies: [
 				"1000000000007142"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "mekanism:meka_tool"
 			}
