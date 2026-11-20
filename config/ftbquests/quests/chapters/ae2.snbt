@@ -13,6 +13,10 @@
 	quests: [
 		{
 			title: "Pedra do Céu"
+			dependencies: [
+				"1000000000007402"
+			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:sky_stone_block"
 			}
@@ -34,9 +38,9 @@
 				}
 			]
 			description: [
-				"§eO Início de Tudo§r"
+				"§eAchando o Meteorito§r"
 				""
-				"A §aPedra do Céu§r vem dos meteoritos espalhados pelo Overworld. No centro de um meteorito há um cubo misterioso com as Prensas de Inscrição, indispensáveis para o AE2."
+				"Siga a §aBússola do Céu§r até o meteorito mais próximo. A §aPedra do Céu§r forma a cratera, e no centro há um Cubo Misterioso com as Prensas de Inscrição, indispensáveis para o AE2."
 			]
 			tasks: [
 				{
@@ -50,13 +54,14 @@
 				}
 			]
 			x: 0.0d
-			y: 0.0d
+			y: 2.0d
 		}
 		{
 			title: "Bússola do Céu"
 			dependencies: [
-				"1000000000007401"
+				"1000000000007414"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:meteorite_compass"
 			}
@@ -78,7 +83,7 @@
 				}
 			]
 			description: [
-				"A §aBússola do Céu§r aponta para o meteorito mais próximo."
+				"Coloque uma bússola comum no §aCarregador§r e gire a Manivela para criar a §aBússola do Céu§r. Ela aponta para o Cubo Misterioso do meteorito mais próximo."
 			]
 			tasks: [
 				{
@@ -91,7 +96,7 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
@@ -99,6 +104,7 @@
 			dependencies: [
 				"1000000000007401"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:certus_quartz_crystal"
 			}
@@ -120,7 +126,7 @@
 				}
 			]
 			description: [
-				"O §aQuartzo Certus§r é o cristal base do AE2. Ele aparece em minérios e nos meteoritos."
+				"O §aQuartzo Certus§r é o cristal base do AE2. Os meteoritos trazem aglomerados e blocos que crescem, e ele também aparece em minérios."
 			]
 			tasks: [
 				{
@@ -133,14 +139,11 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
+			x: 2.0d
 			y: 0.0d
 		}
 		{
 			title: "Carregador"
-			dependencies: [
-				"1000000000007403"
-			]
 			icon: {
 				id: "ae2:charger"
 			}
@@ -162,7 +165,9 @@
 				}
 			]
 			description: [
-				"O §aCarregador§r carrega o Quartzo Certus usando energia, vinda de outros mods ou de uma Câmara de Vibração."
+				"§eO Início de Tudo§r"
+				""
+				"O §aCarregador§r é a primeira máquina do AE2. Ele carrega Quartzo Certus e outros itens usando energia, vinda de outros mods ou de uma Câmara de Vibração. Coloque uma bússola comum nele para criar a §aBússola do Céu§r."
 			]
 			tasks: [
 				{
@@ -175,14 +180,15 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: 0.0d
+			x: 0.0d
+			y: -4.0d
 		}
 		{
 			title: "Quartzo Certus Carregado"
 			dependencies: [
-				"1000000000007404"
+				"1000000000007403"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:charged_certus_quartz_crystal"
 			}
@@ -217,7 +223,7 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
+			x: 4.0d
 			y: 0.0d
 		}
 		{
@@ -225,6 +231,7 @@
 			dependencies: [
 				"1000000000007405"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:fluix_crystal"
 			}
@@ -259,7 +266,7 @@
 					type: "item"
 				}
 			]
-			x: 10.0d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
@@ -267,6 +274,7 @@
 			dependencies: [
 				"1000000000007401"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:silicon_press"
 			}
@@ -290,7 +298,7 @@
 			description: [
 				"§eQuatro Moldes§r"
 				""
-				"As quatro prensas (Silício, Lógica, Cálculo e Engenharia) vêm dos meteoritos. Você precisa de uma de cada."
+				"Quebre o Cubo Misterioso no centro do meteorito: ele solta as quatro prensas (Silício, Lógica, Cálculo e Engenharia). Você precisa de uma de cada."
 			]
 			tasks: [
 				{
@@ -338,6 +346,7 @@
 			dependencies: [
 				"1000000000007407"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:inscriber"
 			}
@@ -380,6 +389,7 @@
 			dependencies: [
 				"1000000000007408"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:silicon"
 			}
@@ -422,6 +432,7 @@
 			dependencies: [
 				"1000000000007409"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:printed_silicon"
 			}
@@ -464,6 +475,7 @@
 			dependencies: [
 				"1000000000007410"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:logic_processor"
 			}
@@ -506,6 +518,7 @@
 			dependencies: [
 				"1000000000007411"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:calculation_processor"
 			}
@@ -548,6 +561,7 @@
 			dependencies: [
 				"1000000000007412"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:engineering_processor"
 			}
@@ -588,8 +602,9 @@
 		{
 			title: "Manivela"
 			dependencies: [
-				"1000000000007403"
+				"1000000000007404"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:crank"
 			}
@@ -611,7 +626,7 @@
 				}
 			]
 			description: [
-				"A §aManivela§r gera um pouco de energia manualmente, boa para dar partida em um Carregador."
+				"A §aManivela§r gera um pouco de energia à mão. Ligada ao Carregador, ela dá a energia necessária para carregar a bússola sem nenhuma outra fonte de energia."
 			]
 			tasks: [
 				{
@@ -624,14 +639,15 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
+			x: 0.0d
 			y: -2.0d
 		}
 		{
 			title: "Câmara de Vibração"
 			dependencies: [
-				"1000000000007403"
+				"1000000000007404"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:vibration_chamber"
 			}
@@ -666,7 +682,7 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
+			x: 2.0d
 			y: -2.0d
 		}
 		{
@@ -674,6 +690,7 @@
 			dependencies: [
 				"1000000000007415"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:energy_acceptor"
 			}
@@ -716,6 +733,7 @@
 			dependencies: [
 				"1000000000007416"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:energy_cell"
 			}
@@ -758,6 +776,7 @@
 			dependencies: [
 				"1000000000007417"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:dense_energy_cell"
 			}
@@ -800,6 +819,7 @@
 			dependencies: [
 				"1000000000007418"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:crystal_resonance_generator"
 			}
@@ -842,6 +862,7 @@
 			dependencies: [
 				"1000000000007406"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:fluix_glass_cable"
 			}
@@ -886,6 +907,7 @@
 			dependencies: [
 				"1000000000007420"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:fluix_covered_cable"
 			}
@@ -928,6 +950,7 @@
 			dependencies: [
 				"1000000000007421"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:fluix_smart_cable"
 			}
@@ -970,6 +993,7 @@
 			dependencies: [
 				"1000000000007422"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:fluix_covered_dense_cable"
 			}
@@ -1012,6 +1036,7 @@
 			dependencies: [
 				"1000000000007423"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:fluix_smart_dense_cable"
 			}
@@ -1055,6 +1080,7 @@
 				"1000000000007413"
 				"1000000000007422"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:controller"
 			}
@@ -1097,6 +1123,7 @@
 			dependencies: [
 				"1000000000007425"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:certus_quartz_crystal"
 			}
@@ -1141,6 +1168,7 @@
 			dependencies: [
 				"1000000000007411"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:chest"
 			}
@@ -1183,6 +1211,7 @@
 			dependencies: [
 				"1000000000007422"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:drive"
 			}
@@ -1225,6 +1254,7 @@
 			dependencies: [
 				"1000000000007411"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:cell_component_1k"
 			}
@@ -1267,6 +1297,7 @@
 			dependencies: [
 				"1000000000007429"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:item_cell_housing"
 			}
@@ -1309,6 +1340,7 @@
 			dependencies: [
 				"1000000000007430"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:item_storage_cell_1k"
 			}
@@ -1352,6 +1384,7 @@
 				"1000000000007412"
 				"1000000000007429"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:cell_component_4k"
 			}
@@ -1394,6 +1427,7 @@
 			dependencies: [
 				"1000000000007432"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:cell_component_16k"
 			}
@@ -1436,6 +1470,7 @@
 			dependencies: [
 				"1000000000007433"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:cell_component_64k"
 			}
@@ -1478,6 +1513,7 @@
 			dependencies: [
 				"1000000000007434"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:cell_component_256k"
 			}
@@ -1520,6 +1556,7 @@
 			dependencies: [
 				"1000000000007431"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:fluid_storage_cell_1k"
 			}
@@ -1562,6 +1599,7 @@
 			dependencies: [
 				"1000000000007422"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:terminal"
 			}
@@ -1606,6 +1644,7 @@
 			dependencies: [
 				"1000000000007437"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:crafting_terminal"
 			}
@@ -1648,6 +1687,7 @@
 			dependencies: [
 				"1000000000007438"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:pattern_encoding_terminal"
 			}
@@ -1690,6 +1730,7 @@
 			dependencies: [
 				"1000000000007439"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:pattern_access_terminal"
 			}
@@ -1732,6 +1773,7 @@
 			dependencies: [
 				"1000000000007437"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:storage_bus"
 			}
@@ -1774,6 +1816,7 @@
 			dependencies: [
 				"1000000000007441"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:import_bus"
 			}
@@ -1816,6 +1859,7 @@
 			dependencies: [
 				"1000000000007442"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:export_bus"
 			}
@@ -1858,6 +1902,7 @@
 			dependencies: [
 				"1000000000007443"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:level_emitter"
 			}
@@ -1900,6 +1945,7 @@
 			dependencies: [
 				"1000000000007412"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:capacity_card"
 			}
@@ -1944,6 +1990,7 @@
 			dependencies: [
 				"1000000000007445"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:speed_card"
 			}
@@ -1986,6 +2033,7 @@
 			dependencies: [
 				"1000000000007446"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:redstone_card"
 			}
@@ -2028,6 +2076,7 @@
 			dependencies: [
 				"1000000000007445"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:fuzzy_card"
 			}
@@ -2070,6 +2119,7 @@
 			dependencies: [
 				"1000000000007448"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:inverter_card"
 			}
@@ -2112,6 +2162,7 @@
 			dependencies: [
 				"1000000000007446"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:crafting_card"
 			}
@@ -2154,6 +2205,7 @@
 			dependencies: [
 				"1000000000007449"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:energy_card"
 			}
@@ -2196,6 +2248,7 @@
 			dependencies: [
 				"1000000000007437"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:interface"
 			}
@@ -2240,6 +2293,7 @@
 			dependencies: [
 				"1000000000007452"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:pattern_provider"
 			}
@@ -2282,6 +2336,7 @@
 			dependencies: [
 				"1000000000007411"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:blank_pattern"
 			}
@@ -2325,6 +2380,7 @@
 				"1000000000007454"
 				"1000000000007439"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:crafting_pattern"
 			}
@@ -2367,6 +2423,7 @@
 			dependencies: [
 				"1000000000007455"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:processing_pattern"
 			}
@@ -2410,6 +2467,7 @@
 				"1000000000007452"
 				"1000000000007412"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:molecular_assembler"
 			}
@@ -2452,6 +2510,7 @@
 			dependencies: [
 				"1000000000007412"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:crafting_unit"
 			}
@@ -2494,6 +2553,7 @@
 			dependencies: [
 				"1000000000007458"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:1k_crafting_storage"
 			}
@@ -2536,6 +2596,7 @@
 			dependencies: [
 				"1000000000007458"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:crafting_accelerator"
 			}
@@ -2578,6 +2639,7 @@
 			dependencies: [
 				"1000000000007458"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:crafting_monitor"
 			}
@@ -2620,6 +2682,7 @@
 			dependencies: [
 				"1000000000007437"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:wireless_access_point"
 			}
@@ -2664,6 +2727,7 @@
 			dependencies: [
 				"1000000000007462"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:wireless_terminal"
 			}
@@ -2706,6 +2770,7 @@
 			dependencies: [
 				"1000000000007462"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:wireless_booster"
 			}
@@ -2748,6 +2813,7 @@
 			dependencies: [
 				"1000000000007413"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:me_p2p_tunnel"
 			}
@@ -2790,6 +2856,7 @@
 			dependencies: [
 				"1000000000007413"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:annihilation_plane"
 			}
@@ -2832,6 +2899,7 @@
 			dependencies: [
 				"1000000000007413"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:formation_plane"
 			}
@@ -2874,6 +2942,7 @@
 			dependencies: [
 				"1000000000007425"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:security_station"
 			}
@@ -2916,6 +2985,7 @@
 			dependencies: [
 				"1000000000007420"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:network_tool"
 			}
@@ -2958,6 +3028,7 @@
 			dependencies: [
 				"1000000000007441"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:memory_card"
 			}
@@ -3000,6 +3071,7 @@
 			dependencies: [
 				"1000000000007425"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:spatial_cell_component_2"
 			}
@@ -3044,6 +3116,7 @@
 			dependencies: [
 				"1000000000007471"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:spatial_storage_cell_2"
 			}
@@ -3086,6 +3159,7 @@
 			dependencies: [
 				"1000000000007471"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:spatial_io_port"
 			}
@@ -3128,6 +3202,7 @@
 			dependencies: [
 				"1000000000007473"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:spatial_pylon"
 			}
@@ -3170,6 +3245,7 @@
 			dependencies: [
 				"1000000000007513"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:singularity"
 			}
@@ -3212,6 +3288,7 @@
 			dependencies: [
 				"1000000000007475"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:quantum_ring"
 			}
@@ -3255,6 +3332,7 @@
 				"1000000000007476"
 				"1000000000007516"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:quantum_link"
 			}
@@ -3297,6 +3375,7 @@
 			dependencies: [
 				"1000000000007420"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:quartz_fiber"
 			}
@@ -3339,6 +3418,7 @@
 			dependencies: [
 				"1000000000007422"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:toggle_bus"
 			}
@@ -3381,6 +3461,7 @@
 			dependencies: [
 				"1000000000007421"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:color_applicator"
 			}
@@ -3421,8 +3502,9 @@
 		{
 			title: "Acelerador de Crescimento"
 			dependencies: [
-				"1000000000007404"
+				"1000000000007403"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:growth_accelerator"
 			}
@@ -3465,6 +3547,7 @@
 			dependencies: [
 				"1000000000007405"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:charged_staff"
 			}
@@ -3507,6 +3590,7 @@
 			dependencies: [
 				"1000000000007405"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:entropy_manipulator"
 			}
@@ -3549,6 +3633,7 @@
 			dependencies: [
 				"1000000000007463"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:wireless_crafting_terminal"
 			}
@@ -3591,6 +3676,7 @@
 			dependencies: [
 				"1000000000007431"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:void_card"
 			}
@@ -3633,6 +3719,7 @@
 			dependencies: [
 				"1000000000007443"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:equal_distribution_card"
 			}
@@ -3675,6 +3762,7 @@
 			dependencies: [
 				"1000000000007431"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:cell_workbench"
 			}
@@ -3719,6 +3807,7 @@
 			dependencies: [
 				"1000000000007428"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:io_port"
 			}
@@ -3761,6 +3850,7 @@
 			dependencies: [
 				"1000000000007431"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:portable_item_cell_1k"
 			}
@@ -3803,6 +3893,7 @@
 			dependencies: [
 				"1000000000007413"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:condenser"
 			}
@@ -3847,6 +3938,7 @@
 			dependencies: [
 				"1000000000007513"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:matter_ball"
 			}
@@ -3889,6 +3981,7 @@
 			dependencies: [
 				"1000000000007514"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:matter_cannon"
 			}
@@ -3931,6 +4024,7 @@
 			dependencies: [
 				"1000000000007475"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:quantum_entangled_singularity"
 			}
@@ -3973,6 +4067,7 @@
 			dependencies: [
 				"1000000000007472"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:spatial_storage_cell_16"
 			}
@@ -4015,6 +4110,7 @@
 			dependencies: [
 				"1000000000007517"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:spatial_storage_cell_128"
 			}
@@ -4057,6 +4153,7 @@
 			dependencies: [
 				"1000000000007474"
 			]
+			dependency_requirement: "all_completed"
 			icon: {
 				id: "ae2:spatial_anchor"
 			}
