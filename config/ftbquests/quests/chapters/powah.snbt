@@ -1,6 +1,6 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_shape: "circle"
+	default_quest_shape: ""
 	filename: "powah"
 	title: "Powah!"
 	group: ""
@@ -15,9 +15,6 @@
 	quests: [
 		{
 			title: "Pasta Dielétrica"
-			icon: {
-				id: "powah:energizing_orb"
-			}
 			dependencies: [
 				"2000000000002004"
 			]
@@ -46,6 +43,7 @@
 			]
 			tasks: [
 				{
+					count: 8L
 					id: "3000000009400003"
 					item: { count: 1, id: "powah:dielectric_paste" }
 					type: "item"
@@ -73,7 +71,7 @@
 				}
 			]
 			description: [
-				"A carcaça dielétrica é o corpo dos geradores, das células e do Orbe de Energização."
+				"A carcaça é o corpo dos geradores, das células e do Orbe de Energização."
 			]
 			tasks: [
 				{
@@ -82,8 +80,8 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: 0.0d
+			x: 0.0d
+			y: 2.0d
 		}
 		{
 			title: "Hastes Dielétricas"
@@ -104,7 +102,7 @@
 				}
 			]
 			description: [
-				"As hastes isolam e conectam as peças. Você vai precisar tanto da vertical quanto da horizontal."
+				"As hastes isolam e conectam as peças. Você precisa da vertical e da horizontal."
 			]
 			tasks: [
 				{
@@ -118,11 +116,11 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: 0.0d
+			x: 0.0d
+			y: 4.0d
 		}
 		{
-			title: "Cabo de Energia"
+			title: "Haste de Energização"
 			dependencies: [
 				"2000000000094003"
 			]
@@ -130,44 +128,8 @@
 			id: "2000000000094004"
 			rewards: [
 				{
-					count: 16
-					id: "3000000009400009"
-					item: {
-						count: 1
-						id: "minecraft:redstone"
-					}
-					type: "item"
-				}
-				{
-					id: "3000000009400010"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
-			description: [
-				"Os cabos levam a energia do gerador até as máquinas e as células. Comece pelo cabo do tier inicial."
-			]
-			tasks: [
-				{
-					id: "3000000009400011"
-					item: { count: 1, id: "powah:energy_cable_starter" }
-					type: "item"
-				}
-			]
-			x: 6.0d
-			y: 0.0d
-		}
-		{
-			title: "Haste de Energização"
-			dependencies: [
-				"2000000000094004"
-			]
-			dependency_requirement: "all_completed"
-			id: "2000000000094005"
-			rewards: [
-				{
 					count: 8
-					id: "3000000009400012"
+					id: "3000000009400009"
 					item: {
 						count: 1
 						id: "minecraft:quartz"
@@ -176,29 +138,30 @@
 				}
 			]
 			description: [
-				"A haste de energização manda energia para o Orbe. Só as hastes precisam de energia; o Orbe não."
+				"A haste manda energia para o Orbe. Só as hastes precisam de energia; o Orbe não."
 			]
 			tasks: [
 				{
-					id: "3000000009400013"
+					id: "3000000009400010"
 					item: { count: 1, id: "powah:energizing_rod_starter" }
 					type: "item"
 				}
 			]
-			x: 8.0d
-			y: 0.0d
+			x: 0.0d
+			y: 6.0d
 		}
 		{
 			title: "Orbe de Energização"
 			dependencies: [
-				"2000000000094005"
+				"2000000000094004"
+				"2000000000094002"
 			]
 			dependency_requirement: "all_completed"
-			id: "2000000000094006"
+			id: "2000000000094005"
 			rewards: [
 				{
 					count: 2
-					id: "3000000009400014"
+					id: "3000000009400011"
 					item: {
 						count: 1
 						id: "minecraft:diamond"
@@ -206,7 +169,7 @@
 					type: "item"
 				}
 				{
-					id: "3000000009400015"
+					id: "3000000009400012"
 					type: "xp_levels"
 					xp_levels: 3
 				}
@@ -218,25 +181,25 @@
 			]
 			tasks: [
 				{
-					id: "3000000009400016"
+					id: "3000000009400013"
 					item: { count: 1, id: "powah:energizing_orb" }
 					type: "item"
 				}
 			]
-			x: 10.0d
-			y: 0.0d
+			x: 0.0d
+			y: 8.0d
 		}
 		{
 			title: "Aço Energizado"
 			dependencies: [
-				"2000000000094006"
+				"2000000000094005"
 			]
 			dependency_requirement: "all_completed"
-			id: "2000000000094007"
+			id: "2000000000094006"
 			rewards: [
 				{
 					count: 8
-					id: "3000000009400017"
+					id: "3000000009400014"
 					item: {
 						count: 1
 						id: "minecraft:gold_ingot"
@@ -244,903 +207,103 @@
 					type: "item"
 				}
 				{
-					id: "3000000009400018"
+					id: "3000000009400015"
 					type: "xp_levels"
 					xp_levels: 2
 				}
 			]
 			description: [
-				"O aço energizado é feito no Orbe a partir de um lingote de ferro e um de ouro. Ele abre as máquinas mais avançadas."
+				"O aço energizado é feito no Orbe a partir de ferro e ouro, e abre as máquinas mais avançadas."
 			]
 			tasks: [
 				{
-					id: "3000000009400019"
+					id: "3000000009400016"
 					item: { count: 1, id: "powah:steel_energized" }
 					type: "item"
 				}
 			]
-			x: 12.0d
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			title: "Chave Inglesa do Powah"
+			dependencies: [
+				"2000000000094001"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000094007"
+			rewards: [
+				{
+					count: 4
+					id: "3000000009400017"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			description: [
+				"A chave serve para configurar e retirar as máquinas do mod."
+			]
+			tasks: [
+				{
+					id: "3000000009400018"
+					item: { count: 1, id: "powah:wrench" }
+					type: "item"
+				}
+			]
+			x: -2.0d
 			y: 0.0d
 		}
 		{
-			title: "Furnator"
+			title: "Uraninita Bruta"
 			dependencies: [
-				"2000000000094002"
+				"2000000000094001"
 			]
 			dependency_requirement: "all_completed"
 			id: "2000000000094008"
 			rewards: [
 				{
 					count: 16
-					id: "3000000009400020"
+					id: "3000000009400019"
 					item: {
 						count: 1
 						id: "minecraft:coal"
 					}
 					type: "item"
 				}
+				{
+					id: "3000000009400020"
+					type: "xp_levels"
+					xp_levels: 1
+				}
 			]
 			description: [
-				"O Furnator queima combustível sólido para gerar energia. É a sua primeira fonte de energia no Powah."
+				"A uraninita bruta vem do minério de uraninita, que gera no subsolo do Overworld."
 			]
 			tasks: [
 				{
+					count: 4L
 					id: "3000000009400021"
-					item: { count: 1, id: "powah:furnator_starter" }
+					item: { count: 1, id: "powah:uraninite_raw" }
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: -2.0d
+			x: -2.0d
+			y: 3.0d
 		}
 		{
-			title: "Magmator"
+			title: "Gelo Seco"
 			dependencies: [
-				"2000000000094002"
+				"2000000000094001"
 			]
 			dependency_requirement: "all_completed"
 			id: "2000000000094009"
 			rewards: [
 				{
+					count: 8
 					id: "3000000009400022"
-					item: {
-						count: 1
-						id: "minecraft:lava_bucket"
-					}
-					type: "item"
-				}
-			]
-			description: [
-				"O Magmator funciona como o Furnator, mas consome lava em vez de combustível sólido."
-			]
-			tasks: [
-				{
-					id: "3000000009400023"
-					item: { count: 1, id: "powah:magmator_starter" }
-					type: "item"
-				}
-			]
-			x: 4.0d
-			y: -2.0d
-		}
-		{
-			title: "Célula de Energia"
-			dependencies: [
-				"2000000000094004"
-			]
-			dependency_requirement: "all_completed"
-			id: "2000000000094010"
-			rewards: [
-				{
-					count: 4
-					id: "3000000009400024"
-					item: {
-						count: 1
-						id: "minecraft:experience_bottle"
-					}
-					type: "item"
-				}
-			]
-			description: [
-				"A célula guarda a energia gerada para você usar quando precisar. Ligue-a ao gerador com cabos."
-			]
-			tasks: [
-				{
-					id: "3000000009400025"
-					item: { count: 1, id: "powah:energy_cell_starter" }
-					type: "item"
-				}
-			]
-			x: 6.0d
-			y: -2.0d
-		}
-		{
-			title: "Chave Inglesa do Powah"
-			dependencies: [
-				"2000000000094004"
-			]
-			dependency_requirement: "all_completed"
-			id: "2000000000094011"
-			rewards: [
-				{
-					count: 4
-					id: "3000000009400026"
-					item: {
-						count: 1
-						id: "minecraft:iron_ingot"
-					}
-					type: "item"
-				}
-			]
-			description: [
-				"A chave inglesa serve para configurar e retirar as máquinas do mod."
-			]
-			tasks: [
-				{
-					id: "3000000009400027"
-					item: { count: 1, id: "powah:wrench" }
-					type: "item"
-				}
-			]
-			x: 8.0d
-			y: -2.0d
-		}
-		{
-			title: "Capacitores"
-			dependencies: [
-				"2000000000094004"
-			]
-			dependency_requirement: "all_completed"
-			id: "2000000000094012"
-			rewards: [
-				{
-					count: 8
-					id: "3000000009400028"
-					item: {
-						count: 1
-						id: "minecraft:iron_ingot"
-					}
-					type: "item"
-				}
-			]
-			description: [
-				"Os capacitores são componentes que dão capacidade às células e a outras máquinas."
-			]
-			tasks: [
-				{
-					id: "3000000009400029"
-					item: { count: 1, id: "powah:capacitor_basic_tiny" }
-					type: "item"
-				}
-				{
-					id: "3000000009400030"
-					item: { count: 1, id: "powah:capacitor_basic" }
-					type: "item"
-				}
-				{
-					id: "3000000009400031"
-					item: { count: 1, id: "powah:capacitor_basic_large" }
-					type: "item"
-				}
-			]
-			x: 6.0d
-			y: 2.0d
-		}
-		{
-			title: "Painel Fotoelétrico"
-			dependencies: [
-				"2000000000094007"
-			]
-			dependency_requirement: "all_completed"
-			id: "2000000000094013"
-			rewards: [
-				{
-					count: 8
-					id: "3000000009400032"
-					item: {
-						count: 1
-						id: "minecraft:quartz"
-					}
-					type: "item"
-				}
-			]
-			description: [
-				"O painel fotoelétrico é a peça central do painel solar."
-			]
-			tasks: [
-				{
-					id: "3000000009400033"
-					item: { count: 1, id: "powah:photoelectric_pane" }
-					type: "item"
-				}
-			]
-			x: 14.0d
-			y: -2.0d
-		}
-		{
-			title: "Painel Solar"
-			dependencies: [
-				"2000000000094013"
-			]
-			dependency_requirement: "all_completed"
-			id: "2000000000094014"
-			rewards: [
-				{
-					count: 4
-					id: "3000000009400034"
-					item: {
-						count: 1
-						id: "minecraft:experience_bottle"
-					}
-					type: "item"
-				}
-				{
-					id: "3000000009400035"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-			]
-			description: [
-				"O painel solar gera energia sem combustível, aproveitando a luz do dia."
-			]
-			tasks: [
-				{
-					id: "3000000009400036"
-					item: { count: 1, id: "powah:solar_panel_starter" }
-					type: "item"
-				}
-			]
-			x: 16.0d
-			y: -2.0d
-		}
-		{
-			title: "Placa Termoelétrica"
-			dependencies: [
-				"2000000000094007"
-			]
-			dependency_requirement: "all_completed"
-			id: "2000000000094015"
-			rewards: [
-				{
-					count: 4
-					id: "3000000009400037"
-					item: {
-						count: 1
-						id: "minecraft:blaze_powder"
-					}
-					type: "item"
-				}
-			]
-			description: [
-				"A placa termoelétrica é a peça central do gerador termo."
-			]
-			tasks: [
-				{
-					id: "3000000009400038"
-					item: { count: 1, id: "powah:thermoelectric_plate" }
-					type: "item"
-				}
-			]
-			x: 14.0d
-			y: -4.0d
-		}
-		{
-			title: "Gerador Termo"
-			dependencies: [
-				"2000000000094015"
-			]
-			dependency_requirement: "all_completed"
-			id: "2000000000094016"
-			rewards: [
-				{
-					id: "3000000009400039"
-					item: {
-						count: 1
-						id: "minecraft:water_bucket"
-					}
-					type: "item"
-				}
-				{
-					id: "3000000009400040"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-			]
-			description: [
-				"O gerador termo produz energia a partir de calor e de um líquido refrigerante."
-			]
-			tasks: [
-				{
-					id: "3000000009400041"
-					item: { count: 1, id: "powah:thermo_generator_starter" }
-					type: "item"
-				}
-			]
-			x: 16.0d
-			y: -4.0d
-		}
-		{
-			title: "Funil de Energia"
-			dependencies: [
-				"2000000000094007"
-			]
-			dependency_requirement: "all_completed"
-			id: "2000000000094017"
-			rewards: [
-				{
-					count: 2
-					id: "3000000009400042"
-					item: {
-						count: 1
-						id: "minecraft:hopper"
-					}
-					type: "item"
-				}
-			]
-			description: [
-				"O funil e o descarregador são ferramentas de logística de energia do Powah."
-			]
-			tasks: [
-				{
-					id: "3000000009400043"
-					item: { count: 1, id: "powah:energy_hopper_starter" }
-					type: "item"
-				}
-			]
-			x: 14.0d
-			y: 2.0d
-		}
-		{
-			title: "Descarregador de Energia"
-			dependencies: [
-				"2000000000094007"
-			]
-			dependency_requirement: "all_completed"
-			id: "2000000000094018"
-			rewards: [
-				{
-					count: 16
-					id: "3000000009400044"
-					item: {
-						count: 1
-						id: "minecraft:redstone"
-					}
-					type: "item"
-				}
-			]
-			description: [
-				"O descarregador complementa o funil na hora de movimentar energia entre blocos."
-			]
-			tasks: [
-				{
-					id: "3000000009400045"
-					item: { count: 1, id: "powah:energy_discharger_starter" }
-					type: "item"
-				}
-			]
-			x: 16.0d
-			y: 2.0d
-		}
-		{
-			title: "Bateria"
-			dependencies: [
-				"2000000000094007"
-			]
-			dependency_requirement: "all_completed"
-			id: "2000000000094019"
-			rewards: [
-				{
-					count: 16
-					id: "3000000009400046"
-					item: {
-						count: 1
-						id: "minecraft:lapis_lazuli"
-					}
-					type: "item"
-				}
-			]
-			description: [
-				"A bateria guarda energia em forma de item e pode ser levada com você."
-			]
-			tasks: [
-				{
-					id: "3000000009400047"
-					item: { count: 1, id: "powah:battery_starter" }
-					type: "item"
-				}
-			]
-			x: 18.0d
-			y: 2.0d
-		}
-		{
-			title: "Tier Basic"
-			dependencies: [
-				"2000000000094007"
-			]
-			dependency_requirement: "all_completed"
-			id: "2000000000094020"
-			rewards: [
-				{
-					count: 8
-					id: "3000000009400048"
-					item: {
-						count: 1
-						id: "minecraft:gold_ingot"
-					}
-					type: "item"
-				}
-				{
-					id: "3000000009400049"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-			]
-			description: [
-				"Cada tier aumenta a capacidade e a produção. Faça o Furnator, a célula e o cabo do tier Basic."
-			]
-			tasks: [
-				{
-					id: "3000000009400050"
-					item: { count: 1, id: "powah:furnator_basic" }
-					type: "item"
-				}
-				{
-					id: "3000000009400051"
-					item: { count: 1, id: "powah:energy_cell_basic" }
-					type: "item"
-				}
-				{
-					id: "3000000009400052"
-					item: { count: 1, id: "powah:energy_cable_basic" }
-					type: "item"
-				}
-			]
-			x: 14.0d
-			y: 0.0d
-		}
-		{
-			title: "Tier Hardened"
-			dependencies: [
-				"2000000000094020"
-			]
-			dependency_requirement: "all_completed"
-			id: "2000000000094021"
-			rewards: [
-				{
-					count: 2
-					id: "3000000009400053"
-					item: {
-						count: 1
-						id: "minecraft:diamond"
-					}
-					type: "item"
-				}
-				{
-					id: "3000000009400054"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-			]
-			description: [
-				"O segundo tier acima do inicial. Mais capacidade e mais produção."
-			]
-			tasks: [
-				{
-					id: "3000000009400055"
-					item: { count: 1, id: "powah:furnator_hardened" }
-					type: "item"
-				}
-				{
-					id: "3000000009400056"
-					item: { count: 1, id: "powah:energy_cell_hardened" }
-					type: "item"
-				}
-				{
-					id: "3000000009400057"
-					item: { count: 1, id: "powah:energy_cable_hardened" }
-					type: "item"
-				}
-			]
-			x: 16.0d
-			y: 0.0d
-		}
-		{
-			title: "Cristal Blazing"
-			dependencies: [
-				"2000000000094021"
-			]
-			dependency_requirement: "all_completed"
-			id: "2000000000094022"
-			rewards: [
-				{
-					count: 6
-					id: "3000000009400058"
-					item: {
-						count: 1
-						id: "minecraft:experience_bottle"
-					}
-					type: "item"
-				}
-			]
-			description: [
-				"O cristal blazing é o material que abre o tier seguinte, e é feito no Orbe de Energização."
-			]
-			tasks: [
-				{
-					id: "3000000009400059"
-					item: { count: 1, id: "powah:crystal_blazing" }
-					type: "item"
-				}
-			]
-			x: 18.0d
-			y: 0.0d
-		}
-		{
-			title: "Tier Blazing"
-			dependencies: [
-				"2000000000094022"
-			]
-			dependency_requirement: "all_completed"
-			id: "2000000000094023"
-			rewards: [
-				{
-					count: 4
-					id: "3000000009400060"
-					item: {
-						count: 1
-						id: "minecraft:blaze_rod"
-					}
-					type: "item"
-				}
-				{
-					id: "3000000009400061"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-			]
-			description: [
-				"Os equipamentos do tier Blazing usam o cristal blazing."
-			]
-			tasks: [
-				{
-					id: "3000000009400062"
-					item: { count: 1, id: "powah:furnator_blazing" }
-					type: "item"
-				}
-				{
-					id: "3000000009400063"
-					item: { count: 1, id: "powah:energy_cell_blazing" }
-					type: "item"
-				}
-				{
-					id: "3000000009400064"
-					item: { count: 1, id: "powah:energy_cable_blazing" }
-					type: "item"
-				}
-			]
-			x: 20.0d
-			y: 0.0d
-		}
-		{
-			title: "Cristal Niotic"
-			dependencies: [
-				"2000000000094023"
-			]
-			dependency_requirement: "all_completed"
-			id: "2000000000094024"
-			rewards: [
-				{
-					count: 6
-					id: "3000000009400065"
-					item: {
-						count: 1
-						id: "minecraft:experience_bottle"
-					}
-					type: "item"
-				}
-			]
-			description: [
-				"O próximo cristal da escada de materiais do Powah."
-			]
-			tasks: [
-				{
-					id: "3000000009400066"
-					item: { count: 1, id: "powah:crystal_niotic" }
-					type: "item"
-				}
-			]
-			x: 22.0d
-			y: 0.0d
-		}
-		{
-			title: "Tier Niotic"
-			dependencies: [
-				"2000000000094024"
-			]
-			dependency_requirement: "all_completed"
-			id: "2000000000094025"
-			rewards: [
-				{
-					count: 4
-					id: "3000000009400067"
-					item: {
-						count: 1
-						id: "minecraft:diamond"
-					}
-					type: "item"
-				}
-				{
-					id: "3000000009400068"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-			]
-			description: [
-				"Mais um degrau de capacidade e produção."
-			]
-			tasks: [
-				{
-					id: "3000000009400069"
-					item: { count: 1, id: "powah:furnator_niotic" }
-					type: "item"
-				}
-				{
-					id: "3000000009400070"
-					item: { count: 1, id: "powah:energy_cell_niotic" }
-					type: "item"
-				}
-				{
-					id: "3000000009400071"
-					item: { count: 1, id: "powah:energy_cable_niotic" }
-					type: "item"
-				}
-			]
-			x: 24.0d
-			y: 0.0d
-		}
-		{
-			title: "Cristal Spirited"
-			dependencies: [
-				"2000000000094025"
-			]
-			dependency_requirement: "all_completed"
-			id: "2000000000094026"
-			rewards: [
-				{
-					count: 8
-					id: "3000000009400072"
-					item: {
-						count: 1
-						id: "minecraft:experience_bottle"
-					}
-					type: "item"
-				}
-			]
-			description: [
-				"O penúltimo cristal da escada de materiais."
-			]
-			tasks: [
-				{
-					id: "3000000009400073"
-					item: { count: 1, id: "powah:crystal_spirited" }
-					type: "item"
-				}
-			]
-			x: 26.0d
-			y: 0.0d
-		}
-		{
-			title: "Tier Spirited"
-			dependencies: [
-				"2000000000094026"
-			]
-			dependency_requirement: "all_completed"
-			id: "2000000000094027"
-			rewards: [
-				{
-					count: 8
-					id: "3000000009400074"
-					item: {
-						count: 1
-						id: "minecraft:emerald"
-					}
-					type: "item"
-				}
-				{
-					id: "3000000009400075"
-					type: "xp_levels"
-					xp_levels: 4
-				}
-			]
-			description: [
-				"O penúltimo tier do Powah."
-			]
-			tasks: [
-				{
-					id: "3000000009400076"
-					item: { count: 1, id: "powah:furnator_spirited" }
-					type: "item"
-				}
-				{
-					id: "3000000009400077"
-					item: { count: 1, id: "powah:energy_cell_spirited" }
-					type: "item"
-				}
-				{
-					id: "3000000009400078"
-					item: { count: 1, id: "powah:energy_cable_spirited" }
-					type: "item"
-				}
-			]
-			x: 28.0d
-			y: 0.0d
-		}
-		{
-			title: "Cristal Nitro"
-			dependencies: [
-				"2000000000094027"
-			]
-			dependency_requirement: "all_completed"
-			id: "2000000000094028"
-			rewards: [
-				{
-					count: 10
-					id: "3000000009400079"
-					item: {
-						count: 1
-						id: "minecraft:experience_bottle"
-					}
-					type: "item"
-				}
-			]
-			description: [
-				"O cristal do tier mais alto do Powah."
-			]
-			tasks: [
-				{
-					id: "3000000009400080"
-					item: { count: 1, id: "powah:crystal_nitro" }
-					type: "item"
-				}
-			]
-			x: 30.0d
-			y: 0.0d
-		}
-		{
-			title: "Tier Nitro"
-			dependencies: [
-				"2000000000094028"
-			]
-			dependency_requirement: "all_completed"
-			id: "2000000000094029"
-			rewards: [
-				{
-					count: 2
-					id: "3000000009400081"
-					item: {
-						count: 1
-						id: "minecraft:netherite_scrap"
-					}
-					type: "item"
-				}
-				{
-					id: "3000000009400082"
-					type: "xp_levels"
-					xp_levels: 6
-				}
-			]
-			shape: "diamond"
-			size: 1.5d
-			description: [
-				"O tier mais alto do Powah. Aqui o consumo de combustível dispara, então tenha uma boa cadeia de abastecimento."
-			]
-			tasks: [
-				{
-					id: "3000000009400083"
-					item: { count: 1, id: "powah:furnator_nitro" }
-					type: "item"
-				}
-				{
-					id: "3000000009400084"
-					item: { count: 1, id: "powah:energy_cell_nitro" }
-					type: "item"
-				}
-				{
-					id: "3000000009400085"
-					item: { count: 1, id: "powah:energy_cable_nitro" }
-					type: "item"
-				}
-			]
-			x: 32.0d
-			y: 0.0d
-		}
-		{
-			title: "Uraninita"
-			dependencies: [
-				"2000000000094007"
-			]
-			dependency_requirement: "all_completed"
-			id: "2000000000094030"
-			rewards: [
-				{
-					count: 16
-					id: "3000000009400086"
-					item: {
-						count: 1
-						id: "minecraft:redstone"
-					}
-					type: "item"
-				}
-				{
-					id: "3000000009400087"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-			]
-			description: [
-				"A uraninita vem do minério de uraninita, que gera no subsolo do Overworld, e é processada no Orbe de Energização."
-			]
-			tasks: [
-				{
-					count: 4L
-					id: "3000000009400088"
-					item: { count: 1, id: "powah:uraninite" }
-					type: "item"
-				}
-			]
-			x: 14.0d
-			y: 4.0d
-		}
-		{
-			title: "Reator"
-			dependencies: [
-				"2000000000094030"
-				"2000000000094020"
-			]
-			dependency_requirement: "all_completed"
-			id: "2000000000094031"
-			rewards: [
-				{
-					count: 2
-					id: "3000000009400089"
-					item: {
-						count: 1
-						id: "minecraft:iron_block"
-					}
-					type: "item"
-				}
-				{
-					id: "3000000009400090"
-					type: "xp_levels"
-					xp_levels: 4
-				}
-			]
-			shape: "diamond"
-			size: 1.5d
-			description: [
-				"O Reator é o multibloco do Powah que queima uraninita para gerar muita energia."
-			]
-			tasks: [
-				{
-					id: "3000000009400091"
-					item: { count: 1, id: "powah:reactor_starter" }
-					type: "item"
-				}
-			]
-			x: 16.0d
-			y: 4.0d
-		}
-		{
-			title: "Gelo Seco"
-			dependencies: [
-				"2000000000094031"
-			]
-			dependency_requirement: "all_completed"
-			id: "2000000000094032"
-			rewards: [
-				{
-					count: 8
-					id: "3000000009400092"
 					item: {
 						count: 1
 						id: "minecraft:packed_ice"
@@ -1154,25 +317,64 @@
 			tasks: [
 				{
 					count: 4L
-					id: "3000000009400093"
+					id: "3000000009400023"
 					item: { count: 1, id: "powah:dry_ice" }
 					type: "item"
 				}
 			]
-			x: 18.0d
-			y: 4.0d
+			x: -2.0d
+			y: 5.0d
 		}
 		{
-			title: "Transmissor de Jogador"
+			title: "Uraninita"
 			dependencies: [
-				"2000000000094021"
+				"2000000000094005"
+				"2000000000094008"
 			]
 			dependency_requirement: "all_completed"
-			id: "2000000000094033"
+			id: "2000000000094010"
 			rewards: [
 				{
-					count: 4
-					id: "3000000009400094"
+					count: 16
+					id: "3000000009400024"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400025"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"A uraninita é feita no Orbe de Energização a partir do minério e alimenta o Reator."
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "3000000009400026"
+					item: { count: 1, id: "powah:uraninite" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			title: "Cristal Blazing"
+			dependencies: [
+				"2000000000094006"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094011"
+			rewards: [
+				{
+					count: 6
+					id: "3000000009400027"
 					item: {
 						count: 1
 						id: "minecraft:experience_bottle"
@@ -1181,151 +383,3141 @@
 				}
 			]
 			description: [
-				"O transmissor de jogador manda energia para o equipamento que você carrega."
+				"O cristal blazing é feito no Orbe e abre o tier Blazing."
 			]
 			tasks: [
 				{
-					id: "3000000009400095"
-					item: { count: 1, id: "powah:player_transmitter_starter" }
+					id: "3000000009400028"
+					item: { count: 1, id: "powah:crystal_blazing" }
 					type: "item"
 				}
 			]
-			x: 18.0d
-			y: -2.0d
+			x: 10.0d
+			y: -3.0d
 		}
 		{
-			title: "Núcleo do Ender"
+			title: "Cristal Niotic"
 			dependencies: [
-				"2000000000094023"
+				"2000000000094011"
 			]
 			dependency_requirement: "all_completed"
-			id: "2000000000094034"
+			id: "2000000000094012"
 			rewards: [
 				{
-					count: 4
-					id: "3000000009400096"
+					count: 6
+					id: "3000000009400029"
 					item: {
 						count: 1
-						id: "minecraft:ender_pearl"
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+			]
+			description: [
+				"O próximo cristal da escada de materiais do Powah."
+			]
+			tasks: [
+				{
+					id: "3000000009400030"
+					item: { count: 1, id: "powah:crystal_niotic" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			title: "Cristal Spirited"
+			dependencies: [
+				"2000000000094012"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000094013"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009400031"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+			]
+			description: [
+				"O penúltimo cristal da escada."
+			]
+			tasks: [
+				{
+					id: "3000000009400032"
+					item: { count: 1, id: "powah:crystal_spirited" }
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: -3.0d
+		}
+		{
+			title: "Cristal Nitro"
+			dependencies: [
+				"2000000000094013"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000094014"
+			rewards: [
+				{
+					count: 10
+					id: "3000000009400033"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+			]
+			description: [
+				"O cristal do tier mais alto do Powah."
+			]
+			tasks: [
+				{
+					id: "3000000009400034"
+					item: { count: 1, id: "powah:crystal_nitro" }
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"2000000000094002"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094015"
+			rewards: [
+				{
+					count: 2
+					id: "3000000009400035"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
 					}
 					type: "item"
 				}
 				{
-					id: "3000000009400097"
+					id: "3000000009400036"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400037"
+					item: { count: 1, id: "powah:furnator_starter" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2000000000094015"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094016"
+			rewards: [
+				{
+					count: 2
+					id: "3000000009400038"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400039"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400040"
+					item: { count: 1, id: "powah:furnator_basic" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2000000000094016"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094017"
+			rewards: [
+				{
+					id: "3000000009400041"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400042"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400043"
+					item: { count: 1, id: "powah:furnator_hardened" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2000000000094017"
+				"2000000000094011"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094018"
+			rewards: [
+				{
+					count: 2
+					id: "3000000009400044"
+					item: {
+						count: 1
+						id: "minecraft:blaze_rod"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400045"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400046"
+					item: { count: 1, id: "powah:furnator_blazing" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2000000000094018"
+				"2000000000094012"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094019"
+			rewards: [
+				{
+					count: 2
+					id: "3000000009400047"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400048"
 					type: "xp_levels"
 					xp_levels: 3
 				}
 			]
-			description: [
-				"O núcleo do Ender é a peça da rede de Ender do Powah."
-			]
 			tasks: [
 				{
-					id: "3000000009400098"
-					item: { count: 1, id: "powah:ender_core" }
+					id: "3000000009400049"
+					item: { count: 1, id: "powah:furnator_niotic" }
 					type: "item"
 				}
 			]
-			x: 20.0d
-			y: -2.0d
+			x: 12.0d
+			y: 0.0d
 		}
 		{
-			title: "Célula do Ender"
 			dependencies: [
-				"2000000000094034"
+				"2000000000094019"
+				"2000000000094013"
 			]
 			dependency_requirement: "all_completed"
-			id: "2000000000094035"
+			hide_dependency_lines: true
+			id: "2000000000094020"
 			rewards: [
 				{
 					count: 4
-					id: "3000000009400099"
+					id: "3000000009400050"
 					item: {
 						count: 1
-						id: "minecraft:obsidian"
+						id: "minecraft:emerald"
 					}
 					type: "item"
 				}
+				{
+					id: "3000000009400051"
+					type: "xp_levels"
+					xp_levels: 3
+				}
 			]
-			description: [
-				"As células do Ender fazem parte da rede de Ender, que leva energia a pontos distantes."
+			tasks: [
+				{
+					id: "3000000009400052"
+					item: { count: 1, id: "powah:furnator_spirited" }
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2000000000094020"
+				"2000000000094014"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094021"
+			rewards: [
+				{
+					id: "3000000009400053"
+					item: {
+						count: 1
+						id: "minecraft:netherite_scrap"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400054"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400055"
+					item: { count: 1, id: "powah:furnator_nitro" }
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2000000000094002"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094022"
+			rewards: [
+				{
+					count: 2
+					id: "3000000009400056"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400057"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400058"
+					item: { count: 1, id: "powah:magmator_starter" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"2000000000094022"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094023"
+			rewards: [
+				{
+					count: 2
+					id: "3000000009400059"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400060"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400061"
+					item: { count: 1, id: "powah:magmator_basic" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"2000000000094023"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094024"
+			rewards: [
+				{
+					id: "3000000009400062"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400063"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400064"
+					item: { count: 1, id: "powah:magmator_hardened" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"2000000000094024"
+				"2000000000094011"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094025"
+			rewards: [
+				{
+					count: 2
+					id: "3000000009400065"
+					item: {
+						count: 1
+						id: "minecraft:blaze_rod"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400066"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400067"
+					item: { count: 1, id: "powah:magmator_blazing" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"2000000000094025"
+				"2000000000094012"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094026"
+			rewards: [
+				{
+					count: 2
+					id: "3000000009400068"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400069"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400070"
+					item: { count: 1, id: "powah:magmator_niotic" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"2000000000094026"
+				"2000000000094013"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094027"
+			rewards: [
+				{
+					count: 4
+					id: "3000000009400071"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400072"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400073"
+					item: { count: 1, id: "powah:magmator_spirited" }
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"2000000000094027"
+				"2000000000094014"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094028"
+			rewards: [
+				{
+					id: "3000000009400074"
+					item: {
+						count: 1
+						id: "minecraft:netherite_scrap"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400075"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400076"
+					item: { count: 1, id: "powah:magmator_nitro" }
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"2000000000094006"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094029"
+			rewards: [
+				{
+					count: 2
+					id: "3000000009400077"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400078"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400079"
+					item: { count: 1, id: "powah:solar_panel_starter" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"2000000000094029"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094030"
+			rewards: [
+				{
+					count: 2
+					id: "3000000009400080"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400081"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400082"
+					item: { count: 1, id: "powah:solar_panel_basic" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"2000000000094030"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094031"
+			rewards: [
+				{
+					id: "3000000009400083"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400084"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400085"
+					item: { count: 1, id: "powah:solar_panel_hardened" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"2000000000094031"
+				"2000000000094011"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094032"
+			rewards: [
+				{
+					count: 2
+					id: "3000000009400086"
+					item: {
+						count: 1
+						id: "minecraft:blaze_rod"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400087"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400088"
+					item: { count: 1, id: "powah:solar_panel_blazing" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"2000000000094032"
+				"2000000000094012"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094033"
+			rewards: [
+				{
+					count: 2
+					id: "3000000009400089"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400090"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400091"
+					item: { count: 1, id: "powah:solar_panel_niotic" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"2000000000094033"
+				"2000000000094013"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094034"
+			rewards: [
+				{
+					count: 4
+					id: "3000000009400092"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400093"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400094"
+					item: { count: 1, id: "powah:solar_panel_spirited" }
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"2000000000094034"
+				"2000000000094014"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094035"
+			rewards: [
+				{
+					id: "3000000009400095"
+					item: {
+						count: 1
+						id: "minecraft:netherite_scrap"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400096"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400097"
+					item: { count: 1, id: "powah:solar_panel_nitro" }
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"2000000000094006"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094036"
+			rewards: [
+				{
+					count: 2
+					id: "3000000009400098"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400099"
+					type: "xp_levels"
+					xp_levels: 1
+				}
 			]
 			tasks: [
 				{
 					id: "3000000009400100"
-					item: { count: 1, id: "powah:ender_cell_starter" }
+					item: { count: 1, id: "powah:thermo_generator_starter" }
 					type: "item"
 				}
 			]
-			x: 22.0d
-			y: -2.0d
+			x: 4.0d
+			y: 6.0d
 		}
 		{
-			title: "Portal do Ender"
 			dependencies: [
-				"2000000000094035"
+				"2000000000094036"
 			]
 			dependency_requirement: "all_completed"
-			id: "2000000000094036"
+			hide_dependency_lines: true
+			id: "2000000000094037"
 			rewards: [
 				{
 					count: 2
 					id: "3000000009400101"
 					item: {
 						count: 1
-						id: "minecraft:ender_eye"
+						id: "minecraft:gold_ingot"
 					}
 					type: "item"
 				}
 				{
 					id: "3000000009400102"
 					type: "xp_levels"
-					xp_levels: 3
+					xp_levels: 1
 				}
-			]
-			description: [
-				"O portal do Ender faz o par com a célula do Ender na rede."
 			]
 			tasks: [
 				{
 					id: "3000000009400103"
+					item: { count: 1, id: "powah:thermo_generator_basic" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"2000000000094037"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094038"
+			rewards: [
+				{
+					id: "3000000009400104"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400105"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400106"
+					item: { count: 1, id: "powah:thermo_generator_hardened" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"2000000000094038"
+				"2000000000094011"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094039"
+			rewards: [
+				{
+					count: 2
+					id: "3000000009400107"
+					item: {
+						count: 1
+						id: "minecraft:blaze_rod"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400108"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400109"
+					item: { count: 1, id: "powah:thermo_generator_blazing" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"2000000000094039"
+				"2000000000094012"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094040"
+			rewards: [
+				{
+					count: 2
+					id: "3000000009400110"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400111"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400112"
+					item: { count: 1, id: "powah:thermo_generator_niotic" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"2000000000094040"
+				"2000000000094013"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094041"
+			rewards: [
+				{
+					count: 4
+					id: "3000000009400113"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400114"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400115"
+					item: { count: 1, id: "powah:thermo_generator_spirited" }
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"2000000000094041"
+				"2000000000094014"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094042"
+			rewards: [
+				{
+					id: "3000000009400116"
+					item: {
+						count: 1
+						id: "minecraft:netherite_scrap"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400117"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400118"
+					item: { count: 1, id: "powah:thermo_generator_nitro" }
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"2000000000094010"
+				"2000000000094015"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094043"
+			rewards: [
+				{
+					count: 2
+					id: "3000000009400119"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400120"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400121"
+					item: { count: 1, id: "powah:reactor_starter" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"2000000000094043"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094044"
+			rewards: [
+				{
+					count: 2
+					id: "3000000009400122"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400123"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400124"
+					item: { count: 1, id: "powah:reactor_basic" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"2000000000094044"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094045"
+			rewards: [
+				{
+					id: "3000000009400125"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400126"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400127"
+					item: { count: 1, id: "powah:reactor_hardened" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"2000000000094045"
+				"2000000000094011"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094046"
+			rewards: [
+				{
+					count: 2
+					id: "3000000009400128"
+					item: {
+						count: 1
+						id: "minecraft:blaze_rod"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400129"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400130"
+					item: { count: 1, id: "powah:reactor_blazing" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"2000000000094046"
+				"2000000000094012"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094047"
+			rewards: [
+				{
+					count: 2
+					id: "3000000009400131"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400132"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400133"
+					item: { count: 1, id: "powah:reactor_niotic" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"2000000000094047"
+				"2000000000094013"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094048"
+			rewards: [
+				{
+					count: 4
+					id: "3000000009400134"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400135"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400136"
+					item: { count: 1, id: "powah:reactor_spirited" }
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"2000000000094048"
+				"2000000000094014"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094049"
+			rewards: [
+				{
+					id: "3000000009400137"
+					item: {
+						count: 1
+						id: "minecraft:netherite_scrap"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400138"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400139"
+					item: { count: 1, id: "powah:reactor_nitro" }
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"2000000000094071"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094050"
+			rewards: [
+				{
+					count: 2
+					id: "3000000009400140"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400141"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400142"
+					item: { count: 1, id: "powah:energy_cell_starter" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"2000000000094050"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094051"
+			rewards: [
+				{
+					count: 2
+					id: "3000000009400143"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400144"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400145"
+					item: { count: 1, id: "powah:energy_cell_basic" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"2000000000094051"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094052"
+			rewards: [
+				{
+					id: "3000000009400146"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400147"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400148"
+					item: { count: 1, id: "powah:energy_cell_hardened" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"2000000000094052"
+				"2000000000094011"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094053"
+			rewards: [
+				{
+					count: 2
+					id: "3000000009400149"
+					item: {
+						count: 1
+						id: "minecraft:blaze_rod"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400150"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400151"
+					item: { count: 1, id: "powah:energy_cell_blazing" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"2000000000094053"
+				"2000000000094012"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094054"
+			rewards: [
+				{
+					count: 2
+					id: "3000000009400152"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400153"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400154"
+					item: { count: 1, id: "powah:energy_cell_niotic" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"2000000000094054"
+				"2000000000094013"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094055"
+			rewards: [
+				{
+					count: 4
+					id: "3000000009400155"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400156"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400157"
+					item: { count: 1, id: "powah:energy_cell_spirited" }
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"2000000000094055"
+				"2000000000094014"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094056"
+			rewards: [
+				{
+					id: "3000000009400158"
+					item: {
+						count: 1
+						id: "minecraft:netherite_scrap"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400159"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400160"
+					item: { count: 1, id: "powah:energy_cell_nitro" }
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"2000000000094050"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094057"
+			rewards: [
+				{
+					count: 2
+					id: "3000000009400161"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400162"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400163"
+					item: { count: 1, id: "powah:battery_starter" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"2000000000094057"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094058"
+			rewards: [
+				{
+					count: 2
+					id: "3000000009400164"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400165"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400166"
+					item: { count: 1, id: "powah:battery_basic" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"2000000000094058"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094059"
+			rewards: [
+				{
+					id: "3000000009400167"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400168"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400169"
+					item: { count: 1, id: "powah:battery_hardened" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"2000000000094059"
+				"2000000000094011"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094060"
+			rewards: [
+				{
+					count: 2
+					id: "3000000009400170"
+					item: {
+						count: 1
+						id: "minecraft:blaze_rod"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400171"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400172"
+					item: { count: 1, id: "powah:battery_blazing" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"2000000000094060"
+				"2000000000094012"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094061"
+			rewards: [
+				{
+					count: 2
+					id: "3000000009400173"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400174"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400175"
+					item: { count: 1, id: "powah:battery_niotic" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"2000000000094061"
+				"2000000000094013"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094062"
+			rewards: [
+				{
+					count: 4
+					id: "3000000009400176"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400177"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400178"
+					item: { count: 1, id: "powah:battery_spirited" }
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"2000000000094062"
+				"2000000000094014"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094063"
+			rewards: [
+				{
+					id: "3000000009400179"
+					item: {
+						count: 1
+						id: "minecraft:netherite_scrap"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400180"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400181"
+					item: { count: 1, id: "powah:battery_nitro" }
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"2000000000094006"
+				"2000000000094050"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094064"
+			rewards: [
+				{
+					count: 2
+					id: "3000000009400182"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400183"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400184"
+					item: { count: 1, id: "powah:ender_cell_starter" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"2000000000094064"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094065"
+			rewards: [
+				{
+					count: 2
+					id: "3000000009400185"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400186"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400187"
+					item: { count: 1, id: "powah:ender_cell_basic" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"2000000000094065"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094066"
+			rewards: [
+				{
+					id: "3000000009400188"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400189"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400190"
+					item: { count: 1, id: "powah:ender_cell_hardened" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"2000000000094066"
+				"2000000000094011"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094067"
+			rewards: [
+				{
+					count: 2
+					id: "3000000009400191"
+					item: {
+						count: 1
+						id: "minecraft:blaze_rod"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400192"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400193"
+					item: { count: 1, id: "powah:ender_cell_blazing" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"2000000000094067"
+				"2000000000094012"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094068"
+			rewards: [
+				{
+					count: 2
+					id: "3000000009400194"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400195"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400196"
+					item: { count: 1, id: "powah:ender_cell_niotic" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"2000000000094068"
+				"2000000000094013"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094069"
+			rewards: [
+				{
+					count: 4
+					id: "3000000009400197"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400198"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400199"
+					item: { count: 1, id: "powah:ender_cell_spirited" }
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"2000000000094069"
+				"2000000000094014"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094070"
+			rewards: [
+				{
+					id: "3000000009400200"
+					item: {
+						count: 1
+						id: "minecraft:netherite_scrap"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400201"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400202"
+					item: { count: 1, id: "powah:ender_cell_nitro" }
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"2000000000094003"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094071"
+			rewards: [
+				{
+					count: 2
+					id: "3000000009400203"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400204"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400205"
+					item: { count: 1, id: "powah:energy_cable_starter" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 18.0d
+		}
+		{
+			dependencies: [
+				"2000000000094071"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094072"
+			rewards: [
+				{
+					count: 2
+					id: "3000000009400206"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400207"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400208"
+					item: { count: 1, id: "powah:energy_cable_basic" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 18.0d
+		}
+		{
+			dependencies: [
+				"2000000000094072"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094073"
+			rewards: [
+				{
+					id: "3000000009400209"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400210"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400211"
+					item: { count: 1, id: "powah:energy_cable_hardened" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 18.0d
+		}
+		{
+			dependencies: [
+				"2000000000094073"
+				"2000000000094011"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094074"
+			rewards: [
+				{
+					count: 2
+					id: "3000000009400212"
+					item: {
+						count: 1
+						id: "minecraft:blaze_rod"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400213"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400214"
+					item: { count: 1, id: "powah:energy_cable_blazing" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 18.0d
+		}
+		{
+			dependencies: [
+				"2000000000094074"
+				"2000000000094012"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094075"
+			rewards: [
+				{
+					count: 2
+					id: "3000000009400215"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400216"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400217"
+					item: { count: 1, id: "powah:energy_cable_niotic" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 18.0d
+		}
+		{
+			dependencies: [
+				"2000000000094075"
+				"2000000000094013"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094076"
+			rewards: [
+				{
+					count: 4
+					id: "3000000009400218"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400219"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400220"
+					item: { count: 1, id: "powah:energy_cable_spirited" }
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 18.0d
+		}
+		{
+			dependencies: [
+				"2000000000094076"
+				"2000000000094014"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094077"
+			rewards: [
+				{
+					id: "3000000009400221"
+					item: {
+						count: 1
+						id: "minecraft:netherite_scrap"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400222"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400223"
+					item: { count: 1, id: "powah:energy_cable_nitro" }
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 18.0d
+		}
+		{
+			dependencies: [
+				"2000000000094064"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094078"
+			rewards: [
+				{
+					count: 2
+					id: "3000000009400224"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400225"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400226"
 					item: { count: 1, id: "powah:ender_gate_starter" }
 					type: "item"
 				}
 			]
-			x: 24.0d
-			y: -2.0d
+			x: 4.0d
+			y: 20.0d
 		}
 		{
-			title: "Cartão de Ligação"
 			dependencies: [
-				"2000000000094035"
+				"2000000000094078"
 			]
 			dependency_requirement: "all_completed"
-			id: "2000000000094037"
+			hide_dependency_lines: true
+			id: "2000000000094079"
 			rewards: [
 				{
-					count: 3
-					id: "3000000009400104"
+					count: 2
+					id: "3000000009400227"
 					item: {
 						count: 1
-						id: "minecraft:experience_bottle"
+						id: "minecraft:gold_ingot"
 					}
 					type: "item"
 				}
-			]
-			description: [
-				"O cartão de ligação é usado para conectar as peças da rede de Ender."
+				{
+					id: "3000000009400228"
+					type: "xp_levels"
+					xp_levels: 1
+				}
 			]
 			tasks: [
 				{
-					id: "3000000009400105"
-					item: { count: 1, id: "powah:binding_card" }
+					id: "3000000009400229"
+					item: { count: 1, id: "powah:ender_gate_basic" }
 					type: "item"
 				}
 			]
-			x: 22.0d
-			y: -4.0d
+			x: 6.0d
+			y: 20.0d
+		}
+		{
+			dependencies: [
+				"2000000000094079"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094080"
+			rewards: [
+				{
+					id: "3000000009400230"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400231"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400232"
+					item: { count: 1, id: "powah:ender_gate_hardened" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 20.0d
+		}
+		{
+			dependencies: [
+				"2000000000094080"
+				"2000000000094011"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094081"
+			rewards: [
+				{
+					count: 2
+					id: "3000000009400233"
+					item: {
+						count: 1
+						id: "minecraft:blaze_rod"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400234"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400235"
+					item: { count: 1, id: "powah:ender_gate_blazing" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 20.0d
+		}
+		{
+			dependencies: [
+				"2000000000094081"
+				"2000000000094012"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094082"
+			rewards: [
+				{
+					count: 2
+					id: "3000000009400236"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400237"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400238"
+					item: { count: 1, id: "powah:ender_gate_niotic" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 20.0d
+		}
+		{
+			dependencies: [
+				"2000000000094082"
+				"2000000000094013"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094083"
+			rewards: [
+				{
+					count: 4
+					id: "3000000009400239"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400240"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400241"
+					item: { count: 1, id: "powah:ender_gate_spirited" }
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 20.0d
+		}
+		{
+			dependencies: [
+				"2000000000094083"
+				"2000000000094014"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094084"
+			rewards: [
+				{
+					id: "3000000009400242"
+					item: {
+						count: 1
+						id: "minecraft:netherite_scrap"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400243"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400244"
+					item: { count: 1, id: "powah:ender_gate_nitro" }
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 20.0d
+		}
+		{
+			dependencies: [
+				"2000000000094006"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094085"
+			rewards: [
+				{
+					count: 2
+					id: "3000000009400245"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400246"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400247"
+					item: { count: 1, id: "powah:energy_hopper_starter" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 22.0d
+		}
+		{
+			dependencies: [
+				"2000000000094085"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094086"
+			rewards: [
+				{
+					count: 2
+					id: "3000000009400248"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400249"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400250"
+					item: { count: 1, id: "powah:energy_hopper_basic" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 22.0d
+		}
+		{
+			dependencies: [
+				"2000000000094086"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094087"
+			rewards: [
+				{
+					id: "3000000009400251"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400252"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400253"
+					item: { count: 1, id: "powah:energy_hopper_hardened" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 22.0d
+		}
+		{
+			dependencies: [
+				"2000000000094087"
+				"2000000000094011"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094088"
+			rewards: [
+				{
+					count: 2
+					id: "3000000009400254"
+					item: {
+						count: 1
+						id: "minecraft:blaze_rod"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400255"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400256"
+					item: { count: 1, id: "powah:energy_hopper_blazing" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 22.0d
+		}
+		{
+			dependencies: [
+				"2000000000094088"
+				"2000000000094012"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094089"
+			rewards: [
+				{
+					count: 2
+					id: "3000000009400257"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400258"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400259"
+					item: { count: 1, id: "powah:energy_hopper_niotic" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 22.0d
+		}
+		{
+			dependencies: [
+				"2000000000094089"
+				"2000000000094013"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094090"
+			rewards: [
+				{
+					count: 4
+					id: "3000000009400260"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400261"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400262"
+					item: { count: 1, id: "powah:energy_hopper_spirited" }
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 22.0d
+		}
+		{
+			dependencies: [
+				"2000000000094090"
+				"2000000000094014"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094091"
+			rewards: [
+				{
+					id: "3000000009400263"
+					item: {
+						count: 1
+						id: "minecraft:netherite_scrap"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400264"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400265"
+					item: { count: 1, id: "powah:energy_hopper_nitro" }
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 22.0d
+		}
+		{
+			dependencies: [
+				"2000000000094006"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094092"
+			rewards: [
+				{
+					count: 2
+					id: "3000000009400266"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400267"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400268"
+					item: { count: 1, id: "powah:energy_discharger_starter" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 24.0d
+		}
+		{
+			dependencies: [
+				"2000000000094092"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094093"
+			rewards: [
+				{
+					count: 2
+					id: "3000000009400269"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400270"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400271"
+					item: { count: 1, id: "powah:energy_discharger_basic" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 24.0d
+		}
+		{
+			dependencies: [
+				"2000000000094093"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094094"
+			rewards: [
+				{
+					id: "3000000009400272"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400273"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400274"
+					item: { count: 1, id: "powah:energy_discharger_hardened" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 24.0d
+		}
+		{
+			dependencies: [
+				"2000000000094094"
+				"2000000000094011"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094095"
+			rewards: [
+				{
+					count: 2
+					id: "3000000009400275"
+					item: {
+						count: 1
+						id: "minecraft:blaze_rod"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400276"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400277"
+					item: { count: 1, id: "powah:energy_discharger_blazing" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 24.0d
+		}
+		{
+			dependencies: [
+				"2000000000094095"
+				"2000000000094012"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094096"
+			rewards: [
+				{
+					count: 2
+					id: "3000000009400278"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400279"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400280"
+					item: { count: 1, id: "powah:energy_discharger_niotic" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 24.0d
+		}
+		{
+			dependencies: [
+				"2000000000094096"
+				"2000000000094013"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094097"
+			rewards: [
+				{
+					count: 4
+					id: "3000000009400281"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400282"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400283"
+					item: { count: 1, id: "powah:energy_discharger_spirited" }
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 24.0d
+		}
+		{
+			dependencies: [
+				"2000000000094097"
+				"2000000000094014"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094098"
+			rewards: [
+				{
+					id: "3000000009400284"
+					item: {
+						count: 1
+						id: "minecraft:netherite_scrap"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400285"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400286"
+					item: { count: 1, id: "powah:energy_discharger_nitro" }
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 24.0d
+		}
+		{
+			dependencies: [
+				"2000000000094006"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094099"
+			rewards: [
+				{
+					count: 2
+					id: "3000000009400287"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400288"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400289"
+					item: { count: 1, id: "powah:player_transmitter_starter" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 26.0d
+		}
+		{
+			dependencies: [
+				"2000000000094099"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094100"
+			rewards: [
+				{
+					count: 2
+					id: "3000000009400290"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400291"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400292"
+					item: { count: 1, id: "powah:player_transmitter_basic" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 26.0d
+		}
+		{
+			dependencies: [
+				"2000000000094100"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094101"
+			rewards: [
+				{
+					id: "3000000009400293"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400294"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400295"
+					item: { count: 1, id: "powah:player_transmitter_hardened" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 26.0d
+		}
+		{
+			dependencies: [
+				"2000000000094101"
+				"2000000000094011"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094102"
+			rewards: [
+				{
+					count: 2
+					id: "3000000009400296"
+					item: {
+						count: 1
+						id: "minecraft:blaze_rod"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400297"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400298"
+					item: { count: 1, id: "powah:player_transmitter_blazing" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 26.0d
+		}
+		{
+			dependencies: [
+				"2000000000094102"
+				"2000000000094012"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094103"
+			rewards: [
+				{
+					count: 2
+					id: "3000000009400299"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400300"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400301"
+					item: { count: 1, id: "powah:player_transmitter_niotic" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 26.0d
+		}
+		{
+			dependencies: [
+				"2000000000094103"
+				"2000000000094013"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094104"
+			rewards: [
+				{
+					count: 4
+					id: "3000000009400302"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400303"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400304"
+					item: { count: 1, id: "powah:player_transmitter_spirited" }
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 26.0d
+		}
+		{
+			dependencies: [
+				"2000000000094104"
+				"2000000000094014"
+			]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: true
+			id: "2000000000094105"
+			rewards: [
+				{
+					id: "3000000009400305"
+					item: {
+						count: 1
+						id: "minecraft:netherite_scrap"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400306"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009400307"
+					item: { count: 1, id: "powah:player_transmitter_nitro" }
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 26.0d
 		}
 	]
 }
