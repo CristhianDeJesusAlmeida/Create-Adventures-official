@@ -1,0 +1,4365 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "immersive_engineering"
+	title: "Immersive Engineering"
+	group: ""
+	icon: {
+		id: "immersiveengineering:hammer"
+	}
+	id: "1000000000000095"
+	images: [ ]
+	order_index: 7
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			title: "Martelo do Engenheiro"
+			dependencies: [
+				"2000000000002004"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095001"
+			rewards: [
+				{
+					count: 4
+					id: "3000000009500001"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500002"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			description: [
+				"O martelo é a ferramenta central do Immersive Engineering: monta as estruturas multibloco e transforma lingotes em placas."
+			]
+			tasks: [
+				{
+					id: "3000000009500003"
+					item: { count: 1, id: "immersiveengineering:hammer" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			title: "Manual do Engenheiro"
+			dependencies: [
+				"2000000000095001"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095002"
+			rewards: [
+				{
+					count: 16
+					id: "3000000009500004"
+					item: {
+						count: 1
+						id: "minecraft:iron_nugget"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500005"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			description: [
+				"O manual explica cada máquina do mod, com receitas e esquemas das estruturas multibloco."
+			]
+			tasks: [
+				{
+					id: "3000000009500006"
+					item: { count: 1, id: "immersiveengineering:manual" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"2000000000095001"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095003"
+			rewards: [
+				{
+					count: 2
+					id: "3000000009500007"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500008"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500009"
+					item: { count: 1, id: "immersiveengineering:wirecutter" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"2000000000095001"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095004"
+			rewards: [
+				{
+					count: 4
+					id: "3000000009500010"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500011"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500012"
+					item: { count: 1, id: "immersiveengineering:screwdriver" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"2000000000095004"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095005"
+			rewards: [
+				{
+					count: 3
+					id: "3000000009500013"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500014"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500015"
+					item: { count: 1, id: "immersiveengineering:voltmeter" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"2000000000095001"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095006"
+			rewards: [
+				{
+					count: 16
+					id: "3000000009500016"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500017"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "3000000009500018"
+					item: { count: 1, id: "immersiveengineering:plate_iron" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3000000009500019"
+					item: { count: 1, id: "immersiveengineering:plate_copper" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2000000000095001"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095007"
+			rewards: [
+				{
+					count: 16
+					id: "3000000009500020"
+					item: {
+						count: 1
+						id: "minecraft:iron_nugget"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500021"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "3000000009500022"
+					item: { count: 1, id: "immersiveengineering:cokebrick" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			title: "Forno de Coque"
+			dependencies: [
+				"2000000000095007"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095008"
+			rewards: [
+				{
+					count: 16
+					id: "3000000009500023"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500024"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			description: [
+				"Monte o Forno de Coque seguindo o esquema do manual e ative-o com o martelo. Clique na quest quando ele estiver funcionando."
+			]
+			tasks: [
+				{
+					id: "3000000009500025"
+					type: "checkmark"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2000000000095008"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095009"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009500026"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500027"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "3000000009500028"
+					item: { count: 1, id: "immersiveengineering:coal_coke" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2000000000095008"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095010"
+			rewards: [
+				{
+					count: 2
+					id: "3000000009500029"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500030"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500031"
+					item: { count: 1, id: "immersiveengineering:creosote_bucket" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"2000000000095010"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095011"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009500032"
+					item: {
+						count: 1
+						id: "minecraft:quartz"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500033"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "3000000009500034"
+					item: { count: 1, id: "immersiveengineering:treated_wood_horizontal" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"2000000000095009"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095012"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009500035"
+					item: {
+						count: 1
+						id: "minecraft:brick"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500036"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "3000000009500037"
+					item: { count: 1, id: "immersiveengineering:blastbrick" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			title: "Alto-Forno"
+			dependencies: [
+				"2000000000095012"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095013"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009500038"
+					item: {
+						count: 1
+						id: "minecraft:string"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500039"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			description: [
+				"Monte o Alto-Forno com o esquema do manual. Clique na quest quando ele estiver pronto."
+			]
+			tasks: [
+				{
+					id: "3000000009500040"
+					type: "checkmark"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2000000000095013"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095014"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009500041"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500042"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "3000000009500043"
+					item: { count: 1, id: "immersiveengineering:ingot_steel" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2000000000095013"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095015"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009500044"
+					item: {
+						count: 1
+						id: "minecraft:brick"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500045"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500046"
+					item: { count: 1, id: "immersiveengineering:blastfurnace_preheater" }
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"2000000000095001"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095016"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009500047"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500048"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "3000000009500049"
+					item: { count: 1, id: "immersiveengineering:alloybrick" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			title: "Fornalha de Ligas"
+			dependencies: [
+				"2000000000095016"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095017"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009500050"
+					item: {
+						count: 1
+						id: "minecraft:brick"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500051"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			description: [
+				"Monte a Fornalha de Ligas, que combina dois metais em um. Clique na quest quando ela estiver funcionando."
+			]
+			tasks: [
+				{
+					id: "3000000009500052"
+					type: "checkmark"
+				}
+			]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"2000000000095017"
+				"2000000000095020"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095018"
+			rewards: [
+				{
+					count: 4
+					id: "3000000009500053"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500054"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500055"
+					item: { count: 1, id: "immersiveengineering:ingot_constantan" }
+					type: "item"
+				}
+				{
+					id: "3000000009500056"
+					item: { count: 1, id: "immersiveengineering:ingot_electrum" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"2000000000095006"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095019"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009500057"
+					item: {
+						count: 1
+						id: "minecraft:string"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500058"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "3000000009500059"
+					item: { count: 1, id: "immersiveengineering:raw_aluminum" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3000000009500060"
+					item: { count: 1, id: "immersiveengineering:raw_lead" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3000000009500061"
+					item: { count: 1, id: "immersiveengineering:raw_nickel" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3000000009500062"
+					item: { count: 1, id: "immersiveengineering:raw_silver" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3000000009500063"
+					item: { count: 1, id: "immersiveengineering:raw_uranium" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"2000000000095019"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095020"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009500064"
+					item: {
+						count: 1
+						id: "minecraft:glass"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500065"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500066"
+					item: { count: 1, id: "immersiveengineering:ingot_aluminum" }
+					type: "item"
+				}
+				{
+					id: "3000000009500067"
+					item: { count: 1, id: "immersiveengineering:ingot_lead" }
+					type: "item"
+				}
+				{
+					id: "3000000009500068"
+					item: { count: 1, id: "immersiveengineering:ingot_nickel" }
+					type: "item"
+				}
+				{
+					id: "3000000009500069"
+					item: { count: 1, id: "immersiveengineering:ingot_silver" }
+					type: "item"
+				}
+				{
+					id: "3000000009500070"
+					item: { count: 1, id: "immersiveengineering:ingot_uranium" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"2000000000095006"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095021"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009500071"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500072"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "3000000009500073"
+					item: { count: 1, id: "immersiveengineering:component_iron" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"2000000000095021"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095022"
+			rewards: [
+				{
+					count: 16
+					id: "3000000009500074"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500075"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "3000000009500076"
+					item: { count: 1, id: "immersiveengineering:electron_tube" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"2000000000095022"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095023"
+			rewards: [
+				{
+					count: 16
+					id: "3000000009500077"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500078"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500079"
+					item: { count: 1, id: "immersiveengineering:circuit_board" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"2000000000095023"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095024"
+			rewards: [
+				{
+					count: 2
+					id: "3000000009500080"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500081"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "3000000009500082"
+					item: { count: 1, id: "immersiveengineering:component_electronic" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"2000000000095024"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095025"
+			rewards: [
+				{
+					count: 3
+					id: "3000000009500083"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500084"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500085"
+					item: { count: 1, id: "immersiveengineering:component_electronic_adv" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"2000000000095014"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095026"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009500086"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500087"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "3000000009500088"
+					item: { count: 1, id: "immersiveengineering:component_steel" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"2000000000095021"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095027"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009500089"
+					item: {
+						count: 1
+						id: "minecraft:brick"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500090"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "3000000009500091"
+					item: { count: 1, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"2000000000095006"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095028"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009500092"
+					item: {
+						count: 1
+						id: "minecraft:brick"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500093"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "3000000009500094"
+					item: { count: 1, id: "immersiveengineering:sheetmetal_iron" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"2000000000095024"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095029"
+			rewards: [
+				{
+					count: 16
+					id: "3000000009500095"
+					item: {
+						count: 1
+						id: "minecraft:iron_nugget"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500096"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "3000000009500097"
+					item: { count: 1, id: "immersiveengineering:rs_engineering" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"2000000000095014"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095030"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009500098"
+					item: {
+						count: 1
+						id: "minecraft:brick"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500099"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "3000000009500100"
+					item: { count: 1, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"2000000000095026"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095031"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009500101"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500102"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "3000000009500103"
+					item: { count: 1, id: "immersiveengineering:heavy_engineering" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"2000000000095014"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095032"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009500104"
+					item: {
+						count: 1
+						id: "minecraft:quartz"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500105"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "3000000009500106"
+					item: { count: 1, id: "immersiveengineering:sheetmetal_steel" }
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"2000000000095031"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095033"
+			rewards: [
+				{
+					count: 2
+					id: "3000000009500107"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500108"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500109"
+					item: { count: 1, id: "immersiveengineering:generator" }
+					type: "item"
+				}
+				{
+					id: "3000000009500110"
+					item: { count: 1, id: "immersiveengineering:radiator" }
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"2000000000095003"
+				"2000000000095006"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095034"
+			rewards: [
+				{
+					count: 2
+					id: "3000000009500111"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500112"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "3000000009500113"
+					item: { count: 1, id: "immersiveengineering:wire_copper" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"2000000000095034"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095035"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009500114"
+					item: {
+						count: 1
+						id: "minecraft:string"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500115"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "3000000009500116"
+					item: { count: 1, id: "immersiveengineering:connector_lv" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"2000000000095034"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095036"
+			rewards: [
+				{
+					count: 2
+					id: "3000000009500117"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500118"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "3000000009500119"
+					item: { count: 1, id: "immersiveengineering:wirecoil_copper" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"2000000000095035"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095037"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009500120"
+					item: {
+						count: 1
+						id: "minecraft:glass"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500121"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500122"
+					item: { count: 1, id: "immersiveengineering:dynamo" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"2000000000095037"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095038"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009500123"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500124"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500125"
+					item: { count: 1, id: "immersiveengineering:windmill" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3000000009500126"
+					item: { count: 1, id: "immersiveengineering:windmill_blade" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3000000009500127"
+					item: { count: 1, id: "immersiveengineering:windmill_sail" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"2000000000095037"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095039"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009500128"
+					item: {
+						count: 1
+						id: "minecraft:glass"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500129"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500130"
+					item: { count: 1, id: "immersiveengineering:watermill" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3000000009500131"
+					item: { count: 1, id: "immersiveengineering:waterwheel_segment" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"2000000000095037"
+				"2000000000095014"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095040"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009500132"
+					item: {
+						count: 1
+						id: "minecraft:brick"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500133"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500134"
+					item: { count: 1, id: "immersiveengineering:thermoelectric_generator" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"2000000000095035"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095041"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009500135"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500136"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500137"
+					item: { count: 1, id: "immersiveengineering:capacitor_lv" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"2000000000095035"
+				"2000000000095014"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095042"
+			rewards: [
+				{
+					count: 4
+					id: "3000000009500138"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500139"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "3000000009500140"
+					item: { count: 1, id: "immersiveengineering:connector_mv" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"2000000000095041"
+				"2000000000095042"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095043"
+			rewards: [
+				{
+					count: 16
+					id: "3000000009500141"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500142"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500143"
+					item: { count: 1, id: "immersiveengineering:capacitor_mv" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"2000000000095042"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095044"
+			rewards: [
+				{
+					count: 16
+					id: "3000000009500144"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500145"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "3000000009500146"
+					item: { count: 1, id: "immersiveengineering:connector_hv" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"2000000000095043"
+				"2000000000095025"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095045"
+			rewards: [
+				{
+					count: 16
+					id: "3000000009500147"
+					item: {
+						count: 1
+						id: "minecraft:iron_nugget"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500148"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500149"
+					item: { count: 1, id: "immersiveengineering:capacitor_hv" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"2000000000095042"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095046"
+			rewards: [
+				{
+					count: 16
+					id: "3000000009500150"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500151"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500152"
+					item: { count: 1, id: "immersiveengineering:transformer" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"2000000000095046"
+				"2000000000095044"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095047"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009500153"
+					item: {
+						count: 1
+						id: "minecraft:quartz"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500154"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500155"
+					item: { count: 1, id: "immersiveengineering:transformer_hv" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"2000000000095018"
+				"2000000000095036"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095048"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009500156"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500157"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500158"
+					item: { count: 1, id: "immersiveengineering:wirecoil_electrum" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"2000000000095014"
+				"2000000000095036"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095049"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009500159"
+					item: {
+						count: 1
+						id: "minecraft:brick"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500160"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500161"
+					item: { count: 1, id: "immersiveengineering:wirecoil_steel" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"2000000000095043"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095050"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009500162"
+					item: {
+						count: 1
+						id: "minecraft:string"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500163"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500164"
+					item: { count: 1, id: "immersiveengineering:charging_station" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"2000000000095049"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095051"
+			rewards: [
+				{
+					count: 4
+					id: "3000000009500165"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500166"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500167"
+					item: { count: 1, id: "immersiveengineering:electromagnet" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -8.0d
+		}
+		{
+			title: "Britador"
+			dependencies: [
+				"2000000000095027"
+				"2000000000095014"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095052"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009500168"
+					item: {
+						count: 1
+						id: "minecraft:quartz"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500169"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"Monte o Britador, que tritura minérios e dobra o rendimento deles. Clique na quest quando ele estiver funcionando."
+			]
+			tasks: [
+				{
+					id: "3000000009500170"
+					type: "checkmark"
+				}
+			]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			title: "Prensa de Metal"
+			dependencies: [
+				"2000000000095027"
+				"2000000000095014"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095053"
+			rewards: [
+				{
+					count: 3
+					id: "3000000009500171"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500172"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"Monte a Prensa de Metal, que molda lingotes em placas, hastes, fios e engrenagens. Clique na quest quando ela estiver funcionando."
+			]
+			tasks: [
+				{
+					id: "3000000009500173"
+					type: "checkmark"
+				}
+			]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2000000000095053"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095054"
+			rewards: [
+				{
+					count: 2
+					id: "3000000009500174"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500175"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500176"
+					item: { count: 1, id: "immersiveengineering:mold_plate" }
+					type: "item"
+				}
+				{
+					id: "3000000009500177"
+					item: { count: 1, id: "immersiveengineering:mold_rod" }
+					type: "item"
+				}
+				{
+					id: "3000000009500178"
+					item: { count: 1, id: "immersiveengineering:mold_wire" }
+					type: "item"
+				}
+				{
+					id: "3000000009500179"
+					item: { count: 1, id: "immersiveengineering:mold_gear" }
+					type: "item"
+				}
+			]
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			title: "Serraria"
+			dependencies: [
+				"2000000000095027"
+				"2000000000095014"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095055"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009500180"
+					item: {
+						count: 1
+						id: "minecraft:brick"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500181"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			description: [
+				"Monte a Serraria. Clique na quest quando ela estiver funcionando."
+			]
+			tasks: [
+				{
+					id: "3000000009500182"
+					type: "checkmark"
+				}
+			]
+			x: 16.0d
+			y: 2.0d
+		}
+		{
+			title: "Espremedor"
+			dependencies: [
+				"2000000000095031"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095056"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009500183"
+					item: {
+						count: 1
+						id: "minecraft:brick"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500184"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"Monte o Espremedor, que extrai óleo de sementes. Clique na quest quando ele estiver funcionando."
+			]
+			tasks: [
+				{
+					id: "3000000009500185"
+					type: "checkmark"
+				}
+			]
+			x: 18.0d
+			y: 2.0d
+		}
+		{
+			title: "Fermentador"
+			dependencies: [
+				"2000000000095031"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095057"
+			rewards: [
+				{
+					count: 16
+					id: "3000000009500186"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500187"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"Monte o Fermentador, que transforma plantas em etanol. Clique na quest quando ele estiver funcionando."
+			]
+			tasks: [
+				{
+					id: "3000000009500188"
+					type: "checkmark"
+				}
+			]
+			x: 20.0d
+			y: 2.0d
+		}
+		{
+			title: "Refinaria"
+			dependencies: [
+				"2000000000095056"
+				"2000000000095057"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095058"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009500189"
+					item: {
+						count: 1
+						id: "minecraft:string"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500190"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			description: [
+				"Monte a Refinaria, que mistura etanol e óleo para fazer biodiesel. Clique na quest quando ela estiver funcionando."
+			]
+			tasks: [
+				{
+					id: "3000000009500191"
+					type: "checkmark"
+				}
+			]
+			x: 22.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"2000000000095056"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095059"
+			rewards: [
+				{
+					count: 16
+					id: "3000000009500192"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500193"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500194"
+					item: { count: 1, id: "immersiveengineering:plantoil_bucket" }
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"2000000000095057"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095060"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009500195"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500196"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500197"
+					item: { count: 1, id: "immersiveengineering:ethanol_bucket" }
+					type: "item"
+				}
+			]
+			x: 20.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"2000000000095058"
+				"2000000000095059"
+				"2000000000095060"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095061"
+			rewards: [
+				{
+					count: 16
+					id: "3000000009500198"
+					item: {
+						count: 1
+						id: "minecraft:iron_nugget"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500199"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500200"
+					item: { count: 1, id: "immersiveengineering:biodiesel_bucket" }
+					type: "item"
+				}
+			]
+			x: 22.0d
+			y: 4.0d
+		}
+		{
+			title: "Gerador a Diesel"
+			dependencies: [
+				"2000000000095061"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095062"
+			rewards: [
+				{
+					count: 16
+					id: "3000000009500201"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500202"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"Monte o Gerador a Diesel, que queima biodiesel para gerar energia de média tensão. Clique na quest quando ele estiver funcionando."
+			]
+			tasks: [
+				{
+					id: "3000000009500203"
+					type: "checkmark"
+				}
+			]
+			x: 24.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"2000000000095014"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095063"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009500204"
+					item: {
+						count: 1
+						id: "minecraft:string"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500205"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					count: 3L
+					id: "3000000009500206"
+					item: { count: 1, id: "immersiveengineering:graphite_electrode" }
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 4.0d
+		}
+		{
+			title: "Forno a Arco"
+			dependencies: [
+				"2000000000095063"
+				"2000000000095031"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095064"
+			rewards: [
+				{
+					count: 3
+					id: "3000000009500207"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500208"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"Monte o Forno a Arco, que funde metais com eletrodos de grafite. Clique na quest quando ele estiver funcionando."
+			]
+			tasks: [
+				{
+					id: "3000000009500209"
+					type: "checkmark"
+				}
+			]
+			x: 16.0d
+			y: 6.0d
+		}
+		{
+			title: "Montador"
+			dependencies: [
+				"2000000000095031"
+				"2000000000095029"
+				"2000000000095025"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095065"
+			rewards: [
+				{
+					count: 16
+					id: "3000000009500210"
+					item: {
+						count: 1
+						id: "minecraft:iron_nugget"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500211"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"Monte o Montador, que fabrica itens a partir de receitas. Clique na quest quando ele estiver funcionando."
+			]
+			tasks: [
+				{
+					id: "3000000009500212"
+					type: "checkmark"
+				}
+			]
+			x: 18.0d
+			y: 6.0d
+		}
+		{
+			title: "Engarrafadora"
+			dependencies: [
+				"2000000000095031"
+				"2000000000095029"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095066"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009500213"
+					item: {
+						count: 1
+						id: "minecraft:brick"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500214"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"Monte a Engarrafadora, que enche e esvazia recipientes com líquidos. Clique na quest quando ela estiver funcionando."
+			]
+			tasks: [
+				{
+					id: "3000000009500215"
+					type: "checkmark"
+				}
+			]
+			x: 20.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"2000000000095031"
+				"2000000000095014"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095067"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009500216"
+					item: {
+						count: 1
+						id: "minecraft:brick"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500217"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500218"
+					item: { count: 1, id: "immersiveengineering:bucket_wheel" }
+					type: "item"
+				}
+			]
+			x: 22.0d
+			y: 6.0d
+		}
+		{
+			title: "Escavadeira"
+			dependencies: [
+				"2000000000095067"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095068"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009500219"
+					item: {
+						count: 1
+						id: "minecraft:glass"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500220"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			description: [
+				"Monte a Escavadeira e a roda para minerar veios do subsolo. Clique na quest quando ela estiver funcionando."
+			]
+			tasks: [
+				{
+					id: "3000000009500221"
+					type: "checkmark"
+				}
+			]
+			x: 24.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"2000000000095021"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095069"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009500222"
+					item: {
+						count: 1
+						id: "minecraft:quartz"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500223"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "3000000009500224"
+					item: { count: 1, id: "immersiveengineering:fluid_pipe" }
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"2000000000095069"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095070"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009500225"
+					item: {
+						count: 1
+						id: "minecraft:brick"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500226"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500227"
+					item: { count: 1, id: "immersiveengineering:pipe_valve" }
+					type: "item"
+				}
+			]
+			x: -10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"2000000000095069"
+				"2000000000095041"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095071"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009500228"
+					item: {
+						count: 1
+						id: "minecraft:string"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500229"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500230"
+					item: { count: 1, id: "immersiveengineering:fluid_pump" }
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"2000000000095069"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095072"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009500231"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500232"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500233"
+					item: { count: 1, id: "immersiveengineering:fluid_sorter" }
+					type: "item"
+				}
+			]
+			x: -10.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"2000000000095069"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095073"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009500234"
+					item: {
+						count: 1
+						id: "minecraft:glass"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500235"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500236"
+					item: { count: 1, id: "immersiveengineering:fluid_placer" }
+					type: "item"
+				}
+			]
+			x: -12.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"2000000000095006"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095074"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009500237"
+					item: {
+						count: 1
+						id: "minecraft:glass"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500238"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500239"
+					item: { count: 1, id: "immersiveengineering:chute_iron" }
+					type: "item"
+				}
+				{
+					id: "3000000009500240"
+					item: { count: 1, id: "immersiveengineering:chute_steel" }
+					type: "item"
+				}
+				{
+					id: "3000000009500241"
+					item: { count: 1, id: "immersiveengineering:chute_aluminum" }
+					type: "item"
+				}
+				{
+					id: "3000000009500242"
+					item: { count: 1, id: "immersiveengineering:chute_copper" }
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"2000000000095006"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095075"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009500243"
+					item: {
+						count: 1
+						id: "minecraft:brick"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500244"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500245"
+					item: { count: 1, id: "immersiveengineering:conveyor_basic" }
+					type: "item"
+				}
+				{
+					id: "3000000009500246"
+					item: { count: 1, id: "immersiveengineering:conveyor_dropper" }
+					type: "item"
+				}
+				{
+					id: "3000000009500247"
+					item: { count: 1, id: "immersiveengineering:conveyor_vertical" }
+					type: "item"
+				}
+				{
+					id: "3000000009500248"
+					item: { count: 1, id: "immersiveengineering:conveyor_splitter" }
+					type: "item"
+				}
+			]
+			x: -10.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"2000000000095075"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095076"
+			rewards: [
+				{
+					count: 2
+					id: "3000000009500249"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500250"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500251"
+					item: { count: 1, id: "immersiveengineering:sorter" }
+					type: "item"
+				}
+			]
+			x: -12.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"2000000000095076"
+				"2000000000095029"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095077"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009500252"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500253"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500254"
+					item: { count: 1, id: "immersiveengineering:item_batcher" }
+					type: "item"
+				}
+			]
+			x: -12.0d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"2000000000095026"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095078"
+			rewards: [
+				{
+					count: 16
+					id: "3000000009500255"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500256"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500257"
+					item: { count: 1, id: "immersiveengineering:revolver" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"2000000000095078"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095079"
+			rewards: [
+				{
+					count: 16
+					id: "3000000009500258"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500259"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500260"
+					item: { count: 1, id: "immersiveengineering:toolupgrade_revolver_bayonet" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"2000000000095078"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095080"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009500261"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500262"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500263"
+					item: { count: 1, id: "immersiveengineering:toolupgrade_revolver_electro" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"2000000000095078"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095081"
+			rewards: [
+				{
+					count: 16
+					id: "3000000009500264"
+					item: {
+						count: 1
+						id: "minecraft:iron_nugget"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500265"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500266"
+					item: { count: 1, id: "immersiveengineering:toolupgrade_revolver_magazine" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"2000000000095078"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095082"
+			rewards: [
+				{
+					count: 3
+					id: "3000000009500267"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500268"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500269"
+					item: { count: 1, id: "immersiveengineering:speedloader" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"2000000000095045"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095083"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009500270"
+					item: {
+						count: 1
+						id: "minecraft:brick"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500271"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500272"
+					item: { count: 1, id: "immersiveengineering:railgun" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -13.0d
+		}
+		{
+			dependencies: [
+				"2000000000095083"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095084"
+			rewards: [
+				{
+					count: 3
+					id: "3000000009500273"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500274"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500275"
+					item: { count: 1, id: "immersiveengineering:toolupgrade_railgun_scope" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -13.0d
+		}
+		{
+			dependencies: [
+				"2000000000095083"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095085"
+			rewards: [
+				{
+					count: 16
+					id: "3000000009500276"
+					item: {
+						count: 1
+						id: "minecraft:iron_nugget"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500277"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500278"
+					item: { count: 1, id: "immersiveengineering:toolupgrade_railgun_capacitors" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -13.0d
+		}
+		{
+			dependencies: [
+				"2000000000095026"
+				"2000000000095058"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095086"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009500279"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500280"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500281"
+					item: { count: 1, id: "immersiveengineering:chemthrower" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -15.0d
+		}
+		{
+			dependencies: [
+				"2000000000095086"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095087"
+			rewards: [
+				{
+					count: 16
+					id: "3000000009500282"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500283"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500284"
+					item: { count: 1, id: "immersiveengineering:toolupgrade_chemthrower_focus" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -15.0d
+		}
+		{
+			dependencies: [
+				"2000000000095086"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095088"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009500285"
+					item: {
+						count: 1
+						id: "minecraft:string"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500286"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500287"
+					item: { count: 1, id: "immersiveengineering:toolupgrade_chemthrower_multitank" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -15.0d
+		}
+		{
+			dependencies: [
+				"2000000000095041"
+				"2000000000095026"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095089"
+			rewards: [
+				{
+					count: 3
+					id: "3000000009500288"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500289"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500290"
+					item: { count: 1, id: "immersiveengineering:drill" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -17.0d
+		}
+		{
+			dependencies: [
+				"2000000000095089"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095090"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009500291"
+					item: {
+						count: 1
+						id: "minecraft:glass"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500292"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500293"
+					item: { count: 1, id: "immersiveengineering:drillhead_iron" }
+					type: "item"
+				}
+				{
+					id: "3000000009500294"
+					item: { count: 1, id: "immersiveengineering:drillhead_steel" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -17.0d
+		}
+		{
+			dependencies: [
+				"2000000000095089"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095091"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009500295"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500296"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500297"
+					item: { count: 1, id: "immersiveengineering:toolupgrade_drill_lube" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -17.0d
+		}
+		{
+			dependencies: [
+				"2000000000095089"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095092"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009500298"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500299"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500300"
+					item: { count: 1, id: "immersiveengineering:toolupgrade_drill_capacity" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -17.0d
+		}
+		{
+			dependencies: [
+				"2000000000095089"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095093"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009500301"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500302"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500303"
+					item: { count: 1, id: "immersiveengineering:toolupgrade_drill_waterproof" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -17.0d
+		}
+		{
+			dependencies: [
+				"2000000000095089"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095094"
+			rewards: [
+				{
+					count: 16
+					id: "3000000009500304"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500305"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500306"
+					item: { count: 1, id: "immersiveengineering:toolupgrade_drill_damage" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -17.0d
+		}
+		{
+			dependencies: [
+				"2000000000095089"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095095"
+			rewards: [
+				{
+					count: 4
+					id: "3000000009500307"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500308"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500309"
+					item: { count: 1, id: "immersiveengineering:toolupgrade_drill_fortune" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -17.0d
+		}
+		{
+			dependencies: [
+				"2000000000095041"
+				"2000000000095026"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095096"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009500310"
+					item: {
+						count: 1
+						id: "minecraft:brick"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500311"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500312"
+					item: { count: 1, id: "immersiveengineering:buzzsaw" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -19.0d
+		}
+		{
+			dependencies: [
+				"2000000000095096"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095097"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009500313"
+					item: {
+						count: 1
+						id: "minecraft:glass"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500314"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500315"
+					item: { count: 1, id: "immersiveengineering:toolupgrade_buzzsaw_spareblades" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -19.0d
+		}
+		{
+			dependencies: [
+				"2000000000095096"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095098"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009500316"
+					item: {
+						count: 1
+						id: "minecraft:brick"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500317"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500318"
+					item: { count: 1, id: "immersiveengineering:sawblade" }
+					type: "item"
+				}
+				{
+					id: "3000000009500319"
+					item: { count: 1, id: "immersiveengineering:rockcutter" }
+					type: "item"
+				}
+				{
+					id: "3000000009500320"
+					item: { count: 1, id: "immersiveengineering:grindingdisk" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -19.0d
+		}
+		{
+			dependencies: [
+				"2000000000095026"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095099"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009500321"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500322"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500323"
+					item: { count: 1, id: "immersiveengineering:skyhook" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -21.0d
+		}
+		{
+			dependencies: [
+				"2000000000095099"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095100"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009500324"
+					item: {
+						count: 1
+						id: "minecraft:brick"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500325"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500326"
+					item: { count: 1, id: "immersiveengineering:toolupgrade_skyhook_slope" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -21.0d
+		}
+		{
+			dependencies: [
+				"2000000000095099"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095101"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009500327"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500328"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500329"
+					item: { count: 1, id: "immersiveengineering:toolupgrade_skyhook_insulation" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -21.0d
+		}
+		{
+			dependencies: [
+				"2000000000095099"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095102"
+			rewards: [
+				{
+					count: 2
+					id: "3000000009500330"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500331"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500332"
+					item: { count: 1, id: "immersiveengineering:toolupgrade_skyhook_mace" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -21.0d
+		}
+		{
+			dependencies: [
+				"2000000000095026"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095103"
+			rewards: [
+				{
+					count: 3
+					id: "3000000009500333"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500334"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500335"
+					item: { count: 1, id: "immersiveengineering:shield" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -23.0d
+		}
+		{
+			dependencies: [
+				"2000000000095103"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095104"
+			rewards: [
+				{
+					count: 16
+					id: "3000000009500336"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500337"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500338"
+					item: { count: 1, id: "immersiveengineering:toolupgrade_shield_flash" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -23.0d
+		}
+		{
+			dependencies: [
+				"2000000000095103"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095105"
+			rewards: [
+				{
+					count: 16
+					id: "3000000009500339"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500340"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500341"
+					item: { count: 1, id: "immersiveengineering:toolupgrade_shield_shock" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -23.0d
+		}
+		{
+			dependencies: [
+				"2000000000095103"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095106"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009500342"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500343"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500344"
+					item: { count: 1, id: "immersiveengineering:toolupgrade_shield_magnet" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -23.0d
+		}
+		{
+			dependencies: [
+				"2000000000095043"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095107"
+			rewards: [
+				{
+					count: 16
+					id: "3000000009500345"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500346"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500347"
+					item: { count: 1, id: "immersiveengineering:powerpack" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -25.0d
+		}
+		{
+			dependencies: [
+				"2000000000095107"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095108"
+			rewards: [
+				{
+					count: 4
+					id: "3000000009500348"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500349"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500350"
+					item: { count: 1, id: "immersiveengineering:toolupgrade_powerpack_antenna" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -25.0d
+		}
+		{
+			dependencies: [
+				"2000000000095107"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095109"
+			rewards: [
+				{
+					count: 16
+					id: "3000000009500351"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500352"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500353"
+					item: { count: 1, id: "immersiveengineering:toolupgrade_powerpack_induction" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -25.0d
+		}
+		{
+			dependencies: [
+				"2000000000095107"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095110"
+			rewards: [
+				{
+					count: 16
+					id: "3000000009500354"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500355"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500356"
+					item: { count: 1, id: "immersiveengineering:toolupgrade_powerpack_magnet" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -25.0d
+		}
+		{
+			dependencies: [
+				"2000000000095107"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095111"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009500357"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500358"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500359"
+					item: { count: 1, id: "immersiveengineering:toolupgrade_powerpack_tesla" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -25.0d
+		}
+		{
+			dependencies: [
+				"2000000000095026"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095112"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009500360"
+					item: {
+						count: 1
+						id: "minecraft:glass"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500361"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500362"
+					item: { count: 1, id: "immersiveengineering:toolbox" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -27.0d
+		}
+		{
+			dependencies: [
+				"2000000000095112"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095113"
+			rewards: [
+				{
+					count: 16
+					id: "3000000009500363"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500364"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500365"
+					item: { count: 1, id: "immersiveengineering:earmuffs" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -27.0d
+		}
+		{
+			dependencies: [
+				"2000000000095112"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095114"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009500366"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500367"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500368"
+					item: { count: 1, id: "immersiveengineering:jerrycan" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -27.0d
+		}
+		{
+			dependencies: [
+				"2000000000095078"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095115"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009500369"
+					item: {
+						count: 1
+						id: "minecraft:brick"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500370"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500371"
+					item: { count: 1, id: "immersiveengineering:bullet_casull" }
+					type: "item"
+				}
+				{
+					id: "3000000009500372"
+					item: { count: 1, id: "immersiveengineering:bullet_armor_piercing" }
+					type: "item"
+				}
+				{
+					id: "3000000009500373"
+					item: { count: 1, id: "immersiveengineering:bullet_buckshot" }
+					type: "item"
+				}
+				{
+					id: "3000000009500374"
+					item: { count: 1, id: "immersiveengineering:bullet_silver" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -29.0d
+		}
+		{
+			dependencies: [
+				"2000000000095115"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095116"
+			rewards: [
+				{
+					count: 16
+					id: "3000000009500375"
+					item: {
+						count: 1
+						id: "minecraft:iron_nugget"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500376"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500377"
+					item: { count: 1, id: "immersiveengineering:bullet_he" }
+					type: "item"
+				}
+				{
+					id: "3000000009500378"
+					item: { count: 1, id: "immersiveengineering:bullet_dragons_breath" }
+					type: "item"
+				}
+				{
+					id: "3000000009500379"
+					item: { count: 1, id: "immersiveengineering:bullet_potion" }
+					type: "item"
+				}
+				{
+					id: "3000000009500380"
+					item: { count: 1, id: "immersiveengineering:bullet_homing" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -29.0d
+		}
+		{
+			dependencies: [
+				"2000000000095049"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095117"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009500381"
+					item: {
+						count: 1
+						id: "minecraft:quartz"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500382"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500383"
+					item: { count: 1, id: "immersiveengineering:wirecoil_structure_rope" }
+					type: "item"
+				}
+				{
+					id: "3000000009500384"
+					item: { count: 1, id: "immersiveengineering:wirecoil_structure_steel" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -29.0d
+		}
+		{
+			dependencies: [
+				"2000000000095045"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095118"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009500385"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500386"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500387"
+					item: { count: 1, id: "immersiveengineering:tesla_coil" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -31.0d
+		}
+		{
+			dependencies: [
+				"2000000000095118"
+				"2000000000095078"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095119"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009500388"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500389"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500390"
+					item: { count: 1, id: "immersiveengineering:turret_gun" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -31.0d
+		}
+		{
+			dependencies: [
+				"2000000000095118"
+				"2000000000095086"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095120"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009500391"
+					item: {
+						count: 1
+						id: "minecraft:quartz"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500392"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500393"
+					item: { count: 1, id: "immersiveengineering:turret_chem" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -31.0d
+		}
+		{
+			dependencies: [
+				"2000000000095118"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095121"
+			rewards: [
+				{
+					count: 2
+					id: "3000000009500394"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500395"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500396"
+					item: { count: 1, id: "immersiveengineering:razor_wire" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -31.0d
+		}
+		{
+			dependencies: [
+				"2000000000095014"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095122"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009500397"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500398"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500399"
+					item: { count: 1, id: "immersiveengineering:armor_steel_helmet" }
+					type: "item"
+				}
+				{
+					id: "3000000009500400"
+					item: { count: 1, id: "immersiveengineering:armor_steel_chestplate" }
+					type: "item"
+				}
+				{
+					id: "3000000009500401"
+					item: { count: 1, id: "immersiveengineering:armor_steel_leggings" }
+					type: "item"
+				}
+				{
+					id: "3000000009500402"
+					item: { count: 1, id: "immersiveengineering:armor_steel_boots" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -33.0d
+		}
+		{
+			dependencies: [
+				"2000000000095118"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095123"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009500403"
+					item: {
+						count: 1
+						id: "minecraft:brick"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500404"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500405"
+					item: { count: 1, id: "immersiveengineering:armor_faraday_helmet" }
+					type: "item"
+				}
+				{
+					id: "3000000009500406"
+					item: { count: 1, id: "immersiveengineering:armor_faraday_chestplate" }
+					type: "item"
+				}
+				{
+					id: "3000000009500407"
+					item: { count: 1, id: "immersiveengineering:armor_faraday_leggings" }
+					type: "item"
+				}
+				{
+					id: "3000000009500408"
+					item: { count: 1, id: "immersiveengineering:armor_faraday_boots" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -33.0d
+		}
+		{
+			dependencies: [
+				"2000000000095014"
+				"2000000000095042"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095124"
+			rewards: [
+				{
+					count: 3
+					id: "3000000009500409"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500410"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500411"
+					item: { count: 1, id: "immersiveengineering:furnace_heater" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -35.0d
+		}
+		{
+			dependencies: [
+				"2000000000095014"
+				"2000000000095035"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095125"
+			rewards: [
+				{
+					count: 3
+					id: "3000000009500412"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500413"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500414"
+					item: { count: 1, id: "immersiveengineering:cloche" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -35.0d
+		}
+		{
+			dependencies: [
+				"2000000000095014"
+				"2000000000095035"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000095126"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009500415"
+					item: {
+						count: 1
+						id: "minecraft:brick"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009500416"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3000000009500417"
+					item: { count: 1, id: "immersiveengineering:turntable" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -35.0d
+		}
+	]
+}

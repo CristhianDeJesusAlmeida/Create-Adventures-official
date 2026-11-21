@@ -37,6 +37,10 @@ file = "config/ftbquests/quests/chapters/electrodynamics.snbt"
 hash = "6f0642c9307a75c2bdf827ec7c8ff30c545f4c82d6465a7a6fa06304f41fc0e0"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/immersive_engineering.snbt"
+hash = "fe5b7b5b55823c1188fe7c7e53842e45eac94596c915bf798eaa39b18d17f9f0"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/introducao.snbt"
 hash = "0c9428d8cc2826cba63278fb6e4308876d89e78d87adb67549ec7f76f90bb16e"
 
