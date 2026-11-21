@@ -1,0 +1,1331 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "powah"
+	title: "Powah!"
+	group: ""
+	icon: {
+		id: "powah:energizing_orb"
+	}
+	id: "1000000000000094"
+	images: [ ]
+	order_index: 6
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			title: "Pasta Dielétrica"
+			icon: {
+				id: "powah:energizing_orb"
+			}
+			dependencies: [
+				"2000000000002004"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000094001"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009400001"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400002"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			description: [
+				"A pasta dielétrica é a base de quase tudo no Powah: carcaças, hastes e cabos dependem dela."
+			]
+			tasks: [
+				{
+					id: "3000000009400003"
+					item: { count: 1, id: "powah:dielectric_paste" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			title: "Carcaça Dielétrica"
+			dependencies: [
+				"2000000000094001"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000094002"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009400004"
+					item: {
+						count: 1
+						id: "minecraft:glass"
+					}
+					type: "item"
+				}
+			]
+			description: [
+				"A carcaça dielétrica é o corpo dos geradores, das células e do Orbe de Energização."
+			]
+			tasks: [
+				{
+					id: "3000000009400005"
+					item: { count: 1, id: "powah:dielectric_casing" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			title: "Hastes Dielétricas"
+			dependencies: [
+				"2000000000094002"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000094003"
+			rewards: [
+				{
+					count: 16
+					id: "3000000009400006"
+					item: {
+						count: 1
+						id: "minecraft:iron_nugget"
+					}
+					type: "item"
+				}
+			]
+			description: [
+				"As hastes isolam e conectam as peças. Você vai precisar tanto da vertical quanto da horizontal."
+			]
+			tasks: [
+				{
+					id: "3000000009400007"
+					item: { count: 1, id: "powah:dielectric_rod" }
+					type: "item"
+				}
+				{
+					id: "3000000009400008"
+					item: { count: 1, id: "powah:dielectric_rod_horizontal" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			title: "Cabo de Energia"
+			dependencies: [
+				"2000000000094003"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000094004"
+			rewards: [
+				{
+					count: 16
+					id: "3000000009400009"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400010"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			description: [
+				"Os cabos levam a energia do gerador até as máquinas e as células. Comece pelo cabo do tier inicial."
+			]
+			tasks: [
+				{
+					id: "3000000009400011"
+					item: { count: 1, id: "powah:energy_cable_starter" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			title: "Haste de Energização"
+			dependencies: [
+				"2000000000094004"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000094005"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009400012"
+					item: {
+						count: 1
+						id: "minecraft:quartz"
+					}
+					type: "item"
+				}
+			]
+			description: [
+				"A haste de energização manda energia para o Orbe. Só as hastes precisam de energia; o Orbe não."
+			]
+			tasks: [
+				{
+					id: "3000000009400013"
+					item: { count: 1, id: "powah:energizing_rod_starter" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			title: "Orbe de Energização"
+			dependencies: [
+				"2000000000094005"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000094006"
+			rewards: [
+				{
+					count: 2
+					id: "3000000009400014"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400015"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			description: [
+				"O Orbe é a porta de entrada para tudo acima do tier inicial. Coloque-o e deixe hastes energizadas por perto."
+			]
+			tasks: [
+				{
+					id: "3000000009400016"
+					item: { count: 1, id: "powah:energizing_orb" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			title: "Aço Energizado"
+			dependencies: [
+				"2000000000094006"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000094007"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009400017"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400018"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"O aço energizado é feito no Orbe a partir de um lingote de ferro e um de ouro. Ele abre as máquinas mais avançadas."
+			]
+			tasks: [
+				{
+					id: "3000000009400019"
+					item: { count: 1, id: "powah:steel_energized" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			title: "Furnator"
+			dependencies: [
+				"2000000000094002"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000094008"
+			rewards: [
+				{
+					count: 16
+					id: "3000000009400020"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+			]
+			description: [
+				"O Furnator queima combustível sólido para gerar energia. É a sua primeira fonte de energia no Powah."
+			]
+			tasks: [
+				{
+					id: "3000000009400021"
+					item: { count: 1, id: "powah:furnator_starter" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			title: "Magmator"
+			dependencies: [
+				"2000000000094002"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000094009"
+			rewards: [
+				{
+					id: "3000000009400022"
+					item: {
+						count: 1
+						id: "minecraft:lava_bucket"
+					}
+					type: "item"
+				}
+			]
+			description: [
+				"O Magmator funciona como o Furnator, mas consome lava em vez de combustível sólido."
+			]
+			tasks: [
+				{
+					id: "3000000009400023"
+					item: { count: 1, id: "powah:magmator_starter" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			title: "Célula de Energia"
+			dependencies: [
+				"2000000000094004"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000094010"
+			rewards: [
+				{
+					count: 4
+					id: "3000000009400024"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+			]
+			description: [
+				"A célula guarda a energia gerada para você usar quando precisar. Ligue-a ao gerador com cabos."
+			]
+			tasks: [
+				{
+					id: "3000000009400025"
+					item: { count: 1, id: "powah:energy_cell_starter" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			title: "Chave Inglesa do Powah"
+			dependencies: [
+				"2000000000094004"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000094011"
+			rewards: [
+				{
+					count: 4
+					id: "3000000009400026"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			description: [
+				"A chave inglesa serve para configurar e retirar as máquinas do mod."
+			]
+			tasks: [
+				{
+					id: "3000000009400027"
+					item: { count: 1, id: "powah:wrench" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			title: "Capacitores"
+			dependencies: [
+				"2000000000094004"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000094012"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009400028"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			description: [
+				"Os capacitores são componentes que dão capacidade às células e a outras máquinas."
+			]
+			tasks: [
+				{
+					id: "3000000009400029"
+					item: { count: 1, id: "powah:capacitor_basic_tiny" }
+					type: "item"
+				}
+				{
+					id: "3000000009400030"
+					item: { count: 1, id: "powah:capacitor_basic" }
+					type: "item"
+				}
+				{
+					id: "3000000009400031"
+					item: { count: 1, id: "powah:capacitor_basic_large" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			title: "Painel Fotoelétrico"
+			dependencies: [
+				"2000000000094007"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000094013"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009400032"
+					item: {
+						count: 1
+						id: "minecraft:quartz"
+					}
+					type: "item"
+				}
+			]
+			description: [
+				"O painel fotoelétrico é a peça central do painel solar."
+			]
+			tasks: [
+				{
+					id: "3000000009400033"
+					item: { count: 1, id: "powah:photoelectric_pane" }
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			title: "Painel Solar"
+			dependencies: [
+				"2000000000094013"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000094014"
+			rewards: [
+				{
+					count: 4
+					id: "3000000009400034"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400035"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"O painel solar gera energia sem combustível, aproveitando a luz do dia."
+			]
+			tasks: [
+				{
+					id: "3000000009400036"
+					item: { count: 1, id: "powah:solar_panel_starter" }
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: -2.0d
+		}
+		{
+			title: "Placa Termoelétrica"
+			dependencies: [
+				"2000000000094007"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000094015"
+			rewards: [
+				{
+					count: 4
+					id: "3000000009400037"
+					item: {
+						count: 1
+						id: "minecraft:blaze_powder"
+					}
+					type: "item"
+				}
+			]
+			description: [
+				"A placa termoelétrica é a peça central do gerador termo."
+			]
+			tasks: [
+				{
+					id: "3000000009400038"
+					item: { count: 1, id: "powah:thermoelectric_plate" }
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: -4.0d
+		}
+		{
+			title: "Gerador Termo"
+			dependencies: [
+				"2000000000094015"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000094016"
+			rewards: [
+				{
+					id: "3000000009400039"
+					item: {
+						count: 1
+						id: "minecraft:water_bucket"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400040"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"O gerador termo produz energia a partir de calor e de um líquido refrigerante."
+			]
+			tasks: [
+				{
+					id: "3000000009400041"
+					item: { count: 1, id: "powah:thermo_generator_starter" }
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: -4.0d
+		}
+		{
+			title: "Funil de Energia"
+			dependencies: [
+				"2000000000094007"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000094017"
+			rewards: [
+				{
+					count: 2
+					id: "3000000009400042"
+					item: {
+						count: 1
+						id: "minecraft:hopper"
+					}
+					type: "item"
+				}
+			]
+			description: [
+				"O funil e o descarregador são ferramentas de logística de energia do Powah."
+			]
+			tasks: [
+				{
+					id: "3000000009400043"
+					item: { count: 1, id: "powah:energy_hopper_starter" }
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			title: "Descarregador de Energia"
+			dependencies: [
+				"2000000000094007"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000094018"
+			rewards: [
+				{
+					count: 16
+					id: "3000000009400044"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			description: [
+				"O descarregador complementa o funil na hora de movimentar energia entre blocos."
+			]
+			tasks: [
+				{
+					id: "3000000009400045"
+					item: { count: 1, id: "powah:energy_discharger_starter" }
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 2.0d
+		}
+		{
+			title: "Bateria"
+			dependencies: [
+				"2000000000094007"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000094019"
+			rewards: [
+				{
+					count: 16
+					id: "3000000009400046"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+			]
+			description: [
+				"A bateria guarda energia em forma de item e pode ser levada com você."
+			]
+			tasks: [
+				{
+					id: "3000000009400047"
+					item: { count: 1, id: "powah:battery_starter" }
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 2.0d
+		}
+		{
+			title: "Tier Basic"
+			dependencies: [
+				"2000000000094007"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000094020"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009400048"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400049"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"Cada tier aumenta a capacidade e a produção. Faça o Furnator, a célula e o cabo do tier Basic."
+			]
+			tasks: [
+				{
+					id: "3000000009400050"
+					item: { count: 1, id: "powah:furnator_basic" }
+					type: "item"
+				}
+				{
+					id: "3000000009400051"
+					item: { count: 1, id: "powah:energy_cell_basic" }
+					type: "item"
+				}
+				{
+					id: "3000000009400052"
+					item: { count: 1, id: "powah:energy_cable_basic" }
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			title: "Tier Hardened"
+			dependencies: [
+				"2000000000094020"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000094021"
+			rewards: [
+				{
+					count: 2
+					id: "3000000009400053"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400054"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O segundo tier acima do inicial. Mais capacidade e mais produção."
+			]
+			tasks: [
+				{
+					id: "3000000009400055"
+					item: { count: 1, id: "powah:furnator_hardened" }
+					type: "item"
+				}
+				{
+					id: "3000000009400056"
+					item: { count: 1, id: "powah:energy_cell_hardened" }
+					type: "item"
+				}
+				{
+					id: "3000000009400057"
+					item: { count: 1, id: "powah:energy_cable_hardened" }
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			title: "Cristal Blazing"
+			dependencies: [
+				"2000000000094021"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000094022"
+			rewards: [
+				{
+					count: 6
+					id: "3000000009400058"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+			]
+			description: [
+				"O cristal blazing é o material que abre o tier seguinte, e é feito no Orbe de Energização."
+			]
+			tasks: [
+				{
+					id: "3000000009400059"
+					item: { count: 1, id: "powah:crystal_blazing" }
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			title: "Tier Blazing"
+			dependencies: [
+				"2000000000094022"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000094023"
+			rewards: [
+				{
+					count: 4
+					id: "3000000009400060"
+					item: {
+						count: 1
+						id: "minecraft:blaze_rod"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400061"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"Os equipamentos do tier Blazing usam o cristal blazing."
+			]
+			tasks: [
+				{
+					id: "3000000009400062"
+					item: { count: 1, id: "powah:furnator_blazing" }
+					type: "item"
+				}
+				{
+					id: "3000000009400063"
+					item: { count: 1, id: "powah:energy_cell_blazing" }
+					type: "item"
+				}
+				{
+					id: "3000000009400064"
+					item: { count: 1, id: "powah:energy_cable_blazing" }
+					type: "item"
+				}
+			]
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			title: "Cristal Niotic"
+			dependencies: [
+				"2000000000094023"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000094024"
+			rewards: [
+				{
+					count: 6
+					id: "3000000009400065"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+			]
+			description: [
+				"O próximo cristal da escada de materiais do Powah."
+			]
+			tasks: [
+				{
+					id: "3000000009400066"
+					item: { count: 1, id: "powah:crystal_niotic" }
+					type: "item"
+				}
+			]
+			x: 22.0d
+			y: 0.0d
+		}
+		{
+			title: "Tier Niotic"
+			dependencies: [
+				"2000000000094024"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000094025"
+			rewards: [
+				{
+					count: 4
+					id: "3000000009400067"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400068"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"Mais um degrau de capacidade e produção."
+			]
+			tasks: [
+				{
+					id: "3000000009400069"
+					item: { count: 1, id: "powah:furnator_niotic" }
+					type: "item"
+				}
+				{
+					id: "3000000009400070"
+					item: { count: 1, id: "powah:energy_cell_niotic" }
+					type: "item"
+				}
+				{
+					id: "3000000009400071"
+					item: { count: 1, id: "powah:energy_cable_niotic" }
+					type: "item"
+				}
+			]
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			title: "Cristal Spirited"
+			dependencies: [
+				"2000000000094025"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000094026"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009400072"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+			]
+			description: [
+				"O penúltimo cristal da escada de materiais."
+			]
+			tasks: [
+				{
+					id: "3000000009400073"
+					item: { count: 1, id: "powah:crystal_spirited" }
+					type: "item"
+				}
+			]
+			x: 26.0d
+			y: 0.0d
+		}
+		{
+			title: "Tier Spirited"
+			dependencies: [
+				"2000000000094026"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000094027"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009400074"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400075"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			description: [
+				"O penúltimo tier do Powah."
+			]
+			tasks: [
+				{
+					id: "3000000009400076"
+					item: { count: 1, id: "powah:furnator_spirited" }
+					type: "item"
+				}
+				{
+					id: "3000000009400077"
+					item: { count: 1, id: "powah:energy_cell_spirited" }
+					type: "item"
+				}
+				{
+					id: "3000000009400078"
+					item: { count: 1, id: "powah:energy_cable_spirited" }
+					type: "item"
+				}
+			]
+			x: 28.0d
+			y: 0.0d
+		}
+		{
+			title: "Cristal Nitro"
+			dependencies: [
+				"2000000000094027"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000094028"
+			rewards: [
+				{
+					count: 10
+					id: "3000000009400079"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+			]
+			description: [
+				"O cristal do tier mais alto do Powah."
+			]
+			tasks: [
+				{
+					id: "3000000009400080"
+					item: { count: 1, id: "powah:crystal_nitro" }
+					type: "item"
+				}
+			]
+			x: 30.0d
+			y: 0.0d
+		}
+		{
+			title: "Tier Nitro"
+			dependencies: [
+				"2000000000094028"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000094029"
+			rewards: [
+				{
+					count: 2
+					id: "3000000009400081"
+					item: {
+						count: 1
+						id: "minecraft:netherite_scrap"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400082"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			description: [
+				"O tier mais alto do Powah. Aqui o consumo de combustível dispara, então tenha uma boa cadeia de abastecimento."
+			]
+			tasks: [
+				{
+					id: "3000000009400083"
+					item: { count: 1, id: "powah:furnator_nitro" }
+					type: "item"
+				}
+				{
+					id: "3000000009400084"
+					item: { count: 1, id: "powah:energy_cell_nitro" }
+					type: "item"
+				}
+				{
+					id: "3000000009400085"
+					item: { count: 1, id: "powah:energy_cable_nitro" }
+					type: "item"
+				}
+			]
+			x: 32.0d
+			y: 0.0d
+		}
+		{
+			title: "Uraninita"
+			dependencies: [
+				"2000000000094007"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000094030"
+			rewards: [
+				{
+					count: 16
+					id: "3000000009400086"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400087"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			description: [
+				"A uraninita vem do minério de uraninita, que gera no subsolo do Overworld, e é processada no Orbe de Energização."
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "3000000009400088"
+					item: { count: 1, id: "powah:uraninite" }
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 4.0d
+		}
+		{
+			title: "Reator"
+			dependencies: [
+				"2000000000094030"
+				"2000000000094020"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000094031"
+			rewards: [
+				{
+					count: 2
+					id: "3000000009400089"
+					item: {
+						count: 1
+						id: "minecraft:iron_block"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400090"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			description: [
+				"O Reator é o multibloco do Powah que queima uraninita para gerar muita energia."
+			]
+			tasks: [
+				{
+					id: "3000000009400091"
+					item: { count: 1, id: "powah:reactor_starter" }
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 4.0d
+		}
+		{
+			title: "Gelo Seco"
+			dependencies: [
+				"2000000000094031"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000094032"
+			rewards: [
+				{
+					count: 8
+					id: "3000000009400092"
+					item: {
+						count: 1
+						id: "minecraft:packed_ice"
+					}
+					type: "item"
+				}
+			]
+			description: [
+				"O gelo seco é um material do Powah que gera em biomas do Overworld."
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "3000000009400093"
+					item: { count: 1, id: "powah:dry_ice" }
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 4.0d
+		}
+		{
+			title: "Transmissor de Jogador"
+			dependencies: [
+				"2000000000094021"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000094033"
+			rewards: [
+				{
+					count: 4
+					id: "3000000009400094"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+			]
+			description: [
+				"O transmissor de jogador manda energia para o equipamento que você carrega."
+			]
+			tasks: [
+				{
+					id: "3000000009400095"
+					item: { count: 1, id: "powah:player_transmitter_starter" }
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: -2.0d
+		}
+		{
+			title: "Núcleo do Ender"
+			dependencies: [
+				"2000000000094023"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000094034"
+			rewards: [
+				{
+					count: 4
+					id: "3000000009400096"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400097"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O núcleo do Ender é a peça da rede de Ender do Powah."
+			]
+			tasks: [
+				{
+					id: "3000000009400098"
+					item: { count: 1, id: "powah:ender_core" }
+					type: "item"
+				}
+			]
+			x: 20.0d
+			y: -2.0d
+		}
+		{
+			title: "Célula do Ender"
+			dependencies: [
+				"2000000000094034"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000094035"
+			rewards: [
+				{
+					count: 4
+					id: "3000000009400099"
+					item: {
+						count: 1
+						id: "minecraft:obsidian"
+					}
+					type: "item"
+				}
+			]
+			description: [
+				"As células do Ender fazem parte da rede de Ender, que leva energia a pontos distantes."
+			]
+			tasks: [
+				{
+					id: "3000000009400100"
+					item: { count: 1, id: "powah:ender_cell_starter" }
+					type: "item"
+				}
+			]
+			x: 22.0d
+			y: -2.0d
+		}
+		{
+			title: "Portal do Ender"
+			dependencies: [
+				"2000000000094035"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000094036"
+			rewards: [
+				{
+					count: 2
+					id: "3000000009400101"
+					item: {
+						count: 1
+						id: "minecraft:ender_eye"
+					}
+					type: "item"
+				}
+				{
+					id: "3000000009400102"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			description: [
+				"O portal do Ender faz o par com a célula do Ender na rede."
+			]
+			tasks: [
+				{
+					id: "3000000009400103"
+					item: { count: 1, id: "powah:ender_gate_starter" }
+					type: "item"
+				}
+			]
+			x: 24.0d
+			y: -2.0d
+		}
+		{
+			title: "Cartão de Ligação"
+			dependencies: [
+				"2000000000094035"
+			]
+			dependency_requirement: "all_completed"
+			id: "2000000000094037"
+			rewards: [
+				{
+					count: 3
+					id: "3000000009400104"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+			]
+			description: [
+				"O cartão de ligação é usado para conectar as peças da rede de Ender."
+			]
+			tasks: [
+				{
+					id: "3000000009400105"
+					item: { count: 1, id: "powah:binding_card" }
+					type: "item"
+				}
+			]
+			x: 22.0d
+			y: -4.0d
+		}
+	]
+}

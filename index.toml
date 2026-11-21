@@ -69,6 +69,10 @@ file = "config/ftbquests/quests/chapters/oritech.snbt"
 hash = "070748058e2ffd3f3edfcd649988a0e33c23b7549d3a3c9301659e9477ef6b64"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/powah.snbt"
+hash = "596bcd8ae432c43a6bc9f92ad48cbbb087f788eb9a97e244c6a23bed5a8d880a"
+
+[[files]]
 file = "config/ftbquests/quests/data.snbt"
 hash = "3241d431a95975463e3af7b3f4045ede2508e9ee7e2f4c4d758421613c5e83d8"
 
