@@ -2273,7 +2273,7 @@
 					id: "2000000000007252"
 					item: {
 						count: 1
-						id: "mekanism:induction_cell_basic"
+						id: "mekanism:basic_induction_cell"
 					}
 					type: "item"
 				}
