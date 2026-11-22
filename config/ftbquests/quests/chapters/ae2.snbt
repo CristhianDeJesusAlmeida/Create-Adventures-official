@@ -2938,49 +2938,6 @@
 			y: 14.0d
 		}
 		{
-			title: "Estação de Segurança"
-			dependencies: [
-				"1000000000007425"
-			]
-			dependency_requirement: "all_completed"
-			icon: {
-				id: "ae2:security_station"
-			}
-			id: "1000000000007468"
-			rewards: [
-				{
-					count: 4
-					id: "2000000000009205"
-					item: {
-						count: 1
-						id: "minecraft:ender_pearl"
-					}
-					type: "item"
-				}
-				{
-					id: "2000000000009206"
-					type: "xp_levels"
-					xp_levels: 4
-				}
-			]
-			description: [
-				"A §aEstação de Segurança§r controla quem pode acessar a sua rede."
-			]
-			tasks: [
-				{
-					count: 1L
-					id: "2000000000009207"
-					item: {
-						count: 1
-						id: "ae2:security_station"
-					}
-					type: "item"
-				}
-			]
-			x: 14.0d
-			y: 14.0d
-		}
-		{
 			title: "Ferramenta de Rede"
 			dependencies: [
 				"1000000000007420"
