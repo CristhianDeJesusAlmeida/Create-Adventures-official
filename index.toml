@@ -1311,6 +1311,11 @@ hash = "234a971a73102ad879aae250250ec29a2562b879134380427e9626ae895949b4"
 metafile = true
 
 [[files]]
+file = "mods/smooth-loading-screen.pw.toml"
+hash = "039ecf57b608bf3bf63240e46f5ce7d437096ddcc8b2fc6a2406b5f5d894e46a"
+metafile = true
+
+[[files]]
 file = "mods/sodium-extra.pw.toml"
 hash = "7ece7b8e65ac74bc1c705a3e25948ce5772c26ddf148514f29d90920ca1c3866"
 metafile = true
