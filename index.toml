@@ -611,6 +611,11 @@ hash = "85adf464cba75c8db514556b10ef530d4d2011aad12c8cc7fa5911ec804ce3dc"
 metafile = true
 
 [[files]]
+file = "mods/create-propulsion-simulated.pw.toml"
+hash = "f82cdd570cb4f6bd9b87a6a30c5e5ecc23125dfcecc715d4950a17301de8c58a"
+metafile = true
+
+[[files]]
 file = "mods/create-smart-bounds.pw.toml"
 hash = "7e6cdbf3b08697812e6954426b5e1aa8f3159d48e5b63913d2814a54f62d52dc"
 metafile = true
