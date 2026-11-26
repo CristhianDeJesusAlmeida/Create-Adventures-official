@@ -681,6 +681,11 @@ hash = "6b6683fd8ec53d10d4fbef3b3d53922a1aaa8ef4d2e4b52bb819dc451f5d6b3d"
 metafile = true
 
 [[files]]
+file = "mods/data-anchor.pw.toml"
+hash = "d025359648bc99d4eec57a159fe07ba3638c519a7b568b414041fe15fb196066"
+metafile = true
+
+[[files]]
 file = "mods/distant-horizons-seedgen.pw.toml"
 hash = "b9788c7248ce8898cfdfc489cc994619dd545fdd9ee72fc5a610c638b579e354"
 metafile = true
@@ -1076,6 +1081,11 @@ hash = "f1fecbcbee6806a14efb3bd38ccf10166b48004967fbe72b6c31224e5e9fc5ea"
 metafile = true
 
 [[files]]
+file = "mods/midnightlib.pw.toml"
+hash = "f7198ef16f4eefbe80ffd1d8ac7c2d323da4e68faf916a8b4b9c3e40f0913b80"
+metafile = true
+
+[[files]]
 file = "mods/modernfix.pw.toml"
 hash = "ef65836e005bd42a0f40df30a94eba1ad7ee5ed3194b11eafbeadc64edb44252"
 metafile = true
@@ -1388,6 +1398,11 @@ metafile = true
 [[files]]
 file = "mods/universal-sawmill.pw.toml"
 hash = "8197c6c0e390369d3e5374692dfa8d2ced62d033538df534ab9d6d08ab5eb82c"
+metafile = true
+
+[[files]]
+file = "mods/via-romana.pw.toml"
+hash = "9e26a9936491607f08239c18d8d41327172a401ae70dbce5c5277573f9c05be2"
 metafile = true
 
 [[files]]
