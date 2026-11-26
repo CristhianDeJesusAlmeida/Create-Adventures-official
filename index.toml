@@ -1266,6 +1266,11 @@ hash = "bb5dc8ac909aee1955532a65145f7ebfc3a88289610298e821a974fdda5f1822"
 metafile = true
 
 [[files]]
+file = "mods/simulated-copycats.pw.toml"
+hash = "d51634fccfc5064d7f60f8863ba9b83c489d8e62e68f5d431f7c9fa7434a4c98"
+metafile = true
+
+[[files]]
 file = "mods/sl-library.pw.toml"
 hash = "201ebeeb60f9fbe268de50f146fd6f9c9a8843d5b604cb8cb2649c4fb5ef81d1"
 metafile = true
