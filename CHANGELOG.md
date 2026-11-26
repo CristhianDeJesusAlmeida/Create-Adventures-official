@@ -6,8 +6,9 @@ Versionamento: [SemVer](https://semver.org/lang/pt-BR/) adaptado para modpacks (
 ## [Não lançado]
 
 ### Adicionado
+- Addons de Create e Create Aeronautics: Aeroworks, Gadgets & Gizmos, Simulated Copycats, Propulsion: Simulated, Offroad: Narrow Roads, Connected e Dreams & Desires. Também Via Romana (viagem rápida por estradas) e Smooth Loading Screen.
 - Repositório reorganizado do zero, com um commit por mod e um por capítulo de quests.
-- 255 mods para Minecraft 1.21.1 com NeoForge 21.1.248, incluindo o Powah e o Extended AE.
+- 266 mods para Minecraft 1.21.1 com NeoForge 21.1.248, incluindo o Powah e o Extended AE.
 - Livro de quests com os capítulos O Começo (progressão do vanilla), O Nether, O Fim e um capítulo novo de Apothic Enchanting.
 - Shader Complementary Unbound, que começa desligado.
 - Configuração do Ars Nouveau sem o livro inicial: o caderno agora é a recompensa da primeira quest.
