@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: true
 	default_quest_shape: "rsquare"
 	filename: "nuclearscience"
 	group: "0000000000000002"
@@ -17,6 +17,7 @@
 				id: "nuclearscience:geigercounter"
 			}
 			id: "1000000000007901"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -59,6 +60,7 @@
 				id: "electrodynamics:raworeuranium"
 			}
 			id: "1000000000007902"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -111,6 +113,7 @@
 				id: "nuclearscience:geigercounter"
 			}
 			id: "1000000000007903"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -156,6 +159,7 @@
 				id: "nuclearscience:iodinetablet"
 			}
 			id: "1000000000007904"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -199,6 +203,7 @@
 				id: "nuclearscience:hazmathelmet"
 			}
 			id: "1000000000007905"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -269,6 +274,7 @@
 				id: "nuclearscience:radiationshieldingbase"
 			}
 			id: "1000000000007906"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -330,6 +336,7 @@
 				id: "nuclearscience:reinforcedhazmathelmet"
 			}
 			id: "1000000000007907"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -400,6 +407,7 @@
 				id: "nuclearscience:cloudchamber"
 			}
 			id: "1000000000007908"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -443,6 +451,7 @@
 				id: "nuclearscience:antidote"
 			}
 			id: "1000000000007909"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -486,6 +495,7 @@
 				id: "nuclearscience:falloutscrubber"
 			}
 			id: "1000000000007910"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -529,6 +539,7 @@
 				id: "nuclearscience:yellowcake"
 			}
 			id: "1000000000007911"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -574,6 +585,7 @@
 				id: "nuclearscience:chemicalextractor"
 			}
 			id: "1000000000007912"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -617,6 +629,7 @@
 				id: "nuclearscience:radioactiveprocessor"
 			}
 			id: "1000000000007913"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -660,6 +673,7 @@
 				id: "nuclearscience:nuclearboiler"
 			}
 			id: "1000000000007914"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -703,6 +717,7 @@
 				id: "nuclearscience:gascentrifuge"
 			}
 			id: "1000000000007915"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -746,6 +761,7 @@
 				id: "nuclearscience:uranium235"
 			}
 			id: "1000000000007916"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -789,6 +805,7 @@
 				id: "nuclearscience:uranium238"
 			}
 			id: "1000000000007917"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -832,6 +849,7 @@
 				id: "nuclearscience:fuelleuo2"
 			}
 			id: "1000000000007918"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -875,6 +893,7 @@
 				id: "nuclearscience:fuelheuo2"
 			}
 			id: "1000000000007919"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -918,6 +937,7 @@
 				id: "nuclearscience:fuelreprocessor"
 			}
 			id: "1000000000007920"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -961,6 +981,7 @@
 				id: "nuclearscience:plutonium239"
 			}
 			id: "1000000000007921"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					id: "2000000000030070"
@@ -1003,6 +1024,7 @@
 				id: "nuclearscience:fuelplutonium"
 			}
 			id: "1000000000007922"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -1047,6 +1069,7 @@
 				id: "nuclearscience:fissionreactorcore"
 			}
 			id: "1000000000007923"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -1092,6 +1115,7 @@
 				id: "nuclearscience:fissioncontrolrod"
 			}
 			id: "1000000000007924"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -1135,6 +1159,7 @@
 				id: "nuclearscience:turbine"
 			}
 			id: "1000000000007925"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -1178,6 +1203,7 @@
 				id: "nuclearscience:steamfunnel"
 			}
 			id: "1000000000007926"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -1221,6 +1247,7 @@
 				id: "nuclearscience:celldeuterium"
 			}
 			id: "1000000000007927"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					id: "2000000000030088"
@@ -1263,6 +1290,7 @@
 				id: "nuclearscience:celltritium"
 			}
 			id: "1000000000007928"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -1306,6 +1334,7 @@
 				id: "nuclearscience:radioisotopegenerator"
 			}
 			id: "1000000000007929"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -1349,6 +1378,7 @@
 				id: "nuclearscience:polonium210"
 			}
 			id: "1000000000007930"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -1392,6 +1422,7 @@
 				id: "nuclearscience:actinium225"
 			}
 			id: "1000000000007931"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -1436,6 +1467,7 @@
 				id: "nuclearscience:freezeplug"
 			}
 			id: "1000000000007932"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -1481,6 +1513,7 @@
 				id: "nuclearscience:msreactorcore"
 			}
 			id: "1000000000007933"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					id: "2000000000030106"
@@ -1523,6 +1556,7 @@
 				id: "nuclearscience:moltensaltsupplier"
 			}
 			id: "1000000000007934"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -1566,6 +1600,7 @@
 				id: "nuclearscience:flinak"
 			}
 			id: "1000000000007935"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -1609,6 +1644,7 @@
 				id: "nuclearscience:thorianitedust"
 			}
 			id: "1000000000007936"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -1653,6 +1689,7 @@
 				id: "nuclearscience:lifthf4uf4"
 			}
 			id: "1000000000007937"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -1696,6 +1733,7 @@
 				id: "nuclearscience:msrfuelpreprocessor"
 			}
 			id: "1000000000007938"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -1739,6 +1777,7 @@
 				id: "nuclearscience:moltensaltpipevanadiumsteelceramic"
 			}
 			id: "1000000000007939"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					id: "2000000000030124"
@@ -1781,6 +1820,7 @@
 				id: "nuclearscience:heatexchanger"
 			}
 			id: "1000000000007940"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -1824,6 +1864,7 @@
 				id: "nuclearscience:mscontrolrod"
 			}
 			id: "1000000000007941"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -1867,6 +1908,7 @@
 				id: "nuclearscience:electromagnet"
 			}
 			id: "1000000000007942"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -1912,6 +1954,7 @@
 				id: "nuclearscience:electromagneticglass"
 			}
 			id: "1000000000007943"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -1956,6 +1999,7 @@
 				id: "nuclearscience:fusionreactorcore"
 			}
 			id: "1000000000007944"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -2001,6 +2045,7 @@
 				id: "nuclearscience:cellheavywater"
 			}
 			id: "1000000000007945"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					id: "2000000000030142"
@@ -2043,6 +2088,7 @@
 				id: "nuclearscience:particleinjector"
 			}
 			id: "1000000000007946"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -2086,6 +2132,7 @@
 				id: "nuclearscience:electromagneticbooster"
 			}
 			id: "1000000000007947"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -2129,6 +2176,7 @@
 				id: "nuclearscience:electromagneticgateway"
 			}
 			id: "1000000000007948"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -2172,6 +2220,7 @@
 				id: "nuclearscience:electromagneticdiode"
 			}
 			id: "1000000000007949"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -2215,6 +2264,7 @@
 				id: "nuclearscience:electromagneticswitch"
 			}
 			id: "1000000000007950"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -2258,6 +2308,7 @@
 				id: "nuclearscience:cellelectromagnetic"
 			}
 			id: "1000000000007951"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					id: "2000000000030160"
@@ -2300,6 +2351,7 @@
 				id: "nuclearscience:cellantimattersmall"
 			}
 			id: "1000000000007952"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -2363,6 +2415,7 @@
 				id: "nuclearscience:celldarkmatter"
 			}
 			id: "1000000000007953"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -2406,6 +2459,7 @@
 				id: "nuclearscience:atomicassembler"
 			}
 			id: "1000000000007954"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -2449,6 +2503,7 @@
 				id: "nuclearscience:logisticscablebase"
 			}
 			id: "1000000000007955"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -2494,6 +2549,7 @@
 				id: "nuclearscience:logisticscontroller"
 			}
 			id: "1000000000007956"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -2537,6 +2593,7 @@
 				id: "nuclearscience:fissioninterface"
 			}
 			id: "1000000000007957"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					id: "2000000000030180"
@@ -2580,6 +2637,7 @@
 				id: "nuclearscience:fusioninterface"
 			}
 			id: "1000000000007958"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -2624,6 +2682,7 @@
 				id: "nuclearscience:msinterface"
 			}
 			id: "1000000000007959"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -2667,6 +2726,7 @@
 				id: "nuclearscience:monitormodule"
 			}
 			id: "1000000000007960"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -2710,6 +2770,7 @@
 				id: "nuclearscience:controlrodmodule"
 			}
 			id: "1000000000007961"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -2753,6 +2814,7 @@
 				id: "nuclearscience:supplymodule"
 			}
 			id: "1000000000007962"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -2796,6 +2858,7 @@
 				id: "nuclearscience:thermometermodule"
 			}
 			id: "1000000000007963"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					id: "2000000000030198"
@@ -2838,6 +2901,7 @@
 				id: "nuclearscience:chunkloader"
 			}
 			id: "1000000000007964"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -2883,6 +2947,7 @@
 				id: "nuclearscience:quantumcapacitor"
 			}
 			id: "1000000000007965"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -2926,6 +2991,7 @@
 				id: "nuclearscience:teleporter"
 			}
 			id: "1000000000007966"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -2969,6 +3035,7 @@
 				id: "nuclearscience:frequencycard"
 			}
 			id: "1000000000007967"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8

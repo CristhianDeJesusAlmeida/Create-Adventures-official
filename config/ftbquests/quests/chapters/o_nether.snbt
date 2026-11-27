@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: true
 	default_quest_shape: "circle"
 	filename: "o_nether"
 	title: "O Nether"
@@ -23,6 +23,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "2000000000091001"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					id: "3000000009100001"
@@ -59,6 +60,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "2000000000091002"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -95,6 +97,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "2000000000091003"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -126,6 +129,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "2000000000091004"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -165,6 +169,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "2000000000091005"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 32
@@ -202,6 +207,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "2000000000091006"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 6
@@ -239,6 +245,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "2000000000091007"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					id: "3000000009100018"
@@ -275,6 +282,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "2000000000091008"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 6
@@ -308,6 +316,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "2000000000091009"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -345,6 +354,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "2000000000091010"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -382,6 +392,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "2000000000091011"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2

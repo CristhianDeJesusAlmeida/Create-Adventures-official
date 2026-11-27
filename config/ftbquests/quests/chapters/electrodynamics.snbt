@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: true
 	default_quest_shape: "rsquare"
 	filename: "electrodynamics"
 	group: "0000000000000002"
@@ -17,6 +17,7 @@
 				id: "electrodynamics:multimeter"
 			}
 			id: "1000000000007601"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -59,6 +60,7 @@
 				id: "electrodynamics:raworetin"
 			}
 			id: "1000000000007602"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -120,6 +122,7 @@
 				id: "electrodynamics:ingotsteel"
 			}
 			id: "1000000000007603"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -163,6 +166,7 @@
 				id: "electrodynamics:thermoelectricgenerator"
 			}
 			id: "1000000000007604"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -206,6 +210,7 @@
 				id: "electrodynamics:wirecopper"
 			}
 			id: "1000000000007605"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -249,6 +254,7 @@
 				id: "electrodynamics:insulation"
 			}
 			id: "1000000000007606"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -292,6 +298,7 @@
 				id: "electrodynamics:wireinsulatedcopperblack"
 			}
 			id: "1000000000007607"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -335,6 +342,7 @@
 				id: "electrodynamics:wirehighlyinsulatedcopperblack"
 			}
 			id: "1000000000007608"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -378,6 +386,7 @@
 				id: "electrodynamics:multimeter"
 			}
 			id: "1000000000007609"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -422,6 +431,7 @@
 				id: "electrodynamics:wiremill"
 			}
 			id: "1000000000007610"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -465,6 +475,7 @@
 				id: "electrodynamics:coalgenerator"
 			}
 			id: "1000000000007611"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -508,6 +519,7 @@
 				id: "electrodynamics:solarpanel"
 			}
 			id: "1000000000007612"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -551,6 +563,7 @@
 				id: "electrodynamics:advancedsolarpanel"
 			}
 			id: "1000000000007613"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -594,6 +607,7 @@
 				id: "electrodynamics:windmill"
 			}
 			id: "1000000000007614"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -637,6 +651,7 @@
 				id: "electrodynamics:hydroelectricgenerator"
 			}
 			id: "1000000000007615"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -680,6 +695,7 @@
 				id: "electrodynamics:combustionchamber"
 			}
 			id: "1000000000007616"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -723,6 +739,7 @@
 				id: "electrodynamics:fermentationplant"
 			}
 			id: "1000000000007617"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -766,6 +783,7 @@
 				id: "electrodynamics:battery"
 			}
 			id: "1000000000007618"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -809,6 +827,7 @@
 				id: "electrodynamics:batterybox"
 			}
 			id: "1000000000007619"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -854,6 +873,7 @@
 				id: "electrodynamics:lithiumbattery"
 			}
 			id: "1000000000007620"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -906,6 +926,7 @@
 				id: "electrodynamics:carbynebattery"
 			}
 			id: "1000000000007621"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -958,6 +979,7 @@
 				id: "electrodynamics:chargerlv"
 			}
 			id: "1000000000007622"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -1019,6 +1041,7 @@
 				id: "electrodynamics:circuitbreaker"
 			}
 			id: "1000000000007623"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -1062,6 +1085,7 @@
 				id: "electrodynamics:upgradetransformer"
 			}
 			id: "1000000000007624"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -1105,6 +1129,7 @@
 				id: "electrodynamics:downgradetransformer"
 			}
 			id: "1000000000007625"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -1149,6 +1174,7 @@
 				id: "electrodynamics:mineralcrusher"
 			}
 			id: "1000000000007626"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -1194,6 +1220,7 @@
 				id: "electrodynamics:mineralgrinder"
 			}
 			id: "1000000000007627"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -1237,6 +1264,7 @@
 				id: "electrodynamics:mineralwasher"
 			}
 			id: "1000000000007628"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					id: "2000000000010088"
@@ -1279,6 +1307,7 @@
 				id: "electrodynamics:electricfurnace"
 			}
 			id: "1000000000007629"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -1322,6 +1351,7 @@
 				id: "electrodynamics:electricfurnacedouble"
 			}
 			id: "1000000000007630"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -1374,6 +1404,7 @@
 				id: "electrodynamics:electricarcfurnace"
 			}
 			id: "1000000000007631"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -1417,6 +1448,7 @@
 				id: "electrodynamics:mineralcrusherdouble"
 			}
 			id: "1000000000007632"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -1478,6 +1510,7 @@
 				id: "electrodynamics:mineralcrushertriple"
 			}
 			id: "1000000000007633"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -1539,6 +1572,7 @@
 				id: "electrodynamics:lathe"
 			}
 			id: "1000000000007634"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -1582,6 +1616,7 @@
 				id: "electrodynamics:energizedalloyer"
 			}
 			id: "1000000000007635"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -1634,6 +1669,7 @@
 				id: "electrodynamics:ingotbronze"
 			}
 			id: "1000000000007636"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -1677,6 +1713,7 @@
 				id: "electrodynamics:plateiron"
 			}
 			id: "1000000000007637"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -1729,6 +1766,7 @@
 				id: "electrodynamics:geariron"
 			}
 			id: "1000000000007638"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -1781,6 +1819,7 @@
 				id: "electrodynamics:circuitbasic"
 			}
 			id: "1000000000007639"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -1826,6 +1865,7 @@
 				id: "electrodynamics:circuitadvanced"
 			}
 			id: "1000000000007640"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -1869,6 +1909,7 @@
 				id: "electrodynamics:circuitelite"
 			}
 			id: "1000000000007641"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -1912,6 +1953,7 @@
 				id: "electrodynamics:circuitultimate"
 			}
 			id: "1000000000007642"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -1955,6 +1997,7 @@
 				id: "electrodynamics:motor"
 			}
 			id: "1000000000007643"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -1998,6 +2041,7 @@
 				id: "electrodynamics:coil"
 			}
 			id: "1000000000007644"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -2050,6 +2094,7 @@
 				id: "electrodynamics:chemicalmixer"
 			}
 			id: "1000000000007645"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -2095,6 +2140,7 @@
 				id: "electrodynamics:chemicalreactor"
 			}
 			id: "1000000000007646"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -2138,6 +2184,7 @@
 				id: "electrodynamics:chemicalcrystallizer"
 			}
 			id: "1000000000007647"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 16
@@ -2181,6 +2228,7 @@
 				id: "electrodynamics:oxidationfurnace"
 			}
 			id: "1000000000007648"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -2224,6 +2272,7 @@
 				id: "electrodynamics:electrolyticseparator"
 			}
 			id: "1000000000007649"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -2268,6 +2317,7 @@
 				id: "electrodynamics:electrolosischamber"
 			}
 			id: "1000000000007650"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					id: "2000000000010163"
@@ -2314,6 +2364,7 @@
 				id: "electrodynamics:pipecopper"
 			}
 			id: "1000000000007651"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -2368,6 +2419,7 @@
 				id: "electrodynamics:electricpump"
 			}
 			id: "1000000000007652"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					id: "2000000000010170"
@@ -2410,6 +2462,7 @@
 				id: "electrodynamics:compressor"
 			}
 			id: "1000000000007653"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -2462,6 +2515,7 @@
 				id: "electrodynamics:gascollector"
 			}
 			id: "1000000000007654"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -2505,6 +2559,7 @@
 				id: "electrodynamics:gaspipeuninsulatedcopper"
 			}
 			id: "1000000000007655"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 16
@@ -2566,6 +2621,7 @@
 				id: "electrodynamics:gastanksteel"
 			}
 			id: "1000000000007656"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -2627,6 +2683,7 @@
 				id: "electrodynamics:tanksteel"
 			}
 			id: "1000000000007657"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -2670,6 +2727,7 @@
 				id: "electrodynamics:seismicmarker"
 			}
 			id: "1000000000007658"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -2715,6 +2773,7 @@
 				id: "electrodynamics:seismicrelay"
 			}
 			id: "1000000000007659"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -2758,6 +2817,7 @@
 				id: "electrodynamics:quarry"
 			}
 			id: "1000000000007660"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					id: "2000000000010199"
@@ -2800,6 +2860,7 @@
 				id: "electrodynamics:coolantresavoir"
 			}
 			id: "1000000000007661"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -2844,6 +2905,7 @@
 				id: "electrodynamics:motorcomplex"
 			}
 			id: "1000000000007662"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -2887,6 +2949,7 @@
 				id: "electrodynamics:electricdrill"
 			}
 			id: "1000000000007663"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -2932,6 +2995,7 @@
 				id: "electrodynamics:drillheadsteel"
 			}
 			id: "1000000000007664"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -2993,6 +3057,7 @@
 				id: "electrodynamics:electricchainsaw"
 			}
 			id: "1000000000007665"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -3036,6 +3101,7 @@
 				id: "electrodynamics:seismicscanner"
 			}
 			id: "1000000000007666"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -3079,6 +3145,7 @@
 				id: "electrodynamics:railgunkinetic"
 			}
 			id: "1000000000007667"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -3122,6 +3189,7 @@
 				id: "electrodynamics:railgunplasma"
 			}
 			id: "1000000000007668"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					id: "2000000000010225"
@@ -3164,6 +3232,7 @@
 				id: "electrodynamics:rubberboots"
 			}
 			id: "1000000000007669"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -3209,6 +3278,7 @@
 				id: "electrodynamics:nightvisiongoggles"
 			}
 			id: "1000000000007670"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -3252,6 +3322,7 @@
 				id: "electrodynamics:compositearmorhelmet"
 			}
 			id: "1000000000007671"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 16
@@ -3322,6 +3393,7 @@
 				id: "electrodynamics:combatarmorhelmet"
 			}
 			id: "1000000000007672"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -3392,6 +3464,7 @@
 				id: "electrodynamics:jetpack"
 			}
 			id: "1000000000007673"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -3435,6 +3508,7 @@
 				id: "electrodynamics:ingotaluminum"
 			}
 			id: "1000000000007674"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					id: "2000000000010249"
@@ -3479,6 +3553,7 @@
 				id: "electrodynamics:ingottitanium"
 			}
 			id: "1000000000007675"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -3522,6 +3597,7 @@
 				id: "electrodynamics:ingotchromium"
 			}
 			id: "1000000000007676"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					id: "2000000000010255"
@@ -3564,6 +3640,7 @@
 				id: "electrodynamics:ingotvanadium"
 			}
 			id: "1000000000007677"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -3607,6 +3684,7 @@
 				id: "electrodynamics:ingotvanadiumsteel"
 			}
 			id: "1000000000007678"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -3650,6 +3728,7 @@
 				id: "electrodynamics:ingothslasteel"
 			}
 			id: "1000000000007679"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 16
@@ -3693,6 +3772,7 @@
 				id: "electrodynamics:ingotstainlesssteel"
 			}
 			id: "1000000000007680"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -3736,6 +3816,7 @@
 				id: "electrodynamics:ingottitaniumcarbide"
 			}
 			id: "1000000000007681"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -3779,6 +3860,7 @@
 				id: "electrodynamics:ingotsuperconductive"
 			}
 			id: "1000000000007682"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					id: "2000000000010273"
@@ -3821,6 +3903,7 @@
 				id: "electrodynamics:raworeuranium"
 			}
 			id: "1000000000007683"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -3875,6 +3958,7 @@
 				id: "electrodynamics:insulationceramic"
 			}
 			id: "1000000000007684"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -3927,6 +4011,7 @@
 				id: "electrodynamics:wirelogisticscopperblack"
 			}
 			id: "1000000000007685"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -3970,6 +4055,7 @@
 				id: "electrodynamics:wiresilver"
 			}
 			id: "1000000000007686"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -4023,6 +4109,7 @@
 				id: "electrodynamics:wiresuperconductive"
 			}
 			id: "1000000000007687"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 16
@@ -4066,6 +4153,7 @@
 				id: "electrodynamics:steelscaffold"
 			}
 			id: "1000000000007688"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8

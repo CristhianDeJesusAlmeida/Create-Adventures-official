@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: true
 	default_quest_shape: "rsquare"
 	filename: "irons_spellbooks"
 	group: ""
@@ -17,6 +17,7 @@
 				id: "irons_spellbooks:arcane_essence"
 			}
 			id: "2000000000014001"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -59,6 +60,7 @@
 				id: "irons_spellbooks:copper_spell_book"
 			}
 			id: "2000000000014002"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 16
@@ -104,6 +106,7 @@
 				id: "irons_spellbooks:inscription_table"
 			}
 			id: "2000000000014003"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -149,6 +152,7 @@
 				id: "irons_spellbooks:scroll_forge"
 			}
 			id: "2000000000014004"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -192,6 +196,7 @@
 				id: "irons_spellbooks:arcane_anvil"
 			}
 			id: "2000000000014005"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -235,6 +240,7 @@
 				id: "irons_spellbooks:alchemist_cauldron"
 			}
 			id: "2000000000014006"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -278,6 +284,7 @@
 				id: "irons_spellbooks:common_ink"
 			}
 			id: "2000000000014007"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -359,6 +366,7 @@
 				id: "irons_spellbooks:iron_spell_book"
 			}
 			id: "2000000000014008"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 16
@@ -402,6 +410,7 @@
 				id: "irons_spellbooks:gold_spell_book"
 			}
 			id: "2000000000014009"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -445,6 +454,7 @@
 				id: "irons_spellbooks:scroll"
 			}
 			id: "2000000000014010"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					id: "3000000001400032"
@@ -487,6 +497,7 @@
 				id: "irons_spellbooks:magic_cloth"
 			}
 			id: "2000000000014011"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -530,6 +541,7 @@
 				id: "irons_spellbooks:lesser_spell_slot_upgrade"
 			}
 			id: "2000000000014012"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -573,6 +585,7 @@
 				id: "irons_spellbooks:netherite_spell_book"
 			}
 			id: "2000000000014013"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -616,6 +629,7 @@
 				id: "irons_spellbooks:evoker_spell_book"
 			}
 			id: "2000000000014014"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -686,6 +700,7 @@
 				id: "irons_spellbooks:cursed_doll_spell_book"
 			}
 			id: "2000000000014015"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -756,6 +771,7 @@
 				id: "irons_spellbooks:upgrade_orb"
 			}
 			id: "2000000000014016"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					id: "3000000001400056"
@@ -800,6 +816,7 @@
 				id: "irons_spellbooks:mana_upgrade_orb"
 			}
 			id: "2000000000014017"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -843,6 +860,7 @@
 				id: "irons_spellbooks:fire_upgrade_orb"
 			}
 			id: "2000000000014018"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -904,6 +922,7 @@
 				id: "irons_spellbooks:shriving_stone"
 			}
 			id: "2000000000014019"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -947,6 +966,7 @@
 				id: "irons_spellbooks:blank_rune"
 			}
 			id: "2000000000014020"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 16
@@ -992,6 +1012,7 @@
 				id: "irons_spellbooks:fire_rune"
 			}
 			id: "2000000000014021"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -1062,6 +1083,7 @@
 				id: "irons_spellbooks:ender_rune"
 			}
 			id: "2000000000014022"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					id: "3000000001400079"
@@ -1132,6 +1154,7 @@
 				id: "irons_spellbooks:eldritch_manuscript"
 			}
 			id: "2000000000014023"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -1175,6 +1198,7 @@
 				id: "irons_spellbooks:arcane_essence"
 			}
 			id: "2000000000014024"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -1220,6 +1244,7 @@
 				id: "irons_spellbooks:arcane_ingot"
 			}
 			id: "2000000000014025"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -1263,6 +1288,7 @@
 				id: "irons_spellbooks:mithril_ingot"
 			}
 			id: "2000000000014026"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -1306,6 +1332,7 @@
 				id: "irons_spellbooks:pyrium_ingot"
 			}
 			id: "2000000000014027"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -1349,6 +1376,7 @@
 				id: "irons_spellbooks:energized_core"
 			}
 			id: "2000000000014028"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					id: "3000000001400100"
@@ -1391,6 +1419,7 @@
 				id: "irons_spellbooks:wizard_chestplate"
 			}
 			id: "2000000000014029"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -1454,6 +1483,7 @@
 				id: "irons_spellbooks:pyromancer_chestplate"
 			}
 			id: "2000000000014030"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -1515,6 +1545,7 @@
 				id: "irons_spellbooks:archevoker_chestplate"
 			}
 			id: "2000000000014031"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -1576,6 +1607,7 @@
 				id: "irons_spellbooks:cultist_chestplate"
 			}
 			id: "2000000000014032"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -1638,6 +1670,7 @@
 				id: "irons_spellbooks:netherite_mage_chestplate"
 			}
 			id: "2000000000014033"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -1690,6 +1723,7 @@
 				id: "irons_spellbooks:pyrium_staff"
 			}
 			id: "2000000000014034"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					id: "3000000001400127"
@@ -1780,6 +1814,7 @@
 				id: "irons_spellbooks:amethyst_rapier"
 			}
 			id: "2000000000014035"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -1859,6 +1894,7 @@
 				id: "irons_spellbooks:legionnaire_flamberge"
 			}
 			id: "2000000000014036"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -1929,6 +1965,7 @@
 				id: "irons_spellbooks:hither_thither_wand"
 			}
 			id: "2000000000014037"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -1972,6 +2009,7 @@
 				id: "irons_spellbooks:autoloader_crossbow"
 			}
 			id: "2000000000014038"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -2015,6 +2053,7 @@
 				id: "irons_spellbooks:cinderous_soulcaller"
 			}
 			id: "2000000000014039"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -2058,6 +2097,7 @@
 				id: "irons_spellbooks:mana_ring"
 			}
 			id: "2000000000014040"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					id: "3000000001400157"
@@ -2121,6 +2161,7 @@
 				id: "irons_spellbooks:affinity_ring"
 			}
 			id: "2000000000014041"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -2164,6 +2205,7 @@
 				id: "irons_spellbooks:concentration_amulet"
 			}
 			id: "2000000000014042"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -2216,6 +2258,7 @@
 				id: "irons_spellbooks:conjurers_talisman"
 			}
 			id: "2000000000014043"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -2268,6 +2311,7 @@
 				id: "irons_spellbooks:fireward_ring"
 			}
 			id: "2000000000014044"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -2329,6 +2373,7 @@
 				id: "irons_spellbooks:wayward_compass"
 			}
 			id: "2000000000014045"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -2374,6 +2419,7 @@
 				id: "irons_spellbooks:furled_map"
 			}
 			id: "2000000000014046"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					id: "3000000001400181"
@@ -2416,6 +2462,7 @@
 				id: "irons_spellbooks:oakskin_elixir"
 			}
 			id: "2000000000014047"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -2486,6 +2533,7 @@
 				id: "irons_spellbooks:timeless_slurry"
 			}
 			id: "2000000000014048"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -2529,6 +2577,7 @@
 				id: "irons_spellbooks:cinder_essence"
 			}
 			id: "2000000000014049"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -2572,6 +2621,7 @@
 				id: "irons_spellbooks:divine_soulshard"
 			}
 			id: "2000000000014050"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8

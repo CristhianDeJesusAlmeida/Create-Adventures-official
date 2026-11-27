@@ -6,75 +6,75 @@ hash = "b1a7e267eac38e5dab7a225798f854333eb45a405e1caee6e895af1cc51b006f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ae2.snbt"
-hash = "afd753071b772dc57bbf6b4b2707800779a56843ebbdc9038a9d129e29342313"
+hash = "a8fa3ea95cb335e4d66d2153cc036547b7cd4434f76779aa4769f0bc42bcf612"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/aeronautics.snbt"
-hash = "2ec34612895d1b205c1beb513954c8a34fa2fc6af5f7ee2e4cb203f8072e30b8"
+hash = "babfa78f9dff8a775785e1bd340cdb95f8d5c4d2ba662413b58ee796642ed404"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/apotheosis.snbt"
-hash = "b56fc5d976fefd5811e505542a355eadaf930e82dbb3822fac371f083940d852"
+hash = "bf470e3290d02b306cf7bdbe026d7373a57589a25700b87f88e03cee324327ed"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/apotheosis_gear.snbt"
-hash = "a17906ba9eeb311e5bde49f305962a90304e86e0a21ec6e4d6565dc740f87601"
+hash = "fce2bd6dadc6bf89d346a734d60a275fc5ca8196597af343f4f53b54bace3f7b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/apothic_enchanting.snbt"
-hash = "8f2c376648b6dba928c013a178e30a2edcd8d99335eaf83142139a0cea8ca3b4"
+hash = "9e5d7e8a015a5af0b1477664af0caf8efd750d1a67d6cf6fab263b9795139f42"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ars_nouveau.snbt"
-hash = "40b5f4af147a8e515bebe66d61640ebcb0656945b333851fd0c097077c71b1f2"
+hash = "374f7d610d0049501c4401be98ff444972e3aeef4ee6b40ae50d7b1c45fe9db7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create.snbt"
-hash = "6ea025570c5f0ad733773979726e82eae23afec9a9d1ea77548de4afffad2b06"
+hash = "58857864f9575db7adf0ab256723f9c1ad19f2c3920a1a488fd2fffe36d05122"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/electrodynamics.snbt"
-hash = "6f0642c9307a75c2bdf827ec7c8ff30c545f4c82d6465a7a6fa06304f41fc0e0"
+hash = "a4417ace2a91ea9cfe9eaa9754a7258535805cb8643a62387b88ab4faf5286b3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/immersive_engineering.snbt"
-hash = "fe5b7b5b55823c1188fe7c7e53842e45eac94596c915bf798eaa39b18d17f9f0"
+hash = "22c41170e9159f7ef9616d5aacd71742fcd4adc53543cfcc63c90154d972b722"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/introducao.snbt"
-hash = "0c9428d8cc2826cba63278fb6e4308876d89e78d87adb67549ec7f76f90bb16e"
+hash = "2d9966c9e7cee786ca4d2c4ee2ead948bcf6f3b15f09db461e9552f5f993272e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/irons_spellbooks.snbt"
-hash = "eac5e8dd8dbb3b54f930c5009e1375e5b093695a0b6905b50ed4a706582f8adb"
+hash = "8b72cbb0464b7eb45ec70dc9c960fc0a65c5dffee418a0e09e59b2c2210654e0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mekanism.snbt"
-hash = "5bc264651a279ecb3e81be98d906c96bf7e3db6f33a41f8c53155626edcdf703"
+hash = "1929aaf3df7891fe38c1a58b313ff316dd93022cb6823d00b54a43c26d46a18f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/nuclearscience.snbt"
-hash = "8ab9db1062cc83fc36de5bd5428ce2f78972013e6ff5a5585c716eb38244d346"
+hash = "69f0e3cd12907078d57a7b3abae216150a828d3e224bd276cfefcafd226405d7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/o_comeco.snbt"
-hash = "f3f0456e51e6bd500e7bc1154bb3e2215ab3dd9868dfc2b6d7a8a5b05f58f0c1"
+hash = "25fc5c5a729ccefc3ea4415f4ddb150680e045b7938c0c42f39335135e5f4df3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/o_fim.snbt"
-hash = "a1ba656476e235ac2d495e79b9b9a4ed50c751ad1071c160df4e1a6eec0c3004"
+hash = "19f806aeb2d9a0a87466b29c7c4a6608d37228d9e4174d4fc9c6b6805e604aeb"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/o_nether.snbt"
-hash = "32b644f5d1017c79e60474c8e4939addd2096964e98e4ff32a9a258b65ee3b1d"
+hash = "520f4c51415f8f7ffb01a8e6163f4dc11c8356b5fee21a2fe8f0683701da8094"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/oritech.snbt"
-hash = "070748058e2ffd3f3edfcd649988a0e33c23b7549d3a3c9301659e9477ef6b64"
+hash = "fd361eabde1212b93139937f168c1c5f068a79594c382a1c410baaddb91835c5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/powah.snbt"
-hash = "fe81de847dea3112b41130b6d65a022777472b43f7afefb19a4034d1307fb724"
+hash = "11aa61aa4429de46ce0c26dfd5f731a802dd42918ff506360528baf5fa5452ec"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"

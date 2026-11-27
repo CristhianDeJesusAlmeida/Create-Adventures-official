@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: true
 	default_quest_shape: "rsquare"
 	filename: "oritech"
 	group: "0000000000000002"
@@ -17,6 +17,7 @@
 				id: "oritech:nickel_ingot"
 			}
 			id: "1000000000007201"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -62,6 +63,7 @@
 				id: "oritech:magnetic_coil"
 			}
 			id: "1000000000007202"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -105,6 +107,7 @@
 				id: "oritech:basic_generator_block"
 			}
 			id: "1000000000007203"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 16
@@ -150,6 +153,7 @@
 				id: "oritech:powered_furnace_block"
 			}
 			id: "1000000000007204"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 16
@@ -193,6 +197,7 @@
 				id: "oritech:steel_ingot"
 			}
 			id: "1000000000007205"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -236,6 +241,7 @@
 				id: "oritech:pulverizer_block"
 			}
 			id: "1000000000007206"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -280,6 +286,7 @@
 				id: "oritech:foundry_block"
 			}
 			id: "1000000000007207"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -323,6 +330,7 @@
 				id: "oritech:assembler_block"
 			}
 			id: "1000000000007208"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -368,6 +376,7 @@
 				id: "oritech:centrifuge_block"
 			}
 			id: "1000000000007209"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -411,6 +420,7 @@
 				id: "oritech:fragment_forge_block"
 			}
 			id: "1000000000007210"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -454,6 +464,7 @@
 				id: "oritech:small_storage_block"
 			}
 			id: "1000000000007211"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -497,6 +508,7 @@
 				id: "oritech:basic_battery"
 			}
 			id: "1000000000007212"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -540,6 +552,7 @@
 				id: "oritech:energy_pipe"
 			}
 			id: "1000000000007213"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -583,6 +596,7 @@
 				id: "oritech:big_solar_panel_block"
 			}
 			id: "1000000000007214"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -626,6 +640,7 @@
 				id: "oritech:bio_generator_block"
 			}
 			id: "1000000000007215"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 16
@@ -669,6 +684,7 @@
 				id: "oritech:fuel_generator_block"
 			}
 			id: "1000000000007216"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -712,6 +728,7 @@
 				id: "oritech:lava_generator_block"
 			}
 			id: "1000000000007217"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -755,6 +772,7 @@
 				id: "oritech:steam_engine_block"
 			}
 			id: "1000000000007218"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -798,6 +816,7 @@
 				id: "oritech:advanced_battery"
 			}
 			id: "1000000000007219"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -841,6 +860,7 @@
 				id: "oritech:plastic_sheet"
 			}
 			id: "1000000000007220"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -884,6 +904,7 @@
 				id: "oritech:silicon"
 			}
 			id: "1000000000007221"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -927,6 +948,7 @@
 				id: "oritech:silicon_wafer"
 			}
 			id: "1000000000007222"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -971,6 +993,7 @@
 				id: "oritech:processing_unit"
 			}
 			id: "1000000000007223"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -1014,6 +1037,7 @@
 				id: "oritech:motor"
 			}
 			id: "1000000000007224"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -1057,6 +1081,7 @@
 				id: "oritech:carbon_fibre_strands"
 			}
 			id: "1000000000007225"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -1100,6 +1125,7 @@
 				id: "oritech:reinforced_carbon_sheet"
 			}
 			id: "1000000000007226"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -1143,6 +1169,7 @@
 				id: "oritech:electrum_ingot"
 			}
 			id: "1000000000007227"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -1186,6 +1213,7 @@
 				id: "oritech:adamant_ingot"
 			}
 			id: "1000000000007228"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -1229,6 +1257,7 @@
 				id: "oritech:biosteel_ingot"
 			}
 			id: "1000000000007229"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -1272,6 +1301,7 @@
 				id: "oritech:platinum_ingot"
 			}
 			id: "1000000000007230"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -1315,6 +1345,7 @@
 				id: "oritech:laser_arm_block"
 			}
 			id: "1000000000007231"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -1360,6 +1391,7 @@
 				id: "oritech:target_designator"
 			}
 			id: "1000000000007232"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -1403,6 +1435,7 @@
 				id: "oritech:fluxite"
 			}
 			id: "1000000000007233"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -1446,6 +1479,7 @@
 				id: "oritech:atomic_forge_block"
 			}
 			id: "1000000000007234"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -1489,6 +1523,7 @@
 				id: "oritech:energite_ingot"
 			}
 			id: "1000000000007235"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -1532,6 +1567,7 @@
 				id: "oritech:duratium_ingot"
 			}
 			id: "1000000000007236"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -1575,6 +1611,7 @@
 				id: "oritech:prometheum_ingot"
 			}
 			id: "1000000000007237"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -1618,6 +1655,7 @@
 				id: "oritech:wrench"
 			}
 			id: "1000000000007238"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -1661,6 +1699,7 @@
 				id: "oritech:item_pipe"
 			}
 			id: "1000000000007239"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -1704,6 +1743,7 @@
 				id: "oritech:fluid_pipe"
 			}
 			id: "1000000000007240"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -1747,6 +1787,7 @@
 				id: "oritech:item_filter_block"
 			}
 			id: "1000000000007241"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -1790,6 +1831,7 @@
 				id: "oritech:pump_block"
 			}
 			id: "1000000000007242"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -1833,6 +1875,7 @@
 				id: "oritech:small_tank_block"
 			}
 			id: "1000000000007243"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -1876,6 +1919,7 @@
 				id: "oritech:power_pole_block"
 			}
 			id: "1000000000007244"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -1919,6 +1963,7 @@
 				id: "oritech:machine_speed_addon"
 			}
 			id: "1000000000007245"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -1964,6 +2009,7 @@
 				id: "oritech:machine_efficiency_addon"
 			}
 			id: "1000000000007246"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -2007,6 +2053,7 @@
 				id: "oritech:machine_capacitor_addon"
 			}
 			id: "1000000000007247"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -2050,6 +2097,7 @@
 				id: "oritech:machine_acceptor_addon"
 			}
 			id: "1000000000007248"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -2094,6 +2142,7 @@
 				id: "oritech:machine_processing_addon"
 			}
 			id: "1000000000007249"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -2137,6 +2186,7 @@
 				id: "oritech:machine_fluid_addon"
 			}
 			id: "1000000000007250"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -2180,6 +2230,7 @@
 				id: "oritech:machine_redstone_addon"
 			}
 			id: "1000000000007251"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -2223,6 +2274,7 @@
 				id: "oritech:machine_combi_addon"
 			}
 			id: "1000000000007252"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -2266,6 +2318,7 @@
 				id: "oritech:deep_drill_block"
 			}
 			id: "1000000000007253"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -2311,6 +2364,7 @@
 				id: "oritech:treefeller_block"
 			}
 			id: "1000000000007254"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -2354,6 +2408,7 @@
 				id: "oritech:destroyer_block"
 			}
 			id: "1000000000007255"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -2397,6 +2452,7 @@
 				id: "oritech:placer_block"
 			}
 			id: "1000000000007256"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -2440,6 +2496,7 @@
 				id: "oritech:fertilizer_block"
 			}
 			id: "1000000000007257"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -2483,6 +2540,7 @@
 				id: "oritech:drone_port_block"
 			}
 			id: "1000000000007258"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -2526,6 +2584,7 @@
 				id: "oritech:charger_block"
 			}
 			id: "1000000000007259"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -2569,6 +2628,7 @@
 				id: "oritech:hand_drill"
 			}
 			id: "1000000000007260"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -2612,6 +2672,7 @@
 				id: "oritech:chainsaw"
 			}
 			id: "1000000000007261"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -2656,6 +2717,7 @@
 				id: "oritech:portable_laser"
 			}
 			id: "1000000000007262"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -2699,6 +2761,7 @@
 				id: "oritech:electric_mace"
 			}
 			id: "1000000000007263"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -2743,6 +2806,7 @@
 				id: "oritech:exo_chestplate"
 			}
 			id: "1000000000007264"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -2786,6 +2850,7 @@
 				id: "oritech:jetpack"
 			}
 			id: "1000000000007265"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -2830,6 +2895,7 @@
 				id: "oritech:promethium_pickaxe"
 			}
 			id: "1000000000007266"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -2873,6 +2939,7 @@
 				id: "oritech:simple_augment_station"
 			}
 			id: "1000000000007267"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -2918,6 +2985,7 @@
 				id: "oritech:advanced_augment_station"
 			}
 			id: "1000000000007268"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -2961,6 +3029,7 @@
 				id: "oritech:arcane_augment_station"
 			}
 			id: "1000000000007269"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -3004,6 +3073,7 @@
 				id: "oritech:augment_application_block"
 			}
 			id: "1000000000007270"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -3047,6 +3117,7 @@
 				id: "oritech:enchanter_block"
 			}
 			id: "1000000000007271"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -3090,6 +3161,7 @@
 				id: "oritech:uranium_pellet"
 			}
 			id: "1000000000007272"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -3136,6 +3208,7 @@
 				id: "oritech:reactor_controller"
 			}
 			id: "1000000000007273"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -3179,6 +3252,7 @@
 				id: "oritech:reactor_wall"
 			}
 			id: "1000000000007274"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -3222,6 +3296,7 @@
 				id: "oritech:reactor_rod"
 			}
 			id: "1000000000007275"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -3265,6 +3340,7 @@
 				id: "oritech:reactor_fuel_port"
 			}
 			id: "1000000000007276"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -3308,6 +3384,7 @@
 				id: "oritech:reactor_energy_port"
 			}
 			id: "1000000000007277"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -3351,6 +3428,7 @@
 				id: "oritech:reactor_heat_pipe"
 			}
 			id: "1000000000007278"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -3394,6 +3472,7 @@
 				id: "oritech:reactor_reflector"
 			}
 			id: "1000000000007279"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -3438,6 +3517,7 @@
 				id: "oritech:accelerator_controller"
 			}
 			id: "1000000000007280"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -3483,6 +3563,7 @@
 				id: "oritech:accelerator_motor"
 			}
 			id: "1000000000007281"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -3526,6 +3607,7 @@
 				id: "oritech:accelerator_ring"
 			}
 			id: "1000000000007282"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -3569,6 +3651,7 @@
 				id: "oritech:accelerator_sensor"
 			}
 			id: "1000000000007283"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -3612,6 +3695,7 @@
 				id: "oritech:particle_collector_block"
 			}
 			id: "1000000000007284"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2

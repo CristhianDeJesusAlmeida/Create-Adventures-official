@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: true
 	default_quest_shape: "circle"
 	filename: "introducao"
 	title: "Introdução"
@@ -15,6 +15,7 @@
 				id: "ftbquests:book"
 			}
 			id: "1000000000000001"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -56,6 +57,7 @@
 				id: "minecraft:writable_book"
 			}
 			id: "1000000000007801"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					id: "2000000000020016"
@@ -87,6 +89,7 @@
 				id: "minecraft:player_head"
 			}
 			id: "1000000000007802"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					id: "2000000000020018"
@@ -118,6 +121,7 @@
 				id: "minecraft:water_bucket"
 			}
 			id: "1000000000007803"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					id: "2000000000020020"
@@ -149,6 +153,7 @@
 				id: "minecraft:filled_map"
 			}
 			id: "1000000000007804"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					id: "2000000000020022"
@@ -180,6 +185,7 @@
 				id: "minecraft:barrel"
 			}
 			id: "1000000000007805"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					id: "2000000000020024"
@@ -209,6 +215,7 @@
 				id: "minecraft:compass"
 			}
 			id: "1000000000007806"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					id: "2000000000020026"

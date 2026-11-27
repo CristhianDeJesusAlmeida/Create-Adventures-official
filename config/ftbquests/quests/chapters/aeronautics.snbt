@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: true
 	default_quest_shape: "square"
 	filename: "aeronautics"
 	title: "Aeronáutica"
@@ -14,6 +14,7 @@
 		{
 			title: "O Despertar dos Céus"
 			id: "1000000000001031"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					id: "2000000000001042"
@@ -58,6 +59,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "1000000000001032"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					id: "2000000000001045"
@@ -90,6 +92,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "1000000000001033"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -141,6 +144,7 @@
 				id: "aeronautics:propeller_bearing"
 			}
 			id: "1000000000001034"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -186,6 +190,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "1000000000001035"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -220,6 +225,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "1000000000001036"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -254,6 +260,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "1000000000001037"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -298,6 +305,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "1000000000001038"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -344,6 +352,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "1000000000001039"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					id: "2000000000001063"
@@ -412,6 +421,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "1000000000001040"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -463,6 +473,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "1000000000001041"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					id: "2000000000001073"
@@ -536,6 +547,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "1000000000001042"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -570,6 +582,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "1000000000001043"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 9
@@ -604,6 +617,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "1000000000001044"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 9
@@ -639,6 +653,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "1000000000001045"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					id: "2000000000001086"
@@ -715,6 +730,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "1000000000001046"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -766,6 +782,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "1000000000001047"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					id: "2000000000001097"
@@ -839,6 +856,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "1000000000001048"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -873,6 +891,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "1000000000001049"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 12
@@ -910,6 +929,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "1000000000001050"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					id: "2000000000001108"
@@ -986,6 +1006,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "1000000000001051"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 32
@@ -1022,6 +1043,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "1000000000001052"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -1065,6 +1087,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "1000000000001053"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -1108,6 +1131,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "1000000000001054"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 3
@@ -1150,6 +1174,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "1000000000001055"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -1193,6 +1218,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "1000000000001056"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 10
@@ -1227,6 +1253,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "1000000000001057"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -1280,6 +1307,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "1000000000001058"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -1331,6 +1359,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "1000000000001059"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -1365,6 +1394,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "1000000000001060"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					id: "2000000000001141"
@@ -1406,6 +1436,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "1000000000001061"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 16
@@ -1448,6 +1479,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "1000000000001062"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 6
@@ -1494,6 +1526,7 @@
 				id: "aeronautics:levitite"
 			}
 			id: "1000000000004001"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -1533,6 +1566,7 @@
 				id: "aeronautics:andesite_propeller"
 			}
 			id: "1000000000004002"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -1570,6 +1604,7 @@
 				id: "aeronautics:white_envelope_encased_shaft"
 			}
 			id: "1000000000004003"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -1607,6 +1642,7 @@
 				id: "simulated:gyroscopic_mechanism"
 			}
 			id: "1000000000004004"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -1651,6 +1687,7 @@
 				id: "simulated:navigation_table"
 			}
 			id: "1000000000004005"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -1688,6 +1725,7 @@
 				id: "simulated:gimbal_sensor"
 			}
 			id: "1000000000004006"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -1727,6 +1765,7 @@
 				id: "simulated:optical_sensor"
 			}
 			id: "1000000000004007"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -1766,6 +1805,7 @@
 				id: "simulated:docking_connector"
 			}
 			id: "1000000000004008"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 10
@@ -1805,6 +1845,7 @@
 				id: "simulated:rope_winch"
 			}
 			id: "1000000000004009"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -1841,6 +1882,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "1000000000004010"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					id: "2000000000004020"

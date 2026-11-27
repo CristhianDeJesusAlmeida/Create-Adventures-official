@@ -29,6 +29,7 @@
 				id: "create:andesite_alloy"
 			}
 			id: "2000000000003001"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -74,6 +75,7 @@
 				id: "create:shaft"
 			}
 			id: "2000000000003002"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -119,6 +121,7 @@
 				id: "create:encased_fan"
 			}
 			id: "2000000000003003"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -164,6 +167,7 @@
 				id: "create:gearbox"
 			}
 			id: "2000000000003004"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -209,6 +213,7 @@
 				id: "create:clutch"
 			}
 			id: "2000000000003005"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -254,6 +259,7 @@
 				id: "create:gearshift"
 			}
 			id: "2000000000003006"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -299,6 +305,7 @@
 				id: "create:encased_chain_drive"
 			}
 			id: "2000000000003007"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -359,7 +366,7 @@
 				}
 			]
 			size: 1.0d
-			hide_dependency_lines: false
+			hide_dependency_lines: true
 			x: 0.0d
 			y: -5.5d
 			description: [
@@ -386,6 +393,7 @@
 				id: "create:mechanical_press"
 			}
 			id: "2000000000003009"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -431,6 +439,7 @@
 				id: "create:mechanical_mixer"
 			}
 			id: "2000000000003010"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -477,6 +486,7 @@
 				id: "create:basin"
 			}
 			id: "2000000000003011"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -517,6 +527,7 @@
 				id: "create:blaze_burner"
 			}
 			id: "2000000000003012"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -563,6 +574,7 @@
 				id: "create:mechanical_piston"
 			}
 			id: "2000000000003013"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -611,6 +623,7 @@
 				id: "create:speedometer"
 			}
 			id: "2000000000003014"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -654,6 +667,7 @@
 				id: "create:stressometer"
 			}
 			id: "2000000000003015"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -698,6 +712,7 @@
 				id: "create:cart_assembler"
 			}
 			id: "2000000000003016"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -740,6 +755,7 @@
 				id: "create:linear_chassis"
 			}
 			id: "2000000000003017"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -782,6 +798,7 @@
 				id: "create:radial_chassis"
 			}
 			id: "2000000000003018"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -824,6 +841,7 @@
 				id: "create:windmill_bearing"
 			}
 			id: "2000000000003019"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -877,6 +895,7 @@
 				id: "create:mechanical_drill"
 			}
 			id: "2000000000003020"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -922,6 +941,7 @@
 				id: "create:mechanical_saw"
 			}
 			id: "2000000000003021"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -967,6 +987,7 @@
 				id: "create:deployer"
 			}
 			id: "2000000000003022"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -1012,6 +1033,7 @@
 				id: "create:mechanical_harvester"
 			}
 			id: "2000000000003023"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -1057,6 +1079,7 @@
 				id: "create:mechanical_plough"
 			}
 			id: "2000000000003024"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -1102,6 +1125,7 @@
 				id: "create:copper_casing"
 			}
 			id: "2000000000003025"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -1148,6 +1172,7 @@
 				id: "create:mechanical_arm"
 			}
 			id: "2000000000003026"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -1193,6 +1218,7 @@
 				id: "create:andesite_funnel"
 			}
 			id: "2000000000003027"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -1237,6 +1263,7 @@
 				id: "create:brass_funnel"
 			}
 			id: "2000000000003028"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -1281,6 +1308,7 @@
 				id: "create:andesite_tunnel"
 			}
 			id: "2000000000003029"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -1325,6 +1353,7 @@
 				id: "create:brass_tunnel"
 			}
 			id: "2000000000003030"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -1369,6 +1398,7 @@
 				id: "create:chute"
 			}
 			id: "2000000000003031"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -1431,7 +1461,7 @@
 			]
 			shape: "circle"
 			size: 0.8d
-			hide_dependency_lines: false
+			hide_dependency_lines: true
 			x: -14.5d
 			y: 1.5d
 			description: [
@@ -1458,6 +1488,7 @@
 				id: "create:mechanical_crafter"
 			}
 			id: "2000000000003033"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -1503,6 +1534,7 @@
 				id: "create:gantry_carriage"
 			}
 			id: "2000000000003034"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -1553,6 +1585,7 @@
 				id: "create:smart_chute"
 			}
 			id: "2000000000003035"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -1595,6 +1628,7 @@
 				id: "create:rope_pulley"
 			}
 			id: "2000000000003036"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -1639,6 +1673,7 @@
 				id: "create:spout"
 			}
 			id: "2000000000003037"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -1683,6 +1718,7 @@
 				id: "create:hose_pulley"
 			}
 			id: "2000000000003038"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -1727,6 +1763,7 @@
 				id: "create:piston_extension_pole"
 			}
 			id: "2000000000003039"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -1770,6 +1807,7 @@
 				id: "create:portable_fluid_interface"
 			}
 			id: "2000000000003040"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -1812,6 +1850,7 @@
 				id: "create:belt_connector"
 			}
 			id: "2000000000003041"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -1857,6 +1896,7 @@
 				id: "create:cogwheel"
 			}
 			id: "2000000000003042"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -1904,6 +1944,7 @@
 				id: "create:large_cogwheel"
 			}
 			id: "2000000000003043"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -1957,6 +1998,7 @@
 				id: "create:andesite_casing"
 			}
 			id: "2000000000003044"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -2004,6 +2046,7 @@
 				id: "create:water_wheel"
 			}
 			id: "2000000000003045"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -2052,6 +2095,7 @@
 				id: "create:steam_engine"
 			}
 			id: "2000000000003046"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -2113,6 +2157,7 @@
 				id: "create:hand_crank"
 			}
 			id: "2000000000003047"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -2158,6 +2203,7 @@
 				id: "create:depot"
 			}
 			id: "2000000000003048"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -2202,6 +2248,7 @@
 				id: "create:weighted_ejector"
 			}
 			id: "2000000000003049"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -2244,6 +2291,7 @@
 				id: "create:fluid_pipe"
 			}
 			id: "2000000000003050"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -2289,6 +2337,7 @@
 				id: "minecraft:copper_ingot"
 			}
 			id: "2000000000003051"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -2334,6 +2383,7 @@
 				id: "create:crushing_wheel"
 			}
 			id: "2000000000003052"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -2380,6 +2430,7 @@
 				id: "create:millstone"
 			}
 			id: "2000000000003053"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -2425,6 +2476,7 @@
 				id: "create:mechanical_pump"
 			}
 			id: "2000000000003054"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -2469,6 +2521,7 @@
 				id: "create:wrench"
 			}
 			id: "2000000000003055"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -2514,6 +2567,7 @@
 				id: "create:super_glue"
 			}
 			id: "2000000000003056"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -2559,6 +2613,7 @@
 				id: "create:goggles"
 			}
 			id: "2000000000003057"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -2605,6 +2660,7 @@
 				id: "create:super_glue"
 			}
 			id: "2000000000003058"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -2659,6 +2715,7 @@
 				id: "create:smart_fluid_pipe"
 			}
 			id: "2000000000003059"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -2703,6 +2760,7 @@
 				id: "create:fluid_valve"
 			}
 			id: "2000000000003060"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -2748,6 +2806,7 @@
 				id: "create:brass_casing"
 			}
 			id: "2000000000003061"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -2793,6 +2852,7 @@
 				id: "create:precision_mechanism"
 			}
 			id: "2000000000003062"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -2855,7 +2915,7 @@
 				}
 			]
 			size: 1.0d
-			hide_dependency_lines: false
+			hide_dependency_lines: true
 			x: -2.0d
 			y: -5.5d
 			description: [
@@ -2882,6 +2942,7 @@
 				id: "create:railway_casing"
 			}
 			id: "2000000000003064"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -2925,6 +2986,7 @@
 				id: "create:vertical_gearbox"
 			}
 			id: "2000000000003065"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -2968,6 +3030,7 @@
 				id: "create:fluid_tank"
 			}
 			id: "2000000000003066"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -3012,6 +3075,7 @@
 				id: "create:item_drain"
 			}
 			id: "2000000000003067"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -3056,6 +3120,7 @@
 				id: "create:mechanical_bearing"
 			}
 			id: "2000000000003068"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -3100,6 +3165,7 @@
 				id: "create:clockwork_bearing"
 			}
 			id: "2000000000003069"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -3144,6 +3210,7 @@
 				id: "create:track"
 			}
 			id: "2000000000003070"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -3189,6 +3256,7 @@
 				id: "create:track_station"
 			}
 			id: "2000000000003071"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -3234,6 +3302,7 @@
 				id: "create:controls"
 			}
 			id: "2000000000003072"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -3295,6 +3364,7 @@
 				id: "create:track_signal"
 			}
 			id: "2000000000003073"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -3339,6 +3409,7 @@
 				id: "create:track_observer"
 			}
 			id: "2000000000003074"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -3383,6 +3454,7 @@
 				id: "create:schedule"
 			}
 			id: "2000000000003075"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -3436,6 +3508,7 @@
 				id: "create:controls"
 			}
 			id: "2000000000003076"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -3478,6 +3551,7 @@
 				id: "create:super_glue"
 			}
 			id: "2000000000003077"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -3520,6 +3594,7 @@
 				id: "create:cardboard"
 			}
 			id: "2000000000003078"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -3563,6 +3638,7 @@
 				id: "create:chain_conveyor"
 			}
 			id: "2000000000003079"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -3605,6 +3681,7 @@
 				id: "create:package_frogport"
 			}
 			id: "2000000000003080"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -3647,6 +3724,7 @@
 				id: "create:red_postbox"
 			}
 			id: "2000000000003081"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -3692,6 +3770,7 @@
 				id: "create:stock_link"
 			}
 			id: "2000000000003082"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -3734,6 +3813,7 @@
 				id: "create:stock_ticker"
 			}
 			id: "2000000000003083"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -3776,6 +3856,7 @@
 				id: "create:packager"
 			}
 			id: "2000000000003084"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -3820,6 +3901,7 @@
 				id: "create_dragons_plus:rare_marble_gate_package"
 			}
 			id: "2000000000003085"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -3866,6 +3948,7 @@
 				id: "create:item_vault"
 			}
 			id: "2000000000003086"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -3909,6 +3992,7 @@
 				id: "create:white_table_cloth"
 			}
 			id: "2000000000003087"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -3956,6 +4040,7 @@
 				id: "create:rotation_speed_controller"
 			}
 			id: "2000000000003088"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4

@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: true
 	default_quest_shape: "rsquare"
 	filename: "ae2"
 	group: "0000000000000002"
@@ -21,6 +21,7 @@
 				id: "ae2:sky_stone_block"
 			}
 			id: "1000000000007401"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -66,6 +67,7 @@
 				id: "ae2:meteorite_compass"
 			}
 			id: "1000000000007402"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -109,6 +111,7 @@
 				id: "ae2:certus_quartz_crystal"
 			}
 			id: "1000000000007403"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 16
@@ -148,6 +151,7 @@
 				id: "ae2:charger"
 			}
 			id: "1000000000007404"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -193,6 +197,7 @@
 				id: "ae2:charged_certus_quartz_crystal"
 			}
 			id: "1000000000007405"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 16
@@ -236,6 +241,7 @@
 				id: "ae2:fluix_crystal"
 			}
 			id: "1000000000007406"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -279,6 +285,7 @@
 				id: "ae2:silicon_press"
 			}
 			id: "1000000000007407"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -351,6 +358,7 @@
 				id: "ae2:inscriber"
 			}
 			id: "1000000000007408"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -394,6 +402,7 @@
 				id: "ae2:silicon"
 			}
 			id: "1000000000007409"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 16
@@ -437,6 +446,7 @@
 				id: "ae2:printed_silicon"
 			}
 			id: "1000000000007410"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -480,6 +490,7 @@
 				id: "ae2:logic_processor"
 			}
 			id: "1000000000007411"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -523,6 +534,7 @@
 				id: "ae2:calculation_processor"
 			}
 			id: "1000000000007412"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -566,6 +578,7 @@
 				id: "ae2:engineering_processor"
 			}
 			id: "1000000000007413"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -609,6 +622,7 @@
 				id: "ae2:crank"
 			}
 			id: "1000000000007414"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -652,6 +666,7 @@
 				id: "ae2:vibration_chamber"
 			}
 			id: "1000000000007415"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 16
@@ -695,6 +710,7 @@
 				id: "ae2:energy_acceptor"
 			}
 			id: "1000000000007416"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -738,6 +754,7 @@
 				id: "ae2:energy_cell"
 			}
 			id: "1000000000007417"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -781,6 +798,7 @@
 				id: "ae2:dense_energy_cell"
 			}
 			id: "1000000000007418"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -824,6 +842,7 @@
 				id: "ae2:crystal_resonance_generator"
 			}
 			id: "1000000000007419"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -867,6 +886,7 @@
 				id: "ae2:fluix_glass_cable"
 			}
 			id: "1000000000007420"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -912,6 +932,7 @@
 				id: "ae2:fluix_covered_cable"
 			}
 			id: "1000000000007421"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 16
@@ -955,6 +976,7 @@
 				id: "ae2:fluix_smart_cable"
 			}
 			id: "1000000000007422"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -998,6 +1020,7 @@
 				id: "ae2:fluix_covered_dense_cable"
 			}
 			id: "1000000000007423"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -1041,6 +1064,7 @@
 				id: "ae2:fluix_smart_dense_cable"
 			}
 			id: "1000000000007424"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -1085,6 +1109,7 @@
 				id: "ae2:controller"
 			}
 			id: "1000000000007425"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -1128,6 +1153,7 @@
 				id: "ae2:certus_quartz_crystal"
 			}
 			id: "1000000000007426"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -1173,6 +1199,7 @@
 				id: "ae2:chest"
 			}
 			id: "1000000000007427"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 16
@@ -1216,6 +1243,7 @@
 				id: "ae2:drive"
 			}
 			id: "1000000000007428"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -1259,6 +1287,7 @@
 				id: "ae2:cell_component_1k"
 			}
 			id: "1000000000007429"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -1302,6 +1331,7 @@
 				id: "ae2:item_cell_housing"
 			}
 			id: "1000000000007430"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -1345,6 +1375,7 @@
 				id: "ae2:item_storage_cell_1k"
 			}
 			id: "1000000000007431"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -1389,6 +1420,7 @@
 				id: "ae2:cell_component_4k"
 			}
 			id: "1000000000007432"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -1432,6 +1464,7 @@
 				id: "ae2:cell_component_16k"
 			}
 			id: "1000000000007433"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -1475,6 +1508,7 @@
 				id: "ae2:cell_component_64k"
 			}
 			id: "1000000000007434"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -1518,6 +1552,7 @@
 				id: "ae2:cell_component_256k"
 			}
 			id: "1000000000007435"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -1561,6 +1596,7 @@
 				id: "ae2:fluid_storage_cell_1k"
 			}
 			id: "1000000000007436"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -1604,6 +1640,7 @@
 				id: "ae2:terminal"
 			}
 			id: "1000000000007437"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -1649,6 +1686,7 @@
 				id: "ae2:crafting_terminal"
 			}
 			id: "1000000000007438"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -1692,6 +1730,7 @@
 				id: "ae2:pattern_encoding_terminal"
 			}
 			id: "1000000000007439"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -1735,6 +1774,7 @@
 				id: "ae2:pattern_access_terminal"
 			}
 			id: "1000000000007440"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -1778,6 +1818,7 @@
 				id: "ae2:storage_bus"
 			}
 			id: "1000000000007441"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -1821,6 +1862,7 @@
 				id: "ae2:import_bus"
 			}
 			id: "1000000000007442"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -1864,6 +1906,7 @@
 				id: "ae2:export_bus"
 			}
 			id: "1000000000007443"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -1907,6 +1950,7 @@
 				id: "ae2:level_emitter"
 			}
 			id: "1000000000007444"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -1950,6 +1994,7 @@
 				id: "ae2:capacity_card"
 			}
 			id: "1000000000007445"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 16
@@ -1995,6 +2040,7 @@
 				id: "ae2:speed_card"
 			}
 			id: "1000000000007446"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -2038,6 +2084,7 @@
 				id: "ae2:redstone_card"
 			}
 			id: "1000000000007447"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -2081,6 +2128,7 @@
 				id: "ae2:fuzzy_card"
 			}
 			id: "1000000000007448"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -2124,6 +2172,7 @@
 				id: "ae2:inverter_card"
 			}
 			id: "1000000000007449"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -2167,6 +2216,7 @@
 				id: "ae2:crafting_card"
 			}
 			id: "1000000000007450"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -2210,6 +2260,7 @@
 				id: "ae2:energy_card"
 			}
 			id: "1000000000007451"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -2253,6 +2304,7 @@
 				id: "ae2:interface"
 			}
 			id: "1000000000007452"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -2298,6 +2350,7 @@
 				id: "ae2:pattern_provider"
 			}
 			id: "1000000000007453"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -2341,6 +2394,7 @@
 				id: "ae2:blank_pattern"
 			}
 			id: "1000000000007454"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -2385,6 +2439,7 @@
 				id: "ae2:crafting_pattern"
 			}
 			id: "1000000000007455"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -2428,6 +2483,7 @@
 				id: "ae2:processing_pattern"
 			}
 			id: "1000000000007456"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -2472,6 +2528,7 @@
 				id: "ae2:molecular_assembler"
 			}
 			id: "1000000000007457"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -2515,6 +2572,7 @@
 				id: "ae2:crafting_unit"
 			}
 			id: "1000000000007458"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -2558,6 +2616,7 @@
 				id: "ae2:1k_crafting_storage"
 			}
 			id: "1000000000007459"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -2601,6 +2660,7 @@
 				id: "ae2:crafting_accelerator"
 			}
 			id: "1000000000007460"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -2644,6 +2704,7 @@
 				id: "ae2:crafting_monitor"
 			}
 			id: "1000000000007461"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -2687,6 +2748,7 @@
 				id: "ae2:wireless_access_point"
 			}
 			id: "1000000000007462"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -2732,6 +2794,7 @@
 				id: "ae2:wireless_terminal"
 			}
 			id: "1000000000007463"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -2775,6 +2838,7 @@
 				id: "ae2:wireless_booster"
 			}
 			id: "1000000000007464"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -2818,6 +2882,7 @@
 				id: "ae2:me_p2p_tunnel"
 			}
 			id: "1000000000007465"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -2861,6 +2926,7 @@
 				id: "ae2:annihilation_plane"
 			}
 			id: "1000000000007466"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -2904,6 +2970,7 @@
 				id: "ae2:formation_plane"
 			}
 			id: "1000000000007467"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -2947,6 +3014,7 @@
 				id: "ae2:network_tool"
 			}
 			id: "1000000000007469"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 16
@@ -2990,6 +3058,7 @@
 				id: "ae2:memory_card"
 			}
 			id: "1000000000007470"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -3033,6 +3102,7 @@
 				id: "ae2:spatial_cell_component_2"
 			}
 			id: "1000000000007471"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -3078,6 +3148,7 @@
 				id: "ae2:spatial_storage_cell_2"
 			}
 			id: "1000000000007472"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -3121,6 +3192,7 @@
 				id: "ae2:spatial_io_port"
 			}
 			id: "1000000000007473"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -3164,6 +3236,7 @@
 				id: "ae2:spatial_pylon"
 			}
 			id: "1000000000007474"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -3207,6 +3280,7 @@
 				id: "ae2:singularity"
 			}
 			id: "1000000000007475"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -3250,6 +3324,7 @@
 				id: "ae2:quantum_ring"
 			}
 			id: "1000000000007476"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -3294,6 +3369,7 @@
 				id: "ae2:quantum_link"
 			}
 			id: "1000000000007477"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -3337,6 +3413,7 @@
 				id: "ae2:quartz_fiber"
 			}
 			id: "1000000000007501"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -3380,6 +3457,7 @@
 				id: "ae2:toggle_bus"
 			}
 			id: "1000000000007502"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -3423,6 +3501,7 @@
 				id: "ae2:color_applicator"
 			}
 			id: "1000000000007503"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -3466,6 +3545,7 @@
 				id: "ae2:growth_accelerator"
 			}
 			id: "1000000000007504"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -3509,6 +3589,7 @@
 				id: "ae2:charged_staff"
 			}
 			id: "1000000000007505"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 16
@@ -3552,6 +3633,7 @@
 				id: "ae2:entropy_manipulator"
 			}
 			id: "1000000000007506"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -3595,6 +3677,7 @@
 				id: "ae2:wireless_crafting_terminal"
 			}
 			id: "1000000000007507"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -3638,6 +3721,7 @@
 				id: "ae2:void_card"
 			}
 			id: "1000000000007508"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -3681,6 +3765,7 @@
 				id: "ae2:equal_distribution_card"
 			}
 			id: "1000000000007509"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -3724,6 +3809,7 @@
 				id: "ae2:cell_workbench"
 			}
 			id: "1000000000007510"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -3769,6 +3855,7 @@
 				id: "ae2:io_port"
 			}
 			id: "1000000000007511"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -3812,6 +3899,7 @@
 				id: "ae2:portable_item_cell_1k"
 			}
 			id: "1000000000007512"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -3855,6 +3943,7 @@
 				id: "ae2:condenser"
 			}
 			id: "1000000000007513"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -3900,6 +3989,7 @@
 				id: "ae2:matter_ball"
 			}
 			id: "1000000000007514"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -3943,6 +4033,7 @@
 				id: "ae2:matter_cannon"
 			}
 			id: "1000000000007515"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -3986,6 +4077,7 @@
 				id: "ae2:quantum_entangled_singularity"
 			}
 			id: "1000000000007516"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -4029,6 +4121,7 @@
 				id: "ae2:spatial_storage_cell_16"
 			}
 			id: "1000000000007517"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -4072,6 +4165,7 @@
 				id: "ae2:spatial_storage_cell_128"
 			}
 			id: "1000000000007518"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -4115,6 +4209,7 @@
 				id: "ae2:spatial_anchor"
 			}
 			id: "1000000000007519"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2

@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: true
 	default_quest_shape: ""
 	filename: "powah"
 	title: "Powah!"
@@ -20,6 +20,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "2000000000094001"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -59,6 +60,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "2000000000094002"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -90,6 +92,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "2000000000094003"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 16
@@ -126,6 +129,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "2000000000094004"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -158,6 +162,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "2000000000094005"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -196,6 +201,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "2000000000094006"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -232,6 +238,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "2000000000094007"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -263,6 +270,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "2000000000094008"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 16
@@ -300,6 +308,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "2000000000094009"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -333,6 +342,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "2000000000094010"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 16
@@ -402,6 +412,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "2000000000094012"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 6
@@ -433,6 +444,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "2000000000094013"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -464,6 +476,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "2000000000094014"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 10

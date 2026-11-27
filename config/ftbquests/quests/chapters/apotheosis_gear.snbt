@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: true
 	default_quest_shape: ""
 	filename: "apotheosis_gear"
 	title: "Apotheosis: Equipamentos"
@@ -22,6 +22,7 @@
 				id: "apotheosis:gem"
 			}
 			id: "1000000000001090"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 5
@@ -66,6 +67,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "1000000000001091"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -101,6 +103,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "1000000000001092"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -146,6 +149,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "1000000000001093"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -187,6 +191,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "1000000000001094"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -224,6 +229,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "1000000000001095"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					id: "2000000000001217"
@@ -267,6 +273,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "1000000000001096"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -304,6 +311,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "1000000000001097"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					id: "2000000000001222"
@@ -338,6 +346,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "1000000000001098"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 6
@@ -375,6 +384,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "1000000000001099"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					id: "2000000000001226"
@@ -408,6 +418,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "1000000000001100"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					id: "2000000000001228"
@@ -441,6 +452,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "1000000000001101"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -480,6 +492,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "1000000000001102"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					id: "2000000000001232"
@@ -521,6 +534,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "1000000000001103"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					id: "2000000000001235"
@@ -556,6 +570,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "1000000000001104"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					id: "2000000000001237"

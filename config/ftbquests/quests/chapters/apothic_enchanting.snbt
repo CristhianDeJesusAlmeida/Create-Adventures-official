@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: true
 	default_quest_shape: ""
 	filename: "apothic_enchanting"
 	title: "Apothic Enchanting"
@@ -19,6 +19,7 @@
 				id: "apothic_enchanting:apothic_enchanting_table"
 			}
 			id: "2000000000090001"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 3
@@ -57,6 +58,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "2000000000090002"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 16
@@ -95,6 +97,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "2000000000090003"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -128,6 +131,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "2000000000090004"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -166,6 +170,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "2000000000090005"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -204,6 +209,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "2000000000090006"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -241,6 +247,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "2000000000090007"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 6
@@ -278,6 +285,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "2000000000090008"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					id: "3000000009000021"
@@ -314,6 +322,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "2000000000090009"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -361,6 +370,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "2000000000090010"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -413,6 +423,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "2000000000090011"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 3
@@ -445,6 +456,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "2000000000090012"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -477,6 +489,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "2000000000090013"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -509,6 +522,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "2000000000090014"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					id: "3000000009000041"
@@ -545,6 +559,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "2000000000090015"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -578,6 +593,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "2000000000090016"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -615,6 +631,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "2000000000090017"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -662,6 +679,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "2000000000090018"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -700,6 +718,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "2000000000090019"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -733,6 +752,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "2000000000090020"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -765,6 +785,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "2000000000090021"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -798,6 +819,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "2000000000090022"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -840,6 +862,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "2000000000090023"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -878,6 +901,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "2000000000090024"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					id: "3000000009000070"
@@ -910,6 +934,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "2000000000090025"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -942,6 +967,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "2000000000090026"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					id: "3000000009000074"
@@ -973,6 +999,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "2000000000090027"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -1012,6 +1039,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "2000000000090028"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 16
@@ -1050,6 +1078,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "2000000000090029"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 16
@@ -1082,6 +1111,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "2000000000090030"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -1114,6 +1144,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "2000000000090031"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					id: "3000000009000086"
@@ -1150,6 +1181,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "2000000000090032"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					id: "3000000009000089"
@@ -1186,6 +1218,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "2000000000090033"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 16
@@ -1224,6 +1257,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "2000000000090034"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -1256,6 +1290,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "2000000000090035"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -1288,6 +1323,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "2000000000090036"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 8
@@ -1322,6 +1358,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "2000000000090037"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 2
@@ -1360,6 +1397,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "2000000000090038"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					count: 4
@@ -1398,6 +1436,7 @@
 			]
 			dependency_requirement: "all_completed"
 			id: "2000000000090039"
+			hide_dependency_lines: true
 			rewards: [
 				{
 					id: "3000000009000107"
